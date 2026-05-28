@@ -117,24 +117,62 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
             <p className="text-base md:text-lg text-muted-foreground">{t.tools.subtitle}</p>
           </div>
           <div className="grid grid-cols-2 gap-3 md:grid-cols-3 md:gap-4 lg:grid-cols-4">
-            {t.tools.cards.map((card: any, index: number) => (
-              <a
-                key={index}
-                href="#release-date-and-platforms"
-                onClick={(event) => {
-                  event.preventDefault();
-                  scrollToSection(sectionIds[index]);
-                }}
-                className="scroll-reveal group rounded-xl border border-border p-4 md:p-6 bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 cursor-pointer text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
-                style={{ animationDelay: `${index * 50}ms` }}
-              >
-                <div className="mb-3 h-10 w-10 rounded-lg md:mb-4 md:h-12 md:w-12 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
-                  <DynamicIcon name={card.icon} className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" />
-                </div>
-                <h3 className="mb-1.5 text-sm md:text-base font-semibold">{card.title}</h3>
-                <p className="text-sm text-muted-foreground">{card.description}</p>
-              </a>
-            ))}
+            <a href="#release-date-and-platforms" onClick={(event) => { event.preventDefault(); scrollToSection(sectionIds[0]); }} className="scroll-reveal group rounded-xl border border-border p-4 md:p-6 bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 cursor-pointer text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]" style={{ animationDelay: "0ms" }}>
+              <div className="mb-3 h-10 w-10 rounded-lg md:mb-4 md:h-12 md:w-12 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={t.tools.cards[0].icon} className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="mb-1.5 text-sm md:text-base font-semibold">{t.tools.cards[0].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[0].description}</p>
+            </a>
+            <a href="#reviews-and-scores" onClick={(event) => { event.preventDefault(); scrollToSection(sectionIds[1]); }} className="scroll-reveal group rounded-xl border border-border p-4 md:p-6 bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 cursor-pointer text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]" style={{ animationDelay: "50ms" }}>
+              <div className="mb-3 h-10 w-10 rounded-lg md:mb-4 md:h-12 md:w-12 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={t.tools.cards[1].icon} className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="mb-1.5 text-sm md:text-base font-semibold">{t.tools.cards[1].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[1].description}</p>
+            </a>
+            <a href="#beginner-guide" onClick={(event) => { event.preventDefault(); scrollToSection(sectionIds[2]); }} className="scroll-reveal group rounded-xl border border-border p-4 md:p-6 bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 cursor-pointer text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]" style={{ animationDelay: "100ms" }}>
+              <div className="mb-3 h-10 w-10 rounded-lg md:mb-4 md:h-12 md:w-12 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={t.tools.cards[2].icon} className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="mb-1.5 text-sm md:text-base font-semibold">{t.tools.cards[2].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[2].description}</p>
+            </a>
+            <a href="#weapons-guide" onClick={(event) => { event.preventDefault(); scrollToSection(sectionIds[3]); }} className="scroll-reveal group rounded-xl border border-border p-4 md:p-6 bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 cursor-pointer text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]" style={{ animationDelay: "150ms" }}>
+              <div className="mb-3 h-10 w-10 rounded-lg md:mb-4 md:h-12 md:w-12 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={t.tools.cards[3].icon} className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="mb-1.5 text-sm md:text-base font-semibold">{t.tools.cards[3].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[3].description}</p>
+            </a>
+            <a href="#sidearms-trinkets-guide" onClick={(event) => { event.preventDefault(); scrollToSection(sectionIds[4]); }} className="scroll-reveal group rounded-xl border border-border p-4 md:p-6 bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 cursor-pointer text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]" style={{ animationDelay: "200ms" }}>
+              <div className="mb-3 h-10 w-10 rounded-lg md:mb-4 md:h-12 md:w-12 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={t.tools.cards[4].icon} className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="mb-1.5 text-sm md:text-base font-semibold">{t.tools.cards[4].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[4].description}</p>
+            </a>
+            <a href="#bosses-areas-guide" onClick={(event) => { event.preventDefault(); scrollToSection(sectionIds[5]); }} className="scroll-reveal group rounded-xl border border-border p-4 md:p-6 bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 cursor-pointer text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]" style={{ animationDelay: "250ms" }}>
+              <div className="mb-3 h-10 w-10 rounded-lg md:mb-4 md:h-12 md:w-12 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={t.tools.cards[5].icon} className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="mb-1.5 text-sm md:text-base font-semibold">{t.tools.cards[5].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[5].description}</p>
+            </a>
+            <a href="#randomizer-new-game-plus" onClick={(event) => { event.preventDefault(); scrollToSection(sectionIds[6]); }} className="scroll-reveal group rounded-xl border border-border p-4 md:p-6 bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 cursor-pointer text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]" style={{ animationDelay: "300ms" }}>
+              <div className="mb-3 h-10 w-10 rounded-lg md:mb-4 md:h-12 md:w-12 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={t.tools.cards[6].icon} className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="mb-1.5 text-sm md:text-base font-semibold">{t.tools.cards[6].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[6].description}</p>
+            </a>
+            <a href="#story-characters" onClick={(event) => { event.preventDefault(); scrollToSection(sectionIds[7]); }} className="scroll-reveal group rounded-xl border border-border p-4 md:p-6 bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 cursor-pointer text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]" style={{ animationDelay: "350ms" }}>
+              <div className="mb-3 h-10 w-10 rounded-lg md:mb-4 md:h-12 md:w-12 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={t.tools.cards[7].icon} className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="mb-1.5 text-sm md:text-base font-semibold">{t.tools.cards[7].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[7].description}</p>
+            </a>
           </div>
         </div>
       </section>

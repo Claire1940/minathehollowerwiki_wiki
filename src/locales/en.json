@@ -238,101 +238,153 @@
     },
     "minaSidearmsAndTrinketsGuide": {
       "title": "Mina the Hollower Sidearms and Trinkets Guide",
-      "intro": "Sidearms and trinkets define build identity by adding utility, pressure conversion, and matchup-specific stability.",
+      "intro": "Use this guide to plan a practical loadout before a difficult route or boss fight by matching Sidearms, Trinkets, and Bone Up choices to your objective.",
       "items": [
         {
-          "name": "Sidearm Slot Planning",
-          "role": "Loadout Foundation",
-          "description": "Reserve one slot for general-purpose control and one for boss-specific utility."
+          "name": "Volt Hatchet",
+          "role": "Key Sidearm",
+          "description": "Arcs forward with a shockwave and is excellent for crowd control and safer boss pressure."
         },
         {
-          "name": "Burst Trinkets",
-          "role": "Damage Window",
-          "description": "Use burst-focused trinkets when your weapon setup already provides reliable safety."
+          "name": "Gyro Dagger",
+          "role": "Key Sidearm",
+          "description": "Returns like a boomerang for repeated hits and strong lane control against mobile enemies."
         },
         {
-          "name": "Sustain Trinkets",
-          "role": "Consistency Layer",
-          "description": "Defensive and sustain effects help stabilize long attempts and progression routes."
+          "name": "Movement Trinkets",
+          "role": "Passive Trinket Group",
+          "description": "Improve traversal and route comfort in bayou, water, ice, and secret-heavy exploration paths."
         },
         {
-          "name": "Utility Sidearms",
-          "role": "Control Layer",
-          "description": "Control-oriented sidearms improve routing through pressure-heavy rooms and mixed enemy packs."
+          "name": "Plasma Vial Trinkets",
+          "role": "Passive Trinket Group",
+          "description": "Stabilize healing and recovery for long boss attempts where mistakes are costly."
+        },
+        {
+          "name": "Attack Bone Up",
+          "role": "Level-up Choice",
+          "description": "Prioritize faster boss kills and cleaner clears when you are confident in survival timing."
+        },
+        {
+          "name": "Defense Bone Up",
+          "role": "Level-up Choice",
+          "description": "Adds safety for first clears, unknown bosses, and dangerous map routes."
+        },
+        {
+          "name": "Boss Burst Loadout",
+          "role": "Build Direction",
+          "description": "Combine attack or Sidearm Damage upgrades with Volt Hatchet, Gyro Dagger, or Recall Disc."
+        },
+        {
+          "name": "Secret Hunter Loadout",
+          "role": "Build Direction",
+          "description": "Use movement Trinkets plus utility Sidearms to reach optional rooms and hidden pickups."
         }
       ]
     },
     "minaBossesAndAreasGuide": {
       "title": "Mina the Hollower Bosses and Areas Guide",
-      "intro": "Boss progression and regional routing are tightly linked in Mina the Hollower, so area prep improves fight consistency.",
+      "intro": "This spoiler-light map module explains route intent, challenge style, and boss preparation across key Tenebrous Isle regions.",
       "items": [
         {
-          "name": "Early Route Bosses",
-          "type": "Progression Gate",
-          "description": "Early bosses teach timing discipline and set your expected defensive baseline."
+          "name": "Tenebrous Isle",
+          "type": "Main World",
+          "description": "An interconnected gothic island with secrets, shortcuts, and more than 25 bosses and mini-bosses."
         },
         {
-          "name": "Midgame Threat Regions",
-          "type": "High Pressure Zone",
-          "description": "Dense enemy layouts reward cautious pull timing and efficient sidearm usage."
+          "name": "Ossex",
+          "type": "Central Hub",
+          "description": "The central city for regrouping and route planning before committing to harder generator paths."
         },
         {
-          "name": "Secret Path Branches",
-          "type": "Exploration Route",
-          "description": "Optional paths provide extra power and lore rewards before major checkpoints."
+          "name": "Six Spark Generator Routes",
+          "type": "Main Objective",
+          "description": "Each generator path is boss-guarded and tests pattern reading, burrow timing, and punish windows."
         },
         {
-          "name": "Late-Game Boss Chains",
-          "type": "Endgame Challenge",
-          "description": "Back-to-back encounters reward clean stamina, positioning, and build tuning."
+          "name": "Queensbury Crypts",
+          "type": "Early Dungeon Route",
+          "description": "A combat fundamentals route that rewards stable weapon selection and careful Joule management."
+        },
+        {
+          "name": "Bayou Zone",
+          "type": "Hazard-Heavy Region",
+          "description": "Movement, burrow timing, and positioning matter as much as raw damage in swamp-heavy sections."
+        },
+        {
+          "name": "Frozen Peaks",
+          "type": "Environmental Challenge",
+          "description": "Surface control and movement planning are critical, making traversal Trinkets especially valuable."
         }
       ]
     },
     "minaRandomizerAndNewGamePlus": {
       "title": "Mina the Hollower Randomizer and New Game Plus",
-      "intro": "Replay systems in Mina the Hollower extend longevity through modifiers, randomization, and custom challenge planning.",
+      "intro": "Post-game replay in Mina the Hollower includes seven New Game Plus modes, seed sharing, randomizer settings, and wide modifier control.",
       "faqs": [
         {
-          "question": "How does Mina the Hollower New Game Plus change progression?",
-          "answer": "New Game Plus increases pressure while preserving build familiarity, making pathing and loadout choices more important."
+          "question": "In Mina the Hollower, what changes in New Game Plus?",
+          "answer": "Mina the Hollower includes seven New Game Plus modes with shuffled progression, mirrored world rules, and remix systems beyond simple damage scaling."
         },
         {
-          "question": "How does Mina the Hollower randomizer mode work?",
-          "answer": "Randomizer rules shuffle item and route expectations to force adaptive planning across each seed."
+          "question": "In Mina the Hollower, how does randomizer change the start of a run?",
+          "answer": "Randomizer can alter early weapon access by pulling opening choices from the full five-weapon pool, changing route pacing immediately."
         },
         {
-          "question": "Can Mina the Hollower replay runs use seed sharing?",
-          "answer": "Seed sharing lets players compare route solutions and optimize runs against the same world logic."
+          "question": "In Mina the Hollower, what can be randomized?",
+          "answer": "Mina the Hollower randomizer settings can shuffle item locations and Sidearm placements, forcing adaptive exploration and boss preparation."
         },
         {
-          "question": "Which modifiers best fit advanced Mina the Hollower players?",
-          "answer": "High-pressure modifiers are best once core routing, defensive timing, and boss consistency are stable."
+          "question": "In Mina the Hollower, what are seed codes used for?",
+          "answer": "Seed codes let players share identical randomized world states for races, challenge runs, and route comparison."
+        },
+        {
+          "question": "In Mina the Hollower, what modifiers are available?",
+          "answer": "Modifiers can tune stats, difficulty, movement, and rule twists, including easier survival, harsher damage rules, and novelty challenges."
+        },
+        {
+          "question": "In Mina the Hollower, what is the warp randomizer?",
+          "answer": "A planned update for Mina the Hollower adds warp shuffling to remix doors, holes, and transition flow for stronger route variety."
+        },
+        {
+          "question": "In Mina the Hollower, who should start with New Game Plus before Randomizer?",
+          "answer": "New Game Plus is the better first replay mode for players who want familiar structure, while Randomizer suits players with stronger item and route knowledge."
         }
       ]
     },
     "minaStoryAndCharacters": {
       "title": "Mina the Hollower Story and Characters",
-      "intro": "Mina the Hollower combines gothic horror tone with character-driven tension across the cursed Tenebrous Isle setting.",
+      "intro": "This story hub introduces Mina, Tenebrous Isle, and the failing Spark Generators without turning the homepage into a full plot summary.",
       "items": [
         {
           "name": "Mina",
-          "type": "Lead Character",
-          "description": "Mina anchors the campaign with fast action-adventure movement and mission-driven progression."
+          "type": "Protagonist and Inventor",
+          "description": "Mina returns to restore failing Spark Generators and uncover the deeper crisis spreading across Tenebrous Isle."
         },
         {
           "name": "Tenebrous Isle",
-          "type": "Core Setting",
-          "description": "The island structure supports layered exploration, secrets, and escalating threat design."
+          "type": "Main Setting",
+          "description": "A gothic island of eerie towns, crypts, bayous, castles, monsters, and cursed routes."
         },
         {
-          "name": "Key Allies and Rivals",
-          "type": "Character Network",
-          "description": "Recurring allies and opposing forces shape progression context and dramatic pacing."
+          "name": "Ossex",
+          "type": "Central City",
+          "description": "The island's major powered city and Mina's main hub while surrounding regions collapse into danger."
         },
         {
-          "name": "Gothic Narrative Tone",
-          "type": "Story Direction",
-          "description": "Atmosphere, mystery, and danger are central to the game narrative identity."
+          "name": "Baron Lionel",
+          "type": "Patron and Ruler",
+          "description": "Lionel commissioned the Spark project and brings Mina back, but the island's crisis runs deeper than repairs."
+        },
+        {
+          "name": "Spark Generators",
+          "type": "Core Story Objective",
+          "description": "Six failing generators define the main quest structure, each tied to dangerous regions and major bosses."
+        },
+        {
+          "name": "Thorne",
+          "type": "Rebel Leader",
+          "description": "A former ally tied to revolt and conflict, turning Mina's mission into a larger political and personal mystery."
         }
       ]
     }
@@ -347,24 +399,24 @@
         "answer": "Yes. Mina the Hollower is a singleplayer-only game with no multiplayer or co-op planned."
       },
       {
-        "question": "In Mina the Hollower, what is the Apotheosis system in Mina the Hollower?",
-        "answer": "Apotheosis is Mina the Hollower' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "In Mina the Hollower, what are Sidearms and Trinkets used for?",
+        "answer": "In Mina the Hollower, Sidearms provide Joule-powered combat or utility actions, while Trinkets add passive effects that shape survivability, movement, and damage plans."
       },
       {
-        "question": "In Mina the Hollower, Where can I play Mina the Hollower?",
-        "answer": "Mina the Hollower is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "In Mina the Hollower, where can I play Mina the Hollower?",
+        "answer": "Mina the Hollower is available on PC and current-generation console platforms, with store support across Steam and major console storefronts."
       },
       {
-        "question": "In Mina the Hollower, how much does Mina the Hollower cost?",
-        "answer": "Mina the Hollower costs $9.99 on Steam."
+        "question": "In Mina the Hollower, does Mina the Hollower have New Game Plus and randomizer features?",
+        "answer": "Yes. Mina the Hollower includes New Game Plus modes, replay modifiers, and randomizer options designed for advanced reruns."
       },
       {
         "question": "In Mina the Hollower, does Mina the Hollower support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "answer": "Yes. Mina the Hollower supports controllers in addition to keyboard and mouse on supported platforms."
       },
       {
-        "question": "In Mina the Hollower, will Mina the Hollower receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "In Mina the Hollower, why do routes feel non-linear?",
+        "answer": "Mina the Hollower is built around interconnected regions and flexible route selection, so players can switch objectives when a path becomes too risky."
       }
     ]
   },
@@ -394,16 +446,16 @@
   "pages": {
     "guides": {
       "title": "Mina the Hollower Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
+      "description": "Complete gameplay guides from beginner basics to advanced combat, exploration, and build strategies.",
       "metaTitle": "Mina the Hollower Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Mina the Hollower guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "metaDescription": "Complete Mina the Hollower guides covering beginner tips, combat systems, survival routes, and expert tactics for mastering Tenebrous Isle.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and weapon or Sidearm planning. Learn everything from first steps to advanced techniques.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Description": "Understand core combat systems and avoid common beginner mistakes",
         "step2Title": "Fast Progression",
         "step2Description": "Follow proven paths to survive and thrive in the surreal world",
         "step3Title": "Master Strategies",
@@ -414,12 +466,12 @@
     },
     "crafting": {
       "title": "Mina the Hollower Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Mina the Hollower Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Mina the Hollower Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
+      "description": "Master Mina the Hollower equipment planning with trinket roles, sidearm utility, and route-based build strategies.",
+      "metaTitle": "Mina the Hollower Crafting and Builds - Equipment Strategy Guide",
+      "metaDescription": "Master Mina the Hollower build planning. Learn trinket functions, sidearm utility, and practical equipment strategies for harder routes.",
       "categoryLabel": "CRAFTING SYSTEM",
       "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
+      "whatIsDescription": "Build planning focuses on matching weapons, Sidearms, Trinkets, and Bone Up upgrades to each route and boss challenge.",
       "why": "Why master crafting?",
       "whySteps": {
         "step1Title": "Unlock Powerful Items",
@@ -443,7 +495,7 @@
       "why": "Why check item guides?",
       "whySteps": {
         "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
+        "step1Description": "Learn how to combine Sidearms and Trinkets for practical route-ready setups",
         "step2Title": "Optimize Equipment",
         "step2Description": "Choose the best items for your playstyle and progression stage",
         "step3Title": "Improve Survival",
