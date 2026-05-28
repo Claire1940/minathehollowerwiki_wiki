@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mina the Hollower Crypt Road: Guía y Estrategia de Combate",
+  description: "Domina el Crypt Road de Mina the Hollower con nuestra guía sobre selección de armas, mecánicas de excavación y estrategias de nivel en las Queensbury Crypts.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2d3436/dfe6e9?text=Crypt+Road+Strategy+Guide",
+  date: "2026-05-28",
+  author: "Equipo Wiki de Mina the Hollower"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Mina the Hollower Crypt Road**: Este camino sirve como la puerta de entrada atmosférica a las Queensbury Crypts, presentando un denso plataformeo gótico.
+- **Dominio de la Excavación**: Usa la mecánica de excavación (hollowing) para evadir proyectiles pasando **por debajo** de ellos en lugar de saltar.
+- **Elección de Arma**: Seleccionar entre el Látigo Nightstar, las Dagas o el Mazo determina tu distancia de combate y velocidad.
+- **Gestión de Recursos**: Recoge **Huesos** de los enemigos derrotados para subir de nivel tus estadísticas o comprar llaves esenciales en Ossex.
+- **Accesibilidad**: Utiliza modificadores incorporados para ajustar el daño recibido y la recuperación de recursos si los primeros desafíos resultan demasiado difíciles.
+</Callout>
+
+<Section icon={Map} title="Mina the Hollower Crypt Road: Exploración y Diseño">
+
+El viaje a través del **mina the hollower crypt road** representa una obra maestra en el diseño retro moderno, fusionando las restricciones estéticas de la Game Boy Color con las sofisticadas sensibilidades de jugabilidad de 2026. A medida que los jugadores abandonan la playa y avanzan hacia la ciudad de Ossex, el Crypt Road sirve como una zona de transición donde las mecánicas centrales de verticalidad y "excavación" son puestas a prueba por primera vez. El entorno está diseñado para ser desafiante pero gratificante, obligando a los jugadores a navegar por pasillos estrechos llenos de horrores góticos y peligros ambientales.
+
+**Aspectos Destacados del Video:**
+- **Filosofía de Desarrollo**: Aprende cómo Yacht Club Games hizo la transición del desplazamiento lateral de Shovel Knight a la perspectiva de arriba hacia abajo de Mina.
+- **La Mecánica de Excavación**: Ideas sobre por qué se eligió excavar en lugar de saltar tradicionalmente para resolver problemas de plataformeo basados en la perspectiva.
+- **Construcción de Niveles**: Un vistazo al área de "September Berg" y cómo los desarrolladores usan las restricciones para crear mapas densos y llenos de secretos.
+- **Evolución de Kickstarter**: Cómo el apoyo de la comunidad expandió el juego de un simple proyecto de seis niveles a un extenso RPG.
+
+<YouTubeEmbed videoId="Z6WWGkVf3uU" title="The Making Of Mina The Hollower | Video Game Documentary" />
+
+Explorar el Crypt Road requiere un ojo atento para el terreno "excavable". A diferencia de los juegos de aventura tradicionales donde las paredes son barreras estáticas, Mina a menudo puede encontrar caminos secretos excavando bajo vallas o a través de secciones ocultas de paredes. Esto añade una capa de interactividad al entorno que recompensa a los jugadores que experimentan con el botón de excavación en rincones aparentemente inaccesibles.
+
+<Callout type="tip" title="Conciencia Ambiental">
+Busca parches de tierra blanda o huecos sospechosos debajo de las vallas. Excavar no es solo para evadir; es tu herramienta principal para descubrir los alijos ocultos de Huesos dispersos a lo largo del Crypt Road.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Sistemas de Combate y Selección de Armas">
+
+El combate en Mina the Hollower es deliberado y táctico. Inspirándose en títulos clásicos como Castlevania, los movimientos y animaciones de ataque requieren una sincronización precisa. En el **mina the hollower crypt road**, te enfrentarás a una variedad de enemigos que requieren diferentes enfoques dependiendo de tu armamento equipado. Al comienzo de tu viaje, se te presenta una elección de armas que definirá tu estilo de juego inicial.
+
+| Nombre del Arma | Alcance | Velocidad | Característica Especial |
+|:--- |:--- |:--- |:--- |
+| **Látigo Nightstar** | Medio | Moderado | Alcance versátil clásico, bueno para mantener la distancia |
+| **Whisper & Vesper** | Corto | Muy Rápido | Dagas duales para un alto DPS pero requiere proximidad |
+| **Mazo Blaststrike** | Corto | Lento | Impacto pesado, alto derribo, rompe guardias fácilmente |
+| **Lanza Volt** | Largo | Rápido | Daño perforante, excelente para pasillos estrechos |
+
+Cada arma se puede mejorar a medida que avanzas, lo que significa que tu elección inicial es una base más que una restricción. El Látigo Nightstar generalmente se recomienda para el Crypt Road debido a la cantidad de enemigos que lanzan proyectiles, como los Cuervos con Horca, que son más fáciles de manejar a distancia.
+
+<CardGrid cols={3}>
+  <Card title="Estrategia con Látigo">
+    - **Espaciado Seguro**: Mantén a los enemigos a la punta del látigo.
+    - **Control de Multitudes**: Elimina fácilmente múltiples plagas voladoras.
+    - **Bajo Riesgo**: Lo mejor para aprender patrones enemigos.
+  </Card>
+  <Card title="Estrategia con Mazo">
+    - **Alto Impacto**: Elimina enemigos más pequeños de un solo golpe.
+    - **Potencial de Aturdimiento**: Interrumpe ataques enemigos pesados.
+    - **Sincronización Crítica**: Requiere conocimiento de los tiempos de carga enemigos.
+  </Card>
+  <Card title="Estrategia con Dagas">
+    - **Juego Agresivo**: Entra, golpea rápido y escapa excavando.
+    - **Movilidad**: Permite un rápido reposicionamiento entre golpes.
+    - **Nivel Experto**: Alto riesgo de recibir daño por contacto.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Daño por Contacto">
+En la tradición de los juegos de acción clásicos, tocar a un enemigo a menudo causará daño. No dejes que las dagas rápidas te inciten a correr directamente hacia la hitbox de un enemigo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mecánicas de Excavación y Estrategia de Movimiento">
+
+La característica definitoria de **mina the hollower crypt road** es la mecánica de excavación (hollowing). Esto se desarrolló para resolver el "problema de la sombra" inherente a las perspectivas de arriba hacia abajo. En muchos juegos, saltar dificulta juzgar exactamente dónde aterrizará tu personaje. Mina resuelve esto manteniendo la "hitbox" del personaje a nivel del suelo incluso al evadir.
+
+<Steps>
+  <Step num="1" title="Iniciar Excavación">
+    Presiona el botón de excavar para sumergirte en la tierra. Mientras está bajo tierra, Mina se mueve más rápido y es inmune a la mayoría de los proyectiles de alto nivel.
+  </Step>
+  <Step num="2" title="Navegar Peligros">
+    Usa la excavación para pasar bajo vallas, puertas bajas y ciertos proyectiles enemigos como las llamas persistentes del Cuervo de Fuego.
+  </Step>
+  <Step num="3" title="El Ataque Sorpresa">
+    Resurgir directamente debajo o al lado de un enemigo a veces puede proporcionar una apertura táctica, aunque requiere un posicionamiento preciso.
+  </Step>
+  <Step num="4" title="Movimiento Encadenado">
+    Combina la excavación con el movimiento estándar para crear un ritmo que mantiene a Mina fuera de la línea de fuego mientras acorta la distancia con los enemigos a distancia.
+  </Step>
+</Steps>
+
+| Acción de Movimiento | Ventaja | Limitación |
+|:--- |:--- |:--- |
+| **Caminar Estándar** | Plena capacidad de combate | Velocidad de movimiento más lenta |
+| **Excavar** | Alta velocidad, inmunidad a proyectiles | No puede atacar mientras está bajo tierra |
+| **Rebotar** | Superar pequeños huecos, reposicionar | Vulnerable a golpes de aire a tierra |
+
+<Callout type="success" title="Dominio de la Evasión">
+Cuando un Tipo Antorcha lanza un proyectil, no intentes saltar sobre él. Excavar te permite permanecer exactamente donde está tu sombra, manteniendo una relación 1:1 con el suelo y haciendo que la evasión sea 100% más predecible.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Guía de Progresión: Huesos y Subida de Nivel">
+
+La economía del **mina the hollower crypt road** gira en torno a los **Huesos**. Esta moneda se utiliza tanto para la progresión del personaje como para la compra de objetos que alteran el mundo. A diferencia de los plataformas lineales tradicionales, Mina presenta elementos de RPG que te permiten personalizar tus estadísticas para adaptarlas a tu arma preferida.
+
+| Categoría de Estadística | Efecto en el Juego | Recomendado Para |
+|:--- |:--- |:--- |
+| **Poder** | Aumenta el daño bruto de las armas principales | Usuarios de Mazo y Dagas |
+| **Defensa** | Reduce el daño recibido de todas las fuentes | Jugadores nuevos / Builds cuerpo a cuerpo |
+| **Subarma** | Aumenta el daño y la eficiencia de las armas secundarias | Estilos de juego tácticos/a distancia |
+| **Utilidad** | Mejora la velocidad de excavación y la ganancia de recursos | Completistas y speedrunners |
+
+A medida que explores Ossex y los alrededores, encontrarás tiendas que intercambian Huesos por Amuletos y Llaves. Los Amuletos proporcionan bonificaciones pasivas, como mayor salud o velocidades de ataque más rápidas, mientras que las Llaves son necesarias para desbloquear nuevos sectores del Crypt Road y las Queensbury Crypts.
+
+<Checklist
+  id="crypt-road-objectives"
+  title="Lista de Verificación de Completación del Crypt Road:"
+  items={[
+    "Rescata al compañero Hollower para abrir el Gremio",
+    "Recoge al menos 500 Huesos para la primera mejora",
+    "Localiza la entrada del Generador de Chispas en Ossex",
+    "Encuentra la mejora oculta del Látigo Nightstar en la cueva de la playa",
+    "Derrota al mini-jefe Cuervo con Horca cerca de la mansión"
+  ]}
+/>
+
+<Callout type="info" title="Penalización por Muerte">
+Cuando caes en batalla, puedes perder una parte de tus Huesos recolectados. Siempre prioriza regresar a un punto de control (Generador de Chispas) para asegurar tu progreso y gastar tu moneda.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Modificadores de Dificultad y Accesibilidad">
+
+Yacht Club Games ha implementado un robusto conjunto de modificadores para asegurar que el **mina the hollower crypt road** sea accesible para todos los jugadores, independientemente de su experiencia con los géneros "Souls-like" o "Masocore". Estas opciones se pueden alternar para proporcionar una experiencia personalizada.
+
+| Nombre del Modificador | Efecto | Mejor Caso de Uso |
+|:--- |:--- |:--- |
+| **Piel de Hierro** | Recibe significativamente menos daño | Aprender patrones de jefe |
+| **Vampirismo** | Recupera salud después de eliminaciones exitosas | Mantener exploraciones largas |
+| **Cazarrecompensas** | Gana más Huesos de los enemigos derrotados | Reducir el farmeo para mejoras |
+| **Munición Infinita** | Las subarmas no consumen recursos | Estilos de juego con muchos proyectiles |
+
+Estos modificadores no te impiden seguir la historia, permitiendo a los jugadores disfrutar de la rica tradición de Lord Lionel y los generadores de chispas fallidos sin la frustración de toparse con una pared de progresión.
+
+<Callout type="tip" title="Desafío Personalizado">
+Si encuentras las Queensbury Crypts demasiado fáciles, prueba el modificador 'Cañón de Cristal', que aumenta tu producción de daño pero te hace morir de un solo golpe.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo llego a las Queensbury Crypts desde Crypt Road?",
+    answer: "Primero debes navegar por las afueras del sur de Ossex. Asegúrate de haber comprado las llaves necesarias en el Gremio de Hollowers después de rescatar al NPC atrapado."
+  },
+  {
+    question: "¿Cuál es la mejor manera de farmear Huesos en Crypt Road?",
+    answer: "Los Cuervos con Horca en las secciones del cementerio son la fuente más eficiente de Huesos al principio. Usa el Látigo Nightstar para eliminarlos de forma segura a distancia."
+  },
+  {
+    question: "¿Puedo cambiar mi arma inicial más adelante en el juego?",
+    answer: "Sí. Aunque eliges una al principio, todas las demás armas se pueden encontrar como tesoros ocultos o comprar a vendedores especializados en todo el mundo."
+  },
+  {
+    question: "¿Qué hace realmente 'Excavar'?",
+    answer: "Excavar es el término técnico para burrowing. Permite a Mina moverse por terreno blando, esconderse de proyectiles y acceder a áreas secretas debajo de la geometría del nivel."
+  }
+]} />
+
+</Section>

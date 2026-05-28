@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Enemigos de Mina the Hollower: Tipos, Comportamientos y Consejos de Combate",
+  description: "Una guía detallada para entender y derrotar a los diversos enemigos en Mina the Hollower, incluyendo sus patrones de ataque y estrategias efectivas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/343a40/fff?text=Mina+Hollower+Enemies",
+  date: "2026-05-28",
+  author: "Equipo Wiki de Mina the Hollower"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Los **enemigos de Mina the Hollower** son diversos, cada uno con **patrones de ataque** únicos.
+- Utiliza la **técnica de excavación de Mina** para evitar ataques y encontrar aperturas.
+- Adapta tu **elección de arma** y abalorios para contrarrestar tipos de enemigos específicos.
+- Los **viales de plasma** y los **Underlabs** son cruciales para la gestión de la salud en encuentros desafiantes.
+- Aprende los **peligros ambientales** para usar el campo de batalla a tu favor.
+</Callout>
+
+<Section icon={Swords} title="Entendiendo a los Enemigos de Mina the Hollower">
+Mina the Hollower desafía a los jugadores con una diversa gama de enemigos, cada uno meticulosamente diseñado para encajar en sus respectivas regiones. Desde los cementerios encantados hasta los pantanos cubiertos de vegetación, los enemigos presentan patrones de ataque y animaciones únicas que exigen adaptación y pensamiento estratégico. Dominar sus comportamientos es clave para el éxito de Mina en la restauración de los Generadores de Chispas.
+
+**Puntos destacados del video:**
+- Introduce las mecánicas de juego principales de Mina, incluyendo movimiento y combate.
+- Demuestra la técnica de "aullido" para la evasión y el desplazamiento.
+- Explica el sistema de salud de la barra de plasma y los puntos de control de Underlab.
+
+<YouTubeEmbed videoId="IPzyJrnWAWE" title="Reseña de Mina the Hollower - ¡Un SUCESOR FANTÁSTICO de Shovel Knight!" />
+
+Los enemigos en Mina the Hollower no son solo obstáculos, sino partes integrales del desafiante sistema de combate del juego. Su diseño a menudo complementa los puzles ambientales y los desafíos de plataformas, obligando a los jugadores a pensar de forma creativa y a utilizar todas las habilidades de Mina.
+
+<Callout type="tip">
+Observa siempre los nuevos tipos de enemigos desde la distancia antes de enfrentarte a ellos. Entender sus movimientos y señales de ataque reducirá significativamente el daño recibido y conservará preciosos viales de plasma.
+</Callout>
+
+### Variedad de Enemigos por Región
+
+El mundo de la Isla Tenebrosa se divide en regiones distintas, cada una con su propio tema, paleta de colores y, crucialmente, variaciones de enemigos. Esto asegura una experiencia de combate fresca a medida que avanzas en la aventura de Mina.
+
+| Tipo de Región | Enemigos Comunes | Rasgos Notables | Peligros Ambientales |
+|-------------|----------------|----------------|----------------------|
+| **Cementerio** | Criaturas macabras, Esqueletos | Lentos, predecibles, a menudo en grupos | Lápidas, terreno desmoronado |
+| **Pantano**   | Monstruos anfibios, Plantas gigantes | Ataques a distancia, denegación de área | Charcos de agua, flora tóxica, barro |
+| **Industrial** | Construcciones mecánicas, Hombres cerdo | Ataques de carga, elementos explosivos | Suelos de lava, plataformas móviles |
+| **Bosque**  | Bestias, Insectos excavadores | Tácticas de emboscada, movimiento rápido | Follaje denso, pozos ocultos |
+
+</Section>
+
+<Section icon={Target} title="Tipos de Enemigos Comunes y Estrategias">
+Encontrarse con un nuevo enemigo en Mina the Hollower a menudo significa un breve período de aprendizaje y adaptación. Mientras que algunos enemigos son sencillos, otros requieren una sincronización precisa y un uso inteligente de las habilidades de Mina, especialmente su característica técnica de excavación.
+
+### Adaptándose a los Comportamientos Enemigos
+
+| Comportamiento del Enemigo | Descripción                                         | Estrategia Recomendada                                     | Arma/Abalorio Efectivo |
+|--------------------|-----------------------------------------------------|----------------------------------------------------------|--------------------------|
+| **Enemigos que Cargan**  | Se abalanzan directamente sobre Mina, a menudo con una animación de preparación. | Excava *antes* de que te alcancen, luego ataca por detrás. | Martillo de Topo (empuje)  |
+| **Atacantes a Distancia** | Disparan proyectiles o crean zonas peligrosas desde lejos. | Acércate rápidamente, usa la excavación para esquivar proyectiles. | Látigo Nocturno (alcance)   |
+| **Negadores de Área**   | Controlan partes de la pantalla con pinchos, lava o gas. | Utiliza la excavación para sortear peligros, ataca cuando esté despejado.      | Amuleto a Prueba de Pinchos (si está disponible) |
+| **Enemigos que Excavan** | Aparecen o desaparecen del suelo.           | Anticipa sus puntos de aparición, ataca cuando emerjan. | Dagas Susurro y Víspera (ataques rápidos) |
+
+<Callout type="warning" title="Cuidado con los Enemigos que Cargan">
+Algunos enemigos que cargan pueden ser particularmente difíciles de evitar, especialmente si la animación de excavación de Mina tarda demasiado. Es crucial anticipar su carga y excavar preventivamente o mantener una distancia segura. El posicionamiento es clave para evitar daños.
+</Callout>
+
+### Mecánicas de Combate en la Práctica
+
+El combate de Mina es altamente dinámico, mezclando elementos tradicionales de acción-aventura con mecánicas únicas como la barra de plasma y la excavación.
+
+<CardGrid cols={2}>
+  <Card title="Curación con Barra de Plasma">
+    A diferencia de las pociones de salud tradicionales, Mina repone su barra de salud roja llenando primero una barra de plasma naranja. Esto se logra atacando enemigos. Solo entonces puedes convertir el plasma en salud usando un vial. Este sistema de "sin riesgo no hay recompensa" mantiene el combate atractivo.
+  </Card>
+  <Card title="Excavar para Obtener Ventaja">
+    La habilidad única de "aullido" de Mina le permite excavar bajo ciertas superficies. Esto es invaluable para evitar ataques enemigos, atravesar huecos, encontrar secretos e incluso levantar objetos inamovibles. Dominar su tiempo es esencial para la supervivencia y la exploración.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Tácticas Avanzadas e Interacciones Ambientales">
+Más allá del combate directo, Mina the Hollower incorpora elementos ambientales y desafíos de plataformas que a menudo dictan cómo abordar los encuentros con enemigos. Aprender a usar estos a tu favor es crucial.
+
+### Peligros Ambientales y Sinergia Enemiga
+
+Los enemigos de cada región están diseñados para interactuar con su entorno único. Por ejemplo, los hombres cerdo en áreas industriales podrían golpear el suelo para activar suelos de lava, mientras que las plantas gigantes en los pantanos pueden llenar áreas con pinchos peligrosos.
+
+<Callout type="success" title="Aprovecha el Entorno">
+Busca siempre formas de usar el entorno contra los enemigos. Empujar enemigos a pozos, atraerlos a zonas peligrosas o usar plataformas para crear aperturas puede convertir encuentros difíciles en manejables.
+</Callout>
+
+### Dominando las Combinaciones de Movimiento y Ataque
+
+<Steps>
+  <Step num="1" title="Observa y Aprende">
+    Dedica un momento a observar los patrones enemigos y las trampas ambientales. Identifica zonas seguras y ventanas de ataque.
+  </Step>
+  <Step num="2" title="Combina la Excavación con Ataques">
+    Excava para evadir ataques entrantes, luego emerge con un golpe. Para enemigos que cargan, excava detrás de ellos mientras pasan.
+  </Step>
+  <Step num="3" title="Utiliza Armas Secundarias y Abalorios">
+    Experimenta con diferentes armas secundarias (hachas arrojadizas, espadas) y abalorios. Un abalorio que permite a Mina caminar sobre pinchos, por ejemplo, puede cambiar drásticamente cómo abordas áreas llenas de pinchos con enemigos.
+  </Step>
+  <Step num="4" title="Gestiona los Viales de Plasma Estratégicamente">
+    Rellena los viales de plasma en los Underlabs, que actúan como puntos de control. No dudes en usarlos durante las batallas contra jefes o en difíciles oleadas de enemigos, pero siempre intenta llenar tu barra de plasma primero.
+  </Step>
+</Steps>
+
+### Equipo Esencial para Encuentros con Enemigos
+
+El equipo adecuado puede influir significativamente en tu efectividad contra los diferentes **enemigos de Mina the Hollower**.
+
+| Tipo de Objeto | Ejemplo | Beneficio contra Enemigos | Adquisición |
+|-----------|---------|-------------------------|-------------|
+| **Armas** | Látigo Nocturno | Gran alcance, bueno para mantener la distancia | Inicio, Herrero |
+|           | Martillo de Topo | Alto daño, empuje para control de masas | Herrero, botín |
+|           | Dagas Susurro y Víspera | Ataques rápidos, buenas para combos veloces | Herrero, botín |
+| **Abalorios** | Amuleto a Prueba de Pinchos | Inmunidad al daño por pinchos | Exploración, tiendas |
+|           | Amuleto Lámpara | Ilumina áreas oscuras, revela enemigos ocultos | Exploración, tiendas |
+|           | Amuleto Explosión | Daña a los enemigos al emerger de la excavación | Exploración, tiendas |
+| **Mejoras** | Aumento de Salud | Más PV, aumenta la supervivencia | Tiendas, recompensas de jefe |
+|           | Mejora de Ataque | Aumento del daño del arma | Subir de nivel, tiendas |
+
+</Section>
+
+<Section icon={Map} title="Minijefes y Jefes: Un Desafío Diferente">
+Mientras que los enemigos estándar presentan desafíos constantes, los minijefes y jefes principales en Mina the Hollower exigen un mayor nivel de habilidad y comprensión de sus conjuntos de movimientos únicos. Estos encuentros están diseñados para poner a prueba todas las habilidades que has adquirido.
+
+### Preparación para Batallas contra Jefes
+
+<Checklist
+  id="boss-prep"
+  title="Lista de Verificación de Preparación para la Batalla contra el Jefe:"
+  items={[
+    "Mejora completamente tu arma preferida.",
+    "Abastece viales de plasma del Underlab.",
+    "Equipa abalorios que contrarresten los ataques conocidos del jefe o los peligros ambientales.",
+    "Sube de nivel las estadísticas de ataque y defensa de Mina.",
+    "Explora la arena del jefe en busca de elementos interactivos o lugares seguros."
+  ]}
+/>
+
+Las batallas contra jefes son encuentros multifase que reflejan la mazmorra que custodian. Por ejemplo, un jefe de pantano podría reemplazar el suelo con agua en la que Mina no puede nadar, convirtiendo la lucha en una danza estratégica de excavación a través de pozas arriesgadas.
+
+<Callout type="info" title="La Experiencia Soulslike">
+Mina the Hollower incorpora elementos similares a los juegos Soulslike, particularmente en su sistema de salud y recuperación de huesos. Los huesos, que actúan como moneda y experiencia, se caen al morir y pueden recuperarse derrotando al enemigo que te mató o volviendo a tu lugar de muerte. Esto añade una capa de riesgo y recompensa a cada encuentro.
+</Callout>
+
+### Adaptación a las Mecánicas del Jefe
+
+| Mecánica del Jefe | Descripción | Estrategia de Contraataque | Ejemplo |
+|---------------|-------------|------------------|---------|
+| **Transiciones de Fase** | El jefe cambia patrones de ataque o adquiere nuevas habilidades en ciertos umbrales de salud. | Prepárate para nuevos movimientos, adáptate sobre la marcha. | Un jefe podría empezar a volar o invocar secuaces. |
+| **Manipulación Ambiental** | El jefe altera la arena, creando peligros o ventajas. | Usa la excavación de Mina para navegar los cambios, usa los peligros contra el jefe. | El jefe del pantano inunda la arena, forzando la excavación. |
+| **Ataques Telegrafiados** | El jefe muestra señales claras antes de un ataque poderoso. | Aprende las señales, usa la excavación o el movimiento para evadir. | Una animación de preparación antes de una embestida o golpe. |
+
+</Section>
+
+<Section icon={Target} title="Enemigos de Mina the Hollower: Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo lidiar eficazmente con los enemigos que cargan?",
+    answer: "Para los enemigos que cargan, la estrategia más efectiva es anticipar su carga. Excava bajo tierra justo antes de que te alcancen, luego emerge detrás de ellos para un contraataque. Mantener la distancia y observar sus animaciones de preparación también es crucial."
+  },
+  {
+    question: "¿Cuál es la mejor manera de curarse durante el combate?",
+    answer: "La curación en Mina the Hollower implica llenar tu barra de plasma naranja atacando enemigos, y luego consumir un vial de plasma. Siempre intenta asestar golpes para acumular plasma antes de usar un vial para maximizar tu eficiencia de curación. Rellena los viales en los Underlabs."
+  },
+  {
+    question: "¿Existen abalorios específicos que ayuden contra ciertos tipos de enemigos?",
+    answer: "Sí, los abalorios pueden cambiar el juego. Por ejemplo, un Amuleto a Prueba de Pinchos es invaluable en áreas con enemigos que generan pinchos o pinchos ambientales. El Amuleto Explosión puede dañar a los enemigos cuando emerges de la excavación, útil para el control de multitudes."
+  },
+  {
+    question: "¿Cómo me preparo para las batallas contra jefes en Mina the Hollower?",
+    answer: "Antes de una pelea contra un jefe, asegúrate de que el arma de Mina esté mejorada, abastece viales de plasma y equipa abalorios que se adapten a las mecánicas del jefe o al entorno de la arena. Subir de nivel el ataque y la defensa de Mina mediante la 'subida de huesos' también aumenta significativamente tus posibilidades de éxito."
+  }
+]} />
+
+</Section>

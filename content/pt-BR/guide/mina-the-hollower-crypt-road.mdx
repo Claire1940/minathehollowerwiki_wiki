@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mina the Hollower Crypt Road: Guia e Estratégia de Combate",
+  description: "Domine a Mina the Hollower Crypt Road com nosso guia sobre seleção de armas, mecânicas de escavação e estratégias de nível das Criptas de Queensbury.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2d3436/dfe6e9?text=Crypt+Road+Strategy+Guide",
+  date: "2026-05-28",
+  author: "Equipe Wiki de Mina the Hollower"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Mina the Hollower Crypt Road**: Este caminho serve como a entrada atmosférica para as Criptas de Queensbury, apresentando uma densa plataforma gótica.
+- **Mestria em Escavação**: Use a mecânica de escavação (hollowing) para evadir projéteis passando **por baixo** deles, em vez de pular.
+- **Escolha de Arma**: A escolha entre o Chicote Nightstar, Adagas ou Malho dita sua distância de engajamento e velocidade.
+- **Gerenciamento de Recursos**: Colete **Ossos** de inimigos derrotados para aumentar suas estatísticas ou comprar chaves essenciais em Ossex.
+- **Acessibilidade**: Utilize modificadores embutidos para ajustar a quantidade de dano recebido e a recuperação de recursos, caso os desafios iniciais se mostrem muito difíceis.
+</Callout>
+
+<Section icon={Map} title="Mina the Hollower Crypt Road: Exploração e Design">
+
+A jornada pela **mina the hollower crypt road** representa uma obra-prima em design retrô moderno, misturando as restrições estéticas do Game Boy Color com sensibilidades de jogabilidade sofisticadas de 2026. À medida que os jogadores deixam a praia e avançam em direção à cidade de Ossex, a Crypt Road serve como uma zona de transição onde as mecânicas centrais de verticalidade e "hollowing" são testadas pela primeira vez. O ambiente é projetado para ser punitivo, mas recompensador, forçando os jogadores a navegar por corredores apertados cheios de horrores góticos e perigos ambientais.
+
+**Destaques do Vídeo:**
+- **Filosofia de Desenvolvimento**: Aprenda como a Yacht Club Games fez a transição do Shovel Knight de rolagem lateral para a perspectiva de cima para baixo de Mina.
+- **A Mecânica de Escavação**: Insights sobre por que a escavação foi escolhida em vez do salto tradicional para resolver problemas de plataforma baseados em perspectiva.
+- **Construção de Níveis**: Uma olhada na área "September Berg" e como os desenvolvedores usam restrições para criar mapas densos e cheios de segredos.
+- **Evolução do Kickstarter**: Como o apoio da comunidade expandiu o jogo de um simples projeto de seis níveis para um RPG expansivo.
+
+<YouTubeEmbed videoId="Z6WWGkVf3uU" title="A Criação de Mina The Hollower | Documentário de Videogame" />
+
+Explorar a Crypt Road exige um olhar atento para terrenos "escaváveis". Ao contrário dos jogos de aventura tradicionais, onde as paredes são barreiras estáticas, Mina frequentemente pode encontrar caminhos secretos escavando sob cercas ou através de seções de parede ocultas. Isso adiciona uma camada de interatividade ao ambiente que recompensa os jogadores que experimentam o botão de escavação em cantos aparentemente inacessíveis.
+
+<Callout type="tip" title="Consciência Ambiental">
+Procure por manchas de terra macia ou fendas suspeitas sob cercas. Escavar não é apenas para evasão; é sua principal ferramenta para descobrir os esconderijos de Ossos espalhados pela Crypt Road.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Sistemas de Combate e Seleção de Armas">
+
+O combate em Mina the Hollower é deliberado e tático. Inspirado em títulos clássicos como Castlevania, os movimentos e animações de ataque exigem um timing preciso. Na **mina the hollower crypt road**, você enfrentará uma variedade de inimigos que exigem abordagens diferentes, dependendo do seu armamento equipado. No início de sua jornada, você é presenteado com uma escolha de armas que definirá seu estilo de jogo inicial.
+
+| Nome da Arma | Alcance | Velocidade | Característica Especial |
+|:--- |:--- |:--- |:--- |
+| **Chicote Nightstar** | Médio | Moderado | Alcance versátil clássico, bom para manter distância |
+| **Whisper & Vesper** | Curto | Muito Rápido | Adagas duplas para alto DPS, mas exige proximidade |
+| **Malho Blaststrike** | Curto | Lento | Impacto pesado, alto empurrão, quebra defesas facilmente |
+| **Lança de Volt** | Longo | Rápido | Dano perfurante, excelente para corredores estreitos |
+
+Cada arma pode ser aprimorada à medida que você progride, o que significa que sua escolha inicial é uma base, e não uma restrição. O Chicote Nightstar é geralmente recomendado para a Crypt Road devido ao número de inimigos que lançam projéteis, como os Corvos de Forquilha, que são mais fáceis de gerenciar à distância.
+
+<CardGrid cols={3}>
+  <Card title="Estratégia com Chicote">
+    - **Espaçamento Seguro**: Mantenha os inimigos na ponta do chicote.
+    - **Controle de Multidão**: Elimina facilmente várias pragas voadoras.
+    - **Baixo Risco**: Melhor para aprender padrões de inimigos.
+  </Card>
+  <Card title="Estratégia com Malho">
+    - **Alto Impacto**: Elimina inimigos menores com um golpe.
+    - **Potencial de Atordoamento**: Interrompe ataques pesados de inimigos.
+    - **Timing Crítico**: Exige conhecimento dos preparativos de ataque dos inimigos.
+  </Card>
+  <Card title="Estratégia com Adaga">
+    - **Jogo Agressivo**: Entre, ataque rápido e escave para sair.
+    - **Mobilidade**: Permite reposicionamento rápido entre os golpes.
+    - **Nível Especialista**: Alto risco de sofrer dano de contato.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Dano de Contato">
+Na tradição dos jogos de ação clássicos, tocar em um inimigo geralmente causará dano. Não deixe que as adagas rápidas o incitem a correr diretamente para a hitbox de um inimigo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mecânicas de Escavação e Estratégia de Movimento">
+
+A característica definidora da **mina the hollower crypt road** é a mecânica de escavação (hollowing). Isso foi desenvolvido para resolver o "problema da sombra" inerente às perspectivas de cima para baixo. Em muitos jogos, pular dificulta julgar exatamente onde seu personagem vai pousar. Mina resolve isso mantendo a "hitbox" do personagem no nível do chão, mesmo ao evadir.
+
+<Steps>
+  <Step num="1" title="Iniciar Escavação">
+    Pressione o botão de escavação para mergulhar na terra. Enquanto subterrânea, Mina se move mais rápido e é imune à maioria dos projéteis de alto nível.
+  </Step>
+  <Step num="2" title="Navegar por Perigos">
+    Use a escavação para passar por baixo de cercas, portões baixos e certos projéteis inimigos, como as chamas persistentes do Corvo de Fogo.
+  </Step>
+  <Step num="3" title="O Ataque de Surpresa">
+    Ressurgir diretamente sob ou ao lado de um inimigo pode, às vezes, proporcionar uma abertura tática, embora exija posicionamento preciso.
+  </Step>
+  <Step num="4" title="Movimento Encadeado">
+    Combine a escavação com o movimento padrão para criar um ritmo que mantém Mina fora da linha de fogo enquanto diminui a distância para inimigos à distância.
+  </Step>
+</Steps>
+
+| Ação de Movimento | Vantagem | Limitação |
+|:--- |:--- |:--- |
+| **Caminhada Padrão** | Prontidão total para combate | Velocidade de movimento mais lenta |
+| **Escavação** | Alta velocidade, imunidade a projéteis | Não pode atacar enquanto subterrâneo |
+| **Saltar** | Atravessar pequenas fendas, reposicionar | Vulnerável a golpes aéreos-terrestres |
+
+<Callout type="success" title="Mestria em Evasão">
+Quando um Cara da Tocha arremessa um projétil, não tente pular sobre ele. Escavar permite que você permaneça exatamente onde sua sombra está, mantendo uma relação 1:1 com o chão e tornando a evasão 100% mais previsível.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Guia de Progressão: Ossos e Nivelamento">
+
+A economia da **mina the hollower crypt road** gira em torno de **Ossos**. Essa moeda é usada tanto para a progressão do personagem quanto para a compra de itens que alteram o mundo. Diferente dos plataformers lineares tradicionais, Mina apresenta elementos de RPG que permitem personalizar suas estatísticas para se adequar à sua arma preferida.
+
+| Categoria de Atributo | Efeito na Jogabilidade | Recomendado Para |
+|:--- |:--- |:--- |
+| **Poder** | Aumenta o dano bruto das armas primárias | Usuários de Malho e Adaga |
+| **Defesa** | Reduz o dano recebido de todas as fontes | Jogadores novos / Builds corpo a corpo |
+| **Arma Secundária** | Aumenta o dano e a eficiência das armas secundárias | Estilos de jogo táticos/à distância |
+| **Utilidade** | Melhora a velocidade de escavação e o ganho de recursos | Completistas e speedrunners |
+
+Ao explorar Ossex e seus arredores, você encontrará lojas que trocam Ossos por Berloques e Chaves. Berloques fornecem bônus passivos — como aumento de saúde ou velocidades de ataque mais rápidas — enquanto Chaves são necessárias para desbloquear novos setores da Crypt Road e das Criptas de Queensbury.
+
+<Checklist
+  id="crypt-road-objectives"
+  title="Lista de Conclusão da Crypt Road:"
+  items={[
+    "Resgate o colega Hollower para abrir a Guilda",
+    "Colete pelo menos 500 Ossos para o primeiro upgrade",
+    "Localize a entrada do Gerador de Faíscas em Ossex",
+    "Encontre o upgrade escondido do Chicote Nightstar na caverna da praia",
+    "Derrote o mini-chefe Corvo de Forquilha perto da mansão"
+  ]}
+/>
+
+<Callout type="info" title="Penalidade de Morte">
+Quando você cai em batalha, você pode perder uma parte dos seus Ossos coletados. Sempre priorize retornar a um ponto de controle (Gerador de Faíscas) para garantir seu progresso e gastar sua moeda.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Modificadores de Dificuldade e Acessibilidade">
+
+A Yacht Club Games implementou um conjunto robusto de modificadores para garantir que a **mina the hollower crypt road** seja acessível a todos os jogadores, independentemente de sua experiência com os gêneros "Souls-like" ou "Masocore". Essas opções podem ser ativadas para proporcionar uma experiência personalizada.
+
+| Nome do Modificador | Efeito | Melhor Caso de Uso |
+|:--- |:--- |:--- |
+| **Pele de Ferro** | Sofre significativamente menos dano | Aprendendo padrões de chefes |
+| **Vampirismo** | Recupera saúde após mortes bem-sucedidas | Sustentando longas explorações |
+| **Caçador de Recompensas** | Ganha mais Ossos de inimigos derrotados | Reduzindo a rotina para upgrades |
+| **Munição Infinita** | Armas secundárias não consomem recursos | Estilos de jogo com muitos projéteis |
+
+Esses modificadores não o impedem de acessar a história, permitindo que os jogadores desfrutem da rica lore de Lord Lionel e dos Geradores de Faíscas falhos sem a frustração de encontrar uma barreira de progressão.
+
+<Callout type="tip" title="Desafio Personalizado">
+Se você achar as Criptas de Queensbury muito fáceis, experimente o modificador 'Canhão de Vidro', que aumenta sua produção de dano, mas faz você morrer com um único golpe.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como chego às Criptas de Queensbury a partir da Crypt Road?",
+    answer: "Você deve primeiro navegar pelos arredores do sul de Ossex. Certifique-se de ter comprado as chaves necessárias da Guilda dos Hollowers após resgatar o NPC preso."
+  },
+  {
+    question: "Qual é a melhor forma de farmar Ossos na Crypt Road?",
+    answer: "Os Corvos de Forquilha nas seções do cemitério são a fonte mais eficiente de Ossos no início. Use o Chicote Nightstar para eliminá-los com segurança à distância."
+  },
+  {
+    question: "Posso mudar minha arma inicial mais tarde no jogo?",
+    answer: "Sim. Embora você escolha uma no início, todas as outras armas podem ser encontradas como tesouros escondidos ou compradas de vendedores especializados em todo o mundo."
+  },
+  {
+    question: "O que 'Hollowing' realmente faz?",
+    answer: "Hollowing é o termo técnico para escavação. Ele permite que Mina se mova por terrenos macios, se esconda de projéteis e acesse áreas secretas sob a geometria do nível."
+  }
+]} />
+
+</Section>
