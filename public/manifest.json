@@ -1,12 +1,15 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Mina the Hollower Wiki - Walkthrough, Bosses & Trinkets",
+  "short_name": "Mina Wiki",
+  "description": "Mina the Hollower Wiki with walkthroughs, boss guides, trinkets, sidearms, achievements, platform info, release date, secrets, and routes.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#cf1649",
+  "background_color": "#0b0712",
+  "lang": "en",
+  "categories": ["games", "entertainment", "reference"],
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
