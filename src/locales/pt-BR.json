@@ -1,4 +1,15 @@
 {
+  "seo": {
+    "home": {
+      "title": "Mina the Hollower Wiki - Release Date, Weapons, Bosses & Guides",
+      "description": "Mina the Hollower Wiki covers release date details, review scores, beginner routes, weapons, sidearms, trinkets, bosses, randomizer rules, New Game Plus, and story guides.",
+      "keywords": "Mina the Hollower, Mina the Hollower wiki, release date, weapons guide, bosses guide, randomizer, New Game Plus",
+      "ogTitle": "Mina the Hollower Wiki - Release Date, Weapons, Bosses & Guides",
+      "ogDescription": "Mina the Hollower Wiki covers release date details, review scores, beginner routes, weapons, sidearms, trinkets, bosses, randomizer rules, New Game Plus, and story guides.",
+      "twitterTitle": "Mina the Hollower Wiki - Release Date, Weapons, Bosses & Guides",
+      "twitterDescription": "Track Mina the Hollower launch info, reviews, beginner tips, weapons, bosses, randomizer options, and story highlights."
+    }
+  },
   "nav": {
     "release": "Release",
     "platforms": "Platforms",
@@ -7,5 +18,579 @@
     "guide": "Guide",
     "combat": "Combat",
     "bosses": "Bosses"
+  },
+  "common": {
+    "home": "Home",
+    "more": "More",
+    "playNow": "Play on Steam",
+    "switchLanguage": "Switch Language",
+    "switchTheme": "Switch Theme",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode",
+    "notFound": "Page Not Found",
+    "notFoundDescription": "The page you are looking for does not exist.",
+    "backToHome": "Back to Home",
+    "relatedArticles": "Related Articles",
+    "readMore": "Read More",
+    "articlesComingSoon": "Articles coming soon"
+  },
+  "hero": {
+    "badge": "Gothic Action Adventure by Yacht Club Games",
+    "title": "Mina the Hollower Wiki",
+    "description": "Track release timing, walkthrough routes, bosses, weapons, trinkets, achievements, and randomizer/NG+ tips for Mina the Hollower across PC, PS5, Xbox, and Switch.",
+    "getFreeCodesCTA": "Visit Official Website",
+    "playOnSteamCTA": "Play Mina the Hollower on Steam",
+    "stats": {
+      "stat1": {
+        "value": "May 29, 2026",
+        "label": "Official Release Date"
+      },
+      "stat2": {
+        "value": "25+",
+        "label": "Bosses & Mini-Bosses"
+      },
+      "stat3": {
+        "value": "60",
+        "label": "Trinkets to Discover"
+      },
+      "stat4": {
+        "value": "PC, PS5, Xbox, Switch",
+        "label": "Platforms"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Mina the Hollower Gameplay",
+    "description": "Watch Mina the Hollower trailer footage focused on exploration, combat rhythm, and gothic world design."
+  },
+  "tools": {
+    "title": "Mina the Hollower",
+    "titleHighlight": "Homepage Modules",
+    "subtitle": "Jump to all eight Mina the Hollower core modules",
+    "cards": [
+      {
+        "icon": "Compass",
+        "title": "Mina the Hollower Release Date and Platforms",
+        "description": "Launch timing, stores, and supported systems"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Mina the Hollower Reviews and Scores",
+        "description": "Critic highlights and score snapshots"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Mina the Hollower Beginner Guide",
+        "description": "Core loop, survival basics, and early pacing"
+      },
+      {
+        "icon": "Swords",
+        "title": "Mina the Hollower Weapons Guide",
+        "description": "Starter and advanced weapon playstyles"
+      },
+      {
+        "icon": "Gem",
+        "title": "Mina the Hollower Sidearms and Trinkets Guide",
+        "description": "Build effects and loadout planning"
+      },
+      {
+        "icon": "Map",
+        "title": "Mina the Hollower Bosses and Areas Guide",
+        "description": "Danger zones, routes, and boss prep"
+      },
+      {
+        "icon": "Shuffle",
+        "title": "Mina the Hollower Randomizer and New Game Plus",
+        "description": "Replay modifiers, seeds, and challenge runs"
+      },
+      {
+        "icon": "ScrollText",
+        "title": "Mina the Hollower Story and Characters",
+        "description": "Setting, cast, and core narrative premise"
+      }
+    ]
+  },
+  "modules": {
+    "minaReleaseDateAndPlatforms": {
+      "title": "Mina the Hollower Release Date and Platforms",
+      "intro": "Mina the Hollower is a single-player action-adventure by Yacht Club Games with multi-platform launch coverage.",
+      "items": [
+        {
+          "topic": "Official release date",
+          "status": "May 29, 2026",
+          "details": "Official site timing is May 29, 2026, while some storefront regions show May 28 based on local unlock windows."
+        },
+        {
+          "topic": "PC availability",
+          "status": "Steam and Humble",
+          "details": "PC storefront listings position Mina the Hollower as a premium action-adventure release with broad language support."
+        },
+        {
+          "topic": "Nintendo platforms",
+          "status": "Nintendo Switch and Nintendo Switch 2",
+          "details": "Switch 2 edition notes include enhanced display and feature upgrades compared with prior-generation hardware."
+        },
+        {
+          "topic": "PlayStation availability",
+          "status": "PlayStation Store",
+          "details": "PlayStation listing confirms single-player support and remote play compatibility."
+        },
+        {
+          "topic": "Xbox availability",
+          "status": "Xbox Series X|S",
+          "details": "Xbox listing marks Mina the Hollower as optimized for modern Xbox hardware and achievement-ready."
+        },
+        {
+          "topic": "Language support",
+          "status": "Multi-language launch support",
+          "details": "Store pages highlight English plus major EU and Asian language coverage for global players."
+        }
+      ]
+    },
+    "minaReviewsAndScores": {
+      "title": "Mina the Hollower Reviews and Scores",
+      "intro": "Mina the Hollower opened with strong critic sentiment, especially around its combat pacing, level structure, and presentation.",
+      "items": [
+        {
+          "source": "Metacritic",
+          "score": "92",
+          "verdict": "Universal Acclaim",
+          "details": "Review summaries emphasize challenging encounters, rewarding exploration, and polished retro-modern direction."
+        },
+        {
+          "source": "OpenCritic",
+          "score": "92",
+          "verdict": "Mighty",
+          "details": "OpenCritic reception reflects high recommendation rates and strong overall launch reception."
+        },
+        {
+          "source": "GameSpot",
+          "score": "9/10",
+          "verdict": "Superb",
+          "details": "Coverage highlights world density, secrets, and how the game expands classic top-down action-adventure expectations."
+        },
+        {
+          "source": "Review Roundups",
+          "score": "High 9s and 10s",
+          "verdict": "Critical acclaim",
+          "details": "Roundups consistently praise combat feel, boss design, and replay hooks."
+        }
+      ]
+    },
+    "minaBeginnerGuide": {
+      "title": "Mina the Hollower Beginner Guide",
+      "intro": "New players should focus on movement timing, burrow safety, and route discipline before pursuing riskier encounters.",
+      "items": [
+        {
+          "step": 1,
+          "title": "Learn Mina the Hollower core objective",
+          "description": "Push through Tenebrous Isle while balancing combat progression, exploration, and mission momentum."
+        },
+        {
+          "step": 2,
+          "title": "Use burrowing for defense and control",
+          "description": "Burrowing is both a mobility tool and a life-saving defensive rhythm during pressure-heavy fights."
+        },
+        {
+          "step": 3,
+          "title": "Select a weapon that fits your tempo",
+          "description": "Different starting weapons dramatically change spacing, commitment windows, and recovery timing."
+        },
+        {
+          "step": 4,
+          "title": "Layer sidearms into your baseline plan",
+          "description": "Sidearms cover matchup gaps and create safer answers for awkward enemy patterns."
+        },
+        {
+          "step": 5,
+          "title": "Build trinket synergy early",
+          "description": "Trinkets combine with upgrades to shape survivability, burst damage, and mobility consistency."
+        },
+        {
+          "step": 6,
+          "title": "Clear each zone methodically",
+          "description": "Secrets, upgrades, and alternate paths reward careful area-by-area progression."
+        }
+      ]
+    },
+    "minaWeaponsGuide": {
+      "title": "Mina the Hollower Weapons Guide",
+      "intro": "Each Mina the Hollower weapon supports a distinct risk profile, from balanced spacing tools to high-commitment power options.",
+      "items": [
+        {
+          "weapon": "Nightstar",
+          "playstyle": "Balanced mid-range control",
+          "best_for": "Players who prefer stable spacing and consistent pressure windows."
+        },
+        {
+          "weapon": "Whisper & Vesper",
+          "playstyle": "Fast close-range aggression",
+          "best_for": "Players who like rapid inputs, low commitment swings, and tight dodging."
+        },
+        {
+          "weapon": "Blaststrike Maul",
+          "playstyle": "Heavy burst commitment",
+          "best_for": "Players comfortable trading speed for major impact and stagger potential."
+        },
+        {
+          "weapon": "Guardian Casket",
+          "playstyle": "Defensive counterplay",
+          "best_for": "Players who value blocking, parry timing, and controlled punish routes."
+        },
+        {
+          "weapon": "Battery Buster",
+          "playstyle": "Ranged-melee rotation",
+          "best_for": "Players who enjoy resource loops and mixed-distance combat flow."
+        }
+      ]
+    },
+    "minaSidearmsAndTrinketsGuide": {
+      "title": "Mina the Hollower Sidearms and Trinkets Guide",
+      "intro": "Use this guide to plan a practical loadout before a difficult route or boss fight by matching Sidearms, Trinkets, and Bone Up choices to your objective.",
+      "items": [
+        {
+          "name": "Volt Hatchet",
+          "role": "Key Sidearm",
+          "description": "Arcs forward with a shockwave and is excellent for crowd control and safer boss pressure."
+        },
+        {
+          "name": "Gyro Dagger",
+          "role": "Key Sidearm",
+          "description": "Returns like a boomerang for repeated hits and strong lane control against mobile enemies."
+        },
+        {
+          "name": "Movement Trinkets",
+          "role": "Passive Trinket Group",
+          "description": "Improve traversal and route comfort in bayou, water, ice, and secret-heavy exploration paths."
+        },
+        {
+          "name": "Plasma Vial Trinkets",
+          "role": "Passive Trinket Group",
+          "description": "Stabilize healing and recovery for long boss attempts where mistakes are costly."
+        },
+        {
+          "name": "Attack Bone Up",
+          "role": "Level-up Choice",
+          "description": "Prioritize faster boss kills and cleaner clears when you are confident in survival timing."
+        },
+        {
+          "name": "Defense Bone Up",
+          "role": "Level-up Choice",
+          "description": "Adds safety for first clears, unknown bosses, and dangerous map routes."
+        },
+        {
+          "name": "Boss Burst Loadout",
+          "role": "Build Direction",
+          "description": "Combine attack or Sidearm Damage upgrades with Volt Hatchet, Gyro Dagger, or Recall Disc."
+        },
+        {
+          "name": "Secret Hunter Loadout",
+          "role": "Build Direction",
+          "description": "Use movement Trinkets plus utility Sidearms to reach optional rooms and hidden pickups."
+        }
+      ]
+    },
+    "minaBossesAndAreasGuide": {
+      "title": "Mina the Hollower Bosses and Areas Guide",
+      "intro": "This spoiler-light map module explains route intent, challenge style, and boss preparation across key Tenebrous Isle regions.",
+      "items": [
+        {
+          "name": "Tenebrous Isle",
+          "type": "Main World",
+          "description": "An interconnected gothic island with secrets, shortcuts, and more than 25 bosses and mini-bosses."
+        },
+        {
+          "name": "Ossex",
+          "type": "Central Hub",
+          "description": "The central city for regrouping and route planning before committing to harder generator paths."
+        },
+        {
+          "name": "Six Spark Generator Routes",
+          "type": "Main Objective",
+          "description": "Each generator path is boss-guarded and tests pattern reading, burrow timing, and punish windows."
+        },
+        {
+          "name": "Queensbury Crypts",
+          "type": "Early Dungeon Route",
+          "description": "A combat fundamentals route that rewards stable weapon selection and careful Joule management."
+        },
+        {
+          "name": "Bayou Zone",
+          "type": "Hazard-Heavy Region",
+          "description": "Movement, burrow timing, and positioning matter as much as raw damage in swamp-heavy sections."
+        },
+        {
+          "name": "Frozen Peaks",
+          "type": "Environmental Challenge",
+          "description": "Surface control and movement planning are critical, making traversal Trinkets especially valuable."
+        }
+      ]
+    },
+    "minaRandomizerAndNewGamePlus": {
+      "title": "Mina the Hollower Randomizer and New Game Plus",
+      "intro": "Post-game replay in Mina the Hollower includes seven New Game Plus modes, seed sharing, randomizer settings, and wide modifier control.",
+      "faqs": [
+        {
+          "question": "In Mina the Hollower, what changes in New Game Plus?",
+          "answer": "Mina the Hollower includes seven New Game Plus modes with shuffled progression, mirrored world rules, and remix systems beyond simple damage scaling."
+        },
+        {
+          "question": "In Mina the Hollower, how does randomizer change the start of a run?",
+          "answer": "Randomizer can alter early weapon access by pulling opening choices from the full five-weapon pool, changing route pacing immediately."
+        },
+        {
+          "question": "In Mina the Hollower, what can be randomized?",
+          "answer": "Mina the Hollower randomizer settings can shuffle item locations and Sidearm placements, forcing adaptive exploration and boss preparation."
+        },
+        {
+          "question": "In Mina the Hollower, what are seed codes used for?",
+          "answer": "Seed codes let players share identical randomized world states for races, challenge runs, and route comparison."
+        },
+        {
+          "question": "In Mina the Hollower, what modifiers are available?",
+          "answer": "Modifiers can tune stats, difficulty, movement, and rule twists, including easier survival, harsher damage rules, and novelty challenges."
+        },
+        {
+          "question": "In Mina the Hollower, what is the warp randomizer?",
+          "answer": "A planned update for Mina the Hollower adds warp shuffling to remix doors, holes, and transition flow for stronger route variety."
+        },
+        {
+          "question": "In Mina the Hollower, who should start with New Game Plus before Randomizer?",
+          "answer": "New Game Plus is the better first replay mode for players who want familiar structure, while Randomizer suits players with stronger item and route knowledge."
+        }
+      ]
+    },
+    "minaStoryAndCharacters": {
+      "title": "Mina the Hollower Story and Characters",
+      "intro": "This story hub introduces Mina, Tenebrous Isle, and the failing Spark Generators without turning the homepage into a full plot summary.",
+      "items": [
+        {
+          "name": "Mina",
+          "type": "Protagonist and Inventor",
+          "description": "Mina returns to restore failing Spark Generators and uncover the deeper crisis spreading across Tenebrous Isle."
+        },
+        {
+          "name": "Tenebrous Isle",
+          "type": "Main Setting",
+          "description": "A gothic island of eerie towns, crypts, bayous, castles, monsters, and cursed routes."
+        },
+        {
+          "name": "Ossex",
+          "type": "Central City",
+          "description": "The island's major powered city and Mina's main hub while surrounding regions collapse into danger."
+        },
+        {
+          "name": "Baron Lionel",
+          "type": "Patron and Ruler",
+          "description": "Lionel commissioned the Spark project and brings Mina back, but the island's crisis runs deeper than repairs."
+        },
+        {
+          "name": "Spark Generators",
+          "type": "Core Story Objective",
+          "description": "Six failing generators define the main quest structure, each tied to dangerous regions and major bosses."
+        },
+        {
+          "name": "Thorne",
+          "type": "Rebel Leader",
+          "description": "A former ally tied to revolt and conflict, turning Mina's mission into a larger political and personal mystery."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked",
+    "titleHighlight": "Questions",
+    "subtitle": "Everything you need to know about Mina the Hollower",
+    "questions": [
+      {
+        "question": "In Mina the Hollower, is Mina the Hollower a singleplayer game?",
+        "answer": "Yes. Mina the Hollower is a singleplayer-only game with no multiplayer or co-op planned."
+      },
+      {
+        "question": "In Mina the Hollower, what are Sidearms and Trinkets used for?",
+        "answer": "In Mina the Hollower, Sidearms provide Joule-powered combat or utility actions, while Trinkets add passive effects that shape survivability, movement, and damage plans."
+      },
+      {
+        "question": "In Mina the Hollower, where can I play Mina the Hollower?",
+        "answer": "Mina the Hollower is available on PC and current-generation console platforms, with store support across Steam and major console storefronts."
+      },
+      {
+        "question": "In Mina the Hollower, does Mina the Hollower have New Game Plus and randomizer features?",
+        "answer": "Yes. Mina the Hollower includes New Game Plus modes, replay modifiers, and randomizer options designed for advanced reruns."
+      },
+      {
+        "question": "In Mina the Hollower, does Mina the Hollower support controllers?",
+        "answer": "Yes. Mina the Hollower supports controllers in addition to keyboard and mouse on supported platforms."
+      },
+      {
+        "question": "In Mina the Hollower, why do routes feel non-linear?",
+        "answer": "Mina the Hollower is built around interconnected regions and flexible route selection, so players can switch objectives when a path becomes too risky."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready for Mina the Hollower?",
+    "description": "Use the official channels and start with verified guides, boss routes, and trinket builds.",
+    "joinCommunity": "Join Mina Discord",
+    "joinGame": "Get Mina the Hollower on Steam"
+  },
+  "footer": {
+    "title": "Mina the Hollower Wiki",
+    "description": "Your complete fan-made guide hub for Mina the Hollower walkthroughs, bosses, weapons, trinkets, achievements, and randomizer info.",
+    "resources": "Resources",
+    "community": "Community",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Reddit Community",
+    "steamStore": "Official Website",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Mina the Hollower Wiki. Unofficial fan-made site, not affiliated with Yacht Club Games.",
+    "disclaimer": "Community guide project for Mina the Hollower players."
+  },
+  "pages": {
+    "release": {
+      "title": "Mina the Hollower Release",
+      "description": "Track the Mina the Hollower release window, launch timing, and date changes across official updates.",
+      "metaTitle": "Mina the Hollower Release Date, Launch Time, and Status",
+      "metaDescription": "Follow Mina the Hollower release-date coverage including launch timing, delays, gone-gold status, and expected release updates.",
+      "categoryLabel": "RELEASE INFO",
+      "whatIs": "What is the Release category?",
+      "whatIsDescription": "This category tracks official release timing details, including expected date windows, launch-day rollout timing, and status changes shared by the developer or store pages.",
+      "why": "Why read release updates?",
+      "whySteps": {
+        "step1Title": "Plan Your Start Time",
+        "step1Description": "Know when launch begins in your region so you can jump in on day one.",
+        "step2Title": "Track Date Changes",
+        "step2Description": "Follow delay notices and revised timelines without searching multiple sources.",
+        "step3Title": "Check Final Status",
+        "step3Description": "See whether Mina the Hollower has gone gold and what that means for launch confidence."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Release Articles"
+    },
+    "platforms": {
+      "title": "Mina the Hollower Platforms",
+      "description": "Platform coverage for Mina the Hollower on Steam, Switch, PlayStation, Xbox, and related store availability.",
+      "metaTitle": "Mina the Hollower Platforms - Steam, Switch, PlayStation, Xbox",
+      "metaDescription": "Find Mina the Hollower platform availability, storefront status, and edition details for Steam, Switch, PS5, Xbox, and eShop listings.",
+      "categoryLabel": "PLATFORM GUIDE",
+      "whatIs": "What is the Platforms category?",
+      "whatIsDescription": "This category explains where Mina the Hollower is available and how each platform version differs in storefront listing, timing, and ecosystem support.",
+      "why": "Why check platform guides?",
+      "whySteps": {
+        "step1Title": "Pick Your Platform",
+        "step1Description": "Compare current availability and choose the platform that matches your setup.",
+        "step2Title": "Check Store Listings",
+        "step2Description": "Get direct guidance on storefront pages and platform-specific release signals.",
+        "step3Title": "Avoid Purchase Confusion",
+        "step3Description": "Verify platform support before buying so your edition matches your hardware."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Platform Articles"
+    },
+    "reviews": {
+      "title": "Mina the Hollower Reviews",
+      "description": "Review roundups for Mina the Hollower, including critic scores, embargo timing, and first impressions.",
+      "metaTitle": "Mina the Hollower Reviews - Scores, Impressions, and Embargo",
+      "metaDescription": "Read Mina the Hollower review coverage with score trackers, embargo details, and critic impressions from major outlets.",
+      "categoryLabel": "REVIEW COVERAGE",
+      "whatIs": "What is the Reviews category?",
+      "whatIsDescription": "This category gathers review-related articles such as score-tracker snapshots, publication timing, and critical impressions from major gaming outlets.",
+      "why": "Why read review coverage?",
+      "whySteps": {
+        "step1Title": "See Critical Consensus",
+        "step1Description": "Understand how different outlets evaluate gameplay, pacing, and presentation.",
+        "step2Title": "Follow Embargo Timing",
+        "step2Description": "Know when full reviews are expected and how preview impressions evolve.",
+        "step3Title": "Compare Score Sources",
+        "step3Description": "Track rating differences across aggregator pages and individual outlets."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Review Articles"
+    },
+    "demo": {
+      "title": "Mina the Hollower Demo",
+      "description": "Everything about the Mina the Hollower demo, including access methods, supported platforms, and expected play length.",
+      "metaTitle": "Mina the Hollower Demo - Access, Platforms, and Walkthroughs",
+      "metaDescription": "Find Mina the Hollower demo details with download guidance, platform availability, demo length, and focused walkthrough help.",
+      "categoryLabel": "DEMO GUIDE",
+      "whatIs": "What is the Demo category?",
+      "whatIsDescription": "This category covers demo-focused information such as where to access the demo, what content it includes, and practical walkthrough help for first runs.",
+      "why": "Why use demo guides?",
+      "whySteps": {
+        "step1Title": "Access the Demo Faster",
+        "step1Description": "Use clear steps to locate the right demo listing and install quickly.",
+        "step2Title": "Prepare for Full Launch",
+        "step2Description": "Learn core controls and combat rhythm before the full release.",
+        "step3Title": "Clear Key Demo Sections",
+        "step3Description": "Follow concise walkthrough pointers to finish demo objectives efficiently."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Demo Articles"
+    },
+    "guide": {
+      "title": "Mina the Hollower Guide",
+      "description": "Practical Mina the Hollower guides for core mechanics, progression routing, and early-to-mid game decision making.",
+      "metaTitle": "Mina the Hollower Guide - Tips, Walkthroughs, and Progression",
+      "metaDescription": "Use Mina the Hollower guide articles to learn core mechanics, efficient progression routes, and practical tips for smoother runs.",
+      "categoryLabel": "GAME GUIDE",
+      "whatIs": "What is the Guide category?",
+      "whatIsDescription": "This category provides gameplay guidance for new and returning players, including basic controls, route planning, and progression strategies that reduce trial-and-error.",
+      "why": "Why read game guides?",
+      "whySteps": {
+        "step1Title": "Learn Faster",
+        "step1Description": "Get clear mechanic explanations without digging through scattered threads.",
+        "step2Title": "Route Better",
+        "step2Description": "Follow progression tips that reduce backtracking and missed upgrades.",
+        "step3Title": "Improve Consistency",
+        "step3Description": "Apply repeatable combat and exploration habits that make runs smoother."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Guide Articles"
+    },
+    "combat": {
+      "title": "Mina the Hollower Combat",
+      "description": "Combat-focused Mina the Hollower coverage for weapons, sidearms, trinkets, healing tools, and matchup-ready loadouts.",
+      "metaTitle": "Mina the Hollower Combat - Weapons, Sidearms, Trinkets, Healing",
+      "metaDescription": "Master Mina the Hollower combat with weapon choices, sidearm utility, trinket synergies, healing management, and practical loadout planning.",
+      "categoryLabel": "COMBAT SYSTEMS",
+      "whatIs": "What is the Combat category?",
+      "whatIsDescription": "This category focuses on fighting systems and loadout decisions, including weapon behavior, sidearm utility, trinket synergy, and sustain planning.",
+      "why": "Why read combat guides?",
+      "whySteps": {
+        "step1Title": "Choose Better Loadouts",
+        "step1Description": "Match weapons and sidearms to your preferred pace and risk level.",
+        "step2Title": "Optimize Healing Usage",
+        "step2Description": "Use healing resources at the right timing to stabilize longer encounters.",
+        "step3Title": "Win More Boss Attempts",
+        "step3Description": "Apply consistent combat setups that translate well into boss matchups."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Combat Articles"
+    },
+    "bosses": {
+      "title": "Mina the Hollower Bosses",
+      "description": "Boss-by-boss Mina the Hollower references covering attack patterns, phases, and reliable clear strategies.",
+      "metaTitle": "Mina the Hollower Bosses - Boss List, Patterns, and Strategies",
+      "metaDescription": "Use Mina the Hollower boss guides to review movesets, phase changes, and practical strategies for consistent clears.",
+      "categoryLabel": "BOSS GUIDES",
+      "whatIs": "What is the Bosses category?",
+      "whatIsDescription": "This category is dedicated to boss encounters, with focused breakdowns of phases, punish windows, and route-aware preparation before each fight.",
+      "why": "Why use boss guides?",
+      "whySteps": {
+        "step1Title": "Learn Attack Patterns",
+        "step1Description": "Recognize recurring move sequences and safer response options.",
+        "step2Title": "Prepare Before Fights",
+        "step2Description": "Bring loadouts and healing plans that fit each boss matchup.",
+        "step3Title": "Reduce Retry Count",
+        "step3Description": "Use structured phase notes to progress from attempts to reliable clears."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Boss Articles"
+    }
   }
 }
