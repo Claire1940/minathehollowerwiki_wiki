@@ -1,0 +1,149 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mina the Hollower Cura: Domine Táticas de Recuperação de Saúde",
+  description: "Aprenda a gerenciar eficazmente as mecânicas de cura únicas de Mina the Hollower, incluindo Frascos de Plasma, Berloques e combate estratégico para sobrevivência.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Mina+Healing+Guide",
+  date: "2026-05-28",
+  author: "Equipe Wiki de Mina the Hollower"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A **cura em Mina the Hollower** depende de um sistema único de Frascos de Plasma, que exige ações ofensivas para reabastecer.
+- A **paciência** é crucial durante o combate para identificar janelas de cura, especialmente em lutas contra chefes.
+- Utilize **Berloques** e elementos ambientais para aumentar sua capacidade de sobrevivência e eficiência de cura.
+- Não seja **ganancioso** com as curas; mesmo pequenos ganhos de saúde podem mudar o rumo da batalha.
+- O berloque **Proto Spark** oferece uma valiosa ressurreição, recarregando em pontos de controle.
+</Callout>
+
+<Section icon={Shield} title="Compreendendo o Sistema de Cura Único de Mina">
+Mina the Hollower apresenta uma mecânica de cura desafiadora, mas recompensadora, que mistura elementos de jogos clássicos como Zelda e Souls-like. Ao contrário dos sistemas tradicionais de poções de saúde, a cura de Mina exige engajamento ativo no combate para reabastecer seus Frascos de Plasma. Este sistema incentiva o jogo agressivo e o timing estratégico, tornando cada cura um risco calculado. Você começa com um número limitado de Frascos de Plasma, e dominar seu uso é fundamental para sua sobrevivência nas Ilhas Tenebrosas.
+
+**Destaques do Vídeo:**
+- Curar em Mina é complicado, exigindo acúmulo de carga atacando inimigos.
+- Os frascos de cura são lentos, tornando o timing crítico durante as lutas contra chefes.
+- Paciência é a chave para encontrar janelas seguras para curar em combate.
+- Não seja ganancioso; pequenas curas podem fazer uma grande diferença.
+- Itens e berloques específicos podem aumentar a eficácia da cura.
+
+<YouTubeEmbed videoId="Q_8J4ttOZeg" title="Guia para Iniciantes de Mina the Hollower – 11 Coisas que Eu Queria Saber Antes de Começar" />
+
+O cerne da cura em Mina the Hollower gira em torno do "Plasma". Quando você sofre dano, uma parte da sua barra de saúde fica amarela, representando o Plasma. Para converter esse Plasma de volta em saúde vermelha, você deve atacar inimigos. Cada acerto bem-sucedido que você desfere preenche a seção amarela, e uma vez que Plasma suficiente é acumulado, você pode usar um Frasco de Plasma para restaurar uma quantidade significativa de sua saúde. Este sistema de cura orientado para a ofensiva garante que, mesmo com pouca saúde, você seja compelido a pressionar o ataque, adicionando uma camada de intensidade a cada encontro.
+
+<Callout type="tip" title="Gerenciamento de Frascos de Plasma">
+Sempre fique de olho no seu medidor de Plasma. Atacar ativamente os inimigos não apenas causa dano, mas também carrega seus frascos de cura, tornando a ofensiva proativa sua melhor defesa.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Dominando a Cura em Situações de Combate">
+A cura em Mina the Hollower, especialmente durante intensas batalhas contra chefes, exige observação cuidadosa e timing preciso. Entrar em pânico e tentar curar indiscriminadamente geralmente levará a mais danos ou até mesmo à derrota. Em vez disso, concentre-se em entender os padrões de ataque inimigos e identificar janelas seguras para iniciar sua sequência de cura. Essa abordagem transforma a cura de um simples apertar de botão em uma decisão tática.
+
+<CardGrid cols={2}>
+  <Card title="Cura Ofensiva">
+    - **Ataque para gerar Plasma**: Acerte inimigos para preencher seu medidor de Plasma.
+    - **Converter Plasma**: Use um Frasco de Plasma quando o medidor estiver suficientemente carregado.
+    - **Risco vs. Recompensa**: Curar muitas vezes significa expor-se momentaneamente ao perigo.
+  </Card>
+  <Card title="Cura Estratégica">
+    - **Observe os padrões**: Espere as animações de ataque do chefe terminarem, criando aberturas.
+    - **Não seja ganancioso**: Mesmo uma cura parcial pode evitar um golpe crítico.
+    - **Vantagens ambientais**: Utilize objetos destrutíveis ou tipos específicos de inimigos para Plasma rápido.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Vulnerabilidade Durante a Cura">
+A animação de cura de Mina é lenta, deixando você exposto. Certifique-se de ter uma abertura clara ou estar a uma distância segura antes de tentar usar um Frasco de Plasma.
+</Callout>
+
+O sistema tem sido comparado à mecânica de recuperação de saúde de *Bloodborne*, onde o jogo agressivo é incentivado. Embora alguns jogadores achem isso desafiador, ele foi projetado para tornar o combate mais dinâmico. Você também pode encontrar elementos ambientais, como certas moitas de grama com flores amarelas, que podem fornecer "curas gratuitas" gerando Plasma quando atingidas, semelhante a como corações caem da grama em jogos *The Legend of Zelda*.
+
+| Método de Cura | Requisito | Benefício | Risco |
+|---|---|---|---|
+| **Frascos de Plasma (Padrão)** | Ataque inimigos para gerar Plasma | Restauração direta de saúde | Animação lenta, vulnerável |
+| **Ambiental (Grama/Flores)** | Acerte grama/flores brilhantes específicas | Geração rápida de Plasma | Pode não estar sempre disponível |
+| **Berloques (Específicos)** | Equipe Berloques que aumentam a cura | Eficiência de cura aprimorada | Ocupa o slot de Berloque |
+
+</Section>
+
+<Section icon={Sparkles} title="Aprimorando a Sobrevivência com Berloques e Upgrades">
+Além do sistema central de Frascos de Plasma, Mina the Hollower oferece várias maneiras de fortalecer sua capacidade de sobrevivência e melhorar suas habilidades de cura. Os Berloques desempenham um papel significativo, fornecendo buffs passivos e habilidades ativas que podem alterar drasticamente sua abordagem ao gerenciamento de saúde. Investir nos upgrades certos pode fazer uma diferença substancial em sua jornada pelo mundo brutal do jogo.
+
+<Steps>
+  <Step num="1" title="Adquira o Proto Spark">
+    Este berloque essencial o ressuscita com a maior parte de sua saúde ao morrer e recarrega em pontos de controle. É inestimável para lutas contra chefes e áreas desafiadoras. Complete a missão secundária do fantasma perto do final da região do cemitério para obtê-lo.
+  </Step>
+  <Step num="2" title="Experimente Berloques de Cura">
+    Procure berloques especificamente projetados para aumentar a cura ou a sobrevivência. Eles podem fornecer aumentos modestos, mas cruciais, em sua defesa ou produção de cura, potencialmente mudando o rumo em encontros difíceis.
+  </Step>
+  <Step num="3" title="Priorize Upgrades de Saúde">
+    Gaste seus Ossos coletados em upgrades permanentes de saúde no Underlab. Um upgrade de +25% de saúde no início fornecerá um benefício muito mais imediato do que pequenos aumentos de dano, permitindo que você absorva mais golpes e permaneça na luta por mais tempo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="O Poder do Proto Spark">
+O **Proto Spark** é um divisor de águas para a **cura em Mina the Hollower**. Sua habilidade de ressurreição oferece uma rede de segurança crucial, especialmente durante a progressão por regiões novas e perigosas. Faça da aquisição dele uma prioridade.
+</Callout>
+
+Aprimorar sua defesa através do Boning Up no Underlab também contribui diretamente para sua capacidade de sobrevivência geral, reduzindo a quantidade de dano que você sofre e, assim, a necessidade de cura frequente. Isso cria um caminho de progressão flexível onde os jogadores podem escolher investir em ataque, defesa ou utilidade com base em seu estilo de jogo e nos desafios que enfrentam.
+
+| Tipo de Upgrade | Efeito na Cura/Sobrevivência | Prioridade | Notas |
+|---|---|---|---|
+| **Berloque Proto Spark** | Concede uma ressurreição por ponto de controle | Alta | Essencial para lutas difíceis |
+| **Upgrades de Saúde** | Aumenta a saúde máxima | Alta | Aumento direto da sobrevivência |
+| **Upgrades de Defesa** | Reduz o dano recebido | Média | Menos dano significa menos necessidade de cura |
+| **Berloques específicos de Cura** | Aumenta a geração de Plasma ou a eficácia do Frasco | Média | Situacional, depende do berloque específico |
+
+</Section>
+
+<Section icon={Target} title="Oportunidades de Cura Estratégicas e Auxílios Ambientais">
+Saber quando e onde curar é tão importante quanto como você cura. O mundo de Mina é projetado com sutis sinais e interações ambientais que podem proporcionar vantagens inesperadas para a recuperação da saúde. Reconhecer essas oportunidades pode aliviar significativamente a pressão do combate e da exploração.
+
+<Checklist
+  id="healing-strategies"
+  title="Práticas de Cura Eficazes:"
+  items={[
+    "Identifique os preparativos de ataque inimigos para janelas de cura.",
+    "Utilize elementos ambientais (ex: grama com flores amarelas) para Plasma rápido.",
+    "Retire-se para áreas mais seguras ou quebre linhas de visão para criar oportunidades de cura.",
+    "Não hesite em usar um Frasco de Plasma mesmo para uma pequena cura se isso evitar a morte.",
+    "Sempre verifique se há Berloques que ofereçam benefícios de cura ou aumentos de sobrevivência."
+  ]}
+/>
+
+<Callout type="info" title="Explorando Padrões de Chefes">
+Em lutas contra chefes, observe as sequências completas de ataque do chefe. Muitos chefes têm pausas previsíveis ou animações de recuperação após um ataque importante, que são suas principais oportunidades para curar com segurança sem sofrer mais danos.
+</Callout>
+
+O design de mundo aberto do jogo também permite flexibilidade. Se uma área ou chefe em particular estiver se mostrando muito difícil, você sempre pode explorar outras regiões para encontrar mais Ossos para upgrades, descobrir novos Berloques ou simplesmente praticar suas habilidades de combate e evasão em ambientes menos ameaçadores. Essa adaptabilidade é fundamental para gerenciar sua saúde e progressão de forma eficaz.
+
+</Section>
+
+<Section icon={Trophy} title="Mina the Hollower Cura: Perguntas Frequentes">
+<FAQ items={[
+  {
+    question: "Como funciona a cura em Mina the Hollower?",
+    answer: "O sistema de cura de Mina usa Frascos de Plasma. Você deve atacar inimigos para gerar 'Plasma' (segmento amarelo da barra de saúde), que pode então ser convertido em saúde vermelha usando um frasco. Isso incentiva um estilo de jogo ofensivo."
+  },
+  {
+    question: "O que é o Proto Spark e por que ele é importante para a cura?",
+    answer: "O Proto Spark é um berloque que o ressuscita com a maior parte de sua saúde após morrer, e ele recarrega simplesmente atingindo um ponto de controle. É incrivelmente valioso para a sobrevivência, especialmente em encontros desafiadores com chefes."
+  },
+  {
+    question: "Posso obter curas 'gratuitas' em Mina the Hollower?",
+    answer: "Sim, certos elementos ambientais, como moitas de grama específicas com flores amarelas, podem ser atingidos para gerar Plasma, permitindo que você preencha seus Frascos de Plasma sem engajar diretamente os inimigos, semelhante a como corações caem da grama em jogos Zelda."
+  },
+  {
+    question: "Quais itens ou upgrades ajudam na cura em Mina the Hollower?",
+    answer: "Além do Proto Spark, você pode encontrar outros berloques que aumentam especificamente a eficiência de cura ou a sobrevivência geral. Investir Ossos em upgrades de saúde e defesa no Underlab também melhora diretamente sua capacidade de resistir a danos e reduz a necessidade de cura frequente."
+  }
+]} />
+</Section>

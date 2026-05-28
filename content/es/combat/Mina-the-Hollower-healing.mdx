@@ -1,0 +1,149 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mina the Hollower Curación: Domina las Tácticas de Recuperación de Salud",
+  description: "Aprende a gestionar eficazmente las mecánicas de curación únicas de Mina the Hollower, incluyendo los Viales de Plasma, los Amuletos y el combate estratégico para la supervivencia.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Mina+Healing+Guide",
+  date: "2026-05-28",
+  author: "Equipo Wiki de Mina the Hollower"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La **curación de Mina the Hollower** se basa en un sistema único de Viales de Plasma, que requiere acciones ofensivas para reponerse.
+- La **paciencia** es crucial durante el combate para identificar ventanas de curación, especialmente en las peleas contra jefes.
+- Utiliza **Amuletos** y elementos ambientales para aumentar tu supervivencia y eficiencia de curación.
+- No seas **codicioso** con las curaciones; incluso pequeñas ganancias de salud pueden cambiar el rumbo de la batalla.
+- El amuleto **Proto Chispa** ofrece una valiosa resurrección, recargándose en los puntos de control.
+</Callout>
+
+<Section icon={Shield} title="Comprendiendo el Sistema de Curación Único de Mina">
+Mina the Hollower presenta una mecánica de curación desafiante pero gratificante que combina elementos de los juegos clásicos de Zelda y Souls-like. A diferencia de los sistemas tradicionales de pociones de salud, la curación de Mina requiere un compromiso activo en el combate para reponer tus Viales de Plasma. Este sistema fomenta el juego agresivo y la sincronización estratégica, haciendo de cada curación un riesgo calculado. Comienzas con un número limitado de Viales de Plasma, y dominar su uso es fundamental para tu supervivencia en las Islas Tenebrosas.
+
+**Puntos Destacados del Video:**
+- Curarse en Mina es complicado, requiere acumular carga atacando a los enemigos.
+- Los frascos de curación son lentos, lo que hace que el tiempo sea crítico durante las peleas contra jefes.
+- La paciencia es clave para encontrar ventanas seguras para curarse en combate.
+- No seas codicioso; pequeñas curaciones pueden marcar una gran diferencia.
+- Elementos y amuletos específicos pueden aumentar la efectividad de la curación.
+
+<YouTubeEmbed videoId="Q_8J4ttOZeg" title="Guía para Principiantes de Mina the Hollower – 11 Cosas que Desearía Haber Sabido Antes de Empezar" />
+
+El núcleo de la curación de Mina the Hollower gira en torno al "Plasma". Cuando recibes daño, una porción de tu barra de salud se vuelve amarilla, representando el Plasma. Para convertir este Plasma de nuevo en salud roja, debes atacar a los enemigos. Cada golpe exitoso que asestes llena la sección amarilla, y una vez que se acumula suficiente Plasma, puedes usar un Vial de Plasma para restaurar una parte significativa de tu salud. Este sistema de curación orientado a la ofensiva asegura que, incluso cuando tienes poca salud, te veas obligado a presionar el ataque, añadiendo una capa de intensidad a cada encuentro.
+
+<Callout type="tip" title="Gestión de Viales de Plasma">
+Mantén siempre un ojo en tu medidor de Plasma. Atacar activamente a los enemigos no solo inflige daño, sino que también carga tus viales de curación, haciendo de la ofensiva proactiva tu mejor defensa.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Dominando la Curación en Situaciones de Combate">
+La curación en Mina the Hollower, especialmente durante intensas batallas contra jefes, exige una observación cuidadosa y una sincronización precisa. Entrar en pánico e intentar curarse indiscriminadamente a menudo provocará más daño o incluso la derrota. En su lugar, concéntrate en comprender los patrones de ataque del enemigo e identificar ventanas seguras para iniciar tu secuencia de curación. Este enfoque transforma la curación de una simple pulsación de botón en una decisión táctica.
+
+<CardGrid cols={2}>
+  <Card title="Curación Ofensiva">
+    - **Ataca para generar Plasma**: Asesta golpes a los enemigos para llenar tu medidor de Plasma.
+    - **Convierte Plasma**: Usa un Vial de Plasma cuando el medidor esté suficientemente cargado.
+    - **Riesgo vs. Recompensa**: Curarse a menudo significa exponerte momentáneamente al peligro.
+  </Card>
+  <Card title="Curación Estratégica">
+    - **Observa patrones**: Espera a que terminen las animaciones de ataque del jefe, creando aperturas.
+    - **No seas codicioso**: Incluso una curación parcial puede evitar un golpe crítico.
+    - **Ventajas ambientales**: Utiliza objetos destructibles o tipos de enemigos específicos para obtener Plasma rápido.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Vulnerabilidad al Curarse">
+La animación de curación de Mina es lenta, dejándote expuesto. Asegúrate de tener una apertura clara o estar a una distancia segura antes de intentar usar un Vial de Plasma.
+</Callout>
+
+El sistema ha sido comparado con la mecánica de recuperación de salud de *Bloodborne*, donde se incentiva el juego agresivo. Aunque algunos jugadores lo encuentran desafiante, está diseñado para hacer el combate más dinámico. También puedes encontrar elementos ambientales, como parches específicos de hierba con flores amarillas, que pueden proporcionar "curaciones gratuitas" al generar Plasma cuando se golpean, de forma similar a cómo caen corazones de la hierba en los juegos de *The Legend of Zelda*.
+
+| Método de Curación | Requisito | Beneficio | Riesgo |
+|---|---|---|---|
+| **Viales de Plasma (Predeterminado)** | Atacar enemigos para generar Plasma | Restauración directa de salud | Animación lenta, vulnerable |
+| **Ambiental (Hierba/Flores)** | Golpear hierba/flores luminosas específicas | Generación rápida de Plasma | Puede que no siempre esté disponible |
+| **Amuletos (Específicos)** | Equipa Amuletos que potencian la curación | Eficiencia de curación mejorada | Ocupa ranura de Amuleto |
+
+</Section>
+
+<Section icon={Sparkles} title="Mejorando la Supervivencia con Amuletos y Mejoras">
+Más allá del sistema central de Viales de Plasma, Mina the Hollower ofrece varias formas de reforzar tu supervivencia y mejorar tus capacidades de curación. Los amuletos juegan un papel importante, proporcionando mejoras pasivas y habilidades activas que pueden alterar drásticamente tu enfoque en la gestión de la salud. Invertir en las mejoras adecuadas puede marcar una diferencia sustancial en tu viaje a través del brutal mundo del juego.
+
+<Steps>
+  <Step num="1" title="Adquiere la Proto Chispa">
+    Este amuleto esencial te resucita con la mayor parte de tu salud al morir y se recarga en los puntos de control. Es invaluable para las peleas contra jefes y áreas desafiantes. Completa la misión secundaria del tipo fantasma cerca del final de la región del cementerio para obtenerlo.
+  </Step>
+  <Step num="2" title="Experimenta con Amuletos de Curación">
+    Busca amuletos diseñados específicamente para aumentar la curación o la supervivencia. Estos pueden proporcionar aumentos modestos pero cruciales a tu defensa o producción de curación, lo que podría cambiar el rumbo en encuentros difíciles.
+  </Step>
+  <Step num="3" title="Prioriza las Mejoras de Salud">
+    Gasta tus Huesos recolectados en mejoras permanentes de salud en el Infralaboratorio. Una mejora de salud del +25% al principio proporcionará un beneficio inmediato mucho mayor que los aumentos menores de daño, lo que te permitirá absorber más golpes y permanecer en la lucha por más tiempo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="El Poder de la Proto Chispa">
+La **Proto Chispa** es un cambio de juego para la **curación de Mina the Hollower**. Su habilidad de resurrección ofrece una red de seguridad crucial, especialmente durante la progresión a través de regiones nuevas y peligrosas. Haz de su adquisición una prioridad.
+</Callout>
+
+Mejorar tu defensa a través de "Boning Up" en el Infralaboratorio también contribuye directamente a tu supervivencia general, reduciendo la cantidad de daño que recibes y, por lo tanto, la necesidad de curación frecuente. Esto crea un camino de progresión flexible donde los jugadores pueden elegir invertir en ofensiva, defensa o utilidad según su estilo de juego y los desafíos que enfrentan.
+
+| Tipo de Mejora | Efecto en Curación/Supervivencia | Prioridad | Notas |
+|---|---|---|---|
+| **Amuleto Proto Chispa** | Otorga una resurrección por punto de control | Alta | Esencial para peleas difíciles |
+| **Mejoras de Salud** | Aumenta la salud máxima | Alta | Aumento directo de supervivencia |
+| **Mejoras de Defensa** | Reduce el daño recibido | Media | Menos daño significa menos curación necesaria |
+| **Amuletos específicos de curación** | Aumenta la generación de Plasma o la efectividad del Vial | Media | Situacional, depende del amuleto específico |
+
+</Section>
+
+<Section icon={Target} title="Oportunidades Estratégicas de Curación y Ayudas Ambientales">
+Saber cuándo y dónde curarse es tan importante como cómo te curas. El mundo de Mina está diseñado con sutiles señales e interacciones ambientales que pueden proporcionar ventajas inesperadas para la recuperación de la salud. Reconocer estas oportunidades puede aliviar significativamente la presión del combate y la exploración.
+
+<Checklist
+  id="healing-strategies"
+  title="Prácticas de Curación Efectivas:"
+  items={[
+    "Identifica los preparativos de ataque del enemigo para encontrar ventanas de curación.",
+    "Utiliza elementos ambientales (por ejemplo, hierba con flores amarillas) para obtener Plasma rápido.",
+    "Retírate a zonas más seguras o rompe las líneas de visión para crear oportunidades de curación.",
+    "No dudes en usar un Vial de Plasma incluso para una pequeña curación si evita la muerte.",
+    "Busca siempre Amuletos que ofrezcan beneficios de curación o mejoras de supervivencia."
+  ]}
+/>
+
+<Callout type="info" title="Explotando Patrones de Jefe">
+En las peleas contra jefes, observa las secuencias de ataque completas del jefe. Muchos jefes tienen pausas o animaciones de recuperación predecibles después de un ataque importante, que son tus principales oportunidades para curarte de forma segura sin recibir más daño.
+</Callout>
+
+El diseño de mundo abierto del juego también permite flexibilidad. Si un área o jefe en particular resulta demasiado difícil, siempre puedes explorar otras regiones para encontrar más Huesos para mejoras, descubrir nuevos Amuletos o simplemente practicar tus habilidades de combate y evasión en entornos menos amenazantes. Esta adaptabilidad es clave para gestionar tu salud y progresión de manera efectiva.
+
+</Section>
+
+<Section icon={Trophy} title="Mina the Hollower Curación: Preguntas Frecuentes">
+<FAQ items={[
+  {
+    question: "¿Cómo funciona la curación en Mina the Hollower?",
+    answer: "El sistema de curación de Mina utiliza Viales de Plasma. Debes atacar a los enemigos para generar 'Plasma' (segmento amarillo de la barra de salud), que luego puede convertirse en salud roja usando un vial. Esto fomenta un estilo de juego ofensivo."
+  },
+  {
+    question: "¿Qué es la Proto Chispa y por qué es importante para la curación?",
+    answer: "La Proto Chispa es un amuleto que te resucita con la mayor parte de tu salud después de morir, y se recarga simplemente al llegar a un punto de control. Es increíblemente valioso para la supervivencia, especialmente en encuentros desafiantes contra jefes."
+  },
+  {
+    question: "¿Puedo obtener curaciones 'gratuitas' en Mina the Hollower?",
+    answer: "Sí, ciertos elementos ambientales, como parches específicos de hierba con flores amarillas, pueden ser golpeados para generar Plasma, lo que te permite llenar tus Viales de Plasma sin enfrentarte directamente a los enemigos, de forma similar a cómo caen corazones de la hierba en los juegos de Zelda."
+  },
+  {
+    question: "¿Qué objetos o mejoras ayudan con la curación en Mina the Hollower?",
+    answer: "Además de la Proto Chispa, puedes encontrar otros amuletos que aumentan específicamente la eficiencia de curación o la supervivencia general. Invertir Huesos en mejoras de salud y defensa en el Infralaboratorio también mejora directamente tu capacidad para resistir el daño y reduce la necesidad de curación frecuente."
+  }
+]} />
+</Section>

@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia para Iniciantes de Mina the Hollower: Dicas e Truques de Sucesso para 2026",
+  description: "Domine a Ilha Tenebrosa com nosso guia para iniciantes de Mina the Hollower. Aprenda mecânicas de combate, escolhas de armas e segredos de exploração para o lançamento de 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e1e2e/fff?text=Mina+the+Hollower+Beginner+Guide",
+  date: "2026-05-28",
+  author: "Equipe Wiki de Mina the Hollower"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Guia para iniciantes de Mina the Hollower**: Priorize a **exploração** e a **paciência** em vez de apertar botões agressivamente para sobreviver ao brutal mundo gótico.
+- **Mecânica Central**: Use a **Escavação** como sua principal ferramenta defensiva para evitar danos e navegar por corredores apertados.
+- **Item Essencial**: Procure o trinket **Proto Spark** logo cedo para obter uma ressurreição gratuita após a morte.
+- **Gerenciamento de Moedas**: Gaste seus **Ossos** frequentemente nas lojas; acumular leva a grandes perdas após mortes repetidas.
+- **Versatilidade de Armas**: As melhorias de dano são **universais**, então sinta-se à vontade para trocar de armas para encontrar seu ritmo preferido.
+</Callout>
+
+<Section icon={Map} title="Começando na Ilha Tenebrosa">
+
+Bem-vindo à Ilha Tenebrosa. Ao embarcar em sua jornada no lançamento de 29 de maio de 2026 da mais recente obra-prima da Yacht Club Games, você descobrirá que, por trás de sua charmosa estética Game Boy Color, há uma curva de dificuldade punitiva. Este **guia para iniciantes de Mina the Hollower** foi projetado para ajudá-lo a navegar pelas horas iniciais, desde a seleção de sua primeira arma até a compreensão do ciclo de alto risco de morte e recuperação.
+
+**Destaques do Vídeo:**
+- **Explore Todos os Lugares**: Segredos estão escondidos atrás de paredes suspeitas e cantos remotos.
+- **Ritmo de Combate**: Inimigos têm padrões previsíveis; observe antes de atacar.
+- **Proto Spark**: O trinket mais importante para iniciantes.
+- **Recuperação Após a Morte**: Você pode frequentemente correr de volta para seus ossos perdidos em menos de um minuto.
+
+<YouTubeEmbed videoId="Q_8J4ttOZeg" title="Guia para Iniciantes de Mina the Hollower – 11 Coisas que Eu Queria Saber Antes de Começar" />
+
+Antes de mergulhar, certifique-se de que suas configurações estejam otimizadas. No PC, o jogo exige especificações modestas (4 GB de RAM), mas um controle é altamente recomendado para os movimentos precisos necessários para escavar e desviar. Seu principal objetivo é restaurar os **6 Geradores de Faísca** espalhados pela ilha, uma tarefa que exigirá o domínio de seu kit de ferramentas.
+
+<Callout type="tip" title="Escolha da Plataforma">
+Seja jogando no Nintendo Switch, PS5 ou PC, priorize a plataforma onde você se sente mais confortável com reações rápidas. Uma escavação perfeita no tempo de um frame é frequentemente a diferença entre a vida e a morte.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Dominando o Combate e Armamento">
+
+O combate em Mina the Hollower é deliberado. Ao contrário de títulos de ação mais rápidos, você não pode simplesmente trocar golpes com inimigos e esperar vencer. Cada encontro é um quebra-cabeça de posicionamento. Você tem acesso a cinco armas primárias, três das quais estão disponíveis no início.
+
+<CardGrid cols={3}>
+  <Card title="Nightstar (Chicote)">
+    - **Estilo**: Alcance e Controle
+    - **Prós**: Distância mais segura para iniciantes
+    - **Contras**: Menor dano explosivo
+  </Card>
+  <Card title="BlastStrike Maul">
+    - **Estilo**: Golpes Pesados
+    - **Prós**: Alto dano, quebra guardas
+    - **Contras**: Carregamento lento o deixa vulnerável
+  </Card>
+  <Card title="Whisper & Vesper">
+    - **Estilo**: Adagas Rápidas
+    - **Prós**: DPS extremamente alto
+    - **Contras**: Requer proximidade perigosa
+  </Card>
+</CardGrid>
+
+As melhorias de dano neste jogo são universais. Se você investir recursos para aumentar seu poder de ataque, esse impulso se aplica a todas as armas que você encontrar ou comprar do ferreiro. Isso incentiva a experimentação sem puni-lo por mudar seu estilo de jogo mais tarde.
+
+| Tipo de Arma | Cenário Ideal | Classificação para Iniciantes |
+| :--- | :--- | :--- |
+| **Nightstar** | Manter distância de mobs voadores | ★★★★★ |
+| **BlastStrike Maul** | Punir elites lentos e blindados | ★★★☆☆ |
+| **Whisper & Vesper** | Chefes com grandes hitboxes | ★★☆☆☆ |
+| **Sidearms** | Resolver perigos específicos da sala | ★★★★☆ |
+
+<Callout type="warning" title="Mecânicas de Cura">
+A cura não é instantânea. Você deve atacar inimigos para construir uma "carga" antes de poder usar um frasco. A animação de cura é lenta, então cure apenas quando um chefe estiver exausto ou entre encontros de combate.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="O Poder da Escavação e Armas Secundárias">
+
+A escavação é o coração da mobilidade de Mina. Ao pressionar o botão de escavação, Mina mergulha no subsolo, tornando-se invulnerável à maioria dos ataques de superfície. Esta é sua esquiva principal. Muitos jogadores novos lutam porque tratam a escavação apenas como uma forma de atravessar lacunas, mas na verdade é sua melhor camada defensiva.
+
+**Como Usar a Escavação de Forma Eficaz:**
+1.  **Antecipe os Ataques**: Quando um inimigo começar a sinalizar um ataque, mergulhe imediatamente.
+2.  **Rastreamento de Sombra**: Enquanto no subsolo, sua sombra indica sua verdadeira posição. Use-a para alinhar um ataque de "surgimento".
+3.  **Exploração de Atalhos**: Procure cercas ou paredes com pequenas rachaduras; escavar por baixo é frequentemente o caminho pretendido.
+
+<Callout type="info" title="Armas Secundárias e Joules">
+Armas secundárias (como o Machado Volt ou a Adaga Gyro) consomem **Joules**. Estes são poderosos, mas limitados. Ao contrário de sua arma principal, as armas secundárias são **perdidas após a morte**. Não as guarde para "depois" — use-as para eliminar inimigos de elite difíceis que guardam itens.
+</Callout>
+
+| Recurso | Como Obter | Uso |
+| :--- | :--- | :--- |
+| **Ossos** | Derrotar inimigos, quebrar jarros | Subir de nível e comprar itens |
+| **Joules** | Quebrar objetos, Jarros de Joule | Alimentar Armas Secundárias |
+| **Faíscas** | Pontos de controle, grandes marcos | Tentativas de recuperação após a morte |
+| **Trinkets** | Exploração, missões secundárias | Buffs passivos e revives |
+
+</Section>
+
+<Section icon={Shield} title="Morte, Ossos e o Proto Spark">
+
+Assim como outras experiências soulslike, morrer em Mina the Hollower resulta na queda de seu estoque atual de **Ossos**. Você tem um número limitado de chances (determinado por suas Faíscas) para recuperá-los. Se você morrer novamente antes de chegar ao seu local de morte, esses ossos viram pó.
+
+No entanto, o jogo é mais perdoador do que parece. A maioria das regiões é densamente compactada e, uma vez que você conhece a rota, pode correr de volta para o local de sua morte em menos de um minuto, ignorando inimigos e usando transições de tela para redefinir o aggro.
+
+<Steps>
+  <Step num="1" title="A Missão do Cemitério">
+    Perto do final da região do Cemitério, localize o NPC "Ghost Dude".
+  </Step>
+  <Step num="2" title="A Missão de Escolta">
+    Proteja-o enquanto viaja para uma sala trancada localizada imediatamente após a luta contra o chefe.
+  </Step>
+  <Step num="3" title="Reivindique o Proto Spark">
+    Dentro da sala, você receberá o **Proto Spark**, o trinket mais essencial para qualquer iniciante.
+  </Step>
+  <Step num="4" title="Equipar para Sobrevivência">
+    Este trinket o ressuscita com saúde parcial uma vez por ponto de controle. É um divisor de águas para encontros com chefes.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Estratégia de Gastos">
+Não seja um acumulador. Gaste seus ossos em melhorias permanentes de saúde (+25% de saúde) ou chaves assim que chegar a uma loja. Um pequeno aumento de dano é menos valioso do que sobreviver a um golpe extra de um chefe.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progressão e Prioridades da Loja">
+
+A Ilha Tenebrosa é um mundo semiaberto. Se você se encontrar "batendo a cabeça contra uma parede de tijolos", muitas vezes é melhor fazer um "avanço corajoso para trás". Explore uma região diferente, encontre novos trinkets e retorne quando estiver mais bem equipado.
+
+| Item da Loja | Prioridade | Razão |
+| :--- | :--- | :--- |
+| **Melhorias de Saúde** | **Alta** | Aumenta a margem de erro no combate. |
+| **Chaves** | **Alta** | Desbloqueia atalhos e baús de saque de alto valor. |
+| **Novas Armas** | **Média** | Útil para encontrar um estilo que se adapte às suas mãos. |
+| **Dano +1** | **Baixa** | Caro e menos impactante do que a capacidade de sobrevivência no início. |
+
+Ao subir de nível em uma estação "Bone Up", concentre-se em suas fraquezas. Se você descobrir que as lutas contra chefes estão demorando muito, invista em Ataque. Se você está morrendo em três golpes, priorize a Defesa. A flexibilidade do sistema de trinkets (com mais de 60 para encontrar) permite que você mude sua construção sem reiniciar seu save.
+
+<Callout type="tip" title="Caça a Segredos">
+Se uma sala não tiver uma saída óbvia ou um item parecer inatingível, tente escavar nas paredes. Os desenvolvedores esconderam seções inteiras de níveis atrás de paredes "ocas" que apenas um verdadeiro Hollower pode encontrar.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificação para Iniciantes e Perguntas Frequentes">
+
+Para garantir um bom começo em seu primeiro dia, siga esta lista de verificação de objetivos. Esses marcos estabelecerão a base para seu eventual domínio dos Geradores de Faísca.
+
+<Checklist
+  id="mina-beginner-goals"
+  title="Objetivos das Primeiras Horas:"
+  items={[
+    "Obtenha a Nightstar ou BlastStrike Maul do ferreiro",
+    "Chegue à primeira loja na cidade principal e compre uma Melhoria de Saúde",
+    "Complete a missão de escolta do Ghost Dude para o Proto Spark",
+    "Pratique a 'Escavação-Esquiva' até que se torne memória muscular",
+    "Restaure o primeiro Gerador de Faísca na região inicial"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Qual arma é melhor para um estilo de jogo de guia para iniciantes?",
+    answer: "A Nightstar (Chicote) é a mais recomendada. Seu longo alcance permite observar os padrões inimigos a uma distância segura, o que é crucial para aprender o ritmo de combate brutal do jogo."
+  },
+  {
+    question: "Eu perco minhas armas quando morro?",
+    answer: "Não, as armas primárias são permanentes. No entanto, você perde suas Armas Secundárias e Ossos atuais se não conseguir recuperá-los após a morte. Os Joules também são redefinidos."
+  },
+  {
+    question: "O que devo fazer se um chefe parecer impossível?",
+    answer: "Explore outras regiões. Mina the Hollower é semiaberto, o que significa que você pode frequentemente encontrar melhores trinkets ou melhorias de saúde em outros lugares antes de retornar a uma luta difícil."
+  },
+  {
+    question: "A escavação é apenas para atravessar buracos?",
+    answer: "Absolutamente não. A escavação fornece frames de invulnerabilidade. Use-a para mergulhar sob projéteis inimigos, monstros atacantes e até mesmo alguns ataques de chefes."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mina the Hollower Tips: Pro Combat & Exploration Guide",
+  description: "Master the hollowing mechanic, optimize your bone-up leveling, and defeat early bosses with our essential Mina the Hollower tips for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a2e/ffffff?text=Mina+the+Hollower+Tips",
+  date: "2026-05-28",
+  author: "Mina the Hollower Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Mina the Hollower tips** focus heavily on mastering the **Hollowing** (burrowing) mechanic for both navigation and combat invulnerability.
+- Use the **Bone-up system** to strategically level up stats; Bones serve as both experience points and currency for trinkets.
+- Combat follows a **Bloodborne-inspired** rhythm where hitting enemies allows you to recover health, rewarding aggressive playstyles.
+- Sub-weapons like the **Axe** and **Dagger** have unique interactions, such as the Dagger's boomerang effect when struck by your whip.
+- Exploration requires being observant of **Gothic Horror** environment cues, as many paths are hidden beneath the surface.
+</Callout>
+
+<Section icon={Map} title="Mastering Hollowing and Movement Mechanics">
+
+The core of your adventure on Tenebrous Isle revolves around **Mina the Hollower tips** regarding her signature move: hollowing. Unlike traditional top-down adventure games where jumping or crossing gaps requires specific items, Mina can burrow into the ground at will. This "hollowing" serves as your primary tool for speed, evasion, and puzzle-solving. When you burrow, you move significantly faster than your standard walking pace, but you must be mindful of the timing required to enter and exit the ground.
+
+**Video Highlights:**
+- Detailed breakdown of the three starter weapons: Night Star, Malice, and Whisper/Vesper.
+- Step-by-step walkthrough for defeating the first major boss by using environmental cover.
+- Combat strategies for the Thorne boss fight, emphasizing landing windows.
+- Explanation of the health recovery system through aggressive melee attacks.
+
+<YouTubeEmbed videoId="QFdKuXDJksE" title="Mina the Hollower - How to beat the first two boss battles EASILY" />
+
+Hollowing provides a brief window of invulnerability, allowing you to dive under enemy projectiles or charging attacks. However, the animation for emerging from the ground leaves you momentarily vulnerable. This creates a high-stakes "micro-decision" loop where you must decide if the speed boost is worth the risk of being caught upon resurfacing.
+
+| Mechanic | Primary Use | Strategic Benefit |
+| :--- | :--- | :--- |
+| Walking | Precision movement | Avoids animation lock, allows for careful spacing |
+| Hollowing | Speed & Gaps | Essential for crossing pits and dodging charges |
+| Emerging | Attack Setup | Can be used to pop up behind shielded enemies |
+| Bone Collection | Progression | Used for leveling stats and buying key trinkets |
+
+<Callout type="tip" title="Burrowing Strategy">
+If you encounter a blockade or a guard that refuses to move, your first instinct should always be to hollow. Many early-game "soft locks" reported by players are actually simple burrowing puzzles. Look for soft earth or crevices that indicate a path beneath the obstacle.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Weapon Selection and Combat Optimization">
+
+Choosing your starting weapon is the most significant choice you will make in the early game. Each weapon in Mina the Hollower is designed with a specific risk-reward profile. While the Night Star mace offers a classic Castlevania-style whip feel with excellent reach, other weapons like the Malice hammer trade speed for devastating impact.
+
+<CardGrid cols={3}>
+  <Card title="Night Star">
+    - **Flexible Range**: Great for keeping distance.
+    - **Moderate Damage**: Consistent but requires more hits.
+    - **Beginner Choice**: Safest option for learning patterns.
+  </Card>
+  <Card title="Malice">
+    - **Heavy Hitting**: Can stagger smaller enemies easily.
+    - **Slow Recovery**: Leaves you open to counter-attacks.
+    - **High Risk**: Best for players who master boss timing.
+  </Card>
+  <Card title="Whisper & Vesper">
+    - **Balanced Stats**: Good mix of speed and power.
+    - **Twin Daggers**: Allows for rapid-fire strikes.
+    - **Surgical Play**: Requires close proximity to enemies.
+  </Card>
+</CardGrid>
+
+Beyond your primary weapon, the sidearm system adds a layer of tactical depth. These sub-weapons are dropped by destructible objects and can be swapped on the fly. Each sub-weapon has a "hidden" interaction that can be triggered by your primary attacks.
+
+| Sub-Weapon | Primary Effect | Advanced Interaction |
+| :--- | :--- | :--- |
+| Flowing Axe | Area of effect damage | Hits multiple targets in a circular arc |
+| Boomerang Dagger | Linear projectile | Bounce it back with your whip for extra hits |
+| Spark Generator | Electric discharge | Useful for activating environmental puzzles |
+| Bone Shard | Short-range toss | Low cost, high frequency distraction tool |
+
+<Callout type="warning" title="Sidearm Retention">
+Be aware that sidearms are lost upon death. Unlike your primary weapon and bones (which can be recovered), sidearms must be found again in the world. Save your powerful axes for boss encounters rather than wasting them on common mobs.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="The Bone-Up Progression System">
+
+Progression in Mina the Hollower utilizes the "Bone-up" system, a unique blend of traditional RPG leveling and currency management. As you defeat enemies and hollow through the earth, you collect bones. These act as your experience points. Once you reach a certain threshold, you can level up one of your core attributes.
+
+<Steps>
+  <Step num="1" title="Bones Accumulation">
+    Defeat enemies and dig in soft spots to gather bones. Digging is often more lucrative than combat in the early regions.
+  </Step>
+  <Step num="2" title="Stat Selection">
+    Choose between Attack, Defense, or Agility. Attack increases raw damage, while Defense reduces the "bone loss" penalty upon death.
+  </Step>
+  <Step num="3" title="Trinket Investment">
+    Save a portion of your bones to purchase trinkets from NPCs. These provide passive buffs like longer burrow time or increased health recovery.
+  </Step>
+  <Step num="4" title="Death Recovery">
+    If you fall in battle, you leave behind a pile of bones. You must return to that spot to reclaim your progress, similar to Souls-like mechanics.
+  </Step>
+</Steps>
+
+| Stat Category | Benefit | Recommended Build |
+| :--- | :--- | :--- |
+| Attack Power | Higher damage per swing | The "Glass Cannon" (Focus on Attack/Agility) |
+| Defense | Reduced damage taken | The "Tank" (Focus on Defense/Health) |
+| Agility | Faster hollowing and recovery | The "Speedster" (Focus on Agility/Trinkets) |
+
+<Callout type="success" title="Health Management">
+Remember that hitting enemies refills your health vial. If you are low on health, don't just run away; find a slower enemy and land a few hits to regain your sustain. This is the most critical of all **Mina the Hollower tips** for surviving long dungeons.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Early Boss Strategies: Mole and Thorne">
+
+The first two boss encounters serve as skill checks for your understanding of hollowing and spacing. The first boss, a massive subterranean creature, requires you to use the environment to your advantage. Hide behind the indestructible rock formations when the boss prepares its charging attack. Wait for the recovery window after it hits a wall to unleash your sub-weapon.
+
+For the second boss, Thorne, the difficulty spikes significantly. Thorne is a rival warrior who uses high-mobility spear attacks and fire tornadoes. The key here is patience.
+
+| Boss Phase | Thorne's Attack | Counter Maneuver |
+| :--- | :--- | :--- |
+| Aerial Jump | Slams down from above | Wait for shadow, hollow away, then strike twice |
+| Fire Tornado | Encirclement | Stay in the center or burrow under the flames |
+| Spear Thrust | Long-range poke | Side-step and use a sub-weapon like the Axe |
+| Desperation | Rapid fire waves | Focus on hollowing for invulnerability frames |
+
+<Callout type="tip" title="Thorne Combat Window">
+Thorne is only vulnerable for about 2 seconds after he lands from a jump. Do not get greedy. Land two hits with your whip or mace and immediately hollow away to avoid his counter-swing.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival Checklist and Exploration">
+
+Tenebrous Isle is inspired by Victorian Gothic horror, meaning the atmosphere is as dangerous as the enemies. The level design often subverts expectations, placing valuable trinkets in areas that seem like dead ends. Use your map frequently and look for inconsistencies in the floor textures that might indicate a hidden burrow path.
+
+<Checklist
+  id="exploration-goals"
+  title="Tenebrous Isle Checklist:"
+  items={[
+    "Locate the first three Spark Generators to restore city power",
+    "Find the hidden spider trinket for wall-climbing puzzles",
+    "Collect at least 500 bones before attempting the Thorne fight",
+    "Unlock the shortcut between the Courtyard and the starting Cave",
+    "Master the boomerang dagger return-hit for double damage"
+  ]}
+/>
+
+| Exploration Tip | Detail |
+| :--- | :--- |
+| Light Sources | Candles often hide sub-weapons; break them all |
+| Soft Earth | Indicates a burrowing path or hidden bones |
+| NPC Dialogue | Talk to everyone; some provide hints for boss weaknesses |
+| Save Points | Burrow into save points to activate them and restore health |
+
+<Callout type="info" title="Final Advice">
+Don't be afraid to experiment with your build. The "Glass Cannon" approach (putting all bones into Attack) makes Mina incredibly powerful but very fragile. If you find yourself dying frequently, pivot your next few levels into Defense and look for the "Uranium Ring" or similar protective trinkets.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "What is the best way to use Mina the Hollower tips for combat?",
+    answer: "The best strategy is to balance aggressive melee hits for health recovery with hollowing for invulnerability. Use the Night Star for safe distance and always keep a sub-weapon like the Axe ready for area damage."
+  },
+  {
+    question: "How do I reclaim lost bones after dying?",
+    answer: "When you die, your bones are left at the site of your defeat. You must travel back to that exact location and pick them up. If you die again before retrieving them, those bones are lost forever."
+  },
+  {
+    question: "Can I change my primary weapon later in the game?",
+    answer: "Yes, while you choose a starter weapon, you can find and unlock other weapons throughout Tenebrous Isle. Each weapon can be upgraded independently using bones."
+  },
+  {
+    question: "Why does hollowing feel slow sometimes?",
+    answer: "Hollowing has an entry and exit animation. To optimize speed, ensure you are burrowing on soft ground and avoid emerging directly in front of an enemy's active hitboxes."
+  }
+]} />
+
+</Section>

@@ -10,7 +10,15 @@
       "twitterDescription": "Track Mina the Hollower launch info, reviews, beginner tips, weapons, bosses, randomizer options, and story highlights."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "platforms": "Platforms",
+    "reviews": "Reviews",
+    "demo": "Demo",
+    "guide": "Guide",
+    "combat": "Combat",
+    "bosses": "Bosses"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -444,125 +452,145 @@
     "disclaimer": "Community guide project for Mina the Hollower players."
   },
   "pages": {
-    "guides": {
-      "title": "Mina the Hollower Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced combat, exploration, and build strategies.",
-      "metaTitle": "Mina the Hollower Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Mina the Hollower guides covering beginner tips, combat systems, survival routes, and expert tactics for mastering Tenebrous Isle.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and weapon or Sidearm planning. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "release": {
+      "title": "Mina the Hollower Release",
+      "description": "Track the Mina the Hollower release window, launch timing, and date changes across official updates.",
+      "metaTitle": "Mina the Hollower Release Date, Launch Time, and Status",
+      "metaDescription": "Follow Mina the Hollower release-date coverage including launch timing, delays, gone-gold status, and expected release updates.",
+      "categoryLabel": "RELEASE INFO",
+      "whatIs": "What is the Release category?",
+      "whatIsDescription": "This category tracks official release timing details, including expected date windows, launch-day rollout timing, and status changes shared by the developer or store pages.",
+      "why": "Why read release updates?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand core combat systems and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Plan Your Start Time",
+        "step1Description": "Know when launch begins in your region so you can jump in on day one.",
+        "step2Title": "Track Date Changes",
+        "step2Description": "Follow delay notices and revised timelines without searching multiple sources.",
+        "step3Title": "Check Final Status",
+        "step3Description": "See whether Mina the Hollower has gone gold and what that means for launch confidence."
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All Release Articles"
     },
-    "crafting": {
-      "title": "Mina the Hollower Crafting",
-      "description": "Master Mina the Hollower equipment planning with trinket roles, sidearm utility, and route-based build strategies.",
-      "metaTitle": "Mina the Hollower Crafting and Builds - Equipment Strategy Guide",
-      "metaDescription": "Master Mina the Hollower build planning. Learn trinket functions, sidearm utility, and practical equipment strategies for harder routes.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "Build planning focuses on matching weapons, Sidearms, Trinkets, and Bone Up upgrades to each route and boss challenge.",
-      "why": "Why master crafting?",
+    "platforms": {
+      "title": "Mina the Hollower Platforms",
+      "description": "Platform coverage for Mina the Hollower on Steam, Switch, PlayStation, Xbox, and related store availability.",
+      "metaTitle": "Mina the Hollower Platforms - Steam, Switch, PlayStation, Xbox",
+      "metaDescription": "Find Mina the Hollower platform availability, storefront status, and edition details for Steam, Switch, PS5, Xbox, and eShop listings.",
+      "categoryLabel": "PLATFORM GUIDE",
+      "whatIs": "What is the Platforms category?",
+      "whatIsDescription": "This category explains where Mina the Hollower is available and how each platform version differs in storefront listing, timing, and ecosystem support.",
+      "why": "Why check platform guides?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Pick Your Platform",
+        "step1Description": "Compare current availability and choose the platform that matches your setup.",
+        "step2Title": "Check Store Listings",
+        "step2Description": "Get direct guidance on storefront pages and platform-specific release signals.",
+        "step3Title": "Avoid Purchase Confusion",
+        "step3Description": "Verify platform support before buying so your edition matches your hardware."
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Platform Articles"
     },
-    "items": {
-      "title": "Mina the Hollower Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Mina the Hollower Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Mina the Hollower including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "reviews": {
+      "title": "Mina the Hollower Reviews",
+      "description": "Review roundups for Mina the Hollower, including critic scores, embargo timing, and first impressions.",
+      "metaTitle": "Mina the Hollower Reviews - Scores, Impressions, and Embargo",
+      "metaDescription": "Read Mina the Hollower review coverage with score trackers, embargo details, and critic impressions from major outlets.",
+      "categoryLabel": "REVIEW COVERAGE",
+      "whatIs": "What is the Reviews category?",
+      "whatIsDescription": "This category gathers review-related articles such as score-tracker snapshots, publication timing, and critical impressions from major gaming outlets.",
+      "why": "Why read review coverage?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Learn how to combine Sidearms and Trinkets for practical route-ready setups",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "See Critical Consensus",
+        "step1Description": "Understand how different outlets evaluate gameplay, pacing, and presentation.",
+        "step2Title": "Follow Embargo Timing",
+        "step2Description": "Know when full reviews are expected and how preview impressions evolve.",
+        "step3Title": "Compare Score Sources",
+        "step3Description": "Track rating differences across aggregator pages and individual outlets."
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Review Articles"
     },
-    "biomes": {
-      "title": "Mina the Hollower Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Mina the Hollower Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Mina the Hollower biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "demo": {
+      "title": "Mina the Hollower Demo",
+      "description": "Everything about the Mina the Hollower demo, including access methods, supported platforms, and expected play length.",
+      "metaTitle": "Mina the Hollower Demo - Access, Platforms, and Walkthroughs",
+      "metaDescription": "Find Mina the Hollower demo details with download guidance, platform availability, demo length, and focused walkthrough help.",
+      "categoryLabel": "DEMO GUIDE",
+      "whatIs": "What is the Demo category?",
+      "whatIsDescription": "This category covers demo-focused information such as where to access the demo, what content it includes, and practical walkthrough help for first runs.",
+      "why": "Why use demo guides?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Access the Demo Faster",
+        "step1Description": "Use clear steps to locate the right demo listing and install quickly.",
+        "step2Title": "Prepare for Full Launch",
+        "step2Description": "Learn core controls and combat rhythm before the full release.",
+        "step3Title": "Clear Key Demo Sections",
+        "step3Description": "Follow concise walkthrough pointers to finish demo objectives efficiently."
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Demo Articles"
     },
-    "building": {
-      "title": "Mina the Hollower Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Mina the Hollower Building - Qualia & Base Construction",
-      "metaDescription": "Master Mina the Hollower building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "guide": {
+      "title": "Mina the Hollower Guide",
+      "description": "Practical Mina the Hollower guides for core mechanics, progression routing, and early-to-mid game decision making.",
+      "metaTitle": "Mina the Hollower Guide - Tips, Walkthroughs, and Progression",
+      "metaDescription": "Use Mina the Hollower guide articles to learn core mechanics, efficient progression routes, and practical tips for smoother runs.",
+      "categoryLabel": "GAME GUIDE",
+      "whatIs": "What is the Guide category?",
+      "whatIsDescription": "This category provides gameplay guidance for new and returning players, including basic controls, route planning, and progression strategies that reduce trial-and-error.",
+      "why": "Why read game guides?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Learn Faster",
+        "step1Description": "Get clear mechanic explanations without digging through scattered threads.",
+        "step2Title": "Route Better",
+        "step2Description": "Follow progression tips that reduce backtracking and missed upgrades.",
+        "step3Title": "Improve Consistency",
+        "step3Description": "Apply repeatable combat and exploration habits that make runs smoother."
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Guide Articles"
     },
-    "support": {
-      "title": "Mina the Hollower Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Mina the Hollower Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Mina the Hollower including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "combat": {
+      "title": "Mina the Hollower Combat",
+      "description": "Combat-focused Mina the Hollower coverage for weapons, sidearms, trinkets, healing tools, and matchup-ready loadouts.",
+      "metaTitle": "Mina the Hollower Combat - Weapons, Sidearms, Trinkets, Healing",
+      "metaDescription": "Master Mina the Hollower combat with weapon choices, sidearm utility, trinket synergies, healing management, and practical loadout planning.",
+      "categoryLabel": "COMBAT SYSTEMS",
+      "whatIs": "What is the Combat category?",
+      "whatIsDescription": "This category focuses on fighting systems and loadout decisions, including weapon behavior, sidearm utility, trinket synergy, and sustain planning.",
+      "why": "Why read combat guides?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Choose Better Loadouts",
+        "step1Description": "Match weapons and sidearms to your preferred pace and risk level.",
+        "step2Title": "Optimize Healing Usage",
+        "step2Description": "Use healing resources at the right timing to stabilize longer encounters.",
+        "step3Title": "Win More Boss Attempts",
+        "step3Description": "Apply consistent combat setups that translate well into boss matchups."
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Combat Articles"
+    },
+    "bosses": {
+      "title": "Mina the Hollower Bosses",
+      "description": "Boss-by-boss Mina the Hollower references covering attack patterns, phases, and reliable clear strategies.",
+      "metaTitle": "Mina the Hollower Bosses - Boss List, Patterns, and Strategies",
+      "metaDescription": "Use Mina the Hollower boss guides to review movesets, phase changes, and practical strategies for consistent clears.",
+      "categoryLabel": "BOSS GUIDES",
+      "whatIs": "What is the Bosses category?",
+      "whatIsDescription": "This category is dedicated to boss encounters, with focused breakdowns of phases, punish windows, and route-aware preparation before each fight.",
+      "why": "Why use boss guides?",
+      "whySteps": {
+        "step1Title": "Learn Attack Patterns",
+        "step1Description": "Recognize recurring move sequences and safer response options.",
+        "step2Title": "Prepare Before Fights",
+        "step2Description": "Bring loadouts and healing plans that fit each boss matchup.",
+        "step3Title": "Reduce Retry Count",
+        "step3Description": "Use structured phase notes to progress from attempts to reliable clears."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Boss Articles"
     }
   }
 }

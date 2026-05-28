@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Heart } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Combates contra jefes en Mina the Hollower: Mecánicas de combate y guía de jefes",
+  description: "Domina cada combate contra jefes en Mina the Hollower con nuestra guía detallada. Aprende estrategias de armas, tiempos de excavación y patrones de jefes para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2d2d2d/fff?text=Boss+Fight+Strategies",
+  date: "2026-05-28",
+  author: "Equipo de la Wiki de Mina the Hollower",
+  keywords: "Mina the Hollower, combate, jefes, guía, estrategias, excavar"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El éxito en los **combates contra jefes de Mina the Hollower** depende de dominar la mecánica de **Excavar** (Burrow) para evitar ataques de área (AOE) telegrafiados.
+- La **elección de arma** afecta significativamente la dificultad; la **Espada Bumerán** ofrece una distancia más segura que las arriesgadas **Dagas Gemelas**.
+- La **observación** es obligatoria; la mayoría de los jefes, incluidos el **Jefe Caimán** (Gator Boss) y el **Kraken**, tienen animaciones de inicio largas para sus ataques más pesados.
+- Las **armas secundarias** se pierden al morir, así que úsalas estratégicamente durante las fases finales de los jefes en lugar de acumularlas.
+- **Intercambiar golpes** es una estrategia viable pero arriesgada para los primeros subjefes si tu reserva de salud permite un estilo de juego agresivo.
+</Callout>
+
+<Section icon={Swords} title="Mecánicas de Combate Principales para Encuentros con Jefes">
+
+Para triunfar en cualquier **combate contra jefes en Mina the Hollower**, los jugadores deben mirar más allá de los encantadores gráficos de 8 bits y dominar la profundidad técnica del movimiento de Mina. A diferencia de las aventuras de acción tradicionales, el combate aquí es vertical y horizontal, utilizando el propio suelo como herramienta defensiva. El conjunto de habilidades de "Hollower" permite a Mina sumergirse, otorgándole invulnerabilidad temporal y oportunidades de reposicionamiento que son esenciales para la supervivencia en el juego avanzado.
+
+| Mecánica | Acción de Entrada | Utilidad en Combate contra Jefes |
+| :--- | :--- | :--- |
+| **Excavar** | Saltar y luego sumergirse | Esquivar ataques de carga y proyectiles |
+| **Látigo Nightstar** | Ataque principal | Hostigamiento a media distancia y espacio seguro |
+| **Armas Secundarias** | Herramienta secundaria | Daño de ráfaga o control de multitudes |
+| **Salto (Vaulting)** | Salir a la superficie | Acortar distancias o saltar sobre barridos bajos |
+| **Cambio de Arma** | Inventario/Menú rápido | Adaptarse a la resistencia o velocidad del jefe |
+
+<Callout type="warning" title="Advertencia sobre el Tiempo de Excavación">
+La animación de excavación tiene un ligero retraso al inicio. Si esperas a que un jefe ya esté en medio de una carga para sumergirte, es probable que recibas daño. Excavar de forma preventiva es la única forma fiable de evitar amenazas rápidas como los enemigos que cargan en las primeras mazmorras.
+</Callout>
+
+El movimiento en el juego presenta una ligera curva de aceleración. Aunque algunos jugadores lo describen como "controlar un barco", este impulso está diseñado para recompensar el movimiento decidido. En la arena de un jefe, quedarse quieto es una sentencia de muerte. Debes mantener un movimiento constante para evitar que el jefe te acorrale contra los límites de la pantalla.
+
+</Section>
+
+<Section icon={Target} title="Guía de Jefes del Inicio del Juego">
+
+Los obstáculos iniciales del juego sirven como una "prueba de habilidad" para tu dominio de la excavación y el espaciado. Dos encuentros principales definen la experiencia temprana: el **Jefe Caimán** (Gator Boss) y el subjefe **Gran Matón** (Big Thug). Estos combates te enseñan que, aunque resistir daño es posible, la precisión quirúrgica es el camino previsto hacia la victoria.
+
+### Estrategia del Jefe Caimán
+El Jefe Caimán utiliza barridos físicos pesados y una embestida con mordisco. Su enorme tamaño lo convierte en un objetivo fácil para el látigo Nightstar, pero su alcance es igualmente impresionante.
+
+| Fase | Comportamiento del Jefe | Estrategia de Contraataque |
+| :--- | :--- | :--- |
+| **Fase 1** | Barridos lentos con la cola | Salta o excava bajo el arco de la cola |
+| **Fase 2** | Embestidas rápidas con mordisco | Excava y muévete perpendicular a la embestida |
+| **Fase 3** | Golpes contra el suelo/Escombros | Quédate sumergido hasta que el polvo se asiente |
+
+<Steps>
+  <Step num="1" title="Enfrentamiento Inicial">
+    Usa el látigo Nightstar para asestar 2 o 3 golpes desde la distancia máxima. No te excedas, ya que el Jefe Caimán contraataca rápidamente.
+  </Step>
+  <Step num="2" title="Gestionar la Embestida">
+    Cuando el caimán eche la cabeza hacia atrás, excava inmediatamente. No intentes superar la embestida corriendo por la superficie.
+  </Step>
+  <Step num="3" title="Ráfaga de Arma Secundaria">
+    Durante el tiempo de recuperación después de un golpe contra el suelo, usa tus armas secundarias (como la Espada Bumerán) para infligir un gran daño de ráfaga.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Atajo para el Gran Matón">
+El subjefe **Gran Matón** es notoriamente difícil de esquivar debido a su amplio arco de oscilación. Algunos jugadores encuentran más eficiente "tanquear" sus golpes mientras infligen el máximo DPS con el látigo, siempre que hayan encontrado al menos una mejora de salud. Sin embargo, para una partida sin recibir daño, debes huir en el momento en que su brazo se mueva.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Optimización de Armas y Equipamiento">
+
+Tu elección de armamento cambia el ritmo fundamental de un **combate contra jefes en Mina the Hollower**. Mientras que el Nightstar es el más equilibrado, otras armas ofrecen estilos de juego especializados que pueden hacer que ciertos jefes sean triviales o una pesadilla.
+
+<CardGrid cols={3}>
+  <Card title="Látigo Nightstar">
+    - **Ideal para**: Encuentros equilibrados
+    - **Ventajas**: Alcance excelente, velocidad constante
+    - **Desventajas**: Daño medio por golpe
+  </Card>
+  <Card title="Espada Bumerán">
+    - **Ideal para**: Kraken y jefes a distancia
+    - **Ventajas**: Múltiples golpes al volver, distancia segura
+    - **Desventajas**: Requiere una alineación horizontal precisa
+  </Card>
+  <Card title="Dagas Gemelas">
+    - **Ideal para**: Speedruns avanzados
+    - **Ventajas**: El mayor potencial de DPS
+    - **Desventajas**: Alcance casi nulo, extremadamente castigador
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Sinergia de Armas">
+La Espada Bumerán es particularmente efectiva contra el Kraken. Al alinearte horizontalmente y atrapar la espada a su regreso, puedes "encadenar" eficazmente los fotogramas de daño, golpeando la caja de colisión del jefe hasta cuatro veces en un solo lanzamiento.
+</Callout>
+
+Las **Dagas Gemelas** se consideran actualmente un "modo desafío" para los jefes. Debido a que requieren que estés a una distancia de píxeles del enemigo, a menudo recibes daño por contacto pasivo del jefe o por sus animaciones de inicio rápido. A menos que seas un maestro de la cancelación de excavación, cíñete al látigo o a la espada en tu primera partida.
+
+| Tipo de Jefe | Arma Recomendada | Herramienta Secundaria | Efectividad |
+| :--- | :--- | :--- | :--- |
+| **Bestia/Caimán** | Látigo Nightstar | Arma secundaria de fuego | Excelente |
+| **Acuático/Kraken** | Espada Bumerán | Arma secundaria eléctrica | Alta |
+| **Humanoide/Matón** | Látigo Nightstar | Amuleto de escudo | Moderada |
+| **Jefe de Etapa Final** | Espada Bumerán | Cualquier daño alto | Alta |
+
+</Section>
+
+<Section icon={Map} title="Desafío de Mitad del Juego: El Kraken">
+
+El Kraken representa el primer gran combate contra un jefe ambiental. A diferencia del Caimán, el Kraken limita tu movimiento mediante peligros acuáticos y múltiples tentáculos. Este combate trata menos de daño bruto y más de la gestión del escenario.
+
+**Tácticas clave contra el Kraken:**
+- **Prioridad de Tentáculos**: Limpia siempre los tentáculos activos antes de centrarte en la cabeza del Kraken.
+- **Excavar en Puentes**: Ten cuidado; algunos puentes tienen solo una baldosa de ancho. Si intentas excavar aquí, podrías caer o no lograr sumergirte, quedando vulnerable al chorro de tinta del Kraken.
+- **Barridos Telegrafiados**: El Kraken levantará un tentáculo en alto antes de un barrido. Esta es tu señal para excavar y esperar el efecto de sonido "whoosh" antes de volver a la superficie.
+
+<Callout type="info" title="Conciencia Ambiental">
+La arena del Kraken cuenta con plataformas destructibles. Si pasas demasiado tiempo en un solo lugar, el Kraken destruirá el suelo, obligándote a ir al agua, donde Mina se mueve significativamente más lento y no puede excavar.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de Verificación para la Preparación de Jefes">
+
+Antes de entrar en la arena de un jefe, asegúrate de estar completamente equipado. Los picos de dificultad en *Mina the Hollower* son pronunciados, y entrar en un combate con poco nivel o sin armas secundarias puede llevar a un ciclo frustrante de muertes.
+
+<Checklist
+  id="boss-prep"
+  title="Esenciales antes del Combate:"
+  items={[
+    "Verificar que la munición de las armas secundarias esté al máximo",
+    "Equipar el Anillo de Uranio si confías en tu capacidad de esquivar",
+    "Identificar el punto de guardado más cercano (excava en él para activarlo)",
+    "Revisar la durabilidad del arma o las ranuras de amuletos especializados",
+    "Eliminar a los enemigos cercanos que cargan para evitar que entren en la arena"
+  ]}
+/>
+
+<Callout type="warning" title="Pérdida de Armas Secundarias">
+Recuerda que las armas secundarias se pierden tras tu primera muerte después de recogerlas. Si tienes dificultades con un **combate contra un jefe de Mina the Hollower** específico, considera practicar los patrones solo con tu látigo principal antes de "desperdiciar" tus poderosos recursos de armas secundarias.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Estrategia Avanzada y Preguntas Frecuentes">
+
+Para los jugadores que buscan dominar el final del juego, es vital comprender los datos de fotogramas (frame data) de la animación de salida a la superficie de Mina. Eres vulnerable por una fracción de segundo al salir del suelo. Cronometra siempre tu salida para que coincida con el final de la animación de ataque de un jefe.
+
+<FAQ items={[
+  {
+    question: "¿Por qué las Dagas Gemelas son tan difíciles de usar contra los jefes?",
+    answer: "Las Dagas tienen el alcance más corto del juego, lo que te obliga a permanecer dentro de la zona de impacto del jefe. Esto hace que sea casi imposible reaccionar a los ataques de inicio rápido sin excavar de forma preventiva."
+  },
+  {
+    question: "¿Puedo saltarme al subjefe Gran Matón?",
+    answer: "Aunque técnicamente es un subjefe, custodia objetos esenciales para el progreso. Se recomienda derrotarlo usando la Espada Bumerán desde la distancia para evitar su pesado balanceo."
+  },
+  {
+    question: "¿Hay alguna forma de evitar a los enemigos que cargan durante un combate contra un jefe?",
+    answer: "La mayoría de las arenas de jefes están selladas, pero si un enemigo que carga te sigue al interior, usa la mecánica de excavar para dejar que choque contra una pared, lo que lo aturde y permite una eliminación rápida."
+  },
+  {
+    question: "¿Cuál es la mejor manera de aprender el patrón de un jefe en Mina the Hollower?",
+    answer: "Pasa el primer minuto del combate sin atacar. Concéntrate por completo en excavar bajo cada ataque para ver la 'señal' y la duración de las cajas de colisión."
+  }
+]} />
+
+<Callout type="success" title="Consejo Profesional Final">
+El juego se inspira fuertemente en los títulos clásicos de Zelda. Si un jefe parece imposible, mira tu inventario actual. A menudo, la última arma secundaria o herramienta que descubriste es la 'llave' específica para la 'cerradura' de ese jefe.
+</Callout>
+
+</Section>

@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "release": "Release",
+    "platforms": "Platforms",
+    "reviews": "Reviews",
+    "demo": "Demo",
+    "guide": "Guide",
+    "combat": "Combat",
+    "bosses": "Bosses"
+  }
+}

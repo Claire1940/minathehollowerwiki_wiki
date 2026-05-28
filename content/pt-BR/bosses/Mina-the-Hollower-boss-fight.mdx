@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Heart } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Luta contra chefes em Mina the Hollower: Mecânicas de Combate e Guia de Chefes",
+  description: "Domine todas as lutas contra chefes em Mina the Hollower com nosso guia de combate detalhado. Aprenda estratégias de armas, tempo de escavação e padrões de chefes para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2d2d2d/fff?text=Estratégias+de+Luta+Contra+Chefes",
+  date: "2026-05-28",
+  author: "Equipe Wiki de Mina the Hollower"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O sucesso na **luta contra chefes em Mina the Hollower** depende de dominar a mecânica de **Escavação** para evitar ataques de área telegrafados.
+- A **Escolha da Arma** impacta significativamente a dificuldade; a **Espada Bumerangue** oferece um espaçamento mais seguro do que as **Adagas Gêmeas** de alto risco.
+- A **Observação** é obrigatória; a maioria dos chefes, incluindo o **Chefe Jacaré** e o **Kraken**, têm longas animações de início para seus ataques mais pesados.
+- **Armas secundárias** são perdidas ao morrer, então use-as estrategicamente durante as fases finais dos chefes, em vez de guardá-las.
+- **Trocar Golpes** é uma estratégia viável, mas arriscada para sub-chefes iniciais, se o seu total de vida permitir um ataque agressivo.
+</Callout>
+
+<Section icon={Swords} title="Mecânicas de Combate Essenciais para Encontros com Chefes">
+
+Para ter sucesso em qualquer **luta contra chefes em Mina the Hollower**, os jogadores devem ir além dos encantadores visuais de 8 bits e dominar a profundidade técnica do movimento de Mina. Ao contrário das aventuras de ação tradicionais, o combate aqui é vertical e horizontal, utilizando o próprio chão como ferramenta defensiva. O conjunto de habilidades "Hollower" permite que Mina mergulhe, concedendo invulnerabilidade temporária e oportunidades de reposicionamento que são essenciais para a sobrevivência no final do jogo.
+
+| Mecânica | Ação de Entrada | Utilidade na Luta Contra Chefes |
+| :--- | :--- | :--- |
+| **Escavação** | Pular e depois submergir | Desviar de ataques/projéteis de carga |
+| **Chicote Nightstar** | Ataque Primário | Cutucar a média distância e espaçamento seguro |
+| **Uso de Arma Secundária** | Ferramenta Secundária | Dano em rajada ou controle de multidão |
+| **Salto** | Sair da escavação | Fechar lacunas ou pular sobre varreduras baixas |
+| **Troca de Arma** | Inventário/Menu Rápido | Adaptar-se à resistência/velocidade do chefe |
+
+<Callout type="warning" title="Aviso de Tempo de Escavação">
+A animação de escavação tem um pequeno atraso de início. Se você esperar até que um chefe já esteja no meio de uma carga para submergir, provavelmente sofrerá dano. A escavação preemptiva é a única maneira confiável de evitar ameaças rápidas, como os inimigos carregando encontrados nas masmorras iniciais.
+</Callout>
+
+O movimento no jogo apresenta uma ligeira curva de aceleração. Embora alguns jogadores o descrevam como "controlar um barco", esse momento é projetado para recompensar o movimento comprometido. Em uma arena de chefe, ficar parado é uma sentença de morte. Você deve manter o movimento constante para evitar que o chefe o prenda contra os limites da tela.
+
+</Section>
+
+<Section icon={Target} title="Passo a Passo dos Chefes do Início do Jogo">
+
+Os obstáculos iniciais no jogo servem como um "teste de habilidade" para o seu domínio da escavação e do espaçamento. Dois encontros importantes definem a experiência inicial: o **Chefe Jacaré** e o sub-chefe **Brutamontes**. Essas lutas ensinam que, embora absorver dano seja possível, a precisão cirúrgica é o caminho pretendido para a vitória.
+
+### Estratégia do Chefe Jacaré
+O Chefe Jacaré utiliza varreduras físicas pesadas e uma investida mordedora. Seu tamanho massivo o torna um alvo fácil para o chicote Nightstar, mas seu alcance é igualmente impressionante.
+
+| Fase | Comportamento do Chefe | Estratégia de Contra-Ataque |
+| :--- | :--- | :--- |
+| **Fase 1** | Varreduras lentas da cauda | Pular ou escavar sob o arco da cauda |
+| **Fase 2** | Investidas mordedoras rápidas | Escavar e mover-se perpendicularmente à investida |
+| **Fase 3** | Batidas no chão/Detritos | Permanecer submerso até a poeira baixar |
+
+<Steps>
+  <Step num="1" title="Engajamento Inicial">
+    Use o chicote Nightstar para desferir 2-3 golpes à distância máxima. Não se estenda demais, pois o Chefe Jacaré contra-ataca rapidamente.
+  </Step>
+  <Step num="2" title="Gerenciando a Investida">
+    Quando o Jacaré puxar a cabeça para trás, escave imediatamente. Não tente fugir da investida na superfície.
+  </Step>
+  <Step num="3" title="Rajada de Arma Secundária">
+    Durante o tempo de recarga após uma batida no chão, use suas armas secundárias (como a Espada Bumerangue) para causar dano massivo em rajada.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="O Atalho do Brutamontes">
+O sub-chefe **Brutamontes** é notoriamente difícil de desviar devido ao seu amplo arco de ataque. Alguns jogadores acham mais eficiente "tankar" seus golpes enquanto causam o máximo de DPS com o chicote, desde que tenham encontrado pelo menos um upgrade de vida. No entanto, para uma corrida sem danos, você deve fugir no momento em que o braço dele se contrair.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Otimização e Carregamentos de Armas">
+
+Sua escolha de armamento muda o ritmo fundamental de uma **luta contra chefes em Mina the Hollower**. Embora o Nightstar seja o mais equilibrado, outras armas oferecem estilos de jogo especializados que podem tornar certos chefes triviais ou pesadelos.
+
+<CardGrid cols={3}>
+  <Card title="Chicote Nightstar">
+    - **Melhor para**: Encontros equilibrados
+    - **Prós**: Excelente alcance, velocidade consistente
+    - **Contras**: Dano médio por acerto
+  </Card>
+  <Card title="Espada Bumerangue">
+    - **Melhor para**: Kraken e Chefes de Longo Alcance
+    - **Prós**: Múltiplos acertos no retorno, distância segura
+    - **Contras**: Requer alinhamento horizontal preciso
+  </Card>
+  <Card title="Adagas Gêmeas">
+    - **Melhor para**: Speedruns Avançados
+    - **Prós**: Maior DPS potencial
+    - **Contras**: Alcance quase zero, extremamente punitivo
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Sinergia de Armas">
+A Espada Bumerangue é particularmente eficaz contra o Kraken. Ao se alinhar horizontalmente e pegar a espada em seu retorno, você pode efetivamente "loopar" os quadros de dano, atingindo a hitbox do chefe até quatro vezes em um único lançamento.
+</Callout>
+
+As **Adagas Gêmeas** são atualmente consideradas um "modo desafio" para chefes. Como elas exigem que você esteja a um pixel de distância do inimigo, você frequentemente é atingido pelo dano de contato passivo do chefe ou por animações de início rápido. A menos que você seja um mestre do cancelamento de escavação, atenha-se ao chicote ou espada para sua primeira jogada.
+
+| Tipo de Chefe | Arma Recomendada | Ferramenta Secundária | Eficácia |
+| :--- | :--- | :--- | :--- |
+| **Fera/Jacaré** | Chicote Nightstar | Arma Secundária de Fogo | Excelente |
+| **Aquático/Kraken** | Espada Bumerangue | Arma Secundária Elétrica | Alta |
+| **Humanoide/Brutamontes** | Chicote Nightstar | Amuleto de Escudo | Moderada |
+| **Chefe da Fase Final** | Espada Bumerangue | Qualquer Dano Alto | Alta |
+
+</Section>
+
+<Section icon={Map} title="Desafio de Meio de Jogo: O Kraken">
+
+O Kraken representa a primeira grande luta contra chefes ambientais. Ao contrário do Jacaré, o Kraken limita seu movimento através de perigos aquáticos e múltiplos tentáculos. Esta luta é menos sobre dano bruto e mais sobre gerenciamento da arena.
+
+**Táticas Chave do Kraken:**
+- **Prioridade dos Tentáculos**: Sempre limpe os tentáculos ativos antes de focar na cabeça do Kraken.
+- **Escavação em Pontes**: Tenha cuidado; algumas pontes têm apenas um ladrilho de largura. Se você tentar escavar aqui, pode cair ou falhar em submergir, deixando-o vulnerável ao jato de tinta do Kraken.
+- **Varreduras Telegrafadas**: O Kraken levantará um tentáculo alto antes de uma varredura. Este é o seu sinal para escavar e esperar pelo efeito sonoro de "whoosh" antes de ressurgir.
+
+<Callout type="info" title="Consciência Ambiental">
+A arena do Kraken possui plataformas destrutíveis. Se você passar muito tempo em um só lugar, o Kraken destruirá o chão, forçando você para a água onde Mina se move significativamente mais devagar e não pode escavar.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de Verificação de Preparação para Chefes">
+
+Antes de entrar em uma arena de chefe, certifique-se de estar totalmente equipado. Os picos de dificuldade em *Mina the Hollower* são acentuados, e entrar em uma luta com baixo nível ou sem armas secundárias pode levar a um ciclo frustrante de mortes.
+
+<Checklist
+  id="boss-prep"
+  title="Essenciais Pré-Batalha:"
+  items={[
+    "Verificar se a munição da arma secundária está no máximo",
+    "Equipar o Anel de Urânio se você estiver confiante em desviar",
+    "Identificar o ponto de salvamento mais próximo (escavar nele para ativar)",
+    "Verificar a durabilidade da arma ou os slots de amuletos especializados",
+    "Limpar inimigos próximos que carregam para evitar que entrem na arena"
+  ]}
+/>
+
+<Callout type="warning" title="Perdendo Armas Secundárias">
+Lembre-se de que as armas secundárias são perdidas após sua primeira morte depois de pegá-las. Se você estiver com dificuldades em uma **luta específica contra chefes em Mina the Hollower**, considere praticar os padrões apenas com seu chicote principal antes de "desperdiçar" seus poderosos recursos de arma secundária.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Estratégia Avançada e Perguntas Frequentes">
+
+Para jogadores que buscam dominar o final do jogo, entender os dados de quadros da animação de ressurgimento de Mina é vital. Você fica vulnerável por uma fração de segundo ao sair do chão. Sempre cronometre seu ressurgimento para coincidir com o final da animação de ataque de um chefe.
+
+<FAQ items={[
+  {
+    question: "Por que as Adagas Gêmeas são tão difíceis de usar contra chefes?",
+    answer: "As Adagas têm o menor alcance do jogo, forçando você a permanecer dentro da zona de acerto do chefe. Isso torna quase impossível reagir a ataques de início rápido sem escavação preemptiva."
+  },
+  {
+    question: "Posso pular o sub-chefe Brutamontes?",
+    answer: "Embora tecnicamente um sub-chefe, ele guarda itens essenciais de progressão. É recomendado vencê-lo usando a Espada Bumerangue à distância para evitar seu golpe pesado."
+  },
+  {
+    question: "Existe uma maneira de evitar os inimigos que carregam durante uma luta contra chefes?",
+    answer: "A maioria das arenas de chefes são seladas, mas se um inimigo que carrega o seguir, use a mecânica de escavação para fazê-lo atingir uma parede, o que o atordoa e permite uma morte rápida."
+  },
+  {
+    question: "Qual é a melhor maneira de aprender o padrão de luta de um chefe em Mina the Hollower?",
+    answer: "Passe o primeiro minuto da luta sem atacar. Concentre-se totalmente em escavar sob cada ataque para ver o 'sinal' e a duração das hitboxes."
+  }
+]} />
+
+<Callout type="success" title="Dica Profissional Final">
+O jogo é fortemente inspirado em títulos clássicos de Zelda. Se um chefe parecer impossível, olhe para o seu inventário atual. Frequentemente, a arma secundária ou arma mais recente que você descobriu é a 'chave' específica para a 'fechadura' desse chefe.
+</Callout>
+
+</Section>

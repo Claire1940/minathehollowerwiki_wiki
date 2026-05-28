@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía para principiantes de Mina the Hollower: Consejos y trucos para el éxito en 2026",
+  description: "Domina la Isla Tenebrosa con nuestra guía para principiantes de Mina the Hollower. Aprende mecánicas de combate, elección de armas y secretos de exploración para el lanzamiento de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e1e2e/fff?text=Mina+the+Hollower+Beginner+Guide",
+  date: "2026-05-28",
+  author: "Equipo de la Wiki de Mina the Hollower",
+  keywords: "Mina the Hollower, guía, principiantes, consejos, trucos, Isla Tenebrosa, combate, excavar"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Guía para principiantes de Mina the Hollower**: Prioriza la **exploración** y la **paciencia** sobre el machaque agresivo de botones para sobrevivir en este brutal mundo gótico.
+- **Mecánica principal**: Usa **Excavar** (Burrowing) como tu herramienta defensiva primaria para evitar daños y navegar por pasillos estrechos.
+- **Objeto esencial**: Busca el amuleto **Proto Chispa** (Proto Spark) temprano para obtener una resurrección gratuita tras morir.
+- **Gestión de moneda**: Gasta tus **Huesos** con frecuencia en las tiendas; acumularlos puede llevar a grandes pérdidas tras muertes consecutivas.
+- **Versatilidad de armas**: Las mejoras de daño son **universales**, así que siéntete libre de cambiar entre armas para encontrar tu ritmo preferido.
+</Callout>
+
+<Section icon={Map} title="Primeros pasos en la Isla Tenebrosa">
+
+Bienvenido a la Isla Tenebrosa. Al embarcarte en tu viaje en el lanzamiento del 29 de mayo de 2026 de la última obra maestra de Yacht Club Games, descubrirás que bajo su encantadora estética de Game Boy Color se esconde una curva de dificultad castigadora. Esta **guía para principiantes de Mina the Hollower** está diseñada para ayudarte a navegar las primeras horas, desde la selección de tu primera arma hasta la comprensión del ciclo de muerte y recuperación de alto riesgo.
+
+**Puntos clave del vídeo:**
+- **Explora todas partes**: Los secretos están escondidos tras paredes sospechosas y rincones apartados.
+- **Ritmo de combate**: Los enemigos tienen patrones predecibles; observa antes de atacar.
+- **Proto Chispa**: El amuleto más importante para principiantes.
+- **Recuperación tras la muerte**: A menudo puedes correr de vuelta a tus huesos perdidos en menos de un minuto.
+
+<YouTubeEmbed videoId="Q_8J4ttOZeg" title="Mina the Hollower Beginner's Guide – 11 Things I Wish I Knew Before Starting" />
+
+Antes de sumergirte, asegúrate de que tus ajustes estén optimizados. En PC, el juego requiere especificaciones modestas (4 GB de RAM), pero se recomienda encarecidamente un mando para los movimientos precisos necesarios para excavar y esquivar. Tu objetivo principal es restaurar los **6 Generadores de Chispas** dispersos por la isla, una tarea que requerirá el dominio de tu arsenal.
+
+<Callout type="tip" title="Elección de plataforma">
+Ya sea que juegues en Nintendo Switch, PS5 o PC, prioriza la plataforma donde te sientas más cómodo con reacciones rápidas. Excavar en el momento exacto suele ser la diferencia entre la vida y la muerte.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Dominando el combate y el armamento">
+
+El combate en Mina the Hollower es pausado. A diferencia de otros títulos de acción más rápidos, no puedes simplemente intercambiar golpes con los enemigos y esperar ganar. Cada encuentro es un rompecabezas de posicionamiento. Tienes acceso a cinco armas principales, tres de las cuales están disponibles desde el principio.
+
+<CardGrid cols={3}>
+  <Card title="Estrella Nocturna (Látigo)">
+    - **Estilo**: Alcance y Control
+    - **Pros**: Distancia más segura para principiantes
+    - **Cons**: Menor daño de ráfaga
+  </Card>
+  <Card title="Mazo BlastStrike">
+    - **Estilo**: Golpes Pesados
+    - **Pros**: Daño alto, rompe guardias
+    - **Cons**: Preparación lenta que te deja vulnerable
+  </Card>
+  <Card title="Susurro y Víspera">
+    - **Estilo**: Dagas Rápidas
+    - **Pros**: Daño por segundo (DPS) extremadamente alto
+    - **Cons**: Requiere una proximidad peligrosa
+  </Card>
+</CardGrid>
+
+Las mejoras de daño en este juego son universales. Si inviertes recursos en aumentar tu poder de ataque, ese impulso se aplica a todas las armas que encuentres o compres al herrero. Esto fomenta la experimentación sin castigarte por cambiar tu estilo de juego más adelante.
+
+| Tipo de arma | Escenario ideal | Valoración para principiantes |
+| :--- | :--- | :--- |
+| **Estrella Nocturna** | Mantener distancia de enemigos voladores | ★★★★★ |
+| **Mazo BlastStrike** | Castigar élites lentos y acorazados | ★★★☆☆ |
+| **Susurro y Víspera** | Jefes con áreas de impacto grandes | ★★☆☆☆ |
+| **Armas secundarias** | Resolver peligros específicos de salas | ★★★★☆ |
+
+<Callout type="warning" title="Mecánicas de curación">
+La curación no es instantánea. Debes atacar a los enemigos para acumular una "carga" antes de poder usar un frasco. La animación de curación es lenta, así que solo cúrate cuando un jefe esté agotado o entre encuentros de combate.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="El poder de Excavar y las Armas Secundarias">
+
+Excavar es el corazón de la movilidad de Mina. Al presionar el botón de excavar, Mina se sumerge bajo tierra, volviéndose invulnerable a la mayoría de los ataques de superficie. Esta es tu esquiva principal. Muchos jugadores nuevos tienen dificultades porque tratan el excavar solo como una forma de cruzar huecos, pero en realidad es tu mejor capa defensiva.
+
+**Cómo usar Excavar de manera efectiva:**
+1.  **Anticipa las embestidas**: Cuando un enemigo comience un movimiento telegrafiado, sumérgete de inmediato.
+2.  **Rastreo de sombra**: Mientras estás bajo tierra, tu sombra indica tu posición real. Úsala para alinear un ataque al salir.
+3.  **Exploración de atajos**: Busca vallas o paredes con pequeñas grietas; excavar por debajo suele ser el camino previsto.
+
+<Callout type="info" title="Armas secundarias y Joules">
+Las armas secundarias (como el Hacha Volt o la Daga Giro) consumen **Joules**. Estas son poderosas pero limitadas. A diferencia de tu arma principal, las armas secundarias se **pierden al morir**. No las guardes para "después"; úsalas para despejar enemigos élite difíciles que custodian botín.
+</Callout>
+
+| Recurso | Cómo obtenerlo | Uso |
+| :--- | :--- | :--- |
+| **Huesos** | Derrotando enemigos, rompiendo vasijas | Subir de nivel y comprar objetos |
+| **Joules** | Rompiendo objetos, jarras de Joules | Potenciar armas secundarias |
+| **Chispas** | Puntos de control, hitos importantes | Intentos de recuperación tras morir |
+| **Amuletos** | Exploración, misiones secundarias | Mejoras pasivas y reanimaciones |
+
+</Section>
+
+<Section icon={Shield} title="Muerte, Huesos y la Proto Chispa">
+
+Al igual que en otras experiencias tipo soulslike, morir en Mina the Hollower resulta en la pérdida de tu reserva actual de **Huesos**. Tienes un número limitado de oportunidades (determinadas por tus Chispas) para recuperarlos. Si mueres de nuevo antes de llegar al lugar de tu muerte, esos huesos se convertirán en polvo.
+
+Sin embargo, el juego es más indulgente de lo que parece. La mayoría de las regiones están densamente pobladas y, una vez que conoces la ruta, puedes correr de vuelta a tu lugar de muerte en menos de un minuto ignorando a los enemigos y usando las transiciones de pantalla para reiniciar la agresividad de los monstruos.
+
+<Steps>
+  <Step num="1" title="La misión del Cementerio">
+    Cerca del final de la región del Cementerio, localiza al PNJ "Chico Fantasma".
+  </Step>
+  <Step num="2" title="La misión de escolta">
+    Protégelo mientras viajas a una habitación cerrada ubicada inmediatamente después de la pelea con el jefe.
+  </Step>
+  <Step num="3" title="Reclama la Proto Chispa">
+    Dentro de la habitación, recibirás la **Proto Chispa**, el amuleto más esencial para cualquier principiante.
+  </Step>
+  <Step num="4" title="Equípate para sobrevivir">
+    Este amuleto te resucita con salud parcial una vez por punto de control. Es un cambio radical para los encuentros con jefes.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Estrategia de gasto">
+No seas un acumulador. Gasta tus huesos en mejoras de salud permanentes (+25% de salud) o llaves tan pronto como llegues a una tienda. Un pequeño aumento de daño es menos valioso que sobrevivir a un golpe extra de un jefe.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progresión y prioridades de la tienda">
+
+La Isla Tenebrosa es un mundo semiabierto. Si te encuentras "chocando contra un muro de ladrillos", a menudo es mejor realizar un "valiente avance hacia atrás". Explora una región diferente, encuentra nuevos amuletos y regresa cuando estés mejor equipado.
+
+| Objeto de la tienda | Prioridad | Razón |
+| :--- | :--- | :--- |
+| **Mejoras de salud** | **Alta** | Aumenta el margen de error en combate. |
+| **Llaves** | **Alta** | Desbloquea atajos y cofres de botín valiosos. |
+| **Nuevas armas** | **Media** | Útil para encontrar un estilo que se adapte a ti. |
+| **Daño +1** | **Baja** | Caro y menos impactante que la supervivencia al principio. |
+
+Al subir de nivel en una estación de mejora, enfócate en tus debilidades. Si sientes que las peleas con los jefes se alargan demasiado, invierte en Ataque. Si mueres de tres golpes, prioriza la Defensa. La flexibilidad del sistema de amuletos (con más de 60 por encontrar) te permite pivotar tu configuración sin reiniciar tu partida.
+
+<Callout type="tip" title="Caza de secretos">
+Si una habitación no tiene una salida obvia o un objeto parece inalcanzable, intenta excavar en las paredes. Los desarrolladores han escondido trozos enteros de niveles detrás de paredes "huecas" que solo un verdadero Hollower puede encontrar.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación para principiantes y FAQ">
+
+Para asegurar un buen comienzo en tu primer día, sigue esta lista de objetivos. Estos hitos sentarán las bases para tu eventual dominio de los Generadores de Chispas.
+
+<Checklist
+  id="mina-beginner-goals"
+  title="Objetivos de las primeras horas:"
+  items={[
+    "Obtén la Estrella Nocturna o el Mazo BlastStrike del herrero",
+    "Llega a la primera tienda en la ciudad principal y compra una mejora de salud",
+    "Completa la misión de escolta del Chico Fantasma para obtener la Proto Chispa",
+    "Practica el 'Excavar-Esquivar' hasta que se convierta en memoria muscular",
+    "Restaura el primer Generador de Chispas en la región inicial"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "¿Qué arma es mejor para un estilo de juego de principiante?",
+    answer: "Se recomienda la Estrella Nocturna (Látigo). Su largo alcance te permite observar los patrones de los enemigos desde una distancia segura, lo cual es crucial para aprender el brutal ritmo de combate del juego."
+  },
+  {
+    question: "¿Pierdo mis armas cuando muero?",
+    answer: "No, las armas principales son permanentes. Sin embargo, pierdes tus armas secundarias y tus huesos actuales si no logras recuperarlos tras la muerte. Los Joules también se reinician."
+  },
+  {
+    question: "¿Qué debo hacer si un jefe parece imposible?",
+    answer: "Explora otras regiones. Mina the Hollower es un juego semiabierto, lo que significa que a menudo puedes encontrar mejores amuletos o mejoras de salud en otros lugares antes de regresar a una pelea difícil."
+  },
+  {
+    question: "¿Excavar es solo para cruzar fosos?",
+    answer: "En absoluto. Excavar proporciona fotogramas de invulnerabilidad. Úsalo para sumergirte bajo proyectiles enemigos, monstruos que cargan e incluso algunos barridos de jefes."
+  }
+]} />
+
+</Section>

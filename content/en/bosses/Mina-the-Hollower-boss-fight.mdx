@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Heart } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mina the Hollower boss fight: Combat Mechanics & Boss Guide",
+  description: "Master every Mina the Hollower boss fight with our detailed combat guide. Learn weapon strategies, burrowing timing, and boss patterns for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2d2d2d/fff?text=Boss+Fight+Strategies",
+  date: "2026-05-28",
+  author: "Mina the Hollower Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Mina the Hollower boss fight** success relies on mastering the **Burrow** mechanic to avoid telegraphed AOE attacks.
+- **Weapon Choice** significantly impacts difficulty; the **Boomerang Sword** offers safer spacing than the high-risk **Twin Daggers**.
+- **Observation** is mandatory; most bosses, including the **Gator Boss** and **Kraken**, have long startup animations for their heaviest hits.
+- **Sidearms** are lost upon death, so use them strategically during final boss phases rather than hoarding them.
+- **Trading Hits** is a viable but risky strategy for early sub-bosses if your health pool allows for aggressive tanking.
+</Callout>
+
+<Section icon={Swords} title="Core Combat Mechanics for Boss Encounters">
+
+To succeed in any **Mina the Hollower boss fight**, players must look past the charming 8-bit visuals and master the technical depth of Mina's movement. Unlike traditional action-adventures, combat here is vertical and horizontal, utilizing the ground itself as a defensive tool. The "Hollower" skillset allows Mina to submerge, granting temporary invulnerability and repositioning opportunities that are essential for late-game survival.
+
+| Mechanic | Input Action | Boss Fight Utility |
+| :--- | :--- | :--- |
+| **Burrow** | Jump then submerge | Dodge charging attacks/projectiles |
+| **Nightstar Whip** | Primary Attack | Mid-range poking and safe spacing |
+| **Sidearm Use** | Secondary Tool | Burst damage or crowd control |
+| **Vaulting** | Surface from burrow | Closing gaps or jumping over low sweeps |
+| **Weapon Swap** | Inventory/Quick Menu | Adapting to boss resistance/speed |
+
+<Callout type="warning" title="Burrow Timing Warning">
+The burrow animation has a slight startup delay. If you wait until a boss is already mid-charge to submerge, you will likely take damage. Preemptive burrowing is the only reliable way to avoid fast-moving threats like the charging enemies found in the early dungeons.
+</Callout>
+
+Movement in the game features a slight acceleration curve. While some players describe it as "controlling a boat," this momentum is designed to reward committed movement. In a boss arena, standing still is a death sentence. You must maintain constant motion to keep the boss from pinning you against the screen boundaries.
+
+</Section>
+
+<Section icon={Target} title="Early Game Boss Walkthroughs">
+
+The initial hurdles in the game serve as a "skill check" for your mastery of burrowing and spacing. Two major encounters define the early experience: the **Gator Boss** and the **Big Thug** sub-boss. These fights teach you that while tanking damage is possible, surgical precision is the intended path to victory.
+
+### The Gator Boss Strategy
+The Gator Boss utilizes heavy physical sweeps and a snapping lunge. Its massive size makes it an easy target for the Nightstar whip, but its reach is equally impressive.
+
+| Phase | Boss Behavior | Counter Strategy |
+| :--- | :--- | :--- |
+| **Phase 1** | Slow tail sweeps | Jump or burrow under the tail arc |
+| **Phase 2** | Rapid snapping lunges | Burrow and move perpendicular to the lunge |
+| **Phase 3** | Ground slams/Debris | Stay submerged until the dust settles |
+
+<Steps>
+  <Step num="1" title="Initial Engagement">
+    Use the Nightstar whip to land 2-3 hits from maximum range. Do not over-extend, as the Gator Boss counters quickly.
+  </Step>
+  <Step num="2" title="Managing the Lunge">
+    When the Gator pulls its head back, immediately burrow. Do not try to outrun the lunge on the surface.
+  </Step>
+  <Step num="3" title="Sidearm Burst">
+    During the cooldown after a ground slam, use your sidearms (like the Boomerang Sword) to deal massive burst damage.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="The Big Thug Shortcut">
+The **Big Thug** sub-boss is notoriously difficult to dodge due to his wide swing arc. Some players find it more efficient to "tank" his hits while dealing maximum DPS with the whip, provided they have found at least one health upgrade. However, for a no-damage run, you must flee the moment his arm twitches.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Weapon Optimization and Loadouts">
+
+Your choice of armament changes the fundamental rhythm of a **Mina the Hollower boss fight**. While the Nightstar is the most balanced, other weapons offer specialized playstyles that can make certain bosses trivial or nightmarish.
+
+<CardGrid cols={3}>
+  <Card title="Nightstar Whip">
+    - **Best for**: Balanced encounters
+    - **Pros**: Excellent range, consistent speed
+    - **Cons**: Average damage per hit
+  </Card>
+  <Card title="Boomerang Sword">
+    - **Best for**: Kraken & Ranged Bosses
+    - **Pros**: Multiple hits on return, safe distance
+    - **Cons**: Requires precise horizontal alignment
+  </Card>
+  <Card title="Twin Daggers">
+    - **Best for**: Advanced Speedruns
+    - **Pros**: Highest potential DPS
+    - **Cons**: Near-zero range, extremely punishing
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Weapon Synergy">
+The Boomerang Sword is particularly effective against the Kraken. By lining up horizontally and catching the sword on its return, you can effectively "loop" the damage frames, hitting the boss's hitbox up to four times in a single throw.
+</Callout>
+
+The **Twin Daggers** are currently considered a "challenge mode" for bosses. Because they require you to be pixel-close to the enemy, you often get hit by the boss's passive contact damage or quick-start animations. Unless you are a master of the burrow-cancel, stick to the whip or sword for your first playthrough.
+
+| Boss Type | Recommended Weapon | Secondary Tool | Effectiveness |
+| :--- | :--- | :--- | :--- |
+| **Beast/Gator** | Nightstar Whip | Fire Sidearm | Excellent |
+| **Aquatic/Kraken** | Boomerang Sword | Electric Sidearm | High |
+| **Humanoid/Thug** | Nightstar Whip | Shield Trinket | Moderate |
+| **Final Stage Boss** | Boomerang Sword | Any High Damage | High |
+
+</Section>
+
+<Section icon={Map} title="Mid-Game Challenge: The Kraken">
+
+The Kraken represents the first major environmental boss fight. Unlike the Gator, the Kraken limits your movement via water hazards and multiple tentacles. This fight is less about raw damage and more about arena management.
+
+**Key Kraken Tactics:**
+- **Tentacle Priority**: Always clear the active tentacles before focusing on the Kraken's head.
+- **Burrowing on Bridges**: Be careful; some bridges are only one tile wide. If you try to burrow here, you may fall or fail to submerge, leaving you vulnerable to the Kraken's ink spray.
+- **Telegraphed Sweeps**: The Kraken will raise a tentacle high before a sweep. This is your cue to burrow and wait for the "whoosh" sound effect before resurfacing.
+
+<Callout type="info" title="Environmental Awareness">
+The Kraken arena features destructible platforms. If you spend too much time in one spot, the Kraken will destroy the floor, forcing you into the water where Mina moves significantly slower and cannot burrow.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Boss Preparation Checklist">
+
+Before stepping into a boss arena, ensure you are fully equipped. The difficulty spikes in *Mina the Hollower* are sharp, and entering a fight under-leveled or without sidearms can lead to a frustrating loop of deaths.
+
+<Checklist
+  id="boss-prep"
+  title="Pre-Fight Essentials:"
+  items={[
+    "Verify sidearm ammo is at maximum capacity",
+    "Equip the Uranium Ring if you are confident in dodging",
+    "Identify the nearest save point (burrow into it to activate)",
+    "Check weapon durability or specialized trinket slots",
+    "Clear nearby charging enemies to prevent them from entering the arena"
+  ]}
+/>
+
+<Callout type="warning" title="Losing Sidearms">
+Remember that sidearms are lost upon your first death after picking them up. If you are struggling with a specific **Mina the Hollower boss fight**, consider practicing the patterns with just your primary whip before "wasting" your powerful sidearm resources.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Advanced Strategy & FAQ">
+
+For players looking to master the endgame, understanding the frame data of Mina's surfacing animation is vital. You are vulnerable for a split second when popping out of the ground. Always time your resurface to coincide with the end of a boss's attack animation.
+
+<FAQ items={[
+  {
+    question: "Why are the Twin Daggers so hard to use against bosses?",
+    answer: "The Daggers have the shortest range in the game, forcing you to stay inside the boss's hit zone. This makes it almost impossible to react to quick-start attacks without preemptive burrowing."
+  },
+  {
+    question: "Can I skip the Big Thug sub-boss?",
+    answer: "While technically a sub-boss, he guards essential progression items. It is recommended to beat him by using the Boomerang Sword from a distance to avoid his heavy swing."
+  },
+  {
+    question: "Is there a way to avoid the charging enemies during a boss fight?",
+    answer: "Most boss arenas are sealed, but if a charging enemy follows you in, use the burrow mechanic to let them hit a wall, which stuns them and allows for a quick kill."
+  },
+  {
+    question: "What is the best way to learn a Mina the Hollower boss fight pattern?",
+    answer: "Spend the first minute of the fight without attacking. Focus entirely on burrowing under every attack to see the 'tell' and the duration of the hitboxes."
+  }
+]} />
+
+<Callout type="success" title="Final Pro Tip">
+The game is heavily inspired by classic Zelda titles. If a boss seems impossible, look at your current inventory. Often, the latest sidearm or weapon you discovered is the specific 'key' to that boss's 'lock.'
+</Callout>
+
+</Section>

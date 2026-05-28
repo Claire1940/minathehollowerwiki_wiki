@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de la Demo de Mina the Hollower: Primeros Pasos y Opciones de Combate",
+  description: "Explora la demo de Mina the Hollower con nuestra guía detallada, que cubre las opciones iniciales de armas, mecánicas de combate y áreas clave.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Mina+Hollower+Demo+Walkthrough",
+  date: "2026-05-28",
+  author: "Equipo de la Wiki de Mina the Hollower"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La **guía de la demo de Mina the Hollower** orienta a los jugadores a través de la experiencia inicial.
+- Elige entre **dagas, látigo o martillo** al principio, cada uno con estilos de combate únicos.
+- Comprende la **perspectiva isométrica** y cómo influye en la exploración.
+- Utiliza el **sistema de curación tipo frasco** y los "huesos" para la progresión del personaje.
+- La demo ofrece una experiencia de acción desafiante pero **atractiva**, que recuerda a los títulos clásicos de Zelda.
+</Callout>
+
+<Section icon={Map} title="Iniciando tu Aventura: Opciones Iniciales y Mecánicas">
+La demo de Mina the Hollower sumerge de inmediato a los jugadores en una estética clásica de Game Boy con una banda sonora chiptune, estableciendo un tono nostálgico para este juego de acción isométrico. Como Mina, una ratona bípeda e inventora, tu viaje comienza en la Isla Tenebrosa para investigar generadores de chispas que funcionan mal. Aunque la historia sirve como vehículo, la jugabilidad es donde esta demo realmente brilla.
+
+**Puntos Destacados del Video:**
+- Resumen de la estética y el diseño de sonido de la demo.
+- Introducción al papel de Mina y la misión inicial.
+- Vistazo al combate temprano y las interacciones ambientales.
+
+<Callout type="tip" title="Estrategia de Selección de Arma">
+Tu elección de arma inicial impacta significativamente el combate temprano. Considera tu estilo de juego preferido antes de comprometerte, ya que no hay un maniquí de entrenamiento en el juego para probar las armas.
+</Callout>
+
+Al comenzar, se te presenta una decisión crucial: seleccionar tu arma principal. Esta elección definirá tus primeros encuentros de combate.
+
+**Comparación de Armas:**
+
+| Arma | Velocidad de Ataque | Alcance | Característica Especial | Recomendado Para |
+|---|---|---|---|---|
+| **Dagas** | Rápida | Corto | Alto DPS en distancias cortas | Jugadores agresivos, combos rápidos |
+| **Látigo** | Lenta | Largo | Control de área, combate más seguro | Jugadores defensivos, mantener distancia |
+| **Martillo** | Rápida | Medio | Ataque cargado, puede aturdir enemigos | Jugadores equilibrados, control de masas |
+
+<Callout type="warning" title="Huesos Irreproducibles">
+Los "huesos", la moneda para subir de nivel, no son reproducibles en la demo. Los enemigos y los objetos ambientales que los sueltan ocurren una sola vez. Esto significa que si los pierdes o desaparecen, se han ido para siempre. ¡Planifica tu nivelación con cuidado!
+</Callout>
+
+El juego también presenta adiciones modernas como un sistema de curación tipo frasco, que se recarga al dañar enemigos, y un sistema de nivelación que utiliza "huesos". Sin embargo, la escasez de "huesos" puede ser un punto de frustración para aquellos que buscan optimizar su personaje.
+
+</Section>
+
+<Section icon={Swords} title="Dominando el Combate: Técnicas y Armas Secundarias">
+El combate en Mina the Hollower es atractivo y requiere una buena comprensión del arma elegida y las armas secundarias disponibles. Cada arma ofrece una sensación distinta, y dominar sus matices es clave para sobrevivir en la Isla Tenebrosa.
+
+**Mecánicas Principales de Combate:**
+
+| Mecánica | Descripción | Uso |
+|---|---|---|
+| **Ataque Principal** | Basado en el arma elegida (dagas, látigo, martillo). | Fuente principal de daño, aprende el tiempo y el alcance. |
+| **Armas Secundarias** | Opciones a distancia como cuchillos arrojadizos o una hacha. | Se usan para enemigos distantes o para complementar ataques principales. |
+| **Excavar (Burrowing)** | Mina puede excavar bajo tierra para evitar ataques o atravesar ciertas áreas. | Esencial para esquivar patrones de enemigos difíciles y peligros ambientales. |
+| **Sistema de Frasco** | Un objeto de curación de uso limitado que se recarga infligiendo daño. | Crucial para resistir encuentros largos, gestiona su uso sabiamente. |
+| **Generadores de Chispas** | Objetos ambientales que juegan un papel en la historia y potencialmente en la jugabilidad. | Mantente atento a ellos mientras exploras; su función puede evolucionar. |
+
+<CardGrid cols={2}>
+  <Card title="Estilo de Juego con Dagas">
+    - **Pros:** Ataques extremadamente rápidos, alto daño de ráfaga de cerca.
+    - **Contras:** Alcance muy corto, requiere un posicionamiento preciso.
+    - **Estrategia:** Acércate, desata una ráfaga de ataques y excava para alejarte de las represalias.
+  </Card>
+  <Card title="Estilo de Juego con Látigo">
+    - **Pros:** Buen alcance, combate más seguro, puede golpear a varios enemigos.
+    - **Contras:** Velocidad de ataque más lenta, menos daño directo por golpe.
+    - **Estrategia:** Mantén la distancia, hostiga a los enemigos y usa su alcance para controlar grupos.
+  </Card>
+  <Card title="Estilo de Juego con Martillo">
+    - **Pros:** Ataque rápido con una carga poderosa, capaz de aturdir.
+    - **Contras:** Alcance medio, el ataque cargado tiene un tiempo de preparación.
+    - **Estrategia:** Mezcla ataques rápidos con golpes cargados para aturdir y crear aperturas.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Versatilidad de las Armas Secundarias">
+No subestimes tus armas secundarias. Proporcionan valiosas opciones a distancia, especialmente si tu arma principal tiene un alcance limitado. Experimenta con los cuchillos arrojadizos o el hacha para encontrar lo que mejor complemente tu arma elegida.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Navegando por la Isla Tenebrosa: Exploración y Progresión">
+La demo presenta una perspectiva isométrica, donde el mapa solo se mueve a una nueva área una vez que haces la transición. Esta elección de diseño, que recuerda a los títulos clásicos de Zelda para consolas portátiles, fomenta la exploración exhaustiva de cada pantalla antes de avanzar.
+
+<Steps>
+  <Step num="1" title="Aparición Inicial y Tutorial">
+    Comienza tu viaje, familiarízate con los controles básicos y el objetivo inicial de investigar los generadores de chispas.
+  </Step>
+  <Step num="2" title="Selección de Arma y Primeros Encuentros">
+    Elige tu arma inicial (dagas, látigo o martillo) y participa en tus primeros escenarios de combate contra varios enemigos.
+  </Step>
+  <Step num="3" title="Exploración de Área y Recolección de Huesos">
+    Explora las áreas tempranas de la Isla Tenebrosa, derrota enemigos y recolecta "huesos" para una posible nivelación. ¡Recuerda, los huesos son finitos!
+  </Step>
+  <Step num="4" title="Encuentro con Jefe (si aplica)">
+    Prepárate para cualquier encuentro con jefes dentro de la demo, utilizando todas tus mecánicas de combate aprendidas y la gestión del frasco.
+  </Step>
+  <Step num="5" title="Conclusión de la Demo">
+    Experimenta el final del contenido de la demo, dejándote con ganas del lanzamiento del juego completo.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Maximizando la Recolección de Huesos">
+Dado que los "huesos" no son reproducibles, asegúrate de limpiar meticulosamente cada pantalla de enemigos y objetos ambientales destructibles para reunir toda la moneda disponible. Esto es crucial para cualquier posible aumento de nivel.
+</Callout>
+
+**Elementos Clave de Exploración:**
+
+| Elemento | Descripción | Importancia |
+|---|---|---|
+| **Vista Isométrica** | Cámara fija por pantalla, transiciones al entrar en nuevas áreas. | Fomenta la exploración detallada de cada zona. |
+| **Peligros Ambientales** | Trampas, fosos y otros peligros a evitar. | Requiere movimiento cuidadoso y observación. |
+| **Pasajes Ocultos** | Algunas áreas pueden tener secretos o rutas alternativas. | Recompensan a los jugadores minuciosos con objetos extra o huesos. |
+| **Generadores de Chispas** | El misterio central de la demo. | Interactúa con ellos para avanzar en la narrativa. |
+
+</Section>
+
+<Section icon={Trophy} title="Experiencia de la Demo y Perspectiva Futura">
+La demo de Mina the Hollower ofrece un vistazo convincente a lo que promete ser otro éxito para Yacht Club Games. Al igual que Shovel Knight rindió homenaje a los juegos de plataformas en 2D, Mina the Hollower canaliza con éxito el espíritu de los juegos clásicos de acción y aventuras con refinamientos modernos.
+
+<Checklist
+  id="demo-highlights"
+  title="Lo que ofrece la demo:"
+  items={[
+    "Estética nostálgica de Game Boy y banda sonora chiptune.",
+    "Jugabilidad de acción isométrica atractiva.",
+    "Opciones de armas significativas con estilos de juego distintos.",
+    "Funciones modernas de calidad de vida como el sistema de frasco.",
+    "Dificultad desafiante que recompensa la habilidad.",
+  ]}
+/>
+
+<Callout type="success" title="Impresión General">
+La demo muestra una base sólida con su estética, sonido y jugabilidad principal. A pesar de algunos puntos menores como la falta de maniquíes de prueba de armas y los "huesos" finitos, establece un estándar alto para el lanzamiento completo.
+</Callout>
+
+Aunque la demo puede ser un desafío para los principiantes absolutos debido a su dificultad y mínimas instrucciones, ofrece una experiencia profundamente atractiva y agradable para aquellos familiarizados con el género. El potencial para una historia rica y mecánicas de juego gratificantes es evidente, posicionando a Mina the Hollower como un fuerte contendiente para ser un futuro clásico.
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes (FAQ)">
+
+<FAQ items={[
+  {
+    question: "¿Qué es Mina the Hollower?",
+    answer: "Mina the Hollower es un juego de acción y aventuras isométrico desarrollado por Yacht Club Games, conocido por su estética clásica de Game Boy y su jugabilidad desafiante, similar a los primeros títulos de Legend of Zelda."
+  },
+  {
+    question: "¿Cuánto dura la guía de la demo de Mina the Hollower?",
+    answer: "La demo proporciona una introducción relativamente corta y un segmento de jugabilidad inicial, centrándose en el combate temprano, las opciones de armas y la exploración de la Isla Tenebrosa. La duración varía según la habilidad del jugador y sus hábitos de exploración."
+  },
+  {
+    question: "¿Qué arma debo elegir en la demo?",
+    answer: "Tu elección de arma depende de tu estilo de juego. Las dagas ofrecen ataques rápidos de corto alcance; el látigo proporciona mejor alcance pero ataques más lentos; y el martillo tiene un ataque rápido con una carga que aturde. No hay maniquíes para probarlas, así que elige según tu instinto."
+  },
+  {
+    question: "¿Puedo conseguir más 'huesos' en la demo si se me acaban?",
+    answer: "No, los 'huesos' (la moneda para subir de nivel) no son reproducibles en la demo. Los enemigos y los objetos ambientales solo los proporcionan una vez. Si desaparecen o no los recoges, no podrás conseguir más."
+  }
+]} />
+
+</Section>

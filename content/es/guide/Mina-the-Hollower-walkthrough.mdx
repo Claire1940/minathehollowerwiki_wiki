@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de Mina the Hollower: Estrategia y Combate al Principio del Juego",
+  description: "Domina las profundidades de la Isla Tenebrosa con nuestra guía de Mina the Hollower. Aprende construcciones de armas, tácticas de excavación y ubicaciones de Generadores de Chispas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a2e/e0e0e0?text=Mina+the+Hollower+Walkthrough",
+  date: "2026-05-28",
+  author: "Equipo de Wiki de Mina the Hollower"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Guía de Mina the Hollower**: Concéntrate en restaurar los **6 Generadores de Chispas** a lo largo de la Isla Tenebrosa para avanzar en la historia principal.
+- **Mecánica de Excavación**: Usa la excavación como tu herramienta defensiva principal para moverte bajo peligros y evitar las cajas de impacto enemigas.
+- **Gestión de Recursos**: Gasta tus **Huesos** frecuentemente en las estaciones de "Bone Up" para evitar perder un progreso significativo al morir.
+- **Elección de Arma**: Comienza con la **Nightstar** para un alcance superior y una lectura de enemigos más segura durante tus primeras horas.
+- **Estrategia de Arma Secundaria**: Guarda tus **Julios** para habitaciones difíciles; las armas secundarias se pierden al morir y requieren un despliegue cuidadoso.
+</Callout>
+
+<Section icon={Map} title="Comenzando en la Isla Tenebrosa">
+
+El lanzamiento oficial de Mina the Hollower el **29 de mayo de 2026** trae una aventura gótica inspirada en Game Boy a las plataformas modernas. Como Mina, una hábil Hollower, tienes la tarea de investigar la oscuridad que consume la Isla Tenebrosa. Esta **guía de Mina the Hollower** está diseñada para ayudarte a navegar las primeras horas, adaptarte al ritmo de combate y comprender los intrincados sistemas desarrollados por Yacht Club Games.
+
+Antes de comenzar tu viaje, asegúrate de que tu hardware cumpla con los requisitos necesarios y que tus controles estén optimizados para un movimiento preciso. El juego exige reacciones limpias, particularmente para esquivar y excavar.
+
+| Plataforma | Objetivo de Rendimiento | Recomendación de Entrada |
+| :--- | :--- | :--- |
+| **PC / Mac / Linux** | 60 FPS / Baja Latencia | Mando (altamente recomendado) |
+| **Nintendo Switch** | 60 FPS / Portátil | Joy-Cons o Pro Controller |
+| **PS5 / Xbox Series** | 4K / 60 FPS | Gamepad Estándar |
+| **Steam Deck** | Soporte Nativo | Controles Integrados |
+
+<Callout type="tip" title="Consejo Técnico">
+En PC, asegúrate de tener al menos 4 GB de RAM y 860 MB de almacenamiento. Verifica las zonas muertas de tu mando en el menú de configuración antes de entrar en la primera zona de combate para asegurar que tus transiciones de excavación sean fluidas.
+</Callout>
+
+El objetivo principal es claro: localizar y restaurar los **6 Generadores de Chispas**. Esta tarea te llevará a través de diversos biomas, cada uno custodiado por algunos de los más de 25 jefes y mini-jefes dispersos por la isla. Tu progresión está ligada a tu habilidad para adaptar tu construcción usando armas, armas secundarias y una colección de 60 Amuletos únicos.
+
+</Section>
+
+<Section icon={Swords} title="Fundamentos de Combate y Selección de Armas">
+
+El combate en Mina the Hollower es una danza de posicionamiento y sincronización. A diferencia de los juegos de acción y aventura tradicionales, Mina puede excavar bajo tierra. **Excavar es defensa, no solo exploración.** Te permite sortear peligros ambientales como llamas o pinchos y moverte con seguridad bajo monstruos grandes cuando un pasillo se vuelve demasiado estrecho.
+
+<CardGrid cols={3}>
+  <Card title="Nightstar (Látigo)">
+    - **Estilo**: Alcance y Control
+    - **Pros**: Distancia más segura para leer patrones enemigos
+    - **Contras**: Menor daño explosivo que las armas pesadas
+  </Card>
+  <Card title="Maza de Golpe Explosivo">
+    - **Estilo**: Golpes Fuertes
+    - **Pros**: Alto impacto y ruptura de guardia
+    - **Contras**: La recuperación lenta te deja vulnerable
+  </Card>
+  <Card title="Susurro y Víspera">
+    - **Estilo**: Dagas Rápidas
+    - **Pros**: Ataques rápidos y alta movilidad
+    - **Contras**: Requiere mucha proximidad a los enemigos
+  </Card>
+</CardGrid>
+
+Elegir el arma adecuada al principio de tu **guía de Mina the Hollower** definirá tu tasa de supervivencia. Para los principiantes, la **Nightstar** es la elección superior. Su alcance te permite observar los avisos enemigos sin estar en la zona de peligro inmediata.
+
+| Acción de Combate | Uso Principal | Consejo de Experto |
+| :--- | :--- | :--- |
+| **Golpe** | Infligir daño | Realiza 1-2 golpes, luego reposiciónate |
+| **Esquivar** | Evasión rápida | Úsala para acortar distancias o escapar de AOE |
+| **Excavar** | Invulnerabilidad | Mantén pulsado para permanecer bajo peligros indefinidamente |
+| **Arma Secundaria** | Utilidad / A distancia | Usa el **Hacha Voltio** para plagas voladoras |
+
+<Callout type="warning" title="Advertencia de Combate">
+No pulses el botón de ataque frenéticamente. La mayoría de los enemigos tienen una ventana de recuperación después de sus ataques. Asesta tus golpes, luego esquiva o excava inmediatamente para restablecer tu posición.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progresión: Huesos, Julios y Amuletos">
+
+La progresión en Mina the Hollower sigue una estructura de "riesgo vs. recompensa" similar a los juegos tipo souls. La moneda principal son los **Huesos**, que se usan para "Bone Up" (subir de nivel) tus estadísticas. Si llevas demasiados Huesos a un área desconocida y mueres, corres el riesgo de perder tu riqueza acumulada.
+
+<Steps>
+  <Step num="1" title="Recolectar Huesos">
+    Derrota enemigos y rompe objetos para recolectar Huesos. Evita acumularlos por mucho tiempo.
+  </Step>
+  <Step num="2" title="Encontrar una Estación de Bone Up">
+    Localiza un punto de control para invertir tus Huesos en estadísticas de Ataque, Defensa o Arma Secundaria.
+  </Step>
+  <Step num="3" title="Equipar Amuletos">
+    Encuentra o compra Amuletos para añadir mejoras pasivas. Tienes 60 para descubrir en total.
+  </Step>
+  <Step num="4" title="Gestionar Julios">
+    Recolecta Julios para alimentar tus Armas Secundarias. Recuerda: las Armas Secundarias se pierden al morir.
+  </Step>
+</Steps>
+
+Al decidir qué estadísticas priorizar, evalúa tus muertes recientes. Si encuentras que las peleas se alargan y cometes errores debido al cansancio, aumenta tu **Ataque**. Si te están matando de dos golpes los enemigos básicos, invierte mucho en **Defensa**.
+
+| Problema | Estadística Recomendada | Beneficio Esperado |
+| :--- | :--- | :--- |
+| **Muerte Frecuente** | Defensa | Mayor supervivencia y tiempo de aprendizaje |
+| **Limpieza Lenta** | Ataque | Menos ciclos enemigos y muertes de jefe más rápidas |
+| **Escasez de Recursos** | Arma Secundaria | Mejor utilidad y opciones a distancia |
+| **Errores de Posicionamiento** | Amuletos | Mejoras personalizadas a la velocidad de esquivar o excavar |
+
+<Callout type="success" title="Estrategia de Construcción">
+Los Amuletos hacen que tu construcción sea flexible. Si estás luchando con un jefe específico, cambia tus Amuletos para contrarrestar su tipo de daño o patrón de movimiento específico. Nunca cambies toda tu construcción después de una muerte; cambia un Amuleto a la vez para probar su efectividad.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de los 6 Generadores de Chispas">
+
+El núcleo de cualquier **guía de Mina the Hollower** es el viaje a los 6 Generadores de Chispas. Estos actúan como los hitos principales del juego. La Isla Tenebrosa no es lineal, lo que significa que a menudo puedes elegir qué rama abordar primero. Sin embargo, si una ruta se siente demasiado agotadora, es mejor irse y explorar un camino diferente que forzar una "pared mala".
+
+1.  **Entra en una nueva habitación a medio alcance**: No te precipites al centro.
+2.  **Observa primero**: Mira cómo se mueven los enemigos y qué peligros ambientales están presentes.
+3.  **Elimina las amenazas**: Concéntrate primero en los enemigos a distancia, luego en los de melé.
+4.  **Verificación de Recursos**: Solo usa Armas Secundarias como el **Disco de Recuerdo** o la **Daga Giratoria** si la habitación presenta una amenaza clara que no puedes manejar con tu arma principal.
+5.  **Rebusca**: Rompe cada objeto *después* de que termine la pelea para buscar Frascos de Julio y Huesos extra.
+
+| Tipo de Área | Dificultad | Peligro Principal | Herramienta Recomendada |
+| :--- | :--- | :--- | :--- |
+| **Supra-mundo** | Baja | Patrullas | Nightstar |
+| **Criptas** | Media | Pasillos Estrechos | Excavación |
+| **Industrial** | Alta | Pinchos/Llamas | Armas Secundarias |
+| **Arenas de Jefe** | Extrema | Superposición de Patrones | Sinergia de Amuletos |
+
+<Callout type="info" title="Consejo de Exploración">
+Una "pared justa" es un jefe que aún estás aprendiendo. Una "pared mala" es una ruta que agota tu salud y recursos antes de que siquiera llegues al jefe. Si llegas a un Generador de Chispas sin salud, regresa y encuentra una ruta más eficiente.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de las Primeras Horas">
+
+Para asegurar un comienzo exitoso en la Isla Tenebrosa, sigue esta lista de verificación durante tu primera sesión. Esto sentará las bases para el resto de tu **guía de Mina the Hollower**.
+
+<Checklist
+  id="beginner-checklist"
+  title="Tareas Esenciales Iniciales:"
+  items={[
+    "Configura los controles y los ajustes de accesibilidad en el menú principal",
+    "Selecciona la Nightstar para una curva de aprendizaje de combate más segura",
+    "Gasta todos los Huesos acumulados antes de entrar en una nueva mazmorra",
+    "Identifica y equipa al menos dos Amuletos que complementen tu estilo de juego",
+    "Localiza el primer Generador de Chispas y elimina a sus mini-jefes circundantes",
+    "Practica la transición de excavación a salto para una movilidad avanzada"
+  ]}
+/>
+
+<Callout type="warning" title="Errores Comunes">
+Evita gastar Julios en habitaciones fáciles. Estos recursos son preciosos y se pierden al morir. Además, no asumas que cada pared requiere un objeto faltante; a menudo, la solución es simplemente un uso inteligente de la mecánica de excavación.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor arma para una guía de Mina the Hollower?",
+    answer: "La Nightstar es muy recomendada para principiantes debido a su alcance. Sin embargo, si prefieres un juego de alto riesgo y alta recompensa, las dagas Susurro y Víspera ofrecen la velocidad de ataque más rápida."
+  },
+  {
+    question: "¿Lo pierdo todo cuando muero en Mina the Hollower?",
+    answer: "Pierdes tus Huesos no gastados y tus Armas Secundarias equipadas actualmente. Tus mejoras permanentes, Amuletos y el progreso hacia los Generadores de Chispas permanecen intactos."
+  },
+  {
+    question: "¿Cuántos Generadores de Chispas hay en total?",
+    answer: "Hay 6 Generadores de Chispas que deben ser restaurados para completar la misión principal en la Isla Tenebrosa."
+  },
+  {
+    question: "¿Puedo cambiar mi construcción después de comenzar el juego?",
+    answer: "Sí, puedes intercambiar Amuletos y cambiar tu arma equipada en cualquier momento. Invertir Huesos en diferentes estadísticas también te permite pivotar tu construcción a medida que progresas."
+  }
+]} />
+
+</Section>

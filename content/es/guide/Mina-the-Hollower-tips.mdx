@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Consejos de Mina the Hollower: Guía Profesional de Combate y Exploración",
+  description: "Domina la mecánica de excavación, optimiza tu sistema de mejora de huesos y derrota a los primeros jefes con nuestros consejos esenciales de Mina the Hollower para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a2e/ffffff?text=Mina+the+Hollower+Tips",
+  date: "2026-05-28",
+  author: "Equipo Wiki de Mina the Hollower"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Los **consejos de Mina the Hollower** se centran en dominar la mecánica de **Excavación** (túnel) tanto para la navegación como para la invulnerabilidad en combate.
+- Utiliza el **sistema de mejora de huesos** para subir de nivel tus estadísticas estratégicamente; los huesos sirven tanto como puntos de experiencia como de moneda para los abalorios.
+- El combate sigue un ritmo inspirado en **Bloodborne** donde golpear a los enemigos te permite recuperar salud, recompensando estilos de juego agresivos.
+- Las armas secundarias como el **Hacha** y la **Daga** tienen interacciones únicas, como el efecto bumerán de la Daga cuando es golpeada por tu látigo.
+- La exploración requiere estar atento a las señales del entorno de **Horror Gótico**, ya que muchos caminos están ocultos bajo la superficie.
+</Callout>
+
+<Section icon={Map} title="Dominando la Excavación y las Mecánicas de Movimiento">
+
+El núcleo de tu aventura en la Isla Tenebrosa gira en torno a los **consejos de Mina the Hollower** sobre su movimiento característico: la excavación. A diferencia de los juegos de aventura tradicionales de vista cenital donde saltar o cruzar huecos requiere objetos específicos, Mina puede excavar en el suelo a voluntad. Esta "excavación" sirve como tu herramienta principal para la velocidad, la evasión y la resolución de acertijos. Cuando excavas, te mueves significativamente más rápido que tu ritmo de caminata estándar, pero debes estar atento al tiempo requerido para entrar y salir del suelo.
+
+**Puntos destacados del video:**
+- Desglose detallado de las tres armas iniciales: Night Star, Malice y Whisper/Vesper.
+- Guía paso a paso para derrotar al primer jefe principal usando cobertura ambiental.
+- Estrategias de combate para la lucha contra el jefe Thorne, enfatizando las ventanas de ataque.
+- Explicación del sistema de recuperación de salud a través de ataques cuerpo a cuerpo agresivos.
+
+<YouTubeEmbed videoId="QFdKuXDJksE" title="Mina the Hollower - Cómo vencer a los dos primeros jefes FÁCILMENTE" />
+
+La excavación proporciona una breve ventana de invulnerabilidad, permitiéndote sumergirte bajo los proyectiles enemigos o los ataques de carga. Sin embargo, la animación al emerger del suelo te deja momentáneamente vulnerable. Esto crea un ciclo de "micro-decisiones" de alto riesgo donde debes decidir si el aumento de velocidad vale el riesgo de ser atrapado al resurgir.
+
+| Mecánica | Uso Primario | Beneficio Estratégico |
+| :--- | :--- | :--- |
+| Caminar | Movimiento de precisión | Evita el bloqueo de animación, permite un espaciado cuidadoso |
+| Excavación | Velocidad y huecos | Esencial para cruzar pozos y esquivar cargas |
+| Emergencia | Configuración de ataque | Se puede usar para aparecer detrás de enemigos con escudo |
+| Recolección de Huesos | Progresión | Se usa para subir de nivel estadísticas y comprar abalorios clave |
+
+<Callout type="tip" title="Estrategia de Excavación">
+Si encuentras un bloqueo o un guardia que se niega a moverse, tu primer instinto siempre debe ser excavar. Muchos "bloqueos suaves" de principios de juego reportados por los jugadores son en realidad simples acertijos de excavación. Busca tierra blanda o grietas que indiquen un camino debajo del obstáculo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Selección de Armas y Optimización de Combate">
+
+Elegir tu arma inicial es la decisión más significativa que tomarás al principio del juego. Cada arma en Mina the Hollower está diseñada con un perfil específico de riesgo-recompensa. Mientras que la maza Night Star ofrece una sensación de látigo clásica al estilo Castlevania con un excelente alcance, otras armas como el martillo Malice sacrifican velocidad por un impacto devastador.
+
+<CardGrid cols={3}>
+  <Card title="Night Star">
+    - **Alcance Flexible**: Ideal para mantener la distancia.
+    - **Daño Moderado**: Consistente pero requiere más golpes.
+    - **Elección para Principiantes**: Opción más segura para aprender patrones.
+  </Card>
+  <Card title="Malice">
+    - **Golpe Fuerte**: Puede aturdir a enemigos pequeños fácilmente.
+    - **Recuperación Lenta**: Te deja expuesto a contraataques.
+    - **Alto Riesgo**: Mejor para jugadores que dominan el timing del jefe.
+  </Card>
+  <Card title="Whisper & Vesper">
+    - **Estadísticas Equilibradas**: Buena mezcla de velocidad y potencia.
+    - **Dagas Gemelas**: Permite ataques rápidos.
+    - **Juego Quirúrgico**: Requiere proximidad a los enemigos.
+  </Card>
+</CardGrid>
+
+Más allá de tu arma principal, el sistema de armas secundarias añade una capa de profundidad táctica. Estas armas secundarias son soltadas por objetos destructibles y se pueden intercambiar sobre la marcha. Cada arma secundaria tiene una interacción "oculta" que puede ser activada por tus ataques principales.
+
+| Arma Secundaria | Efecto Primario | Interacción Avanzada |
+| :--- | :--- | :--- |
+| Hacha Fluida | Daño de área de efecto | Golpea múltiples objetivos en un arco circular |
+| Daga Bumerán | Proyectil lineal | Hazla rebotar con tu látigo para golpes extra |
+| Generador de Chispas | Descarga eléctrica | Útil para activar acertijos ambientales |
+| Fragmento de Hueso | Lanzamiento de corto alcance | Herramienta de distracción de bajo costo y alta frecuencia |
+
+<Callout type="warning" title="Retención de Armas Secundarias">
+Ten en cuenta que las armas secundarias se pierden al morir. A diferencia de tu arma principal y los huesos (que se pueden recuperar), las armas secundarias deben ser encontradas de nuevo en el mundo. Guarda tus hachas poderosas para los encuentros con jefes en lugar de desperdiciarlas en mobs comunes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="El Sistema de Progresión de Mejora de Huesos">
+
+La progresión en Mina the Hollower utiliza el sistema "Bone-up" (mejora de huesos), una mezcla única de nivelación RPG tradicional y gestión de moneda. A medida que derrotas enemigos y excavas a través de la tierra, recolectas huesos. Estos actúan como tus puntos de experiencia. Una vez que alcanzas un cierto umbral, puedes subir de nivel uno de tus atributos principales.
+
+<Steps>
+  <Step num="1" title="Acumulación de Huesos">
+    Derrota enemigos y excava en puntos blandos para recolectar huesos. Excavar suele ser más lucrativo que el combate en las primeras regiones.
+  </Step>
+  <Step num="2" title="Selección de Estadísticas">
+    Elige entre Ataque, Defensa o Agilidad. Ataque aumenta el daño bruto, mientras que Defensa reduce la penalización de "pérdida de huesos" al morir.
+  </Step>
+  <Step num="3" title="Inversión en Abalorios">
+    Guarda una porción de tus huesos para comprar abalorios a los NPCs. Estos proporcionan mejoras pasivas como un tiempo de excavación más largo o una mayor recuperación de salud.
+  </Step>
+  <Step num="4" title="Recuperación tras la Muerte">
+    Si caes en batalla, dejas un montón de huesos. Debes regresar a ese lugar para reclamar tu progreso, similar a las mecánicas tipo Souls.
+  </Step>
+</Steps>
+
+| Categoría de Estadística | Beneficio | Construcción Recomendada |
+| :--- | :--- | :--- |
+| Poder de Ataque | Mayor daño por golpe | El "Cañón de Cristal" (Enfoque en Ataque/Agilidad) |
+| Defensa | Daño recibido reducido | El "Tanque" (Enfoque en Defensa/Salud) |
+| Agilidad | Excavación y recuperación más rápidas | El "Velocista" (Enfoque en Agilidad/Abalorios) |
+
+<Callout type="success" title="Gestión de Salud">
+Recuerda que golpear enemigos recarga tu frasco de salud. Si tienes poca salud, no huyas; busca un enemigo más lento y asesta algunos golpes para recuperar tu sustento. Este es el más crítico de todos los **consejos de Mina the Hollower** para sobrevivir en mazmorras largas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Estrategias de Jefes Tempranos: Topo y Thorne">
+
+Los dos primeros encuentros con jefes sirven como pruebas de habilidad para tu comprensión de la excavación y el posicionamiento. El primer jefe, una criatura subterránea masiva, requiere que uses el entorno a tu favor. Escóndete detrás de las formaciones rocosas indestructibles cuando el jefe prepare su ataque de carga. Espera la ventana de recuperación después de que golpee una pared para desatar tu arma secundaria.
+
+Para el segundo jefe, Thorne, la dificultad aumenta significativamente. Thorne es un guerrero rival que usa ataques de lanza de alta movilidad y tornados de fuego. La clave aquí es la paciencia.
+
+| Fase del Jefe | Ataque de Thorne | Maniobra de Contraataque |
+| :--- | :--- | :--- |
+| Salto Aéreo | Se lanza desde arriba | Espera la sombra, excava, luego golpea dos veces |
+| Tornado de Fuego | Cerco | Permanece en el centro o excava bajo las llamas |
+| Estocada de Lanza | Golpe de largo alcance | Esquiva y usa un arma secundaria como el Hacha |
+| Desesperación | Ondas de fuego rápido | Concéntrate en excavar para obtener fotogramas de invulnerabilidad |
+
+<Callout type="tip" title="Ventana de Combate de Thorne">
+Thorne solo es vulnerable durante unos 2 segundos después de aterrizar de un salto. No seas codicioso. Asesta dos golpes con tu látigo o maza e inmediatamente excava para evitar su contraataque.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de Supervivencia y Exploración">
+
+La Isla Tenebrosa está inspirada en el horror gótico victoriano, lo que significa que la atmósfera es tan peligrosa como los enemigos. El diseño de niveles a menudo subvierte las expectativas, colocando abalorios valiosos en áreas que parecen callejones sin salida. Usa tu mapa con frecuencia y busca inconsistencias en las texturas del suelo que puedan indicar un camino de excavación oculto.
+
+<Checklist
+  id="exploration-goals"
+  title="Lista de control de la Isla Tenebrosa:"
+  items={[
+    "Localiza los tres primeros Generadores de Chispas para restaurar la energía de la ciudad",
+    "Encuentra el abalorio de araña oculto para los acertijos de escalada de paredes",
+    "Recolecta al menos 500 huesos antes de intentar la lucha contra Thorne",
+    "Desbloquea el atajo entre el Patio y la Cueva inicial",
+    "Domina el golpe de retorno de la daga bumerán para doble daño"
+  ]}
+/>
+
+| Consejo de Exploración | Detalle |
+| :--- | :--- |
+| Fuentes de Luz | Las velas a menudo esconden armas secundarias; rómpelas todas |
+| Tierra Blanda | Indica un camino de excavación o huesos ocultos |
+| Diálogo de NPC | Habla con todos; algunos proporcionan pistas sobre las debilidades de los jefes |
+| Puntos de Guardado | Excava en los puntos de guardado para activarlos y restaurar la salud |
+
+<Callout type="info" title="Consejo Final">
+No temas experimentar con tu construcción. El enfoque "Cañón de Cristal" (poniendo todos los huesos en Ataque) hace que Mina sea increíblemente poderosa pero muy frágil. Si te encuentras muriendo con frecuencia, cambia tus próximos niveles a Defensa y busca el "Anillo de Uranio" o abalorios protectores similares.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor manera de usar los consejos de Mina the Hollower para el combate?",
+    answer: "La mejor estrategia es equilibrar los golpes cuerpo a cuerpo agresivos para la recuperación de salud con la excavación para la invulnerabilidad. Usa la Night Star para una distancia segura y siempre ten un arma secundaria como el Hacha lista para el daño de área."
+  },
+  {
+    question: "¿Cómo recupero los huesos perdidos después de morir?",
+    answer: "Cuando mueres, tus huesos se quedan en el lugar de tu derrota. Debes regresar a esa ubicación exacta y recogerlos. Si mueres de nuevo antes de recuperarlos, esos huesos se pierden para siempre."
+  },
+  {
+    question: "¿Puedo cambiar mi arma principal más adelante en el juego?",
+    answer: "Sí, aunque eliges un arma inicial, puedes encontrar y desbloquear otras armas a lo largo de la Isla Tenebrosa. Cada arma se puede mejorar independientemente usando huesos."
+  },
+  {
+    question: "¿Por qué la excavación se siente lenta a veces?",
+    answer: "La excavación tiene una animación de entrada y salida. Para optimizar la velocidad, asegúrate de excavar en terreno blando y evita emerger directamente frente a las hitboxes activas de un enemigo."
+  }
+]} />
+
+</Section>
