@@ -1,7 +1,7 @@
 "use client";
 
-import { useMemo } from "react";
-import { ExternalLink } from "lucide-react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { ExternalLink, PlayCircle } from "lucide-react";
 
 interface VideoFeatureProps {
   videoId: string;
@@ -9,28 +9,63 @@ interface VideoFeatureProps {
 }
 
 export function VideoFeature({ videoId, title }: VideoFeatureProps) {
+  const wrapperRef = useRef<HTMLDivElement | null>(null);
+  const [shouldAutoPlay, setShouldAutoPlay] = useState(false);
   const watchUrl = useMemo(
     () => `https://www.youtube.com/watch?v=${videoId}`,
     [videoId],
   );
 
-  const embedUrl = useMemo(
+  const defaultEmbedUrl = useMemo(
+    () => `https://www.youtube.com/embed/${videoId}?mute=1&playsinline=1&rel=0`,
+    [videoId],
+  );
+  const autoplayEmbedUrl = useMemo(
     () =>
-      `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&playsinline=1&rel=0`,
+      `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&loop=1&playlist=${videoId}&playsinline=1&rel=0`,
     [videoId],
   );
 
+  useEffect(() => {
+    if (!wrapperRef.current) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setShouldAutoPlay(true);
+        }
+      },
+      { threshold: 0.5 },
+    );
+    observer.observe(wrapperRef.current);
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <div className="space-y-4">
-      <div className="relative w-full overflow-hidden rounded-lg" style={{ paddingBottom: "56.25%" }}>
+      <div
+        ref={wrapperRef}
+        className="relative w-full overflow-hidden rounded-lg"
+        style={{ paddingBottom: "56.25%" }}
+      >
         <iframe
           className="absolute top-0 left-0 w-full h-full"
-          src={embedUrl}
+          src={shouldAutoPlay ? autoplayEmbedUrl : defaultEmbedUrl}
           title={title}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
         />
+        {!shouldAutoPlay && (
+          <a
+            href={watchUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="absolute inset-0 flex items-center justify-center bg-black/25 hover:bg-black/35 transition-colors"
+            aria-label={`Play ${title} on YouTube`}
+          >
+            <PlayCircle className="h-16 w-16 text-white/90" />
+          </a>
+        )}
       </div>
 
       <div className="flex justify-center">
