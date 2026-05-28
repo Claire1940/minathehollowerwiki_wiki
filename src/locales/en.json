@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Gothic Action Adventure by Yacht Club Games",
+    "title": "Mina the Hollower Wiki",
+    "description": "Track release timing, walkthrough routes, bosses, weapons, trinkets, achievements, and randomizer/NG+ tips for Mina the Hollower across PC, PS5, Xbox, and Switch.",
+    "getFreeCodesCTA": "Visit Official Website",
+    "playOnSteamCTA": "Play Mina the Hollower on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "May 29, 2026",
+        "label": "Official Release Date"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "25+",
+        "label": "Bosses & Mini-Bosses"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "60",
+        "label": "Trinkets to Discover"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "PC, PS5, Xbox, Switch",
+        "label": "Platforms"
       }
     }
   },
@@ -785,27 +785,27 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready for Mina the Hollower?",
+    "description": "Use the official channels and start with verified guides, boss routes, and trinket builds.",
+    "joinCommunity": "Join Mina Discord",
+    "joinGame": "Get Mina the Hollower on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Mina the Hollower Wiki",
+    "description": "Your complete fan-made guide hub for Mina the Hollower walkthroughs, bosses, weapons, trinkets, achievements, and randomizer info.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "steamCommunity": "Reddit Community",
+    "steamStore": "Official Website",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
-    "disclaimer": "Unofficial fan-made resource website."
+    "copyright": "© 2026 Mina the Hollower Wiki. Unofficial fan-made site, not affiliated with Yacht Club Games.",
+    "disclaimer": "Community guide project for Mina the Hollower players."
   },
   "pages": {
     "guides": {

@@ -97,7 +97,7 @@ export default function HomePageClient({
         url: siteUrl,
         name: "Mina the Hollower Wiki",
         description:
-          "Complete Mina the Hollower Wiki covering crafting, biomes, creatures, items, achievements, lore, and survival tips for the surreal voxel sandbox on Steam.",
+          "Complete Mina the Hollower Wiki covering crafting, biomes, creatures, items, achievements, lore, and survival tips for the gothic action-adventure on Steam.",
         image: {
           "@type": "ImageObject",
           url: `${siteUrl}/images/hero.webp`,
@@ -130,13 +130,13 @@ export default function HomePageClient({
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          caption: "Mina the Hollower Wiki - Surreal Voxel Survival Sandbox",
+          caption: "Mina the Hollower Wiki - Gothic Action Adventure",
         },
         sameAs: [
           "https://store.steampowered.com/app/1875580/Mina_the_Hollower/",
           "https://discord.gg/khzjjZNdvf",
           "https://www.reddit.com/r/MinaTheHollower/",
-          "https://www.youtube.com/yachtclubgames/@lucy_b_locks",
+          "https://www.youtube.com/yachtclubgames/",
         ],
       },
       {
@@ -163,8 +163,8 @@ export default function HomePageClient({
           "Official Mina the Hollower trailer featuring gameplay and release window announcement.",
         uploadDate: "2026-02-12",
         thumbnailUrl: `${siteUrl}/images/hero.webp`,
-        embedUrl: "https://www.youtube.com/yachtclubgames/embed/7C7fybRM_No",
-        url: "https://www.youtube.com/yachtclubgames/watch?v=7C7fybRM_No",
+        embedUrl: "https://www.youtube.com/embed/hcWeTKhpGrg",
+        url: "https://www.youtube.com/watch?v=hcWeTKhpGrg",
       },
     ],
   };
@@ -237,15 +237,17 @@ export default function HomePageClient({
 
             {/* CTA Buttons */}
             <div className="mb-10 flex flex-col justify-center gap-3 sm:flex-row md:mb-12 md:gap-4">
-              <button
-                onClick={() => scrollToSection("beginner-guide")}
+              <a
+                href="https://minathehollower.com/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 md:px-8 md:py-4
                            bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme)/0.9)]
                            text-white rounded-lg font-semibold text-base md:text-lg transition-colors"
               >
                 <BookOpen className="w-5 h-5" />
                 {t.hero.getFreeCodesCTA}
-              </button>
+              </a>
               <a
                 href="https://store.steampowered.com/app/1875580/Mina_the_Hollower/"
                 target="_blank"
@@ -1334,7 +1336,7 @@ export default function HomePageClient({
                     <ExternalLink className="w-3 h-3" />
                   </a>
                   <a
-                    href="https://store.steampowered.com/app/1875580/Mina_the_Hollower/"
+                    href="https://minathehollower.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
@@ -1410,7 +1412,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://twitter.com/YachtClubGames"
+                    href="https://x.com/YachtClubGames"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -1420,7 +1422,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://steamcommunity.com/app/1875580"
+                    href="https://www.reddit.com/r/MinaTheHollower/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -1430,7 +1432,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://store.steampowered.com/app/1875580/Mina_the_Hollower/"
+                    href="https://minathehollower.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
