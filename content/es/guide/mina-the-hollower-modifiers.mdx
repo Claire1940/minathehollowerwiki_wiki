@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Modificadores de Mina the Hollower: Guía de +200 ajustes de juego y aleatorizador",
+  description: "Explora los más de 200 modificadores de Mina the Hollower, incluyendo el aleatorizador integrado, ajustes de dificultad y efectos visuales alocados para personalizar tu aventura.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2d2d2d/fff?text=Mina+the+Hollower+Modifiers+Guide",
+  date: "2026-05-30",
+  author: "Equipo de la Wiki de Mina the Hollower",
+  keywords: "Mina the Hollower, modificadores, aleatorizador, guía de juego, trucos, ajustes"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Los modificadores de Mina the Hollower** ofrecen más de 200 formas de cambiar la jugabilidad, desde la **invencibilidad** hasta **cambios de paleta**.
+- El **aleatorizador integrado** (Mezclador de Objetos) permite a los jugadores encontrar amuletos y armas en un orden completamente aleatorio.
+- Los **ajustes de dificultad** pueden modificarse para convertir la experiencia en un desafío de estilo "Soulslike" o en una exploración relajada.
+- **Modificadores alocados** como el Modo Cabezón y "El Suelo es Lava" añaden rejugabilidad y humor a la ambientación de horror victoriano.
+- Muchos modificadores están **disponibles desde el principio**, mientras que cientos más se desbloquean tras completar la historia principal.
+</Callout>
+
+<Section icon={Map} title="Introducción a los Modificadores de Mina the Hollower">
+
+Los desarrolladores de Yacht Club Games han integrado un enorme conjunto de **modificadores de Mina the Hollower** para asegurar que cada jugador pueda adaptar su experiencia. Inspirados por el legado de los códigos de Game Genie y la propia historia del estudio con los trucos de *Shovel Knight*, estos modificadores son más que simples interruptores. Representan un cambio fundamental en cómo los juegos modernos de estilo retro gestionan la accesibilidad y la rejugabilidad. Ya sea que quieras experimentar una vibra de "Los Muppets presentan Horror Victoriano" o un exigente RPG de acción, estos ajustes proporcionan las herramientas para romper, arreglar o reinventar el mundo del juego.
+
+**Puntos destacados del video:**
+- **Modernizando la Nostalgia**: Cómo los desarrolladores equilibraron la estética de Game Boy Color con una jugabilidad moderna.
+- **El Sistema Spark**: Explicación de la mecánica de "vidas" y cómo los modificadores pueden ajustar la penalización por muerte.
+- **Filosofía de la Diversión**: Por qué el equipo incluyó cientos de modificadores "extraños" en lugar de solo un simple Modo Fácil.
+- **Sin Objetos Clave**: Confirmación de que el juego permite saltarse secuencias (sequence breaking), lo cual se ve potenciado por el aleatorizador.
+
+<YouTubeEmbed videoId="J9T2Xcx-dPs" title="Entrevista con los desarrolladores de Mina the Hollower" />
+
+<Callout type="tip" title="Visión del Desarrollador">
+Los desarrolladores enfatizan que, aunque el juego está equilibrado para una experiencia específica "sin modificar", animan a los jugadores a usar modificadores como el Mezclador de Objetos para descubrir sinergias únicas entre ítems que de otro modo podrían pasar por alto.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Categorización de los más de 200 Modificadores">
+
+Con más de 200 opciones, los **modificadores de Mina the Hollower** pueden categorizarse a grandes rasgos en cuatro tipos principales. Este sistema permite un control granular sobre las mecánicas, los visuales y la curva de dificultad del juego. A diferencia de los juegos tradicionales que te obligan a elegir una única dificultad al inicio, *Mina the Hollower* te permite activar o desactivar muchos de estos ajustes sobre la marcha, proporcionando una forma dinámica de superar obstáculos específicos o simplemente echarse unas risas.
+
+| Categoría | Propósito Principal | Ejemplos de Modificadores |
+| :--- | :--- | :--- |
+| **Accesibilidad** | Reducir la fricción para los jugadores | Invencibilidad, Sparks Infinitos, Sin Penalización por Muerte |
+| **Desafío** | Aumentar la dificultad | Muerte de un Golpe, Enemigos más Rápidos, Límite de Nivel Reducido |
+| **Aleatorización** | Cambiar ubicaciones de objetos/enemigos | Mezclador de Objetos, Aleatorizador de Enemigos, Mezclador de Tiendas |
+| **Visual/Alocado** | Ajustes estéticos y humorísticos | Modo Cabezón, Cambios de Paleta, El Suelo es Lava |
+
+<CardGrid cols={2}>
+  <Card title="Modificadores de Dificultad">
+    - **Invencibilidad**: No recibes daño de enemigos ni de peligros ambientales.
+    - **Salto Lunar**: Aumenta enormemente la altura del salto para facilitar la navegación.
+    - **Mejoras de Estadísticas**: Comienza con estadísticas de salud o daño más altas.
+  </Card>
+  <Card title="Modificadores de Caos">
+    - **Modo Cabezón**: Los enemigos tienen cabezas 4 veces más grandes para un efecto cómico.
+    - **El Suelo es Lava**: Mina deja un rastro de fuego dañino tras de sí.
+    - **Codificador de Texto**: Cambia los diálogos del juego por textos crípticos o absurdos.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Nota sobre el Archivo de Guardado">
+El uso de ciertos modificadores poderosos puede desactivar logros o trofeos específicos en tu archivo de guardado para mantener la integridad de las clasificaciones en las tablas de puntuación.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="El Aleatorizador Integrado: Mezclador de Objetos">
+
+Uno de los **modificadores de Mina the Hollower** más significativos es el Mezclador de Objetos integrado. Tradicionalmente, los aleatorizadores son mods creados por la comunidad que requieren herramientas externas, pero Yacht Club Games lo ha incluido directamente en el motor del juego. Esto mezcla las ubicaciones de los 60 amuletos, 5 armas y 15 subarmas. Debido a que el juego está diseñado sin "objetos clave" que bloqueen el progreso (como las aletas o el gancho en Zelda), el aleatorizador funciona perfectamente desde el inicio de una nueva partida.
+
+<Steps>
+  <Step num="1" title="Activar el Modificador">
+    Dirígete al menú de Modificadores al comenzar una nueva partida o desde el menú de pausa (si está desbloqueado) y activa el **Mezclador de Objetos** (Item Shuffler).
+  </Step>
+  <Step num="2" title="Generación de Semilla">
+    Introduce una semilla específica si quieres competir contra amigos, o déjala en blanco para una experiencia completamente aleatoria generada por el juego.
+  </Step>
+  <Step num="3" title="Adapta tu Equipamiento">
+    A medida que encuentres amuletos fuera de orden, deberás adaptarte. Encontrar un objeto de final de juego como el **Embudo de Plasma** al principio puede cambiar completamente tu estrategia de combate.
+  </Step>
+  <Step num="4" title="Descubre Sinergias">
+    El aleatorizador a menudo te obliga a emparejar objetos como la **Jarra de Plasma** con amuletos que normalmente ignorarías, revelando combinaciones de poder ocultas.
+  </Step>
+</Steps>
+
+| Característica | Experiencia Aleatorizada | Experiencia Estándar |
+| :--- | :--- | :--- |
+| **Ubicación de Objetos** | Totalmente mezclada / Basada en semillas | Fija / Basada en progresión |
+| **Sequence Breaking** | Fomentado y esperado | Posible pero no requerido |
+| **Curva de Dificultad** | Altamente variable | Escalada suavemente |
+| **Sinergia de Amuletos** | Emergente / Experimental | Planificada / Lineal |
+
+<Callout type="success" title="Estrategia Pro">
+El Mezclador de Objetos es muy recomendable para una segunda partida. Transforma el juego de un RPG lineal en un rompecabezas de gestión de recursos y adaptación táctica.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Ajustes Visuales y Cambios de Paleta">
+
+Para los amantes de la estética de Game Boy Color, muchos **modificadores de Mina the Hollower** se centran en la presentación visual. Los desarrolladores dedicaron mucho tiempo a buscar capturas de pantalla reales de GBC para desarrollar las paletas de colores del juego, y han dado a los jugadores la capacidad de cambiarlas a voluntad. Algunos modificadores incluso vinculan estos cambios visuales a acciones del juego, creando una experiencia psicodélica.
+
+**Modificadores Visuales Clave:**
+- **Paletas Dinámicas**: El esquema de colores de todo el juego cambia cada vez que Mina salta.
+- **Filtros Retro**: Ajusta la resolución de pantalla y el parpadeo para imitar el hardware de las antiguas consolas portátiles.
+- **Escalado de Enemigos**: Haz que todos los enemigos sean significativamente más grandes o más pequeños sin cambiar sus cajas de colisión (hitboxes).
+
+<Checklist
+  id="visual-goals"
+  title="Combos Visuales Imprescindibles:"
+  items={[
+    "Activa la 'Paleta GBC' con 'Parpadeo de Sprites' para una auténtica sensación de 1998",
+    "Combina el 'Modo Cabezón' con 'Mina Diminuta' para un contraste hilarante",
+    "Usa el 'Cambio de Paleta al Saltar' durante las peleas contra jefes para visuales de alta intensidad",
+    "Prueba el 'Modo Monocromático' para experimentar el juego como un título original de Game Boy"
+  ]}
+/>
+
+<Callout type="info" title="Detalle Técnico">
+El modificador de cambio de paleta no solo cambia los colores; reasigna el sistema de iluminación del juego para asegurar que, incluso en los modos "extraños", la atmósfera victoriana y las señales de los ataques enemigos permanezcan visibles.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Desbloqueo y Gestión de Modificadores">
+
+Aunque muchos **modificadores de Mina the Hollower** están disponibles nada más arrancar el juego, los modificadores de "Nivel Caos" son recompensas por la maestría. Completar el juego, encontrar secretos ocultos y terminar misiones secundarias específicas en el mundo victoriano de los Bosques Tenebrosos ampliará tu biblioteca de trucos y ajustes.
+
+| Método de Desbloqueo | Tipo de Modificador | Ejemplo |
+| :--- | :--- | :--- |
+| **Predeterminado** | Equilibrio Básico / Accesibilidad | Sparks Infinitos, Mejoras de Estadísticas |
+| **Completar Historia Principal** | Aleatorización Avanzada | Mezclador de Enemigos, Remix de Jefes |
+| **Encontrar Todos los Amuletos** | Poder Definitivo | Modo Dios, Muerte de un Golpe |
+| **Misiones de NPCs Secretos** | Estético / Alocado | Modo Nariz de 40 Pies, Paletas de Salto |
+| **Desafíos de Speedrun** | Herramientas Técnicas | Contadores de Fotogramas, Visualización de Entradas |
+
+<Callout type="tip" title="Consejo de Maestría">
+No tengas miedo de "romper" el juego una vez que lo hayas superado. Los desarrolladores pretendían que el post-juego fuera un patio de recreo donde puedes usar modificadores para explorar áreas que podrías haber pasado por alto o probar los límites del sistema de combate.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Los modificadores de Mina the Hollower desactivan mi capacidad para guardar la partida?",
+    answer: "No, puedes guardar tu progreso con los modificadores activos. Sin embargo, ciertos modificadores de alto impacto como 'Invincibilidad' pueden impedir que ganes logros específicos o aparezcas en las tablas de clasificación mundiales de speedrun."
+  },
+  {
+    question: "¿Puedo activar varios modificadores al mismo tiempo?",
+    answer: "Sí, puedes acumular tantos modificadores como quieras. Puedes tener el Mezclador de Objetos, el Modo Cabezón y el Cambio de Paleta al Saltar activos simultáneamente para el máximo caos."
+  },
+  {
+    question: "¿Hay alguna forma de restablecer todos los modificadores a los ajustes predeterminados?",
+    answer: "Sí, hay una opción de 'Restablecer a valores predeterminados' en la parte inferior del menú de Modificadores que eliminará instantáneamente todos los ajustes activos y devolverá el juego a su equilibrio original."
+  },
+  {
+    question: "¿Existen modificadores que cambien la historia o los diálogos?",
+    answer: "Aunque la mayoría de los modificadores afectan a la jugabilidad o a los visuales, existen modificadores específicos como 'Codificador de Texto' y 'Diálogo Absurdo' que pueden alterar la forma en que los NPCs interactúan con Mina, añadiendo una capa de humor a la oscura historia."
+  }
+]} />
+
+</Section>

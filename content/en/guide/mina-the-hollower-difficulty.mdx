@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mina the Hollower Difficulty: 2026 Mastery Guide & Tips",
+  description: "Master the challenging mechanics of Mina the Hollower with our guide on the Spark system, accessibility modifiers, and combat strategies.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Mina+Difficulty+Guide",
+  date: "2026-05-30",
+  author: "Mina the Hollower Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Mina the Hollower difficulty** is inspired by classic titles like Zelda II and Castlevania, emphasizing deliberate combat.
+- **Spark System** serves as the primary risk-reward mechanic, where dying costs you your Spark and potentially your Bones.
+- **Accessibility Modifiers** include over 200 options to adjust game speed, damage intake, and frustration factors.
+- **Burrowing Mechanic** is essential for survival, allowing Mina to dodge attacks and navigate hazards underground.
+- **Boning Up** is the unique level-up system where you must choose between Attack, Defense, or Sidearm upgrades.
+</Callout>
+
+<Section icon={Shield} title="Understanding the Challenge Level">
+
+Mina the Hollower is designed as a love letter to the Game Boy Color era, specifically drawing inspiration from the challenging gameplay of titles like Link's Awakening and Castlevania. While Yacht Club Games is known for the polished difficulty of Shovel Knight, Mina introduces a more deliberate and punishing combat loop. The difficulty stems from limited screen real estate, precise enemy patterns, and a mortality system that requires players to manage their resources carefully.
+
+**Video Highlights:**
+- Detailed explanation of the 6-year development cycle and the focus on polish.
+- Insight into the "Zelda-like" adventure structure compared to Shovel Knight's "Mario-like" platforming.
+- First look at the deliberate combat speed, featuring weapons like the slow but powerful Maul.
+- Overview of the Spark and Bone systems that define the game's risk-reward loop.
+
+<YouTubeEmbed videoId="Z2CjLw0USoE" title="Mina the Hollower - Exclusive Details on Difficulty and Mechanics" />
+
+The game does not hold your hand. Players are expected to learn through action, often being dropped into situations where they must discover mechanics like burrowing or projectile reflecting on their own. However, the developers have included "guard rails" in the form of NPCs like Cappy, who offer hints if you struggle with specific obstacles for too long.
+
+| Combat Element | Difficulty Impact | Player Strategy |
+| :--- | :--- | :--- |
+| **Screen Size** | Limited visibility of upcoming threats | Move slowly and scan patterns |
+| **Attack Wind-up** | Heavy weapons have significant delays | Time strikes during enemy openings |
+| **Enemy Density** | Rooms can become crowded quickly | Use burrowing to reposition |
+| **Boss Patterns** | High damage and multi-phase fights | Focus on evasion over aggression |
+
+<Callout type="tip" title="Mastering the First Boss">
+The Kraken boss in the opening sequence is winnable. While the story proceeds even if you lose, defeating it rewards you with a unique trinket that can significantly aid your early-game progression.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="The Spark System and Risk Management">
+
+The core of **Mina the Hollower difficulty** lies in the Spark system. This mechanic governs how you lose and retain progress. Unlike traditional RPGs where death might simply mean a reload, Mina uses a system reminiscent of "Souls-like" games but with a unique twist involving "Bones"—which serve as both currency and experience points.
+
+<CardGrid cols={3}>
+  <Card title="The Spark">
+    A turquoise dot next to your health. Losing it makes you vulnerable to losing all held Bones upon your next death.
+  </Card>
+  <Card title="Bone Loss">
+    If you die without a Spark, your Bones are dropped. You must return to the death site and defeat the enemy that claimed them.
+  </Card>
+  <Card title="Recovery">
+    Leveling up (Boning Up) or purchasing a new Spark at a checkpoint restores your protection immediately.
+  </Card>
+</CardGrid>
+
+This system creates a constant tension: do you push forward to the next checkpoint with high Bone counts, or do you retreat to spend them and "bank" your progress? The difficulty is further modulated by how many Sparks you can carry, with a maximum capacity of five available later in the game.
+
+| Death Penalty | Condition | Outcome |
+| :--- | :--- | :--- |
+| **Minor Death** | Spark is active | Lose Spark, retain all Bones and items |
+| **Major Death** | No Spark active | Lose all current Bones; must retrieve them |
+| **Tool Loss** | Any death | Sub-weapons/sidearms are dropped at death site |
+| **Trinket Status** | Any death | Permanent accessories are never lost |
+
+<Callout type="warning" title="Retaining Your Tools">
+Sidearms like the Axe or Javelin are powerful but fragile. If you die, they remain at your grave. If you die again before reaching them, those specific tool instances may be lost forever.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Accessibility and Difficulty Modifiers">
+
+Yacht Club Games has implemented an extensive suite of accessibility features to ensure that the **Mina the Hollower difficulty** can be tailored to any player's skill level. There are over 200 modifiers available in the options menu, allowing for a highly customized experience that can make the game significantly easier, harder, or even weirder.
+
+<Steps>
+  <Step num="1" title="Assist Mode Activation">
+    Enable Assist Mode to reduce incoming damage and increase Mina's movement speed relative to enemies.
+  </Step>
+  <Step num="2" title="Game Speed Adjustment">
+    Fine-tune the game speed. You can set the world to run at 95% speed while Mina remains at 100%, giving you a massive reaction advantage.
+  </Step>
+  <Step num="3" title="Bone Protection">
+    Toggle modifiers that prevent the loss of Bones upon death, removing the "corpse run" frustration common in the genre.
+  </Step>
+  <Step num="4" title="Cheat Codes">
+    Utilize hundreds of built-in "cheats" for fun effects or to bypass particularly grueling platforming sections.
+  </Step>
+</Steps>
+
+These modifiers are not just for making the game easier. Veteran players can use them to create "hardcore" runs, such as mirroring the entire world or increasing enemy aggression. This flexibility is a key part of the game's design, acknowledging that "fairness" is subjective in high-challenge retro-style games.
+
+| Modifier Type | Effect on Gameplay | Recommendation |
+| :--- | :--- | :--- |
+| **Damage Scaling** | Reduces or increases health loss | Use for learning boss patterns |
+| **Infinite Sparks** | Prevents Bone loss entirely | Best for casual exploration |
+| **Burrow Buffer** | Increases the window for burrowing | Essential if you struggle with timing |
+| **Item Shuffler** | Randomizes item locations | Use for New Game+ variety |
+
+<Callout type="info" title="Achievements and Modifiers">
+Note that enabling certain heavy-duty modifiers or cheats may disable Steam achievements or in-game trophies. Always check the warning prompt before confirming changes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat Mastery: Weapons and Burrowing">
+
+Success in Mina the Hollower requires mastering the "Burrow" and choosing the right weapon for your playstyle. Combat is deliberate; you cannot simply mash buttons and expect to survive. Every swing has a recovery period, and every enemy has a specific tell that you must exploit.
+
+**Weapon Archetypes:**
+- **Whip:** The "normal" choice with balanced range and speed.
+- **Flash Strike Maul:** Extremely slow wind-up but massive damage and knockback.
+- **Daggers:** High speed and low range, requiring a "glass cannon" approach.
+- **Sidearms:** Consumable projectiles (Axes, Javelins) that provide ranged options.
+
+The Burrow mechanic is Mina's signature move. By holding the action button, Mina dives underground. This makes her invulnerable to most projectiles and ground-based attacks. Emerging from a burrow provides a small speed boost and can be transitioned directly into a jump-attack.
+
+| Weapon Type | Speed | Range | Best Used For |
+| :--- | :--- | :--- | :--- |
+| **Maul** | Very Slow | Medium | Bosses with long recovery windows |
+| **Whip** | Medium | High | General exploration and crowd control |
+| **Daggers** | Fast | Short | High-mobility players and speedruns |
+| **Axe (Sidearm)** | Slow | Arc | Overcoming shields or vertical foes |
+
+<Callout type="success" title="The Sludgy Health Strategy">
+Equipping the 'Sludgy Health Vial' trinket changes your damage taken into a slow-draining bar. If you heal before the bar hits zero, you effectively negate the damage, allowing you to 'tank' hits that would otherwise be fatal.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Boning Up: Progression Strategy">
+
+The leveling system, known as "Boning Up," is inspired by Zelda II. When you collect enough Bones, you are forced to make a choice. You cannot hoard experience indefinitely; you must invest in your character's growth to survive the escalating **Mina the Hollower difficulty**.
+
+<Checklist
+  id="progression-checklist"
+  title="Optimal Leveling Path:"
+  items={[
+    "Invest first 3 levels into Defense to survive early mistakes",
+    "Focus on Attack power before entering the second dungeon",
+    "Purchase Bone Stones to 'bank' currency for expensive shop items",
+    "Unlock a second Trinket slot as soon as it becomes available in town",
+    "Experiment with Sidearm upgrades to cover your weapon's weaknesses"
+  ]}
+/>
+
+Trinkets are the other half of progression. With over 60 trinkets in the game, you can create "builds." For example, combining a mobility trinket with a projectile-reflecting trinket allows you to play aggressively against ranged enemies. Trinkets are permanent and provide the most significant boosts to Mina's capabilities.
+
+| Stat Category | Benefit | Strategic Value |
+| :--- | :--- | :--- |
+| **Attack** | Higher damage per swing | Shortens boss fights significantly |
+| **Defense** | Reduced damage taken | Increases room for error in dungeons |
+| **Sidearm** | More damage/utility for tools | Crucial for players who rely on range |
+| **Bone Stone** | Secure currency storage | Essential for late-game weapon upgrades |
+
+<Callout type="tip" title="Pawn Shop Tactics">
+If you find the game too easy, you can visit the Pawn Shop to sell your initial health, sparks, or even your vials. Finishing the game with a "negative completion percentage" is a high-level achievement for the most dedicated players.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Difficulty FAQ">
+
+<FAQ items={[
+  {
+    question: "Is Mina the Hollower harder than Shovel Knight?",
+    answer: "Generally, yes. The combat is more deliberate and the death penalties (Spark system) are more punishing. However, the inclusion of 200+ modifiers makes it more accessible overall if you choose to use them."
+  },
+  {
+    question: "Can I change the difficulty mid-game?",
+    answer: "Yes, accessibility modifiers and assist modes can be toggled at any time through the options menu without restarting your save file."
+  },
+  {
+    question: "What is the best way to deal with losing Bones?",
+    answer: "Purchase Bone Stones from vendors. These allow you to convert your loose Bones into a permanent item that is not lost upon death, effectively 'banking' your experience points."
+  },
+  {
+    question: "Does the game have a Hard Mode?",
+    answer: "Yes, New Game+ introduces several difficulty spikes, including mirrored worlds, faster enemies, and randomized item placements via the Shuffler mechanic."
+  }
+]} />
+
+</Section>

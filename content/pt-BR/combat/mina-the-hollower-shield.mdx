@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escudo de Mina the Hollower: Guia de Mecânicas de Combate e Desbloqueio",
+  description: "Domine as mecânicas de escudo em Mina the Hollower. Aprenda a golpear, aparar e desbloquear o Escudo do Hollower e o Caixão do Guardião neste guia de 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2d3436/dfe6e9?text=Hollower+Shield+Guide",
+  date: "2026-05-30",
+  author: "Equipe da Wiki de Mina the Hollower",
+  keywords: "mina the hollower, escudo, guia de combate, caixão do guardião, aparar, mecânicas"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Escudo de Mina the Hollower**: Ao contrário dos jogos tradicionais de Zelda, os escudos neste título funcionam como armas distintas com alto potencial ofensivo.
+- **Mecânicas Principais**: O Escudo do Hollower possui três funções primárias: **Golpe** (toque), **Bloqueio** (segurar) e **Aparo/Parry** (golpe cronometrado).
+- **Aquisição**: Você não pode escolher um escudo como arma inicial; ele deve ser desbloqueado através da **progressão** ou comprado em lojas especializadas.
+- **Meta Defensiva**: Aparos bem-sucedidos abrem janelas massivas para acertos críticos, tornando os escudos viáveis para encontros de alto nível com chefes.
+- **Caixão do Guardião**: Uma arma defensiva alternativa que usa garras retráteis para contra-ataques e deflexão de projéteis.
+</Callout>
+
+<Section icon={Shield} title="A Evolução do Escudo em Mina the Hollower">
+
+No sombrio mundo gótico vitoriano das Ilhas Tenebrosas, a sobrevivência exige mais do que apenas um chicote rápido. Embora Mina dependa inicialmente de seu mangual característico ou de adagas, o sistema do **escudo de Mina the Hollower** representa uma mudança significativa em relação aos tropos clássicos de aventura top-down. Em vez de ser um equipamento passivo, o Escudo do Hollower ocupa um slot de arma dedicado que exige precisão e tempo.
+
+**Destaques do Vídeo:**
+- Comparação entre as mecânicas clássicas de Zelda portátil e o combate de Mina.
+- Visão geral da mecânica de "Hollowing" (escavação) usada para evasão.
+- Detalhamento visual do cenário gótico vitoriano e variedade de inimigos.
+- Informações sobre o sistema de sub-armas inspirado em Castlevania.
+
+<YouTubeEmbed videoId="lhz7wfLm0dU" title="Mina the Hollower é melhor que Zelda?" />
+
+<Callout type="tip" title="Dica do Editor">
+Embora muitos jogadores esperem que o escudo seja um item secundário padrão, o Escudo do Hollower é uma escolha de arma primária. Você deve pesar sua utilidade defensiva contra o alcance bruto da Nightstar ou a velocidade de Whisper e Vesper.
+</Callout>
+
+### Visão Geral de Comparação de Escudos
+
+| Tipo de Escudo | Função Primária | Velocidade de Ataque | Alcance | Recurso Especial |
+| :--- | :--- | :--- | :--- | :--- |
+| **Escudo do Hollower** | Golpe/Aparo | Moderada | 1 Quadrado | Alto Potencial de Atordoamento |
+| **Caixão do Guardião** | Contra-ataque/AoE | Lenta | 2-3 Quadrados | Deflete Projéteis |
+| **Bloqueio Padrão** | Mitigação de Dano | N/A | N/A | Reduz Perda de Ossos |
+
+</Section>
+
+<Section icon={Swords} title="Dominando as Mecânicas de Combate do Escudo do Hollower">
+
+O Escudo do Hollower é definido por sua versatilidade. É uma ferramenta robusta que funciona como uma arma de curto alcance, permitindo que Mina mantenha um estilo de jogo de "baluarte". Dominar esta arma requer entender os dados de quadros (frame data) do golpe e o tempo da janela de aparo.
+
+### Conjunto de Movimentos Principais
+
+A eficácia do escudo está ligada a quanto tempo você interage com o botão de ataque. Ao contrário do Mangual, que trava você no lugar, o escudo permite pequenos ajustes posicionais durante seus quadros ativos.
+
+| Comando | Ação | Efeito |
+| :--- | :--- | :--- |
+| **Toque [Ataque]** | Golpe de Escudo | Um ataque frontal rápido que causa repulsão moderada. |
+| **Segurar [Ataque]** | Bloqueio | Mina levanta o escudo, reduzindo o dano recebido pela frente. |
+| **Golpe Cronometrado** | Aparo (Parry) | Golpear exatamente quando um ataque inimigo atinge atordoa o oponente. |
+
+<Callout type="warning" title="Gerenciamento de Stamina">
+O bloqueio não é infinito. Embora o jogo não apresente uma barra de stamina tradicional, segurar um bloqueio por muito tempo contra inimigos pesados pode resultar em uma quebra de guarda, deixando Mina vulnerável a golpes subsequentes.
+</Callout>
+
+### Atributos Defensivos e Escalonamento
+
+| Atributo de Nível | Benefício para o Escudo | Prioridade |
+| :--- | :--- | :--- |
+| **Defesa** | Aumenta a mitigação do bloqueio e reduz dano colateral. | **Alta** |
+| **Ataque** | Aumenta o dano bruto do Golpe de Escudo. | Média |
+| **Ossos** | Usados para comprar melhorias de Berloques específicos para escudo. | Baixa |
+
+</Section>
+
+<Section icon={Target} title="Como Desbloquear o Escudo do Hollower">
+
+Você não encontrará o escudo no porão inicial do navio. Durante o tutorial, você está limitado às adagas Whisper e Vesper, ao mangual Nightstar ou à marreta Blaststrike. Para obter o **escudo de Mina the Hollower**, você deve progredir pelos capítulos iniciais de Ossex.
+
+<Steps>
+  <Step num="1" title="Complete o Prólogo">
+    Navegue pelo navio tutorial e vença os encontros iniciais roteirizados para chegar à cidade de Ossex.
+  </Step>
+  <Step num="2" title="Visite Legovich, o Ferreiro">
+    Localize o edifício laranja-avermelhado a oeste da fonte central em Ossex. Legovich vende armas adicionais assim que você completar a primeira masmorra principal.
+  </Step>
+  <Step num="3" title="Derrote Armand">
+    Para desbloquear todo o inventário, você deve derrotar o irmão de Legovich, Armand, no porão. Use a mecânica de escavação para levá-lo até os blocos de lava para reduzir sua defesa.
+  </Step>
+  <Step num="4" title="Compre com Ossos">
+    A primeira arma nova custa 2.000 ossos. Armas subsequentes, incluindo os escudos, aumentam para 2.500 ossos.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Caminho Alternativo">
+Se preferir pular a luta contra o chefe Armand, vá para a loja no beco a oeste da loja de armas principal. Você precisará do **Guarda-chuva** ou do **Corcel de Ferro** para cruzar a fenda. Os preços aqui começam em 5.000 ossos, mas você pode adquirir o Caixão do Guardião antecipadamente.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Escudo do Hollower vs. Caixão do Guardião">
+
+Escolher a ferramenta defensiva certa depende do seu alcance de combate preferido. Embora ambos utilizem mecânicas de escudo, sua execução é fundamentalmente diferente.
+
+<CardGrid cols={2}>
+  <Card title="Escudo do Hollower">
+    - **Melhor para: Combate Próximo**
+    - Aparos de alta frequência
+    - Quadros de recuperação mais rápidos
+    - Golpe simples e confiável
+    - Ideal para duelos 1v1
+  </Card>
+  <Card title="Caixão do Guardião">
+    - **Melhor para: Controle de Grupo**
+    - Contra-ataques com garras retráteis
+    - Retaliações de longo alcance
+    - Melhoria de enxurrada em área (AoE)
+    - Pode ser usado como plataforma
+  </Card>
+</CardGrid>
+
+### Tabela de Sinergia de Armas
+
+| Sub-arma / Berloque | Sinergia com Escudo | Por que Funciona |
+| :--- | :--- | :--- |
+| **Raio Volt** | **Excelente** | Atordoa inimigos, facilitando a previsão do tempo de aparo. |
+| **Berloque de Aranha** | Boa | Aumenta a mobilidade enquanto segura um bloqueio. |
+| **Corcel de Ferro** | Moderada | Fornece uma aproximação rápida para dar continuidade após um aparo. |
+
+<Callout type="info" title="Dica Pro: O Truque da Plataforma">
+A melhoria do Caixão do Guardião permite que ele funcione como uma plataforma temporária. Isso é essencial para alcançar áreas secretas nas Ilhas Tenebrosas que, de outra forma, seriam inacessíveis com o Escudo do Hollower padrão.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Táticas Avançadas e Sinergias de Berloques">
+
+Para maximizar a eficiência do **escudo de Mina the Hollower**, você deve integrá-lo ao sistema de nivelamento "Bone Up" do jogo e a berloques específicos. O golpe do escudo é particularmente eficaz quando combinado com berloques que ativam efeitos ao atingir.
+
+### Lista de Verificação Essencial para Usuários de Escudo
+
+<Checklist
+  id="shield-mastery"
+  title="Objetivos de Maestria com Escudo:"
+  items={[
+    "Desbloquear a melhoria da janela de Aparo com Legovich",
+    "Coletar 2.500 ossos para a variante do Caixão do Guardião",
+    "Praticar a transição 'Escavação-para-Golpe' para ataques surpresa",
+    "Equipar o Berloque de Morcego para roubo de vida em aparos bem-sucedidos",
+    "Derrotar Armand para reduzir os custos de melhoria de armas"
+  ]}
+/>
+
+<Callout type="tip" title="O Combo da Adaga Bumerangue">
+Se você usar a Adaga como sub-arma, pode lançá-la e depois golpeá-la com seu escudo para mudar sua trajetória. Isso permite atingir inimigos atrás de cobertura enquanto mantém sua postura defensiva.
+</Callout>
+
+### Caminho de Melhoria do Escudo
+
+| Nível de Melhoria | Nova Habilidade | Custo em Ossos |
+| :--- | :--- | :--- |
+| **Nível 1** | Aumento da Repulsão do Golpe | 1.500 |
+| **Nível 2** | Janela de Aparo Estendida | 2.500 |
+| **Nível 3** | Onda de Choque no Golpe | 4.000 |
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Posso usar o escudo de Mina the Hollower como minha arma inicial?",
+    answer: "Não. Você deve escolher entre a Whisper e Vesper, a Nightstar ou a Blaststrike Maul no início. O Escudo do Hollower e o Caixão do Guardião são desbloqueados mais tarde através da progressão ou lojas especializadas em Ossex."
+  },
+  {
+    question: "Qual é a diferença entre bloquear e aparar?",
+    answer: "Bloquear é feito segurando o botão de ataque e reduz o dano recebido. Aparar (parry) exige que você toque no botão de ataque (golpe) exatamente quando um ataque inimigo atinge, o que nega completamente o dano e atordoa o atacante."
+  },
+  {
+    question: "O escudo é eficaz contra chefes?",
+    answer: "Sim, especialmente contra chefes como Armand. Aparos bem-sucedidos são frequentemente a única maneira de criar janelas de dano significativas contra inimigos com armadura alta ou padrões de ataque rápidos."
+  },
+  {
+    question: "Onde fica a loja secreta para o Caixão do Guardião?",
+    answer: "Ela está localizada em um beco a oeste da loja de armas principal em Ossex. Você precisará de uma sub-arma de movimento, como o Guarda-chuva, para cruzar a grande fenda e alcançar o mercador."
+  }
+]} />
+
+<Callout type="success" title="Veredito Final">
+O escudo em Mina the Hollower é uma arma de alta habilidade e alta recompensa. Embora falte o alcance do mangual, sua capacidade de ditar o fluxo do combate através de aparos o torna uma escolha de nível S para jogadores que dominaram os padrões dos inimigos.
+</Callout>
+
+</Section>

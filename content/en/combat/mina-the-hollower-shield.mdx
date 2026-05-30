@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mina the Hollower Shield: Combat Mechanics & Unlock Guide",
+  description: "Master the Mina the Hollower shield mechanics. Learn how to bash, parry, and unlock the Hollower's Shield and Guardian Casket in this 2026 guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2d3436/dfe6e9?text=Hollower+Shield+Guide",
+  date: "2026-05-30",
+  author: "Mina the Hollower Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Mina the Hollower shield**: Unlike traditional Zelda games, shields in this title act as distinct weapons with high offensive potential.
+- **Core Mechanics**: The Hollower's Shield features three primary functions: **Bash** (tap), **Block** (hold), and **Parry** (timed bash).
+- **Acquisition**: You cannot choose a shield as your starter; it must be unlocked through **progression** or purchased from specialized shops.
+- **Defensive Meta**: Successful parries open massive critical hit windows, making shields viable for high-level boss encounters.
+- **Guardian Casket**: An alternative defensive weapon that uses retractable claws for retaliatory strikes and projectile deflection.
+</Callout>
+
+<Section icon={Shield} title="The Evolution of the Mina the Hollower Shield">
+
+In the dark, Victorian Gothic world of the Tenebrous Isles, survival requires more than just a quick whip. While Mina initially relies on her signature flail or daggers, the **Mina the Hollower shield** system represents a significant departure from classic top-down adventure tropes. Instead of being a passive piece of equipment, the Hollower's Shield is a dedicated weapon slot that demands precision and timing.
+
+**Video Highlights:**
+- Comparison between classic handheld Zelda mechanics and Mina's combat.
+- Overview of the "Hollowing" (digging) mechanic used for evasion.
+- Visual breakdown of the Victorian Gothic setting and enemy variety.
+- Insight into the sub-weapon system inspired by Castlevania.
+
+<YouTubeEmbed videoId="lhz7wfLm0dU" title="Mina the Hollower, better than Zelda?" />
+
+<Callout type="tip" title="Editor's Insight">
+While many players expect a shield to be a standard secondary item, the Hollower's Shield is a primary weapon choice. You must weigh its defensive utility against the raw range of the Nightstar or the speed of Whisper and Vesper.
+</Callout>
+
+### Shield Comparison Overview
+
+| Shield Type | Primary Function | Attack Speed | Range | Special Feature |
+| :--- | :--- | :--- | :--- | :--- |
+| **Hollower's Shield** | Bash/Parry | Moderate | 1 Tile | High Stun Potential |
+| **Guardian Casket** | Counter/AoE | Slow | 2-3 Tiles | Deflects Projectiles |
+| **Standard Block** | Damage Mitigation | N/A | N/A | Reduces Bone Loss |
+
+</Section>
+
+<Section icon={Swords} title="Mastering Hollower's Shield Combat Mechanics">
+
+The Hollower's Shield is defined by its versatility. It is a sturdy tool that doubles as a melee weapon, allowing Mina to maintain a "bulwark" playstyle. Mastering this weapon requires understanding the frame data of the bash and the timing of the parry window.
+
+### Core Move Set
+
+The shield's effectiveness is tied to how long you interact with the attack button. Unlike the Whip, which locks you in place, the shield allows for minor positional adjustments during its active frames.
+
+| Command | Action | Effect |
+| :--- | :--- | :--- |
+| **Tap [Attack]** | Shield Bash | A quick forward strike that deals moderate knockback. |
+| **Hold [Attack]** | Block | Mina raises the shield, reducing incoming damage from the front. |
+| **Timed Bash** | Parry | Bashing exactly as an enemy strike connects stuns the foe. |
+
+<Callout type="warning" title="Stamina Management">
+Blocking is not infinite. While the game doesn't feature a traditional stamina bar, holding a block for too long against heavy enemies can result in a guard break, leaving Mina vulnerable to follow-up hits.
+</Callout>
+
+### Defensive Stats and Scaling
+
+| Level Up Stat | Shield Benefit | Priority |
+| :--- | :--- | :--- |
+| **Defense** | Increases block mitigation and reduces chip damage. | **High** |
+| **Attack** | Boosts the raw damage of the Shield Bash. | Medium |
+| **Bones** | Used to purchase shield-specific Trinket upgrades. | Low |
+
+</Section>
+
+<Section icon={Target} title="How to Unlock the Hollower's Shield">
+
+You will not find the shield in the opening hold of the ship. During the tutorial, you are limited to the Whisper and Vesper daggers, the Nightstar flail, or the Blaststrike Maul. To obtain the **Mina the Hollower shield**, you must progress through the initial Ossex chapters.
+
+<Steps>
+  <Step num="1" title="Complete the Prologue">
+    Navigate the tutorial ship and defeat the initial scripted encounters to reach the town of Ossex.
+  </Step>
+  <Step num="2" title="Visit Legovich the Blacksmith">
+    Locate the orange-red building west of the central fountain in Ossex. Legovich sells additional weapons once you have cleared the first major dungeon.
+  </Step>
+  <Step num="3" title="Defeat Armand">
+    To unlock the full inventory, you must defeat Legovich's brother, Armand, in the basement. Use the burrowing mechanic to lead him into lava tiles to lower his defense.
+  </Step>
+  <Step num="4" title="Purchase with Bones">
+    The first new weapon costs 2,000 bones. Subsequent weapons, including the shields, increase to 2,500 bones.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Alternative Path">
+If you prefer to skip the Armand boss fight, head to the back-alley shop west of the main weapon store. You will need the **Umbrella** or **Iron Steed** to cross the gap. Prices here start at 5,000 bones, but you can acquire the Guardian Casket early.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Hollower's Shield vs. Guardian Casket">
+
+Choosing the right defensive tool depends on your preferred engagement range. While both utilize shield-like mechanics, their execution is fundamentally different.
+
+<CardGrid cols={2}>
+  <Card title="Hollower's Shield">
+    - **Best for: Close Quarters**
+    - High-frequency parrying
+    - Faster recovery frames
+    - Simple, reliable bash
+    - Ideal for 1v1 duels
+  </Card>
+  <Card title="Guardian Casket">
+    - **Best for: Crowd Control**
+    - Retractable claw counters
+    - Long-range retaliations
+    - AoE flurry upgrade
+    - Can be used as a platform
+  </Card>
+</CardGrid>
+
+### Weapon Synergy Table
+
+| Sidearm / Trinket | Synergy with Shield | Why it Works |
+| :--- | :--- | :--- |
+| **Volt Bolt** | **Excellent** | Stuns enemies, making parry timing easier to predict. |
+| **Spider Trinket** | Good | Increases mobility while holding a block. |
+| **Iron Steed** | Moderate | Provides a gap-closer to follow up after a parry. |
+
+<Callout type="info" title="Pro Tip: The Platform Trick">
+The Guardian Casket's upgrade allows it to double as a temporary platform. This is essential for reaching secret areas in the Tenebrous Isles that are otherwise inaccessible with the standard Hollower's Shield.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Advanced Tactics and Trinket Synergies">
+
+To maximize the efficiency of the **Mina the Hollower shield**, you must integrate it with the game's "Bone Up" leveling system and specific trinkets. The shield's bash is particularly effective when combined with trinkets that trigger effects on hit.
+
+### Essential Checklist for Shield Users
+
+<Checklist
+  id="shield-mastery"
+  title="Shield Mastery Goals:"
+  items={[
+    "Unlock the Parry window upgrade from Legovich",
+    "Collect 2,500 bones for the Guardian Casket variant",
+    "Practice the 'Burrow-to-Bash' transition for surprise attacks",
+    "Equip the Bat Trinket for life-steal on successful parries",
+    "Defeat Armand to lower weapon upgrade costs"
+  ]}
+/>
+
+<Callout type="tip" title="The Boomerang Dagger Combo">
+If you use the Dagger sub-weapon, you can throw it, then bash it with your shield to change its trajectory. This allows you to hit enemies behind cover while maintaining your defensive stance.
+</Callout>
+
+### Shield Upgrade Path
+
+| Upgrade Level | New Ability | Bone Cost |
+| :--- | :--- | :--- |
+| **Level 1** | Increased Bash Knockback | 1,500 |
+| **Level 2** | Extended Parry Window | 2,500 |
+| **Level 3** | Shockwave on Bash | 4,000 |
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Can I use the Mina the Hollower shield as my starting weapon?",
+    answer: "No. You must choose between the Whisper and Vesper, Nightstar, or Blaststrike Maul at the start. The Hollower's Shield and Guardian Casket are unlocked later through progression or specialized shops in Ossex."
+  },
+  {
+    question: "What is the difference between blocking and parrying?",
+    answer: "Blocking is performed by holding the attack button and reduces incoming damage. Parrying requires you to tap the attack button (bash) exactly when an enemy strike hits, which completely negates damage and stuns the attacker."
+  },
+  {
+    question: "Is the shield effective against bosses?",
+    answer: "Yes, especially against bosses like Armand. Successful parries are often the only way to create significant damage windows against enemies with high armor or fast attack patterns."
+  },
+  {
+    question: "Where is the secret shop for the Guardian Casket?",
+    answer: "It is located in a back alley west of the main weapon shop in Ossex. You need a movement sub-weapon like the Umbrella to cross the large gap to reach the merchant."
+  }
+]} />
+
+<Callout type="success" title="Final Verdict">
+The shield in Mina the Hollower is a high-skill, high-reward weapon. While it lacks the range of the flail, its ability to dictate the flow of combat through parries makes it an S-tier choice for players who have mastered enemy patterns.
+</Callout>
+
+</Section>

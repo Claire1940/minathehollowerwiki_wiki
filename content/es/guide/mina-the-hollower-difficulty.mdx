@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dificultad de Mina the Hollower: Guía de Maestría y Consejos 2026",
+  description: "Domina las desafiantes mecánicas de Mina the Hollower con nuestra guía sobre el sistema Spark, modificadores de accesibilidad y estrategias de combate.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Mina+Difficulty+Guide",
+  date: "2026-05-30",
+  author: "Equipo de la Wiki de Mina the Hollower",
+  keywords: "Mina the Hollower, dificultad, guía, consejos, sistema Spark, combate"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **La dificultad de Mina the Hollower** está inspirada en títulos clásicos como Zelda II y Castlevania, enfatizando un combate deliberado.
+- **El Sistema Spark** sirve como la mecánica principal de riesgo-recompensa, donde morir te cuesta tu Spark y potencialmente tus Bones.
+- **Los Modificadores de Accesibilidad** incluyen más de 200 opciones para ajustar la velocidad del juego, el daño recibido y los factores de frustración.
+- **La mecánica de Excavación (Burrowing)** es esencial para la supervivencia, permitiendo a Mina esquivar ataques y navegar por peligros bajo tierra.
+- **Boning Up** es el sistema único de subida de nivel donde debes elegir entre mejoras de Ataque, Defensa o Armas Secundarias.
+</Callout>
+
+<Section icon={Shield} title="Comprendiendo el Nivel de Desafío">
+
+Mina the Hollower está diseñado como una carta de amor a la era de Game Boy Color, inspirándose específicamente en la jugabilidad desafiante de títulos como Link's Awakening y Castlevania. Aunque Yacht Club Games es conocido por la dificultad pulida de Shovel Knight, Mina introduce un bucle de combate más deliberado y punitivo. La dificultad proviene del espacio limitado en pantalla, patrones de enemigos precisos y un sistema de mortalidad que requiere que los jugadores gestionen sus recursos cuidadosamente.
+
+**Puntos destacados del video:**
+- Explicación detallada del ciclo de desarrollo de 6 años y el enfoque en el pulido.
+- Información sobre la estructura de aventura "estilo Zelda" en comparación con el plataformas "estilo Mario" de Shovel Knight.
+- Primer vistazo a la velocidad de combate deliberada, presentando armas como el lento pero poderoso Mazo (Maul).
+- Resumen de los sistemas Spark y Bone que definen el bucle de riesgo-recompensa del juego.
+
+<YouTubeEmbed videoId="Z2CjLw0USoE" title="Mina the Hollower - Detalles exclusivos sobre dificultad y mecánicas" />
+
+El juego no te lleva de la mano. Se espera que los jugadores aprendan a través de la acción, a menudo siendo lanzados a situaciones donde deben descubrir mecánicas como excavar o reflejar proyectiles por su cuenta. Sin embargo, los desarrolladores han incluido "barandillas" en forma de NPCs como Cappy, que ofrecen pistas si tienes dificultades con obstáculos específicos durante demasiado tiempo.
+
+| Elemento de Combate | Impacto en la Dificultad | Estrategia del Jugador |
+| :--- | :--- | :--- |
+| **Tamaño de Pantalla** | Visibilidad limitada de amenazas próximas | Muévete despacio y analiza patrones |
+| **Preparación de Ataque** | Las armas pesadas tienen retrasos significativos | Sincroniza los golpes durante las aperturas enemigas |
+| **Densidad de Enemigos** | Las habitaciones pueden llenarse rápidamente | Usa la excavación para reposicionarte |
+| **Patrones de Jefes** | Daño alto y combates de múltiples fases | Enfócate en la evasión sobre la agresión |
+
+<Callout type="tip" title="Dominando al Primer Jefe">
+El jefe Kraken en la secuencia inicial es derrotable. Aunque la historia continúa incluso si pierdes, derrotarlo te recompensa con un abalorio (trinket) único que puede ayudar significativamente en tu progresión inicial.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="El Sistema Spark y la Gestión de Riesgos">
+
+El núcleo de la **dificultad de Mina the Hollower** reside en el sistema Spark. Esta mecánica rige cómo pierdes y mantienes el progreso. A diferencia de los RPG tradicionales donde la muerte simplemente significa recargar, Mina utiliza un sistema que recuerda a los juegos "Souls-like" pero con un giro único que involucra "Bones" (huesos), que sirven tanto como moneda como puntos de experiencia.
+
+<CardGrid cols={3}>
+  <Card title="El Spark">
+    Un punto turquesa junto a tu salud. Perderlo te hace vulnerable a perder todos los Bones acumulados en tu próxima muerte.
+  </Card>
+  <Card title="Pérdida de Bones">
+    Si mueres sin un Spark, dejas caer tus Bones. Debes regresar al lugar de la muerte y derrotar al enemigo que los reclamó.
+  </Card>
+  <Card title="Recuperación">
+    Subir de nivel (Boning Up) o comprar un nuevo Spark en un punto de control restaura tu protección inmediatamente.
+  </Card>
+</CardGrid>
+
+Este sistema crea una tensión constante: ¿sigues adelante hacia el próximo punto de control con una gran cantidad de Bones, o te retiras para gastarlos y "asegurar" tu progreso? La dificultad se modula además por cuántos Sparks puedes llevar, con una capacidad máxima de cinco disponible más adelante en el juego.
+
+| Penalización por Muerte | Condición | Resultado |
+| :--- | :--- | :--- |
+| **Muerte Menor** | Spark activo | Pierdes el Spark, conservas todos los Bones y objetos |
+| **Muerte Mayor** | Sin Spark activo | Pierdes todos los Bones actuales; debes recuperarlos |
+| **Pérdida de Herramientas** | Cualquier muerte | Las sub-armas/armas secundarias se caen en el lugar de la muerte |
+| **Estado de Abalorios** | Cualquier muerte | Los accesorios permanentes nunca se pierden |
+
+<Callout type="warning" title="Conservando tus Herramientas">
+Las armas secundarias como el Hacha o la Jabalina son poderosas pero frágiles. Si mueres, permanecen en tu tumba. Si mueres de nuevo antes de alcanzarlas, esas instancias específicas de herramientas pueden perderse para siempre.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Accesibilidad y Modificadores de Dificultad">
+
+Yacht Club Games ha implementado una amplia suite de funciones de accesibilidad para asegurar que la **dificultad de Mina the Hollower** pueda adaptarse al nivel de habilidad de cualquier jugador. Hay más de 200 modificadores disponibles en el menú de opciones, lo que permite una experiencia altamente personalizada que puede hacer el juego significativamente más fácil, más difícil o incluso más extraño.
+
+<Steps>
+  <Step num="1" title="Activación del Modo Asistido">
+    Activa el Modo Asistido para reducir el daño recibido y aumentar la velocidad de movimiento de Mina en relación con los enemigos.
+  </Step>
+  <Step num="2" title="Ajuste de la Velocidad del Juego">
+    Ajusta con precisión la velocidad del juego. Puedes configurar el mundo para que funcione al 95% de velocidad mientras Mina permanece al 100%, dándote una gran ventaja de reacción.
+  </Step>
+  <Step num="3" title="Protección de Bones">
+    Activa modificadores que eviten la pérdida de Bones al morir, eliminando la frustración de la "carrera al cadáver" común en el género.
+  </Step>
+  <Step num="4" title="Códigos de Trucos">
+    Utiliza cientos de "trucos" integrados para efectos divertidos o para saltarte secciones de plataformas particularmente agotadoras.
+  </Step>
+</Steps>
+
+Estos modificadores no son solo para hacer el juego más fácil. Los jugadores veteranos pueden usarlos para crear partidas "hardcore", como reflejar el mundo entero o aumentar la agresividad de los enemigos. Esta flexibilidad es una parte clave del diseño del juego, reconociendo que la "justicia" es subjetiva en los juegos de estilo retro de alto desafío.
+
+| Tipo de Modificador | Efecto en la Jugabilidad | Recomendación |
+| :--- | :--- | :--- |
+| **Escalado de Daño** | Reduce o aumenta la pérdida de salud | Úsalo para aprender patrones de jefes |
+| **Sparks Infinitos** | Evita la pérdida de Bones por completo | Ideal para la exploración casual |
+| **Buffer de Excavación** | Aumenta la ventana de tiempo para excavar | Esencial si tienes problemas con el timing |
+| **Mezclador de Objetos** | Aleatoriza la ubicación de los objetos | Úsalo para variedad en New Game+ |
+
+<Callout type="info" title="Logros y Modificadores">
+Ten en cuenta que activar ciertos modificadores pesados o trucos puede desactivar los logros de Steam o los trofeos del juego. Siempre revisa el aviso de advertencia antes de confirmar los cambios.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Maestría en Combate: Armas y Excavación">
+
+El éxito en Mina the Hollower requiere dominar la "Excavación" (Burrow) y elegir el arma adecuada para tu estilo de juego. El combate es deliberado; no puedes simplemente machacar botones y esperar sobrevivir. Cada golpe tiene un periodo de recuperación y cada enemigo tiene una señal específica que debes aprovechar.
+
+**Arquetipos de Armas:**
+- **Látigo (Whip):** La opción "normal" con alcance y velocidad equilibrados.
+- **Mazo de Golpe Relámpago (Flash Strike Maul):** Preparación extremadamente lenta pero daño y retroceso masivos.
+- **Dagas (Daggers):** Alta velocidad y corto alcance, requiriendo un enfoque de "cañón de cristal".
+- **Armas Secundarias (Sidearms):** Proyectiles consumibles (Hachas, Jabalinas) que proporcionan opciones a distancia.
+
+La mecánica de Excavación es el movimiento característico de Mina. Al mantener presionado el botón de acción, Mina se sumerge bajo tierra. Esto la hace invulnerable a la mayoría de los proyectiles y ataques terrestres. Emerger de una excavación proporciona un pequeño impulso de velocidad y puede transicionarse directamente a un ataque con salto.
+
+| Tipo de Arma | Velocidad | Alcance | Mejor Uso Para |
+| :--- | :--- | :--- | :--- |
+| **Mazo** | Muy Lenta | Medio | Jefes con ventanas de recuperación largas |
+| **Látigo** | Media | Alto | Exploración general y control de masas |
+| **Dagas** | Rápida | Corto | Jugadores de alta movilidad y speedruns |
+| **Hacha (Secundaria)** | Lenta | Arco | Superar escudos o enemigos verticales |
+
+<Callout type="success" title="La Estrategia de Salud Lodosa">
+Equipar el abalorio 'Vial de Salud Lodosa' cambia el daño recibido a una barra que se drena lentamente. Si te curas antes de que la barra llegue a cero, niegas efectivamente el daño, permitiéndote "tanquear" golpes que de otro modo serían fatales.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Boning Up: Estrategia de Progresión">
+
+El sistema de nivelación, conocido como "Boning Up", está inspirado en Zelda II. Cuando recolectas suficientes Bones, te ves obligado a tomar una decisión. No puedes acumular experiencia indefinidamente; debes invertir en el crecimiento de tu personaje para sobrevivir a la creciente **dificultad de Mina the Hollower**.
+
+<Checklist
+  id="progression-checklist"
+  title="Ruta de Nivelación Óptima:"
+  items={[
+    "Invierte los primeros 3 niveles en Defensa para sobrevivir a errores iniciales",
+    "Enfócate en el poder de Ataque antes de entrar en la segunda mazmorra",
+    "Compra Bone Stones para 'almacenar' moneda para objetos caros de la tienda",
+    "Desbloquea una segunda ranura de Abalorio tan pronto como esté disponible en la ciudad",
+    "Experimenta con mejoras de Armas Secundarias para cubrir las debilidades de tu arma"
+  ]}
+/>
+
+Los abalorios (Trinkets) son la otra mitad de la progresión. Con más de 60 abalorios en el juego, puedes crear "builds". Por ejemplo, combinar un abalorio de movilidad con uno que refleje proyectiles te permite jugar agresivamente contra enemigos a distancia. Los abalorios son permanentes y proporcionan los aumentos más significativos a las capacidades de Mina.
+
+| Categoría de Estadística | Beneficio | Valor Estratégico |
+| :--- | :--- | :--- |
+| **Ataque** | Mayor daño por golpe | Acorta significativamente las peleas contra jefes |
+| **Defensa** | Daño recibido reducido | Aumenta el margen de error en las mazmorras |
+| **Arma Secundaria** | Más daño/utilidad para herramientas | Crucial para jugadores que dependen de la distancia |
+| **Bone Stone** | Almacenamiento seguro de moneda | Esencial para mejoras de armas al final del juego |
+
+<Callout type="tip" title="Tácticas de la Casa de Empeño">
+Si encuentras el juego demasiado fácil, puedes visitar la Casa de Empeño (Pawn Shop) para vender tu salud inicial, sparks o incluso tus viales. Terminar el juego con un "porcentaje de completado negativo" es un logro de alto nivel para los jugadores más dedicados.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Preguntas Frecuentes sobre la Dificultad">
+
+<FAQ items={[
+  {
+    question: "¿Es Mina the Hollower más difícil que Shovel Knight?",
+    answer: "Generalmente, sí. El combate es más deliberado y las penalizaciones por muerte (sistema Spark) son más severas. Sin embargo, la inclusión de más de 200 modificadores lo hace más accesible en general si decides usarlos."
+  },
+  {
+    question: "¿Puedo cambiar la dificultad a mitad del juego?",
+    answer: "Sí, los modificadores de accesibilidad y los modos asistidos pueden activarse o desactivarse en cualquier momento a través del menú de opciones sin reiniciar tu archivo de guardado."
+  },
+  {
+    question: "¿Cuál es la mejor manera de lidiar con la pérdida de Bones?",
+    answer: "Compra Bone Stones a los vendedores. Estos te permiten convertir tus Bones sueltos en un objeto permanente que no se pierde al morir, 'asegurando' efectivamente tus puntos de experiencia."
+  },
+  {
+    question: "¿Tiene el juego un Modo Difícil?",
+    answer: "Sí, el New Game+ introduce varios picos de dificultad, incluyendo mundos reflejados, enemigos más rápidos y ubicaciones de objetos aleatorias mediante la mecánica Shuffler."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escudo de Mina the Hollower: Guía de Mecánicas de Combate y Desbloqueo",
+  description: "Domina las mecánicas del escudo de Mina the Hollower. Aprende a golpear, hacer parry y desbloquear el Escudo de Hollower y el Ataúd Guardián en esta guía de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2d3436/dfe6e9?text=Hollower+Shield+Guide",
+  date: "2026-05-30",
+  author: "Equipo de la Wiki de Mina the Hollower",
+  keywords: "Mina the Hollower, escudo, mecánicas de combate, guía de desbloqueo, Ataúd Guardián, parry"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Escudo de Mina the Hollower**: A diferencia de los juegos tradicionales de Zelda, los escudos en este título actúan como armas distintas con un alto potencial ofensivo.
+- **Mecánicas Principales**: El Escudo de Hollower tiene tres funciones primarias: **Golpe** (toque), **Bloqueo** (mantener) y **Parry** (golpe sincronizado).
+- **Obtención**: No puedes elegir un escudo como arma inicial; debe desbloquearse a través de la **progresión** o comprarse en tiendas especializadas.
+- **Meta Defensivo**: Los parries exitosos abren ventanas masivas para ataques críticos, lo que hace que los escudos sean viables para encuentros con jefes de alto nivel.
+- **Ataúd Guardián**: Un arma defensiva alternativa que utiliza garras retráctiles para ataques de represalia y desvío de proyectiles.
+</Callout>
+
+<Section icon={Shield} title="La Evolución del Escudo en Mina the Hollower">
+
+En el oscuro mundo gótico victoriano de las Islas Tenebrosas, la supervivencia requiere más que un látigo rápido. Aunque Mina confía inicialmente en su mayal o sus dagas, el sistema del **escudo de Mina the Hollower** representa un cambio significativo respecto a los tropos clásicos de las aventuras de vista cenital. En lugar de ser una pieza de equipo pasiva, el Escudo de Hollower es un espacio de arma dedicado que exige precisión y sincronización.
+
+**Puntos destacados del video:**
+- Comparación entre las mecánicas clásicas de Zelda para portátiles y el combate de Mina.
+- Resumen de la mecánica de "Hollowing" (excavación) utilizada para la evasión.
+- Desglose visual del entorno gótico victoriano y la variedad de enemigos.
+- Información sobre el sistema de armas secundarias inspirado en Castlevania.
+
+<YouTubeEmbed videoId="lhz7wfLm0dU" title="Mina the Hollower, ¿mejor que Zelda?" />
+
+<Callout type="tip" title="Perspectiva del Editor">
+Aunque muchos jugadores esperan que el escudo sea un objeto secundario estándar, el Escudo de Hollower es una opción de arma principal. Debes sopesar su utilidad defensiva frente al alcance bruto de la Estrella Nocturna o la velocidad de Susurro y Véspero.
+</Callout>
+
+### Resumen Comparativo de Escudos
+
+| Tipo de Escudo | Función Principal | Velocidad de Ataque | Alcance | Característica Especial |
+| :--- | :--- | :--- | :--- | :--- |
+| **Escudo de Hollower** | Golpe/Parry | Moderada | 1 Casilla | Alto Potencial de Aturdimiento |
+| **Ataúd Guardián** | Contraataque/AoE | Lenta | 2-3 Casillas | Desvía Proyectiles |
+| **Bloqueo Estándar** | Mitigación de Daño | N/A | N/A | Reduce la Pérdida de Huesos |
+
+</Section>
+
+<Section icon={Swords} title="Dominando las Mecánicas de Combate del Escudo de Hollower">
+
+El Escudo de Hollower se define por su versatilidad. Es una herramienta robusta que funciona también como arma cuerpo a cuerpo, permitiendo a Mina mantener un estilo de juego de "baluarte". Dominar esta arma requiere comprender los datos de frames del golpe y la sincronización de la ventana de parry.
+
+### Conjunto de Movimientos Principales
+
+La efectividad del escudo está ligada al tiempo que interactúas con el botón de ataque. A diferencia del Látigo, que te bloquea en el sitio, el escudo permite pequeños ajustes de posición durante sus frames activos.
+
+| Comando | Acción | Efecto |
+| :--- | :--- | :--- |
+| **Tocar [Ataque]** | Golpe de Escudo | Un golpe rápido hacia adelante que inflige un retroceso moderado. |
+| **Mantener [Ataque]** | Bloqueo | Mina levanta el escudo, reduciendo el daño entrante desde el frente. |
+| **Golpe Sincronizado** | Parry | Golpear exactamente cuando conecta un ataque enemigo aturde al rival. |
+
+<Callout type="warning" title="Gestión de Resistencia">
+El bloqueo no es infinito. Aunque el juego no cuenta con una barra de resistencia tradicional, mantener un bloqueo demasiado tiempo contra enemigos pesados puede resultar en una ruptura de guardia, dejando a Mina vulnerable a ataques posteriores.
+</Callout>
+
+### Estadísticas Defensivas y Escalamiento
+
+| Estadística de Nivel | Beneficio del Escudo | Prioridad |
+| :--- | :--- | :--- |
+| **Defensa** | Aumenta la mitigación del bloqueo y reduce el daño por impacto. | **Alta** |
+| **Ataque** | Potencia el daño bruto del Golpe de Escudo. | Media |
+| **Huesos** | Se usan para comprar mejoras de Amuletos específicos del escudo. | Baja |
+
+</Section>
+
+<Section icon={Target} title="Cómo Desbloquear el Escudo de Hollower">
+
+No encontrarás el escudo en la bodega inicial del barco. Durante el tutorial, estás limitado a las dagas Susurro y Véspero, el mayal Estrella Nocturna o el Mazo de Golpe Explosivo. Para obtener el **escudo de Mina the Hollower**, debes progresar a través de los capítulos iniciales de Ossex.
+
+<Steps>
+  <Step num="1" title="Completa el Prólogo">
+    Navega por el barco del tutorial y derrota los encuentros iniciales guionizados para llegar a la ciudad de Ossex.
+  </Step>
+  <Step num="2" title="Visita a Legovich el Herrero">
+    Localiza el edificio de color naranja rojizo al oeste de la fuente central en Ossex. Legovich vende armas adicionales una vez que hayas completado la primera mazmorra principal.
+  </Step>
+  <Step num="3" title="Derrota a Armand">
+    Para desbloquear todo el inventario, debes derrotar al hermano de Legovich, Armand, en el sótano. Usa la mecánica de excavación para llevarlo hacia las baldosas de lava y reducir su defensa.
+  </Step>
+  <Step num="4" title="Compra con Huesos">
+    La primera arma nueva cuesta 2,000 huesos. Las armas posteriores, incluidos los escudos, aumentan a 2,500 huesos.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Camino Alternativo">
+Si prefieres saltarte la pelea contra el jefe Armand, dirígete a la tienda del callejón al oeste de la armería principal. Necesitarás el **Paraguas** o el **Corcel de Hierro** para cruzar el hueco. Los precios aquí comienzan en 5,000 huesos, pero puedes adquirir el Ataúd Guardián temprano.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Escudo de Hollower vs. Ataúd Guardián">
+
+Elegir la herramienta defensiva adecuada depende de tu distancia de combate preferida. Aunque ambos utilizan mecánicas similares a las de un escudo, su ejecución es fundamentalmente diferente.
+
+<CardGrid cols={2}>
+  <Card title="Escudo de Hollower">
+    - **Ideal para: Distancias Cortas**
+    - Parries de alta frecuencia
+    - Frames de recuperación más rápidos
+    - Golpe simple y fiable
+    - Perfecto para duelos 1v1
+  </Card>
+  <Card title="Ataúd Guardián">
+    - **Ideal para: Control de Masas**
+    - Contraataques con garras retráctiles
+    - Represalias de largo alcance
+    - Mejora de ráfaga de área (AoE)
+    - Puede usarse como plataforma
+  </Card>
+</CardGrid>
+
+### Tabla de Sinergia de Armas
+
+| Arma Secundaria / Amuleto | Sinergia con Escudo | Por qué funciona |
+| :--- | :--- | :--- |
+| **Perno Voltio** | **Excelente** | Aturde a los enemigos, facilitando la predicción del tiempo de parry. |
+| **Amuleto de Araña** | Buena | Aumenta la movilidad mientras se mantiene el bloqueo. |
+| **Corcel de Hierro** | Moderada | Proporciona una forma de cerrar distancias tras un parry. |
+
+<Callout type="info" title="Consejo Pro: El Truco de la Plataforma">
+La mejora del Ataúd Guardián le permite funcionar como una plataforma temporal. Esto es esencial para alcanzar áreas secretas en las Islas Tenebrosas que de otro modo serían inaccesibles con el Escudo de Hollower estándar.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Tácticas Avanzadas y Sinergias de Amuletos">
+
+Para maximizar la eficiencia del **escudo de Mina the Hollower**, debes integrarlo con el sistema de nivelación "Bone Up" del juego y amuletos específicos. El golpe del escudo es particularmente efectivo cuando se combina con amuletos que activan efectos al impactar.
+
+### Lista de Verificación Esencial para Usuarios de Escudo
+
+<Checklist
+  id="shield-mastery"
+  title="Objetivos de Maestría de Escudo:"
+  items={[
+    "Desbloquea la mejora de la ventana de Parry de Legovich",
+    "Reúne 2,500 huesos para la variante del Ataúd Guardián",
+    "Practica la transición de 'Excavar a Golpe' para ataques sorpresa",
+    "Equipa el Amuleto de Murciélago para robo de vida en parries exitosos",
+    "Derrota a Armand para reducir los costes de mejora de armas"
+  ]}
+/>
+
+<Callout type="tip" title="El Combo de Daga Búmeran">
+Si usas la Daga como arma secundaria, puedes lanzarla y luego golpearla con tu escudo para cambiar su trayectoria. Esto te permite golpear a enemigos a cubierto mientras mantienes tu postura defensiva.
+</Callout>
+
+### Ruta de Mejora del Escudo
+
+| Nivel de Mejora | Nueva Habilidad | Coste de Huesos |
+| :--- | :--- | :--- |
+| **Nivel 1** | Mayor retroceso del Golpe | 1,500 |
+| **Nivel 2** | Ventana de Parry extendida | 2,500 |
+| **Nivel 3** | Onda de choque al Golpear | 4,000 |
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puedo usar el escudo de Mina the Hollower como arma inicial?",
+    answer: "No. Debes elegir entre Susurro y Véspero, Estrella Nocturna o el Mazo de Golpe Explosivo al principio. El Escudo de Hollower y el Ataúd Guardián se desbloquean más tarde mediante la progresión o en tiendas especializadas en Ossex."
+  },
+  {
+    question: "¿Cuál es la diferencia entre bloquear y hacer parry?",
+    answer: "El bloqueo se realiza manteniendo presionado el botón de ataque y reduce el daño entrante. El parry requiere tocar el botón de ataque (golpe) exactamente cuando un ataque enemigo impacta, lo que anula completamente el daño y aturde al atacante."
+  },
+  {
+    question: "¿Es el escudo efectivo contra los jefes?",
+    answer: "Sí, especialmente contra jefes como Armand. Los parries exitosos suelen ser la única forma de crear ventanas de daño significativas contra enemigos con mucha armadura o patrones de ataque rápidos."
+  },
+  {
+    question: "¿Dónde está la tienda secreta para el Ataúd Guardián?",
+    answer: "Se encuentra en un callejón al oeste de la armería principal en Ossex. Necesitas un arma secundaria de movimiento como el Paraguas para cruzar el gran hueco y llegar al mercader."
+  }
+]} />
+
+<Callout type="success" title="Veredicto Final">
+El escudo en Mina the Hollower es un arma de alta habilidad y gran recompensa. Aunque carece del alcance del mayal, su capacidad para dictar el flujo del combate mediante parries lo convierte en una opción de nivel S para los jugadores que han dominado los patrones de los enemigos.
+</Callout>
+
+</Section>
