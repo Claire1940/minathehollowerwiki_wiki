@@ -1,0 +1,166 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mina the Hollower Kraken: Derrotando o Kraken Infernal no Início do Jogo",
+  description: "Aprenda a derrotar o Kraken Infernal, o chefe opcional inicial em Mina the Hollower, e reivindique sua recompensa única.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Mina+the+Hollower+Kraken",
+  date: "2026-05-31",
+  author: "Equipe Wiki de Mina the Hollower"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Kraken Infernal**: Um chefe opcional e desafiador no início do jogo em **Mina the Hollower**.
+- **Dano Antecipado**: Aproveite as oportunidades para causar dano significativo antes que a luta comece oficialmente.
+- **Arma Estrela Noturna**: Recomendada por seu alcance e velocidade, ajudando em ataques seguros aos tentáculos.
+- **Habilidade de Escavar**: Crucial para desviar dos ataques do Kraken, mesmo antes de ser formalmente ensinada.
+- **Pulseira de Urânio**: A recompensa de item único por derrotar o **Kraken**.
+</Callout>
+
+<Section icon={Swords} title="Conquistando o Kraken Infernal em Mina the Hollower">
+O Kraken Infernal é um chefe formidável e opcional encontrado logo no início de **Mina the Hollower**. Embora não seja obrigatório para a progressão da história, derrotar esta fera com tentáculos oferece um desafio único e uma recompensa valiosa. Este guia fornece uma estratégia abrangente para superar o **Kraken Infernal de Mina the Hollower** e garantir sua vantagem no início do jogo.
+
+Derrubar o Kraken Infernal com sucesso requer tempo preciso, compreensão de seus padrões de ataque e aproveitamento máximo das oportunidades de dano inicial. Embora seja um chefe introdutório "Souls-like", ele é de fato vencível com a abordagem correta.
+
+<Callout type="tip" title="Escolha de Arma">
+Para esta luta, a **Estrela Noturna** é altamente recomendada. Seu excelente alcance e velocidade de ataque relativamente rápida permitem que Mina atinja os tentáculos do Kraken a uma distância mais segura, minimizando a exposição a danos recebidos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Dano Pré-Batalha e Estratégia Inicial">
+Mesmo antes que a barra de vida do Kraken Infernal apareça, você tem várias chances de infligir um dano "gratuito" substancial, facilitando significativamente as etapas posteriores da luta. Maximizar essas oportunidades pode reduzir a HP do chefe em até 35% antes do início da batalha real.
+
+<CardGrid cols={2}>
+  <Card title="Ataques Iniciais aos Tentáculos">
+    - **Primeiro Tentáculo**: Aparece à direita após selecionar sua arma. Acerte-o antes que desapareça.
+    - **Segundo Tentáculo**: Pega um passageiro da esquerda; ignore este.
+    - **Terceiro Tentáculo**: Posiciona-se logo ao sul da escotilha, acerte-o pela direita.
+  </Card>
+  <Card title="Exploração da Garra">
+    - **Garra Esquerda**: Depois que a câmera muda, o Kraken levanta ambas as garras. Acerte a garra esquerda duas vezes antes de seu primeiro ataque.
+    - **Posicionamento**: Esteja pronto para correr para a esquerda e mover-se para baixo para evitar o golpe inicial do Kraken.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Não Perca">
+Deixar de capitalizar nessas fases de dano inicial tornará a luta subsequente consideravelmente mais difícil. Esses acertos iniciais são cruciais para um encontro mais tranquilo com o **Kraken Infernal de Mina the Hollower**.
+</Callout>
+
+### Detalhamento da Fase de Dano Inicial
+
+| Ação                      | Alvo          | Acertos | Redução de HP Estimada |
+| :------------------------ | :------------ | :------ | :--------------------- |
+| Primeiro Tentáculo        | Lado Direito  | 1-2     | Moderada               |
+| Terceiro Tentáculo        | Lado Direito  | 1-2     | Moderada               |
+| Garra Esquerda (Pré-Batalha)| Garra Esquerda| 2       | Substancial            |
+| **Total Pré-Batalha**     |               | **5-6** | **~35% HP**            |
+
+</Section>
+
+<Section icon={Map} title="Padrões de Ataque e Evasão do Kraken Infernal">
+Assim que a luta principal começar, a câmera se fixará no lado direito do navio. Seu objetivo principal é evitar os vários ataques de tentáculos e garras do Kraken, enquanto acerta seus apêndices vulneráveis.
+
+<Steps>
+  <Step num="1" title="Posicionamento na Arena Principal">
+    Mantenha-se no lado esquerdo da arena do chefe. Isso proporciona mais tempo de reação para antecipar e desviar de ataques vindos da direita.
+  </Step>
+  <Step num="2" title="Desviando de Ataques de Garra">
+    O Kraken sempre levanta suas garras antes de atacar. Elas inclinarão para cima e tremerão brevemente, indicando qual garra está prestes a atacar. Mova-se para cima ou para baixo para sair do caminho do ataque.
+  </Step>
+  <Step num="3" title="Lidando com Tentáculos Varridos">
+    Tentáculos no convés geralmente tremem brevemente antes de varrer em direção a Mina. Afaste-se ou escave. Esteja ciente de que às vezes eles varrem imediatamente após pousar, sem tremer.
+  </Step>
+  <Step num="4" title="Respondendo a Ataques Rápidos Especiais">
+    Se o Kraken levantar ambas as garras e "rugir", prepare-se para uma sequência rápida de ataques de garra que não deixam tentáculos no convés. Durante esta fase, concentre-se inteiramente em escavar e pular para evadir até que ele retorne ao seu padrão de ataque padrão.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Mecânica de Escavação">
+Embora o jogo ainda não a ensine explicitamente, você pode usar a habilidade de escavar de Mina segurando o botão de pulo após pousar. Isso é incrivelmente eficaz para deslizar sob ataques de garra e fornecer quadros de invulnerabilidade.
+</Callout>
+
+### Visão Geral dos Ataques do Kraken
+
+| Tipo de Ataque          | Indicador                   | Estratégia de Evasão             | Ação Recomendada   |
+| :---------------------- | :-------------------------- | :------------------------------- | :----------------- |
+| **Pancada de Garra Padrão**| Garra inclina, treme brevemente | Mover para cima/baixo, Escavar   | Acertar tentáculo duas vezes |
+| **Tentáculo Varrido**    | Tentáculo treme (geralmente) | Afastar-se, Escavar              | Acertar tentáculo duas vezes |
+| **Duplo Balanço**        | Um braço balança, depois ambos | Escavar primeiro, Pular segundo  | Evitar atacar      |
+| **Frenesi de Ataque Rápido**| Ambas as garras levantam, "rugido"| Escavar e Pular repetidamente | Focar na evasão    |
+
+</Section>
+
+<Section icon={Trophy} title="Causando Dano e Garantindo a Recompensa">
+Durante a luta principal, concentre-se em acertar os tentáculos do Kraken quando estiverem no convés. Embora possa ser tentador dar múltiplos golpes, é mais seguro e consistente acertar apenas duas vezes antes de se mover para evitar possíveis contra-ataques. Você não pode acertar diretamente o corpo principal ou o rosto do Kraken.
+
+<Checklist
+  id="kraken-combat-tips"
+  title="Melhores Práticas de Combate:"
+  items={[
+    "Mantenha-se no lado esquerdo para um tempo de reação ideal.",
+    "Acerte os tentáculos duas vezes, depois reposicione-se para evitar danos.",
+    "Utilize a escavação para desviar de golpes de garra e varreduras de forma eficaz.",
+    "Priorize a evasão durante o frenesi de 'rugido' do Kraken.",
+    "Não tente acertar o corpo principal do Kraken; apenas os tentáculos são vulneráveis."
+  ]}
+/>
+
+Ao derrotar com sucesso o **Kraken Infernal de Mina the Hollower**, você será recompensado com o item **Pulseira de Urânio**. Este item poderoso aumenta sua produção de dano, mas vem com uma desvantagem: você também receberá mais dano dos inimigos. Certifique-se de coletar este item do pequeno baú antes de sair do naufrágio!
+
+<Callout type="success" title="Recompensa Adquirida">
+A **Pulseira de Urânio** é um item de alto risco e alta recompensa. É excelente para jogadores que conseguem evitar danos consistentemente ou para aqueles que procuram acelerar as lutas contra chefes, mas esteja atento ao aumento do dano recebido.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Dicas Avançadas e Conselhos Gerais de Combate">
+Dominar a luta contra o **Kraken Infernal de Mina the Hollower** no início estabelece um bom precedente para os desafios futuros. Aqui estão algumas dicas adicionais para refinar sua estratégia:
+
+<CardGrid cols={3}>
+  <Card title="Pratique Escavação">
+    Mesmo que o jogo não a ensine formalmente até mais tarde, a habilidade de escavar está disponível desde o início. Pratique segurar o botão de pulo para escavar imediatamente após pousar. Seus quadros de invulnerabilidade são inestimáveis.
+  </Card>
+  <Card title="Estados de Salvamento (Se Aplicável)">
+    Se você estiver com dificuldades, considere criar múltiplos arquivos de salvamento antes do encontro. Isso permite tentativas repetidas sem ter que jogar toda a sequência de introdução novamente, ajudando você a aprender os padrões mais rapidamente.
+  </Card>
+  <Card title="Foco na Paciência">
+    A luta contra o Kraken é um teste de paciência. Não apresse seus ataques. Priorize a esquiva e ataque apenas quando uma abertura segura se apresentar. Dois acertos são melhores do que ser atingido.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Abordagem Souls-like">
+Como muitos encontros "Souls-like", o **Kraken Infernal de Mina the Hollower** ensina sobre reconhecimento de padrões e movimento preciso. Cada derrota é uma oportunidade de aprendizado para identificar os sinais de ataque e refinar sua resposta.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Você realmente pode derrotar o Kraken Infernal logo no início de Mina the Hollower?",
+    answer: "Sim, você pode absolutamente derrotar o Kraken Infernal no início do jogo. Embora seja projetado para ser um chefe opcional desafiador, com a estratégia certa e um pouco de persistência, Mina pode derrubá-lo. Muitos jogadores inicialmente esperam morrer, mas ele é vencível."
+  },
+  {
+    question: "Qual é a recompensa por derrotar o Kraken Infernal de Mina the Hollower?",
+    answer: "A recompensa por derrotar o Kraken Infernal é o item **Pulseira de Urânio**. Este item aumenta o dano que Mina inflige, mas também faz com que ela receba mais dano dos inimigos. É um item de alto risco e alta recompensa encontrado em um baú após a batalha."
+  },
+  {
+    question: "Qual é a melhor arma para a luta contra o chefe Kraken Infernal?",
+    answer: "A **Estrela Noturna** é altamente recomendada para a luta contra o Kraken Infernal. Seu excelente alcance e velocidade de ataque relativamente rápida facilitam o acerto dos tentáculos do Kraken a uma distância mais segura, minimizando sua exposição a ataques perigosos. Esta escolha de arma ajuda significativamente a gerenciar a luta."
+  },
+  {
+    question: "A habilidade de escavar é útil contra o Kraken, mesmo que ainda não seja ensinada?",
+    answer: "Sim, a habilidade de escavar é extremamente útil contra o **Kraken Infernal de Mina the Hollower**, mesmo antes de o jogo a introduzir formalmente. Ao segurar o botão de pulo, Mina pode escavar e se tornar temporariamente invulnerável, permitindo que ela deslize sob a maioria dos ataques de garra e tentáculos do Kraken. É uma manobra defensiva fundamental."
+  }
+]} />
+
+</Section>

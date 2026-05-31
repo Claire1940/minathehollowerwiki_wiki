@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "mina the hollower city center: Ossex Exploration & Early Progression Guide",
+  description: "Master the mina the hollower city center of Ossex in 2026. Learn how to unlock the map, find the Iron Steed bike, and rescue key NPCs for early power.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Ossex+City+Center+Guide",
+  date: "2026-05-31",
+  author: "Mina the Hollower Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Hub**: The **mina the hollower city center** is Ossex, your main base for upgrades and quests.
+- **Key Upgrade**: Prioritize the **Spark Upgrade** early to gain an extra life and protect your Bones.
+- **Essential Tool**: Purchase the **Map** from Drillhardt in the Hollower's Guild for 500 Bones.
+- **Mobility Boost**: Unlock the **Iron Steed bike** behind the two-Spark door to cross wide gaps.
+- **First Dungeon**: Head **East** to the Queensbury Crypt once you are geared up in town.
+</Callout>
+
+<Section icon={Map} title="Navigating the mina the hollower city center: Ossex Hub">
+
+Arriving at the **mina the hollower city center**, known as Ossex, is the first major milestone in your journey across Tenebrous Isle. After surviving the initial shipwreck and tutorial path, you will meet Baron Lionel, who tasks you with repairing six generators scattered across the world. Unlike traditional linear adventures, Ossex serves as a non-linear gateway where almost every direction is open from the start, provided you have the right tools and burrowing skills.
+
+The city is divided into several distinct districts, each offering unique services that are vital for your survival. Understanding the layout of this central hub is the difference between constant death and steady progression.
+
+<CardGrid cols={3}>
+  <Card title="The Emporium District">
+    - **Central Checkpoint**
+    - Health & Spark upgrades
+    - General gear merchants
+  </Card>
+  <Card title="The Bowery & West">
+    - **Trinket Bazaar**
+    - High-level challenges
+    - Access to Western Wilds
+  </Card>
+  <Card title="The Eastern Gates">
+    - **Hollower's Guild**
+    - Early game dungeons
+    - Strategy Center access
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="City Layout">
+Ossex is designed to be explored vertically as much as horizontally. Always look for ropes to drop or walls to burrow under to find hidden shortcuts between the upper and lower districts of the **mina the hollower city center**.
+</Callout>
+
+| District | Key NPC | Primary Service | Requirement |
+| :--- | :--- | :--- | :--- |
+| Radiant Manor | Baron Lionel | Main Quest | None |
+| Emporium | Shopkeeper | Health/Sparks | Bones |
+| Underlab | Drillhardt | Map & Upgrades | 500 Bones |
+| Station Underside | Frayd | Trinkets | 1,000 Bones |
+| Guild Hall | Muriel | Sidequests | Rescue Quest |
+
+</Section>
+
+<Section icon={Swords} title="Economy and Essential Early Upgrades">
+
+Bones are the lifeblood of your progression in the **mina the hollower city center**. While standard Bones are lost upon death, **Bonestones** are permanent currency gems that stay in your inventory regardless of how many times you fall in battle. Your first hour in Ossex should be dedicated to gathering these gems to fund your initial power spikes.
+
+One of the most critical upgrades available in the early game is the Spark system. By visiting the Emporium, you can purchase a Spark upgrade. Having two Sparks allows you to open a specific door to the left of the pawn shop, which leads to the Iron Steed bike. This vehicle is not just for speed; it allows Mina to jump across gaps that are three squares wide, opening up entirely new exploration routes.
+
+<Callout type="warning" title="Death Penalty">
+If you die without a Spark, you lose a significant portion of your carried Bones. Investing in the **Bell of Grace** trinket from Frayd in the Station Underside can mitigate this risk by giving you a chance to retain your Spark or your currency.
+</Callout>
+
+| Item | Location | Cost | Utility |
+| :--- | :--- | :--- | :--- |
+| Kear (Key) | Bird Shop | 300+ Bones | Opens locked gates/chests |
+| Spark Upgrade | Emporium | Variable | Extra life & Door access |
+| Iron Steed | 2-Spark Door | Free (Find) | Crosses 3-tile gaps |
+| Axe Subweapon | Strategy Center | Free (Find) | Ranged combat & Puzzles |
+| Bonestone Dust | Poppit's Shop | Variable | Permanent currency |
+
+Beyond the shops, you can find "free" riches by interacting with the environment. For instance, looking through the telescope north of the Ossex checkpoint and spotting a specific planet will cause a Kear to fall from the sky. Similarly, using the Axe subweapon to break a chest in the Strategy Center provides an easy early-game boost.
+
+</Section>
+
+<Section icon={Target} title="The Hollower's Guild: Unlocking the World Map">
+
+The Hollower's Guild is arguably the most important building in the **mina the hollower city center**, yet it starts the game boarded up and inaccessible. Restoring the Guild is a multi-step process that rewards you with the most essential tool for any explorer: the World Map. Without the map, navigating the sprawling Tenebrous Isle becomes a daunting task of trial and error.
+
+To begin the restoration, you must find the side entrance to the building. Follow the exterior wall to the right, hop over the rocks, and clear the crates to find the back door. Once inside, you will meet Muriel, who sets the rescue mission in motion.
+
+<Steps>
+  <Step num="1" title="Locate the Rebel Barracks">
+    Head directly south from the main entrance of Ossex. You will need a Kear to unlock the gate leading to the barracks where the Guild members are being held.
+  </Step>
+  <Step num="2" title="Rescue Rhene">
+    Fight through the barracks and locate Rhene. You must escort her safely back to the Guild hall. She is a fellow Hollower who helps manage the facility.
+  </Step>
+  <Step num="3" title="Free Drillhardt">
+    Once Rhene is back, return to the Guild to find Drillhardt. He is stuck in the floor—burrow directly under his antlers to pop him out.
+  </Step>
+  <Step num="4" title="Purchase the Map">
+    Talk to Drillhardt in the newly cleaned Guild hall. He will offer the **Map** for 500 Bones. This is a mandatory purchase for efficient progression.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Guild Benefits">
+Once the Guild is active, Drillhardt provides various Underlab upgrades. Additionally, keep an eye on the newspapers in the hall; they provide hints about the "intended" route and the location of the next recommended dungeon.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Must-Have Trinkets Near the City Center">
+
+Trinkets function similarly to charms in other action-RPGs, providing passive buffs that can be swapped at checkpoints. Before venturing into the dangerous eastern swamps or western volcanic regions, you should collect a baseline set of Trinkets found within or immediately adjacent to the **mina the hollower city center**.
+
+The **Steady Soles** are an absolute priority. These allow Mina to move through water, grass, and snow without the standard speed penalty. They are hidden in an attic residence near the eastern exit of Ossex. You must reach the balcony overlooking the courtyard and burrow under a specific opening to access the treasure room.
+
+<Checklist
+  id="early-trinkets"
+  title="Early Trinket Checklist:"
+  items={[
+    "Steady Soles (Ossex Attic) - Movement penalty immunity",
+    "Chain Capacitor (East Gate) - Damage boost for hit streaks",
+    "Bell of Grace (Station Underside) - Bone loss protection",
+    "Plasma Funnel (Trinket Bazaar) - Faster healing speed",
+    "Intravenous Vial (Trinket Bazaar) - Combat-based healing"
+  ]}
+/>
+
+<Callout type="tip" title="Combat Synergy">
+Equip the **Chain Capacitor** alongside the Axe subweapon. Since the Axe can hit multiple enemies or parts of a boss, you can rapidly build your damage multiplier before closing in for a final melee strike.
+</Callout>
+
+| Trinket | Acquisition Method | Best Use Case |
+| :--- | :--- | :--- |
+| Steady Soles | Ossex Attic Puzzle | Bayou & Ice regions |
+| Chain Capacitor | Car Destruction Minigame | Boss encounters |
+| Bell of Grace | Sparing Frayd the Thief | High-risk exploration |
+| Proto Spark | Queensbury Crypt (Duke Quest) | Any difficult dungeon |
+
+The **Bell of Grace** requires a unique interaction. You must find Frayd in the Station Underside, let him attempt to mug you in the streets, and then defeat him. Instead of finishing him off, pay 1,000 Bones to "restore" him. It is a steep price for the early game, but the safety net it provides for your Bone collection is invaluable.
+
+</Section>
+
+<Section icon={Trophy} title="Combat Preparation and First Dungeon Steps">
+
+Before leaving the **mina the hollower city center** to tackle your first generator, you should spend time grinding for levels. The game's difficulty curve is steepest at the beginning when your health is low. A prime farming spot is located just east of Ossex in **Mourner's Mile**. Red demons jump out of crypts here, yielding 25 Bones each. With a nearby save point, you can clear the screen, rest, and repeat to gain several levels in minutes.
+
+The recommended first dungeon is the **Queensbury Crypt**, located to the east. It is designed to teach you the advanced nuances of the burrowing mechanic. Ensure you have at least two Kears and the Steady Soles before entering, as the environment can be just as deadly as the enemies.
+
+<Callout type="tip" title="Final Preparation">
+Don't hoard your Bones! Every time you return to the **mina the hollower city center**, spend your currency on Attack or Defense levels. It is better to have a permanent stat boost than to lose a pile of Bones to a surprise trap in the wild.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "How do I get the bike in the mina the hollower city center?",
+    answer: "You must first purchase or find a Spark upgrade to have a total of two Sparks. This allows you to open the Spark Door near the pawn shop in Ossex, where the Iron Steed bike is stored."
+  },
+  {
+    question: "Where is the best place to farm Bones early in the game?",
+    answer: "The best spot is Mourner's Mile, located just east of the city center. Kill the red demons that emerge from crypts for 25 Bones each, then reset them at the nearby checkpoint."
+  },
+  {
+    question: "What should I buy first in Ossex?",
+    answer: "Your first 500 Bones should go toward the Map from Drillhardt in the Hollower's Guild. Following that, prioritize a Spark upgrade for survivability and the Iron Steed for mobility."
+  },
+  {
+    question: "How do I unlock the map in Mina the Hollower?",
+    answer: "You must rescue Rhene from the Rebel Barracks south of town, return to the Hollower's Guild to free Drillhardt, and then purchase the map from him for 500 Bones."
+  }
+]} />
+
+</Section>

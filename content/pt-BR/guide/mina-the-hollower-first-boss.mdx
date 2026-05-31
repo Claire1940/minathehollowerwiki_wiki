@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mina the Hollower Primeiro Chefe: Estratégia do Thorne e Guia Inicial",
+  description: "Domine a luta contra o chefe Thorne em Mina the Hollower com nosso guia de estratégia detalhado, análise de armas e dicas de progressão inicial para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Mina+First+Boss+Guide",
+  date: "2026-05-31",
+  author: "Equipe da Wiki de Mina the Hollower",
+  keywords: "mina the hollower, primeiro chefe, thorne, estratégia, guia de armas, progressão"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Primeiro chefe de Mina the Hollower**: O primeiro grande encontro é contra **Thorne**, localizado no pátio de Ossex.
+- **Escolha de Arma**: Escolha **Whisper and Vesper** para velocidade ou **Nightstar** para alcance, maximizando a segurança inicial.
+- **Prioridade de Nível**: Foque nos atributos de **Ataque e Defesa** (Bone Up) antes de tentar enfrentar o primeiro chefe.
+- **Mecânica Chave**: Use a **Escavação** (Burrowing) para desviar de ondas de choque e se reposicionar durante fases de ataque intenso.
+- **Cura**: Reabasteça seus **Frascos de Plasma** (Plasma Vials) atacando inimigos; acertar o chefe concede recuperação de vida.
+</Callout>
+
+<Section icon={Swords} title="Armas Iniciais e Preparação Antecipada">
+
+Antes de encontrar o **primeiro chefe de Mina the Hollower**, você deve tomar uma decisão crítica sobre seu armamento principal. A bordo do navio naufragado no prólogo, você terá a escolha entre três armas distintas. Cada arma altera drasticamente sua distância de combate e o tempo de reação, que são os fatores mais importantes ao aprender os padrões dos chefes.
+
+**Destaques do Vídeo:**
+- Detalhes sobre as três armas iniciais: Nightstar, Blaststrike Maul e Whisper and Vesper.
+- Visão geral da área do prólogo e o encontro inicial com o Nether Kraken.
+- Padrões do primeiro chefe e como utilizar a cobertura do cenário, como rochas.
+- Passo a passo detalhado da batalha contra Thorne no pátio de Ossex.
+
+<YouTubeEmbed videoId="QFdKuXDJksE" title="Mina the Hollower - Como derrotar as duas primeiras batalhas de chefe FACILMENTE" />
+
+Escolher a arma certa depende do seu nível de conforto com combates de ação retrô. A Nightstar oferece um alcance semelhante ao de um chicote, mantendo você seguro dos golpes de curto alcance de Thorne, enquanto as adagas exigem que você fique na "zona de perigo", mas recompensam com um DPS massivo.
+
+| Arma | Tipo de Dano | Alcance | Estilo de Jogo |
+| :--- | :--- | :--- | :--- |
+| **Nightstar** | Esmagamento | Longo | Maça flexível, mais segura para iniciantes |
+| **Blaststrike Maul** | Explosivo | Curto | Golpes pesados, deixa você vulnerável a ataques |
+| **Whisper and Vesper** | Perfurante | Curto | Estocadas rápidas, melhor para jogadores agressivos |
+
+<Callout type="tip" title="Estratégia de Arma">
+Se você estiver tendo dificuldades com o tempo de reação do primeiro chefe, mude para a **Nightstar**. Seu alcance permite que você acerte golpes enquanto permanece fora do raio das ondas de choque de Thorne.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="O Caminho para Ossex: Mini-Chefe Hulk Trooper">
+
+Sua jornada até o primeiro grande chefe leva você por Loner's Landing e pelo Boardwalk. Antes de chegar à cidade de Ossex, você enfrentará um porteiro formidável: o **Hulk Trooper**. Embora não seja o primeiro chefe "principal", ele serve como um teste de habilidade obrigatório que muitos jogadores acham difícil se não estiverem preparados.
+
+O Hulk Trooper utiliza uma clava enorme e possui duas fases principais. Ele frequentemente saltará em sua direção para um esmagamento no solo ou realizará um balanço carregado que o teletransporta para frente. A arena está repleta de rochas; use-as para quebrar a linha de visão dele e absorver o impacto de seus golpes pesados.
+
+| Nome do Ataque | Descrição | Estratégia de Contra-ataque |
+| :--- | :--- | :--- |
+| **Esmagamento com Salto** | Salta alto e esmaga a clava no chão | Fuja ou escave para evitar o dano em área (AoE) |
+| **Balanço Carregado** | Teletransporta-se para frente com um arco amplo | Esconda-se atrás de rochas ou esquive para trás dele |
+| **Golpe Padrão** | Varredura horizontal rápida | Fique no alcance máximo da sua arma para cutucar |
+
+<Callout type="warning" title="Suba de Nível Primeiro">
+Não lute contra o Hulk Trooper no Nível 1. Passe algum tempo na área do Boardwalk para farmar **Ossos** (Bones) e use o "Bone Up" em um checkpoint. Aumentar seu **Ataque** para o Nível 2 torna esta luta significativamente mais curta.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Farmando Ossos">
+    Derrote inimigos perto do checkpoint de Southern Outskirts para reunir rapidamente Ossos suficientes para seus dois primeiros níveis.
+  </Card>
+  <Card title="Gestão de Plasma">
+    Não desperdice Frascos de Plasma em inimigos pequenos. Use a escavação para evitar danos e guarde as curas para o Trooper.
+  </Card>
+  <Card title="Armas Secundárias">
+    Equipe as **Gyro Daggers** encontradas perto do segundo checkpoint para causar dano gradual de uma distância segura.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Como Derrotar Thorne: Guia do Primeiro Chefe">
+
+Assim que você entrar em Ossex e navegar pela Radiant Manor, você será confrontado por **Thorne** no pátio. Este é oficialmente o encontro com o **primeiro chefe de Mina the Hollower**. Thorne é um guerreiro rival que é mais rápido e móvel do que qualquer inimigo que você enfrentou até agora. Ele usa uma arma semelhante a uma lança e comanda tornados elementais.
+
+<Steps>
+  <Step num="1" title="Observe a Sombra">
+    O movimento mais comum de Thorne é um salto alto. Enquanto ele estiver fora da tela, observe a sombra circular no chão. Ela indica exatamente onde ele irá pousar.
+  </Step>
+  <Step num="2" title="Esquive da Onda de Choque">
+    Quando Thorne pousa, ele cria uma onda de choque roxa ou invoca tornados. Não fique perto da zona de impacto. Espere o efeito se dissipar antes de se aproximar.
+  </Step>
+  <Step num="3" title="A Regra dos Dois Golpes">
+    Após Thorne pousar e terminar seu ataque de área, ele fica parado por aproximadamente 2 segundos. Aproxime-se, acerte **dois golpes** e recue imediatamente. A ganância é a principal causa de morte nesta luta.
+  </Step>
+  <Step num="4" title="Evite o Rastro Roxo">
+    Thorne ocasionalmente investirá pelo cenário, deixando um rastro de pontos roxos. Esses pontos explodem após um curto atraso. Foque inteiramente na movimentação durante esta fase e não tente atacar.
+  </Step>
+  <Step num="5" title="Fase Elemental">
+    Quando a vida de Thorne cai abaixo de 50%, ele invocará tornados de fogo que perseguem seu movimento. Corra em um círculo amplo ao redor da arena para superá-los até que a fase termine.
+  </Step>
+</Steps>
+
+| Movimento de Thorne | Nível de Perigo | Melhor Resposta |
+| :--- | :--- | :--- |
+| **Salto Alto** | Alto | Rastreie a sombra, fique a 3 blocos de distância |
+| **Tornado de Fogo** | Extremo | Movimento contínuo em círculo |
+| **Rastro Explosivo** | Médio | Fique longe dos marcadores roxos no chão |
+| **Estocada de Lança** | Baixo | Passo lateral e contra-ataque |
+
+<Callout type="success" title="Recompensas por Agressividade">
+Lembre-se de que acertar o chefe recarrega seu medidor de Plasma. Se você estiver com pouca vida, realizar um combo bem-sucedido costuma ser melhor do que fugir, pois permite que você use seu Frasco de Plasma novamente mais cedo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progressão Inicial e Checklist de Recursos">
+
+Após derrotar Thorne, o mundo da Tenebrous Isle se abre. Você terá a tarefa de reparar seis geradores, mas a ordem depende em grande parte de você. Para garantir que você não seja sobrecarregado pelo aumento súbito de dificuldade, você deve garantir itens específicos na cidade de Ossex antes de seguir para a próxima masmorra.
+
+<Checklist
+  id="post-boss-goals"
+  title="Objetivos Imediatos Pós-Thorne:"
+  items={[
+    "Visite o Emporium em Ossex para comprar a Trinket Bag (Bolsa de Berloques)",
+    "Compre pelo menos 3 Kears com o NPC pássaro (300 ossos cada)",
+    "Fale com o Baron Lionel para receber a missão dos seis geradores",
+    "Equipe a sub-arma 'Axe' (Machado) se a encontrou nos arredores",
+    "Melhore seu atributo de Defesa para pelo menos o Nível 3"
+  ]}
+/>
+
+| Nome do Item | Custo / Localização | Propósito |
+| :--- | :--- | :--- |
+| **Kear** | 300+ Ossos (Ossex) | Usado para desbloquear portas secretas e atalhos |
+| **Trinket Bag** | Loja (Ossex) | Aumenta o número de bônus passivos que você pode equipar |
+| **Bonestone** | Baús Escondidos | Item consumível que concede uma grande quantidade de Ossos |
+| **Plasma Vial** | Recarga Automática | Sua principal fonte de cura durante o combate |
+
+<Callout type="info" title="Dica de Exploração">
+Embora o jogo sugira seguir para o Leste primeiro, você pode explorar em qualquer direção. No entanto, as masmorras do Leste são geralmente consideradas o caminho pretendido para aqueles que desejam uma curva de dificuldade mais suave.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Táticas de Combate Avançadas">
+
+Dominar o **primeiro chefe de Mina the Hollower** é apenas o começo. Para sobreviver aos estágios posteriores do jogo, você deve integrar a habilidade de escavação de Mina em suas rotações ofensivas. Escavar não serve apenas para movimentação; é uma ferramenta defensiva que concede breves quadros de invulnerabilidade (i-frames).
+
+Quando Thorne ou o Hulk Trooper realizarem um golpe de longo alcance, você pode escavar no chão para deixar o ataque passar por cima de você. Saia imediatamente após o fim da animação do ataque para realizar um "Ataque de Escavação" (Burrow Attack), que geralmente causa mais dano do que um golpe padrão.
+
+| Mecânica | Benefício | Melhor Usado Contra |
+| :--- | :--- | :--- |
+| **Esquiva por Escavação** | I-frames / Invulnerabilidade | Varreduras amplas e ondas de choque |
+| **Troca de Sub-arma** | Versatilidade | Inimigos voadores (Adagas) / Chefes (Machado) |
+| **Moagem de Atributos** | Escalonamento de poder | Qualquer chefe que te mate em 3 golpes ou menos |
+
+<Callout type="tip" title="Prioridade de Atributos">
+Priorize **Ataque** primeiro para terminar as lutas mais rápido, depois **Defesa** para sobreviver a erros. Invista em atributos de **Sub-arma** apenas quando sua arma principal estiver pelo menos no Nível 4.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Quem é o primeiro chefe em Mina the Hollower?",
+    answer: "O primeiro chefe principal da história é Thorne, encontrado no pátio de Ossex. No entanto, os jogadores devem primeiro derrotar o mini-chefe Hulk Trooper em Southern Outskirts para chegar à cidade."
+  },
+  {
+    question: "Qual é a melhor arma para usar contra Thorne?",
+    answer: "As adagas Whisper and Vesper são excelentes para causar dano alto durante as janelas curtas de recuperação de Thorne, mas a maça Nightstar é mais segura para iniciantes devido ao seu alcance superior."
+  },
+  {
+    question: "Como me curar durante a luta contra o primeiro chefe?",
+    answer: "Use os Frascos de Plasma pressionando o botão de cura. Você pode reabastecer seu medidor de Plasma acertando ataques em Thorne. Cada golpe contribui para sua próxima cura disponível."
+  },
+  {
+    question: "É possível derrotar o Nether Kraken no navio?",
+    answer: "Não, o encontro com o Nether Kraken no prólogo é um evento de sobrevivência roteirizado. Você não pode derrotá-lo; seu objetivo é simplesmente sobreviver até que o navio naufrague."
+  }
+]} />
+
+</Section>

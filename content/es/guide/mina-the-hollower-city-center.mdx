@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Centro de la ciudad de Mina the Hollower: Guía de exploración y progresión temprana de Ossex",
+  description: "Domina el centro de la ciudad de Mina the Hollower, Ossex, en 2026. Aprende a desbloquear el mapa, encontrar la bicicleta Iron Steed y rescatar a los NPC clave para obtener poder temprano.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Ossex+City+Center+Guide",
+  date: "2026-05-31",
+  author: "Equipo Wiki de Mina the Hollower"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Centro Principal**: El **centro de la ciudad de Mina the Hollower** es Ossex, tu base principal para mejoras y misiones.
+- **Mejora Clave**: Prioriza la **Mejora de Chispa** temprano para ganar una vida extra y proteger tus Huesos.
+- **Herramienta Esencial**: Compra el **Mapa** a Drillhardt en el Gremio de Hollowers por 500 Huesos.
+- **Impulso de Movilidad**: Desbloquea la **bicicleta Iron Steed** detrás de la puerta de dos Chispas para cruzar grandes huecos.
+- **Primera Mazmorra**: Dirígete al **Este** a la Cripta de Queensbury una vez que estés equipado en la ciudad.
+</Callout>
+
+<Section icon={Map} title="Navegando el centro de la ciudad de Mina the Hollower: El centro de Ossex">
+
+Llegar al **centro de la ciudad de Mina the Hollower**, conocido como Ossex, es el primer hito importante en tu viaje por la Isla Tenebrosa. Después de sobrevivir al naufragio inicial y al camino del tutorial, conocerás al Barón Lionel, quien te encargará la reparación de seis generadores dispersos por el mundo. A diferencia de las aventuras lineales tradicionales, Ossex sirve como una puerta de entrada no lineal donde casi todas las direcciones están abiertas desde el principio, siempre que tengas las herramientas adecuadas y las habilidades de excavación.
+
+La ciudad está dividida en varios distritos distintos, cada uno ofreciendo servicios únicos que son vitales para tu supervivencia. Comprender el diseño de este centro es la diferencia entre la muerte constante y la progresión constante.
+
+<CardGrid cols={3}>
+  <Card title="El Distrito del Emporio">
+    - **Punto de Control Central**
+    - Mejoras de Salud y Chispa
+    - Comerciantes de equipo general
+  </Card>
+  <Card title="El Bowery y el Oeste">
+    - **Bazar de Baratijas**
+    - Desafíos de alto nivel
+    - Acceso a las Tierras Salvajes del Oeste
+  </Card>
+  <Card title="Las Puertas del Este">
+    - **Gremio de Hollowers**
+    - Mazmorras de juego temprano
+    - Acceso al Centro de Estrategia
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Diseño de la Ciudad">
+Ossex está diseñado para ser explorado tanto vertical como horizontalmente. Busca siempre cuerdas para bajar o paredes para excavar y encontrar atajos ocultos entre los distritos superior e inferior del **centro de la ciudad de Mina the Hollower**.
+</Callout>
+
+| Distrito | NPC Clave | Servicio Principal | Requisito |
+| :--- | :--- | :--- | :--- |
+| Mansión Radiante | Barón Lionel | Misión Principal | Ninguno |
+| Emporio | Tendero | Salud/Chispas | Huesos |
+| Sublaboratorio | Drillhardt | Mapa y Mejoras | 500 Huesos |
+| Parte Inferior de la Estación | Frayd | Baratijas | 1.000 Huesos |
+| Salón del Gremio | Muriel | Misiones Secundarias | Misión de Rescate |
+
+</Section>
+
+<Section icon={Swords} title="Economía y Mejoras Esenciales Tempranas">
+
+Los Huesos son la savia de tu progresión en el **centro de la ciudad de Mina the Hollower**. Mientras que los Huesos estándar se pierden al morir, los **Huesos de Piedra** son gemas de moneda permanentes que permanecen en tu inventario sin importar cuántas veces caigas en batalla. Tu primera hora en Ossex debe dedicarse a recolectar estas gemas para financiar tus aumentos de poder iniciales.
+
+Una de las mejoras más críticas disponibles en el juego temprano es el sistema de Chispas. Al visitar el Emporio, puedes comprar una mejora de Chispa. Tener dos Chispas te permite abrir una puerta específica a la izquierda de la casa de empeños, que conduce a la bicicleta Iron Steed. Este vehículo no es solo para velocidad; permite a Mina saltar por encima de huecos de tres cuadrados de ancho, abriendo rutas de exploración completamente nuevas.
+
+<Callout type="warning" title="Penalización por Muerte">
+Si mueres sin una Chispa, pierdes una porción significativa de tus Huesos. Invertir en la baratija **Campana de Gracia** de Frayd en la Parte Inferior de la Estación puede mitigar este riesgo dándote la oportunidad de retener tu Chispa o tu moneda.
+</Callout>
+
+| Objeto | Ubicación | Costo | Utilidad |
+| :--- | :--- | :--- | :--- |
+| Kear (Llave) | Tienda de Pájaros | 300+ Huesos | Abre puertas/cofres cerrados |
+| Mejora de Chispa | Emporio | Variable | Vida extra y acceso a puertas |
+| Iron Steed | Puerta de 2 Chispas | Gratis (Encontrar) | Cruza huecos de 3 casillas |
+| Subarma Hacha | Centro de Estrategia | Gratis (Encontrar) | Combate a distancia y Puzzles |
+| Polvo de Huesos de Piedra | Tienda de Poppit | Variable | Moneda permanente |
+
+Más allá de las tiendas, puedes encontrar riquezas "gratuitas" interactuando con el entorno. Por ejemplo, mirar a través del telescopio al norte del punto de control de Ossex y avistar un planeta específico hará que un Kear caiga del cielo. De manera similar, usar la subarma Hacha para romper un cofre en el Centro de Estrategia proporciona un impulso fácil al principio del juego.
+
+</Section>
+
+<Section icon={Target} title="El Gremio de Hollowers: Desbloqueando el Mapa del Mundo">
+
+El Gremio de Hollowers es, posiblemente, el edificio más importante del **centro de la ciudad de Mina the Hollower**, pero comienza el juego tapiado e inaccesible. Restaurar el Gremio es un proceso de varios pasos que te recompensa con la herramienta más esencial para cualquier explorador: el Mapa del Mundo. Sin el mapa, navegar por la extensa Isla Tenebrosa se convierte en una tarea desalentadora de prueba y error.
+
+Para comenzar la restauración, debes encontrar la entrada lateral del edificio. Sigue la pared exterior a la derecha, salta por encima de las rocas y despeja las cajas para encontrar la puerta trasera. Una vez dentro, conocerás a Muriel, quien pone en marcha la misión de rescate.
+
+<Steps>
+  <Step num="1" title="Localiza los Cuarteles Rebeldes">
+    Dirígete directamente al sur desde la entrada principal de Ossex. Necesitarás un Kear para desbloquear la puerta que lleva a los cuarteles donde están retenidos los miembros del Gremio.
+  </Step>
+  <Step num="2" title="Rescata a Rhene">
+    Lucha a través de los cuarteles y localiza a Rhene. Debes escoltarla de regreso de manera segura al salón del Gremio. Ella es una compañera Hollower que ayuda a administrar la instalación.
+  </Step>
+  <Step num="3" title="Libera a Drillhardt">
+    Una vez que Rhene esté de vuelta, regresa al Gremio para encontrar a Drillhardt. Está atascado en el suelo; excava directamente debajo de sus astas para sacarlo.
+  </Step>
+  <Step num="4" title="Compra el Mapa">
+    Habla con Drillhardt en el recién limpiado salón del Gremio. Te ofrecerá el **Mapa** por 500 Huesos. Esta es una compra obligatoria para una progresión eficiente.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Beneficios del Gremio">
+Una vez que el Gremio está activo, Drillhardt proporciona varias mejoras para el Sublaboratorio. Además, estate atento a los periódicos en el salón; proporcionan pistas sobre la ruta "prevista" y la ubicación de la próxima mazmorra recomendada.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Baratijas Imprescindibles Cerca del Centro de la Ciudad">
+
+Las baratijas funcionan de manera similar a los amuletos en otros juegos de rol de acción, proporcionando mejoras pasivas que se pueden intercambiar en los puntos de control. Antes de aventurarte en los peligrosos pantanos del este o las regiones volcánicas del oeste, debes recolectar un conjunto básico de baratijas que se encuentran dentro o inmediatamente adyacentes al **centro de la ciudad de Mina the Hollower**.
+
+Las **Suelas Firmes** son una prioridad absoluta. Estas permiten a Mina moverse a través del agua, la hierba y la nieve sin la penalización de velocidad estándar. Están escondidas en una residencia en el ático cerca de la salida este de Ossex. Debes llegar al balcón que da al patio y excavar bajo una abertura específica para acceder a la sala del tesoro.
+
+<Checklist
+  id="early-trinkets"
+  title="Lista de Verificación de Baratijas Tempranas:"
+  items={[
+    "Suelas Firmes (Ático de Ossex) - Inmunidad a la penalización de movimiento",
+    "Condensador de Cadena (Puerta Este) - Impulso de daño por rachas de golpes",
+    "Campana de Gracia (Parte Inferior de la Estación) - Protección contra la pérdida de Huesos",
+    "Embudo de Plasma (Bazar de Baratijas) - Velocidad de curación más rápida",
+    "Vial Intravenoso (Bazar de Baratijas) - Curación basada en combate"
+  ]}
+/>
+
+<Callout type="tip" title="Sinergia de Combate">
+Equipa el **Condensador de Cadena** junto con la subarma Hacha. Dado que el Hacha puede golpear a varios enemigos o partes de un jefe, puedes aumentar rápidamente tu multiplicador de daño antes de acercarte para un golpe final cuerpo a cuerpo.
+</Callout>
+
+| Baratija | Método de Adquisición | Mejor Caso de Uso |
+| :--- | :--- | :--- |
+| Suelas Firmes | Puzzle del Ático de Ossex | Regiones de pantano y hielo |
+| Condensador de Cadena | Minijuego de Destrucción de Coches | Encuentros con jefes |
+| Campana de Gracia | Perdonando a Frayd el Ladrón | Exploración de alto riesgo |
+| Chispa Proto | Cripta de Queensbury (Misión del Duque) | Cualquier mazmorra difícil |
+
+La **Campana de Gracia** requiere una interacción única. Debes encontrar a Frayd en la Parte Inferior de la Estación, dejar que intente atracarte en las calles y luego derrotarlo. En lugar de rematarlo, paga 1.000 Huesos para "restaurarlo". Es un precio elevado para el principio del juego, pero la red de seguridad que proporciona para tu colección de Huesos es invaluable.
+
+</Section>
+
+<Section icon={Trophy} title="Preparación para el Combate y Primeros Pasos en la Mazmorra">
+
+Antes de abandonar el **centro de la ciudad de Mina the Hollower** para enfrentarte a tu primer generador, deberías dedicar tiempo a subir de nivel. La curva de dificultad del juego es más pronunciada al principio, cuando tu salud es baja. Un lugar ideal para farmear se encuentra justo al este de Ossex, en **Mourner's Mile**. Aquí, los demonios rojos saltan de las criptas, otorgando 25 Huesos cada uno. Con un punto de guardado cercano, puedes limpiar la pantalla, descansar y repetir para ganar varios niveles en minutos.
+
+La primera mazmorra recomendada es la **Cripta de Queensbury**, situada al este. Está diseñada para enseñarte los matices avanzados de la mecánica de excavación. Asegúrate de tener al menos dos Kears y las Suelas Firmes antes de entrar, ya que el entorno puede ser tan letal como los enemigos.
+
+<Callout type="tip" title="Preparación Final">
+¡No acumules tus Huesos! Cada vez que regreses al **centro de la ciudad de Mina the Hollower**, gasta tu moneda en niveles de Ataque o Defensa. Es mejor tener una mejora de estadísticas permanente que perder una pila de Huesos por una trampa sorpresa en la naturaleza.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cómo consigo la bicicleta en el centro de la ciudad de Mina the Hollower?",
+    answer: "Primero debes comprar o encontrar una mejora de Chispa para tener un total de dos Chispas. Esto te permite abrir la Puerta de Chispa cerca de la casa de empeños en Ossex, donde se guarda la bicicleta Iron Steed."
+  },
+  {
+    question: "¿Cuál es el mejor lugar para farmear Huesos al principio del juego?",
+    answer: "El mejor lugar es Mourner's Mile, situado justo al este del centro de la ciudad. Mata a los demonios rojos que emergen de las criptas por 25 Huesos cada uno, luego reinícialos en el punto de control cercano."
+  },
+  {
+    question: "¿Qué debo comprar primero en Ossex?",
+    answer: "Tus primeros 500 Huesos deben destinarse al Mapa de Drillhardt en el Gremio de Hollowers. Después de eso, prioriza una mejora de Chispa para la supervivencia y la Iron Steed para la movilidad."
+  },
+  {
+    question: "¿Cómo desbloqueo el mapa en Mina the Hollower?",
+    answer: "Debes rescatar a Rhene de los Cuarteles Rebeldes al sur de la ciudad, regresar al Gremio de Hollowers para liberar a Drillhardt y luego comprarle el mapa por 500 Huesos."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,136 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mina the Hollower Duke: Você Deve Selá-lo na Tumba?",
+  description: "Explore as consequências e recompensas de selar o Duque em Mina the Hollower, incluindo o amuleto Proto Spark e eventos posteriores do jogo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Mina+Duke+Tomb",
+  date: "2026-05-31",
+  author: "Equipe Wiki de Mina the Hollower"
+}
+
+<Callout type="info" title="Guia Rápido">
+- Decidir se deve selar o **Duque de Mina the Hollower** em sua tumba tem consequências significativas.
+- Selá-lo recompensa com o valioso **amuleto Proto Spark**, oferecendo uma revivescência gratuita.
+- Não selá-lo significa perder o amuleto.
+- Haverá uma **consequência narrativa menor** mais tarde no jogo se você o selar.
+- O Duque expressa um forte desejo de ser selado com sua amada.
+</Callout>
+
+<Section icon={Map} title="Localizando o Duque em Mina the Hollower">
+Encontrar o Duque é um passo fundamental nesta missão secundária específica que oferece recompensas e implicações narrativas. À medida que avança em _Mina the Hollower_, você encontrará vários personagens e escolhas que moldarão sua jornada. A localização do Duque está ligada a uma área específica onde você precisará superar obstáculos ambientais.
+
+Você se encontrará em uma câmara com uma entrada para o Underlab fora de alcance e uma barreira que requer dois frascos de plasma para ser removida. O Duque aguarda do outro lado desta barreira. Uma vez que a barreira esteja livre, suba pela corda e atravesse para alcançá-lo. Ele então pedirá para acompanhá-lo. Embora ele não ajude diretamente em combate, ele o seguirá. Esteja ciente de que, se ele sofrer dano de inimigos ou perigos ambientais, como rolos de espinhos, ele entrará em pânico e parará de segui-lo até que você se aproxime dele novamente. Esta área também oferece um excelente ponto de ressurgimento para uma próxima luta contra chefes, uma vez que você desbloqueie o Underlab no final do caminho.
+
+<Callout type="tip">
+**Sempre limpe o caminho à frente** ao escoltar o Duque. Sua natureza frágil significa que ele fugirá se for danificado, tornando o progresso mais complicado. Priorize a remoção de ameaças antes que ele entre em uma nova área.
+</Callout>
+
+**Visão Geral do Encontro com o Duque:**
+
+| Localização          | Requisito                   | Ação Inicial                  | Comportamento do Duque | Benefício da Área         |
+|----------------------|-----------------------------|-------------------------------|------------------------|---------------------------|
+| Câmara do Underlab   | 2 Frascos de Plasma         | Remover barreira              | Pede para acompanhar  | Ponto de respawn do Underlab |
+| Seguindo Mina        | Evitar Danos                | Segue Mina (não-combate)      | Entra em pânico se for atingido | Caminho para o chefe desbloqueado |
+| Cripta da Família    | Ponto de Decisão            | Pede para ser selado          | Aguarda a escolha do jogador | Recompensa potencial de amuleto |
+
+</Section>
+
+<Section icon={Target} title="A Escolha: Selar ou Não Selar o Duque">
+O dilema central em relação ao **Duque de Mina the Hollower** gira em torno de cumprir ou não seu desejo de selá-lo na cripta da família. Esta escolha apresenta uma clara troca entre uma recompensa imediata e poderosa e uma consequência narrativa menor mais tarde no jogo.
+
+O Duque pede explicitamente que você o coloque na cripta de sua família, desejando estar com sua amada para sempre. Se você optar por honrar seu pedido, receberá imediatamente o **amuleto Proto Spark**. Este item altamente útil concede a você uma revivescência gratuita, trazendo-o de volta da morte assim que sua saúde chegar a zero, sem consumir uma de suas preciosas faíscas. Isso pode ser um divisor de águas em encontros desafiadores.
+
+Por outro lado, se você decidir não selá-lo e simplesmente ir embora, não receberá o amuleto Proto Spark. Embora o Duque eventualmente morra independentemente de sua escolha, o amuleto só é adquirido selando-o ativamente.
+
+<Callout type="warning" title="Alerta de Spoiler">
+A decisão de selar o Duque tem uma repercussão narrativa mais tarde no jogo. Depois de restaurar todos os seis geradores de faíscas e retornar à Mansão Radiante, Lionel e seus seguidores listarão suas supostas más ações, incluindo "enterrar o Duque vivo". Isso é puramente um elemento de narrativa e não afeta a jogabilidade ou a mecânica.
+</Callout>
+
+**Consequências da Sua Decisão:**
+
+| Ação                      | Recompensa Imediata      | Efeito a Longo Prazo (Jogabilidade) | Efeito a Longo Prazo (Narrativa)             |
+|---------------------------|--------------------------|-------------------------------------|----------------------------------------------|
+| **Selar o Duque**         | Amuleto Proto Spark      | Nenhuma                               | Acusado de "enterrar o Duque vivo" por Lionel |
+| **Não Selar o Duque**     | Nenhum Amuleto Proto Spark | Nenhuma                               | Nenhuma acusação em relação ao Duque         |
+
+</Section>
+
+<Section icon={Sparkles} title="Adquirindo o Amuleto Proto Spark">
+O amuleto Proto Spark é uma vantagem significativa no início do jogo que pode aumentar drasticamente sua capacidade de sobrevivência. Obtê-lo está diretamente ligado à sua interação com o **Duque de Mina the Hollower**. Aqui está um guia passo a passo para garantir que você obtenha este item valioso.
+
+<Steps>
+  <Step num="1" title="Alcance a Câmara do Duque">
+    Progrida no jogo até chegar à área específica que requer dois frascos de plasma para remover uma barreira. O Duque estará localizado além desta barreira.
+  </Step>
+  <Step num="2" title="Limpe o Caminho para o Duque">
+    Assim que a barreira for removida, dirija-se ao Duque. Ele pedirá para acompanhá-lo. Esteja preparado para escoltá-lo pela próxima sala, que pode conter inimigos ou rolos de espinhos. Tenha cuidado para evitar que ele sofra danos.
+  </Step>
+  <Step num="3" title="Enfrente a Cripta">
+    O Duque o levará à cripta de sua família e expressará seu desejo de ser selado nela, desejando ser reunido com sua amada para sempre.
+  </Step>
+  <Step num="4" title="Sele o Duque">
+    Interaja com a cripta para selar o Duque dentro dela. Esta ação é irreversível para esta jogada. Ao selá-lo, você receberá imediatamente o amuleto Proto Spark.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Benefícios do Amuleto Proto Spark">
+O amuleto Proto Spark é incrivelmente útil, oferecendo uma revivescência gratuita quando sua saúde chega a zero. Isso significa que você não perderá uma faísca, permitindo que você continue sua corrida sem penalidade. É especialmente benéfico para enfrentar chefes difíceis ou navegar por áreas traiçoeiras.
+</Callout>
+
+**Comparação de Amuletos:**
+
+| Nome do Amuleto      | Efeito                                         | Método de Aquisição       | Caso de Uso Principal   |
+|----------------------|------------------------------------------------|---------------------------|-------------------------|
+| **Proto Spark**      | Revive Mina uma vez com 0 HP sem perda de faísca | Selar o Duque em sua tumba | Lutas contra chefes, áreas difíceis |
+| (Exemplo) Gema de Vida | Aumenta a vida máxima                          | Encontrada em baús        | Sobrevivência geral     |
+| (Exemplo) Amuleto de Dash | Reduz o tempo de recarga do Dash             | Compra de comerciante     | Exploração, combate     |
+
+</Section>
+
+<Section icon={Swords} title="Impacto Narrativo e Reações dos Jogadores">
+Embora selar o **Duque de Mina the Hollower** ofereça uma vantagem tangível na jogabilidade com o amuleto Proto Spark, também introduz um elemento narrativo único. Essa escolha destaca a disposição do jogo em apresentar ambiguidades morais e as consequências das ações do jogador, mesmo que sejam principalmente focadas na narrativa.
+
+Mais tarde no jogo, especificamente depois de restaurar todos os seis geradores de faíscas e retornar à Mansão Radiante, você encontrará Lionel e seus seguidores. Eles relatarão uma lista de suas "más ações" da jornada, e enterrar o Duque vivo é explicitamente mencionado. Esta cena serve para adicionar profundidade ao mundo e aos personagens do jogo, retratando as ações de Mina de uma perspectiva diferente. É uma camada extra de narrativa que não altera os resultados da jogabilidade, mas enriquece a experiência geral.
+
+<Callout type="info">
+A consequência narrativa é puramente para enriquecer a ambientação e a interação dos personagens. Não afeta nenhuma mecânica de jogo, finais ou missões futuras. É simplesmente um momento em que suas escolhas passadas são reconhecidas por outros personagens.
+</Callout>
+
+**Perspectiva do Jogador sobre a Escolha do Duque:**
+
+| Abordagem do Jogador    | Racional                                         | Foco do Resultado       |
+|-------------------------|--------------------------------------------------|-------------------------|
+| **Utilitário**          | Prioriza o Proto Spark para vantagem na jogabilidade | Eficiência da jogabilidade |
+| **Interpretação de Papéis** | Considera o desejo de paz do Duque, impacto narrativo | Escolha moral, história |
+| **Cauteloso**           | Evita o ato "maligno" percebido, mesmo por recompensa | Considerações éticas    |
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+<FAQ items={[
+  {
+    question: "Qual é a principal recompensa por selar o Duque de Mina the Hollower?",
+    answer: "A principal recompensa por selar o Duque em sua tumba é o amuleto Proto Spark, que concede uma única revivescência sem perder uma faísca quando sua saúde chega a zero."
+  },
+  {
+    question: "Existem consequências negativas na jogabilidade por selar o Duque?",
+    answer: "Não, não há consequências negativas na jogabilidade. O amuleto Proto Spark é um item benéfico, e selar o Duque não afeta negativamente seu progresso no jogo ou suas habilidades de combate."
+  },
+  {
+    question: "O que acontece se eu escolher não selar o Duque?",
+    answer: "Se você escolher não selar o Duque, não receberá o amuleto Proto Spark. O Duque acabará morrendo de qualquer forma, mas você perderá o valioso item de revivescência."
+  },
+  {
+    question: "Selar o Duque afeta o final do jogo ou os principais pontos da trama?",
+    answer: "Não, selar o Duque não afeta o final do jogo ou os principais pontos da trama. Isso leva a uma cena narrativa menor mais tarde, onde sua ação é mencionada por Lionel e seus seguidores, mas não tem impacto mecânico."
+  }
+]} />
+</Section>

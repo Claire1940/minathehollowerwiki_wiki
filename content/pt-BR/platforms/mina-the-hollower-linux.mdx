@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mina the Hollower Linux: Guia de Configuração e Dicas de Desempenho",
+  description: "Navegue por Mina the Hollower no Linux com este guia abrangente de configuração, dicas de desempenho e conselhos de solução de problemas para uma experiência de jogo fluida.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/3498db/fff?text=Mina+Hollower+Linux",
+  date: "2026-05-31",
+  author: "Equipe Wiki de Mina the Hollower"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A compatibilidade de **Mina the Hollower Linux** é melhor alcançada com o **Proton Experimental**.
+- Certifique-se de que seus **drivers gráficos** estejam atualizados, especialmente para usuários Nvidia.
+- Problemas de desempenho como lentidão e travamentos podem ser resolvidos mudando para o **Proton**.
+- O superaquecimento pode afetar o desempenho em laptops; monitore a **temperatura da sua CPU**.
+- Uma versão nativa para Linux pode existir, mas o **Proton geralmente oferece uma experiência mais estável**.
+</Callout>
+
+<Section icon={Map} title="Primeiros Passos: Mina the Hollower no Linux">
+Mina the Hollower, o altamente aguardado jogo de ação e aventura em 8 bits da Yacht Club Games, está disponível para PC. Para usuários Linux, fazer o jogo rodar sem problemas exige um pouco de configuração. Embora o jogo possa oferecer uma versão nativa para Linux, muitos jogadores relatam melhor estabilidade e desempenho ao utilizar a camada de compatibilidade Proton da Valve. Este guia irá guiá-lo pelos passos necessários e fornecer dicas para otimizar sua experiência.
+
+**Destaques do Vídeo:**
+- Mina the Hollower é desenvolvido pela Yacht Club Games, conhecida por Shovel Knight.
+- O jogo apresenta visuais autênticos de 8 bits inspirados no Game Boy Color.
+- É um jogo de ação e aventura com jogabilidade, resolução e animação modernas.
+
+<YouTubeEmbed videoId="msILWL0169g" title="Muitas Grandes Notícias de Emulação, Mina the Hollower, Vulnerabilidades da PSN, GitHub hackeado e mais" />
+
+<Callout type="tip">
+Mantenha sempre seu cliente Steam e drivers gráficos atualizados. Software desatualizado é uma causa comum de problemas de desempenho e travamentos ao jogar no Linux.
+</Callout>
+
+### Escolhas de Configuração Inicial
+
+Ao iniciar Mina the Hollower no Linux, você geralmente tem duas opções principais: rodar uma possível versão nativa ou usar o Proton. O feedback da comunidade sugere que o Proton Experimental geralmente produz os melhores resultados.
+
+| Método                   | Prós                                   | Contras                                         | Recomendado Para                              |
+| :----------------------- | :------------------------------------- | :---------------------------------------------- | :-------------------------------------------- |
+| **Versão Nativa Linux**  | Nenhuma camada de compatibilidade necessária | Pode ter problemas de desempenho ou travamentos | Usuários que preferem uma experiência puramente nativa |
+| **Proton Experimental**  | Estabilidade aprimorada, melhor desempenho | Requer configuração do Steam Play, não é realmente nativo | A maioria dos jogadores Linux para uma experiência ideal |
+
+</Section>
+
+<Section icon={Sparkles} title="Otimizando o Desempenho com Proton Experimental">
+Se você encontrar lentidão, travamentos ou falhas com Mina the Hollower em sua distribuição Linux, mudar para o Proton Experimental é uma solução altamente recomendada. Esta camada de compatibilidade permite que jogos do Windows rodem no Linux com problemas mínimos.
+
+<Steps>
+  <Step num="1" title="Habilitar Steam Play para Todos os Títulos">
+    Abra seu cliente Steam. Vá para **Steam > Configurações > Steam Play**. Marque a caixa "Habilitar Steam Play para todos os outros títulos" e selecione "Proton Experimental" no menu suspenso. Reinicie o Steam para que as alterações entrem em vigor.
+  </Step>
+  <Step num="2" title="Forçar Ferramenta de Compatibilidade para Mina the Hollower">
+    Navegue até Mina the Hollower em sua Biblioteca Steam. Clique com o botão direito no jogo, selecione **Propriedades > Compatibilidade**. Marque "Forçar o uso de uma ferramenta de compatibilidade específica do Steam Play" e certifique-se de que "Proton Experimental" esteja selecionado.
+  </Step>
+  <Step num="3" title="Atualizar Drivers Gráficos">
+    Certifique-se de que seus drivers gráficos estejam atualizados. Para usuários Nvidia, o desenvolvedor recomenda usar drivers proprietários da Nvidia em vez de drivers Nouveau, que são conhecidos por causar problemas de desempenho. Verifique o Gerenciador de Drivers do seu sistema (por exemplo, no Linux Mint) para verificar.
+  </Step>
+  <Step num="4" title="Monitorar Recursos do Sistema">
+    Embora Mina the Hollower seja um jogo inspirado em 8 bits, quedas inesperadas de desempenho podem ocorrer. Monitore as temperaturas e o uso da sua CPU e GPU, especialmente em laptops, para descartar o superaquecimento como causa.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Compatibilidade de Driver">
+O uso de drivers Nouveau para GPUs Nvidia no Linux pode levar a sérios problemas de desempenho e instabilidade. Sempre priorize a instalação dos drivers proprietários oficiais da Nvidia para a melhor experiência de jogo.
+</Callout>
+
+### Comparativo de Drivers para Jogos
+
+Escolher os drivers certos é crucial para um desempenho ideal em jogos no Linux.
+
+| Tipo de Driver       | Suporte GPU      | Desempenho        | Estabilidade        | Facilidade de Instalação |
+| :------------------- | :--------------- | :---------------- | :------------------ | :----------------------- |
+| **Nvidia Proprietário** | Nvidia           | Excelente         | Bom                 | Moderado                 |
+| **Nouveau (Aberto)** | Nvidia           | Ruim a Moderado   | Variável            | Fácil (muitas vezes padrão) |
+| **AMD Mesa/AMDGPU**  | AMD              | Excelente         | Excelente           | Fácil                    |
+| **Intel Mesa**       | Intel Integrado  | Moderado a Bom    | Bom                 | Fácil                    |
+
+</Section>
+
+<Section icon={Shield} title="Solução de Problemas Comuns do Linux">
+Mesmo com o Proton, você pode encontrar alguns problemas específicos. Veja como resolvê-los com base em experiências comuns de usuários.
+
+### Lidando com a Degradação do Desempenho
+
+Alguns usuários relataram lentidão ou travamentos iniciais após um curto período de jogo, o que às vezes pode levar a um congelamento completo do sistema.
+
+| Problema                                  | Causa Potencial                    | Solução                                           |
+| :---------------------------------------- | :--------------------------------- | :------------------------------------------------ |
+| **Lentidão Inicial (primeiros minutos)**  | Compilação de shaders              | Geralmente se resolve; garanta que o Proton esteja ativo |
+| **Lentidão/Congelamentos Severos após ~15 min** | Gerenciamento ineficiente de recursos, drivers | Mude para **Proton Experimental**; atualize os drivers |
+| **Superaquecimento da CPU (laptops)**    | Processos intensivos em segundo plano, resfriamento deficiente | Monitore as temperaturas; limpe o sistema de resfriamento; ajuste o perfil de energia |
+| **Falha de Segmentação na Inicialização** | Incompatibilidade da versão nativa | Force o Proton Experimental; verifique as bibliotecas do sistema |
+
+<Callout type="success" title="Sucesso da Comunidade">
+Muitos usuários nos fóruns da Comunidade Steam confirmaram que a mudança para o Proton Experimental resolveu com sucesso seus problemas de desempenho e travamento com Mina the Hollower em várias distribuições Linux.
+</Callout>
+
+### Lista de Verificação de Configuração do Jogo
+
+Antes de mergulhar fundo na solução de problemas, certifique-se de que a configuração do seu jogo esteja alinhada com as melhores práticas para Linux.
+
+<Checklist
+  id="game-config"
+  title="Lista de Verificação Pré-Lançamento do Jogo:"
+  items={[
+    "Verifique se o Proton Experimental está selecionado para Mina the Hollower.",
+    "Confirme se os drivers gráficos proprietários estão instalados e atualizados.",
+    "Feche aplicativos desnecessários em segundo plano para liberar recursos.",
+    "Verifique a integridade dos arquivos do jogo através das propriedades do Steam.",
+    "Reinicie o Steam e seu sistema após fazer alterações significativas."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Insights da Comunidade e Perspectivas Futuras">
+A comunidade de jogos Linux é vibrante, e a experiência coletiva frequentemente fornece as soluções mais rápidas para novos desafios de compatibilidade de jogos. As discussões sobre Mina the Hollower no Linux destacam a eficácia do Proton.
+
+### Por que o Proton é Preferido
+
+Mesmo para jogos com versões nativas para Linux, o Proton frequentemente oferece uma experiência mais polida. Isso se deve ao desenvolvimento e otimização contínuos do Proton pela Valve, que inclui correções específicas para muitos títulos populares.
+
+| Aspecto        | Versão Nativa Linux             | Proton Experimental                 |
+| :------------- | :------------------------------ | :---------------------------------- |
+| **Desempenho** | Pode ser inconsistente          | Geralmente estável e otimizado      |
+| **Correções de Bugs** | Depende do suporte do desenvolvedor | Rapidamente atualizado pela Valve para ampla compatibilidade |
+| **Gerenciamento de Drivers** | Específico para distros/hardware | Lida com os requisitos de drivers do Windows |
+| **Facilidade de Uso** | Lançamento direto (se funcionar) | Configuração única no Steam         |
+
+<Callout type="info">
+Mina the Hollower é um novo lançamento da Yacht Club Games, conhecida por seu compromisso com a qualidade. À medida que o jogo amadurece, o suporte oficial para Linux ou otimizações adicionais através do Proton provavelmente melhorarão. O jogo foi lançado em 29 de maio de 2026 e custa US$ 20.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Perguntas Frequentes sobre Mina the Hollower Linux">
+
+<FAQ items={[
+  {
+    question: "Mina the Hollower é oficialmente suportado no Linux?",
+    answer: "Embora possa ter uma versão nativa, muitos usuários de Linux experimentam melhor desempenho e estabilidade ao executar Mina the Hollower através do Proton Experimental no Steam."
+  },
+  {
+    question: "O que devo fazer se Mina the Hollower congelar meu PC inteiro no Linux?",
+    answer: "Este problema foi relatado por alguns usuários. A solução mais comum é mudar o jogo para rodar com o Proton Experimental nas configurações de compatibilidade do Steam. Além disso, certifique-se de que seus drivers gráficos estejam atualizados."
+  },
+  {
+    question: "Quais drivers gráficos são recomendados para Mina the Hollower no Linux?",
+    answer: "Para usuários Nvidia, os drivers proprietários da Nvidia são fortemente recomendados em vez dos drivers Nouveau de código aberto, que podem causar problemas significativos de desempenho. Usuários AMD e Intel devem garantir que seus drivers Mesa estejam atualizados."
+  },
+  {
+    question: "O superaquecimento pode afetar o desempenho de Mina the Hollower no Linux?",
+    answer: "Sim, especialmente em laptops. Embora Mina the Hollower não seja graficamente intensivo, se sua CPU ou GPU superaquecer, isso pode levar a gargalos e quedas severas de FPS ou travamentos. Monitore as temperaturas do seu sistema."
+  }
+]} />
+
+</Section>

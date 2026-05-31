@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Centro da cidade de Mina the Hollower: Guia de Exploração de Ossex e Progressão Inicial",
+  description: "Domine o centro da cidade de Mina the Hollower, Ossex, em 2026. Aprenda como desbloquear o mapa, encontrar a bicicleta Iron Steed e resgatar NPCs chave para poder inicial.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Ossex+City+Center+Guide",
+  date: "2026-05-31",
+  author: "Equipe Wiki de Mina the Hollower"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Hub Principal**: O **centro da cidade de Mina the Hollower** é Ossex, sua base principal para melhorias e missões.
+- **Melhoria Chave**: Priorize a **Melhoria de Faísca** cedo para ganhar uma vida extra e proteger seus Ossos.
+- **Ferramenta Essencial**: Compre o **Mapa** de Drillhardt na Guilda dos Escavadores por 500 Ossos.
+- **Aumento de Mobilidade**: Desbloqueie a **bicicleta Iron Steed** atrás da porta de duas Faíscas para atravessar grandes lacunas.
+- **Primeira Masmorra**: Vá para **Leste** até a Cripta de Queensbury assim que estiver equipado na cidade.
+</Callout>
+
+<Section icon={Map} title="Navegando no Centro da Cidade de Mina the Hollower: Ossex Hub">
+
+Chegar ao **centro da cidade de Mina the Hollower**, conhecido como Ossex, é o primeiro grande marco em sua jornada pela Ilha Tenebrosa. Após sobreviver ao naufrágio inicial e ao caminho tutorial, você encontrará o Barão Lionel, que o encarregará de reparar seis geradores espalhados pelo mundo. Ao contrário das aventuras lineares tradicionais, Ossex serve como um portal não linear onde quase todas as direções estão abertas desde o início, desde que você tenha as ferramentas certas e habilidades de escavação.
+
+A cidade é dividida em vários distritos distintos, cada um oferecendo serviços únicos que são vitais para sua sobrevivência. Compreender o layout deste centro central é a diferença entre a morte constante e a progressão constante.
+
+<CardGrid cols={3}>
+  <Card title="O Distrito do Empório">
+    - **Ponto de Controle Central**
+    - Melhorias de Vida e Faísca
+    - Comerciantes de equipamentos gerais
+  </Card>
+  <Card title="A Bowery & Oeste">
+    - **Bazar de Bugigangas**
+    - Desafios de alto nível
+    - Acesso às Terras Selvagens do Oeste
+  </Card>
+  <Card title="Os Portões Orientais">
+    - **Guilda dos Escavadores**
+    - Masmorras do início do jogo
+    - Acesso ao Centro de Estratégia
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Layout da Cidade">
+Ossex é projetada para ser explorada verticalmente tanto quanto horizontalmente. Sempre procure por cordas para descer ou paredes para escavar para encontrar atalhos escondidos entre os distritos superiores e inferiores do **centro da cidade de Mina the Hollower**.
+</Callout>
+
+| Distrito | NPC Chave | Serviço Principal | Requisito |
+| :--- | :--- | :--- | :--- |
+| Mansão Radiante | Barão Lionel | Missão Principal | Nenhum |
+| Empório | Comerciante | Vida/Faíscas | Ossos |
+| Underlab | Drillhardt | Mapa e Melhorias | 500 Ossos |
+| Subsolo da Estação | Frayd | Bugigangas | 1.000 Ossos |
+| Salão da Guilda | Muriel | Missões Secundárias | Missão de Resgate |
+
+</Section>
+
+<Section icon={Swords} title="Economia e Melhorias Essenciais no Início do Jogo">
+
+Ossos são a força vital da sua progressão no **centro da cidade de Mina the Hollower**. Enquanto os Ossos padrão são perdidos ao morrer, as **Pedras de Osso** são gemas de moeda permanentes que permanecem no seu inventário, independentemente de quantas vezes você caia em batalha. Sua primeira hora em Ossex deve ser dedicada a coletar essas gemas para financiar seus picos de poder iniciais.
+
+Uma das melhorias mais críticas disponíveis no início do jogo é o sistema de Faísca. Ao visitar o Empório, você pode comprar uma melhoria de Faísca. Ter duas Faíscas permite que você abra uma porta específica à esquerda da loja de penhores, que leva à bicicleta Iron Steed. Este veículo não é apenas para velocidade; ele permite que Mina salte por lacunas de três quadrados de largura, abrindo rotas de exploração totalmente novas.
+
+<Callout type="warning" title="Penalidade de Morte">
+Se você morrer sem uma Faísca, perderá uma parte significativa dos seus Ossos carregados. Investir no amuleto **Sino da Graça** de Frayd no Subsolo da Estação pode mitigar esse risco, dando-lhe a chance de reter sua Faísca ou sua moeda.
+</Callout>
+
+| Item | Localização | Custo | Utilidade |
+| :--- | :--- | :--- | :--- |
+| Kear (Chave) | Loja de Pássaros | 300+ Ossos | Abre portões/baús trancados |
+| Melhoria de Faísca | Empório | Variável | Vida extra e acesso a portas |
+| Iron Steed | Porta de 2 Faíscas | Grátis (Encontrar) | Atravessa lacunas de 3 blocos |
+| Arma Secundária Machado | Centro de Estratégia | Grátis (Encontrar) | Combate à distância e Quebra-cabeças |
+| Pó de Pedra de Osso | Loja de Poppit | Variável | Moeda permanente |
+
+Além das lojas, você pode encontrar riquezas "gratuitas" interagindo com o ambiente. Por exemplo, olhar através do telescópio ao norte do posto de controle de Ossex e avistar um planeta específico fará com que uma Kear caia do céu. Da mesma forma, usar a arma secundária Machado para quebrar um baú no Centro de Estratégia fornece um impulso fácil no início do jogo.
+
+</Section>
+
+<Section icon={Target} title="A Guilda dos Escavadores: Desbloqueando o Mapa-Múndi">
+
+A Guilda dos Escavadores é, sem dúvida, o edifício mais importante do **centro da cidade de Mina the Hollower**, mas começa o jogo com as portas fechadas e inacessível. Restaurar a Guilda é um processo de várias etapas que o recompensa com a ferramenta mais essencial para qualquer explorador: o Mapa-Múndi. Sem o mapa, navegar pela vasta Ilha Tenebrosa se torna uma tarefa assustadora de tentativa e erro.
+
+Para iniciar a restauração, você deve encontrar a entrada lateral do edifício. Siga a parede externa para a direita, pule as pedras e limpe as caixas para encontrar a porta dos fundos. Uma vez lá dentro, você encontrará Muriel, que inicia a missão de resgate.
+
+<Steps>
+  <Step num="1" title="Localize os Quartéis Rebeldes">
+    Vá diretamente para o sul da entrada principal de Ossex. Você precisará de uma Kear para destrancar o portão que leva aos quartéis onde os membros da Guilda estão sendo mantidos.
+  </Step>
+  <Step num="2" title="Resgate Rhene">
+    Lute pelos quartéis e localize Rhene. Você deve escoltá-la em segurança de volta ao salão da Guilda. Ela é uma colega Escavadora que ajuda a gerenciar a instalação.
+  </Step>
+  <Step num="3" title="Liberte Drillhardt">
+    Assim que Rhene estiver de volta, retorne à Guilda para encontrar Drillhardt. Ele está preso no chão — escave diretamente sob seus chifres para libertá-lo.
+  </Step>
+  <Step num="4" title="Compre o Mapa">
+    Fale com Drillhardt no salão da Guilda recém-limpo. Ele oferecerá o **Mapa** por 500 Ossos. Esta é uma compra obrigatória para uma progressão eficiente.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Benefícios da Guilda">
+Assim que a Guilda estiver ativa, Drillhardt fornecerá várias melhorias para o Underlab. Além disso, fique de olho nos jornais no salão; eles fornecem dicas sobre a rota "pretendida" e a localização da próxima masmorra recomendada.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Amuletos Indispensáveis Perto do Centro da Cidade">
+
+Amuletos funcionam de forma semelhante a encantos em outros RPGs de ação, fornecendo buffs passivos que podem ser trocados em pontos de controle. Antes de se aventurar nos perigosos pântanos orientais ou nas regiões vulcânicas ocidentais, você deve coletar um conjunto básico de Amuletos encontrados dentro ou imediatamente adjacentes ao **centro da cidade de Mina the Hollower**.
+
+As **Steady Soles** são uma prioridade absoluta. Elas permitem que Mina se mova através da água, grama e neve sem a penalidade de velocidade padrão. Elas estão escondidas em uma residência no sótão perto da saída leste de Ossex. Você deve alcançar a varanda com vista para o pátio e escavar sob uma abertura específica para acessar a sala do tesouro.
+
+<Checklist
+  id="early-trinkets"
+  title="Lista de Verificação de Amuletos Iniciais:"
+  items={[
+    "Steady Soles (Sótão de Ossex) - Imunidade a penalidade de movimento",
+    "Chain Capacitor (Portão Leste) - Aumento de dano para sequências de acertos",
+    "Bell of Grace (Subsolo da Estação) - Proteção contra perda de Ossos",
+    "Plasma Funnel (Bazar de Amuletos) - Velocidade de cura mais rápida",
+    "Intravenous Vial (Bazar de Amuletos) - Cura baseada em combate"
+  ]}
+/>
+
+<Callout type="tip" title="Sinergia de Combate">
+Equipe o **Chain Capacitor** junto com a arma secundária Machado. Como o Machado pode atingir vários inimigos ou partes de um chefe, você pode construir rapidamente seu multiplicador de dano antes de se aproximar para um ataque corpo a corpo final.
+</Callout>
+
+| Amuleto | Método de Aquisição | Melhor Caso de Uso |
+| :--- | :--- | :--- |
+| Steady Soles | Quebra-cabeça do Sótão de Ossex | Regiões do Pântano e Gelo |
+| Chain Capacitor | Minigame de Destruição de Carros | Encontros com Chefes |
+| Bell of Grace | Poupar Frayd o Ladrão | Exploração de alto risco |
+| Proto Spark | Cripta de Queensbury (Missão do Duque) | Qualquer masmorra difícil |
+
+O **Sino da Graça** requer uma interação única. Você deve encontrar Frayd no Subsolo da Estação, deixá-lo tentar assaltá-lo nas ruas e depois derrotá-lo. Em vez de finalizá-lo, pague 1.000 Ossos para "restaurá-lo". É um preço alto para o início do jogo, mas a rede de segurança que ele oferece para sua coleção de Ossos é inestimável.
+
+</Section>
+
+<Section icon={Trophy} title="Preparação para o Combate e Primeiros Passos na Masmorra">
+
+Antes de deixar o **centro da cidade de Mina the Hollower** para enfrentar seu primeiro gerador, você deve gastar tempo subindo de nível. A curva de dificuldade do jogo é mais acentuada no início, quando sua saúde é baixa. Um ótimo local para farmar está localizado a leste de Ossex, na **Mourner's Mile**. Demônios vermelhos saltam das criptas aqui, rendendo 25 Ossos cada. Com um ponto de salvamento próximo, você pode limpar a tela, descansar e repetir para ganhar vários níveis em minutos.
+
+A primeira masmorra recomendada é a **Cripta de Queensbury**, localizada a leste. Ela foi projetada para ensinar os nuances avançados da mecânica de escavação. Certifique-se de ter pelo menos duas Kears e as Steady Soles antes de entrar, pois o ambiente pode ser tão mortal quanto os inimigos.
+
+<Callout type="tip" title="Preparação Final">
+Não acumule seus Ossos! Toda vez que você retornar ao **centro da cidade de Mina the Hollower**, gaste sua moeda em níveis de Ataque ou Defesa. É melhor ter um aumento de estatística permanente do que perder uma pilha de Ossos para uma armadilha surpresa na natureza.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Como consigo a bicicleta no centro da cidade de Mina the Hollower?",
+    answer: "Você deve primeiro comprar ou encontrar uma melhoria de Faísca para ter um total de duas Faíscas. Isso permite que você abra a Porta de Faísca perto da loja de penhores em Ossex, onde a bicicleta Iron Steed está guardada."
+  },
+  {
+    question: "Qual é o melhor lugar para farmar Ossos no início do jogo?",
+    answer: "O melhor local é Mourner's Mile, localizado a leste do centro da cidade. Mate os demônios vermelhos que emergem das criptas por 25 Ossos cada, depois reinicie-os no ponto de controle próximo."
+  },
+  {
+    question: "O que devo comprar primeiro em Ossex?",
+    answer: "Seus primeiros 500 Ossos devem ir para o Mapa de Drillhardt na Guilda dos Escavadores. Depois disso, priorize uma melhoria de Faísca para sobrevivência e a Iron Steed para mobilidade."
+  },
+  {
+    question: "Como desbloqueio o mapa em Mina the Hollower?",
+    answer: "Você deve resgatar Rhene dos Quartéis Rebeldes ao sul da cidade, retornar à Guilda dos Escavadores para libertar Drillhardt e, em seguida, comprar o mapa dele por 500 Ossos."
+  }
+]} />
+
+</Section>

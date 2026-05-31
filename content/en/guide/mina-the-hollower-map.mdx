@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Search, Locate } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "mina the hollower map: Location & Completion Guide",
+  description: "Learn how to find the mina the hollower map, rescue Rhene and Drillhardt, and unlock the full regional checklist for Tenebrous Isle in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2d3436/dfe6e9?text=Mina+the+Hollower+Map+Guide",
+  date: "2026-05-31",
+  author: "Mina the Hollower Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Tool**: The **mina the hollower map** provides a strategic overview of Tenebrous Isle rather than a traditional mini-map.
+- **Key Requirement**: You must rescue Rhene and Drillhardt from the Burnt Town to unlock the map shop.
+- **Cost**: The map is purchased from Drillhardt for **500 bones**.
+- **Viewing Location**: Once purchased, the physical map is located in the **northwest corner of the Underlab**.
+- **Map Upgrades**: You can enhance the map to track collectibles and completion percentages for each region.
+</Callout>
+
+<Section icon={Map} title="Understanding the mina the hollower map System">
+
+Exploring the gothic world of Tenebrous Isle is a daunting task, and having a reliable **mina the hollower map** is essential for any serious Hollower. Unlike modern action-adventure games that provide a real-time mini-map in the corner of your screen, *Mina the Hollower* takes a more traditional, atmospheric approach. The map serves as a macro-level guide, showing the interconnected regions of the island and your overall progression.
+
+The map is not just a static image; it is a dynamic tool that reflects your impact on the world. As you restore power to various regions and uncover hidden secrets, the map updates to show your progress. For completionists, the map is the ultimate checklist, helping you identify which corners of the world still hold treasures or unfinished business.
+
+| Map Feature | Description | Importance |
+| :--- | :--- | :--- |
+| **World Overview** | Shows all major regions of Tenebrous Isle | High |
+| **Fog of War** | Unvisited areas are shrouded in dark clouds | Medium |
+| **Spark Lights** | Regions with restored spark generators are illuminated | High |
+| **Checklist** | Trackable list of collectibles per region (Upgrade) | Very High |
+| **Underlab Access** | The physical location where you consult the map | Medium |
+
+<Callout type="tip" title="Exploration Tip">
+Before you set out to find the map, ensure you have gathered at least 500 bones. Having the currency ready will save you a return trip to the Hollower's Guild once you've completed the rescue mission.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Unlock the Map: The Rescue Mission">
+
+Unlocking the **mina the hollower map** requires completing a specific sequence of events involving the Hollower's Guild. You cannot simply find the map in a chest; you must earn it by assisting your fellow Hollowers who have gone missing in the dangerous territories south of Ossex.
+
+The mission begins at the Hollower's Guild, a stone building located to the right of the main entrance to Ossex. Accessing the building requires a bit of platforming—you'll need to break the wooden crates on the right side of the structure to find a path inside. Once inside, you will meet Muriel, who informs you that Rhene and Drillhardt have disappeared into the Burnt Town.
+
+| Rescue Requirement | Purpose | How to Obtain |
+| :--- | :--- | :--- |
+| **1 Kear** | Unlocks the gate to the Burnt Town | Found in Ossex or purchased |
+| **Plasma Vials** | Needed to heal Rhene and open gates | Standard health resource |
+| **Burrow Ability** | Required to navigate traps and shortcuts | Default ability |
+| **500 Bones** | Purchase price for the map | Dropped by enemies/found in jars |
+
+<Steps>
+  <Step num="1" title="Locate the Hollower's Guild">
+    Head to the right of the Ossex main entrance. Break the boxes on the right side of the guild building and hop through the opening to enter. Speak with Muriel to learn about the missing team members.
+  </Step>
+  <Step num="2" title="Enter the Burnt Town">
+    Go south from Ossex's main entrance. Use a **Kear** to unlock the northern path stairs. You will encounter a yellow gate marked with a "1"—insert one plasma vial to gain entry to the complex where Rhene is held.
+  </Step>
+  <Step num="3" title="Rescue and Escort Rhene">
+    Navigate the trap-filled rooms until you find Rhene, the golden fox. Use a plasma vial to heal them. **Note**: Rhene cannot burrow and can only jump across single-block gaps. You must clear a path and wait for them to follow.
+  </Step>
+  <Step num="4" title="Find Drillhardt">
+    Return to the Hollower's Guild after escorting Rhene. Look for a green spiral protruding from a rock in the bottom-left corner. Strike it to reveal Drillhardt, the mole merchant.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Escort Mechanics">
+Rhene's AI is limited. If you move too fast or burrow under obstacles, Rhene will stay behind. Always check that the fox is following you before moving to the next screen, or you may have to backtrack to retrieve them.
+</Callout>
+
+</Section>
+
+<Section icon={Locate} title="Purchasing and Viewing the Map">
+
+Once Drillhardt is rescued and back at the Guild, they will open a shop. The primary item of interest is the **mina the hollower map**, which retails for 500 bones. This is a one-time purchase that unlocks the mapping system for the remainder of your journey on Tenebrous Isle.
+
+After buying the map, you won't find it in your inventory as a usable item. Instead, the map is physically installed in the **Underlab**. You can find it in the northwest corner of this hub area. Interacting with the map display will bring up the full-screen interface where you can analyze your progress.
+
+| Map Visual State | Meaning | Player Action Required |
+| :--- | :--- | :--- |
+| **Shrouded Clouds** | Region has not been visited yet | Explore the area |
+| **Dimly Lit** | Region visited but Spark Generator is off | Find and fix the Spark Generator |
+| **Fully Illuminated** | Spark Generator is active | Region is "cleared" for power |
+| **Checklist Icons** | Shows found vs. missing collectibles | Use for 100% completion |
+
+<Callout type="success" title="Map Location">
+The Underlab is your primary hub. Whenever you feel lost, return to the northwest corner of the lab to consult the map. It is the most reliable way to see which regions still have "dark clouds" remaining.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Map Upgrades and Regional Checklists">
+
+The basic **mina the hollower map** shows you where you've been, but it doesn't tell you everything. As you progress, you can enhance the map to provide much more detailed information. This is particularly useful for players aiming for a 100% completion run, as it adds a checklist for every region on Tenebrous Isle.
+
+The checklist feature tracks specific items that are often hidden behind breakable walls or complex puzzles. By upgrading the map, you can see exactly how many items you are missing in areas like the Bone Orchard or the Sunken Grotto.
+
+<CardGrid cols={3}>
+  <Card title="Regional Tracking">
+    - **Spark Generators**: Track which areas have power.
+    - **Fast Travel**: Identify active teleport points.
+    - **Completion %**: See total progress per zone.
+  </Card>
+  <Card title="Collectible Lists">
+    - **Bonestone Gems**: Tracks these rare upgrade materials.
+    - **Trinkets**: Shows how many unique items you've found.
+    - **Kears**: Keeps a tally of keys found in the wild.
+  </Card>
+  <Card title="World Navigation">
+    - **Pathfinding**: Identify missed exits.
+    - **Secret Rooms**: Hints at unexplored sub-areas.
+    - **Boss Icons**: Marks the locations of defeated threats.
+  </Card>
+</CardGrid>
+
+| Collectible Type | Map Icon | Purpose |
+| :--- | :--- | :--- |
+| **Bonestone Gems** | Purple Crystal | Permanent stat upgrades |
+| **Trinkets** | Gold Medallion | Equippable passive abilities |
+| **Kears** | Silver Key | Accessing locked sub-dungeons |
+| **Fish** | Blue Fin | Collection and trading |
+
+<Callout type="info" title="Completionist Tip">
+The map upgrade is often tied to finding specific "Cartography Tools" or assisting Drillhardt with further requests. Keep checking the shop as you progress through the main story.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Essential Map Milestones">
+
+To make the most of your navigation tools, follow this checklist of milestones. Completing these will ensure that your **mina the hollower map** is as informative as possible during the late-game stages.
+
+<Checklist
+  id="map-progression"
+  title="Map Completion Goals:"
+  items={[
+    "Rescue Rhene from the Burnt Town complex",
+    "Unearth Drillhardt in the Hollower's Guild",
+    "Purchase the Tenebrous Isle Map for 500 bones",
+    "Locate the Map Display in the Underlab's NW corner",
+    "Restore the first Spark Generator to light up a region",
+    "Unlock the Checklist upgrade for collectible tracking"
+  ]}
+/>
+
+<Callout type="tip" title="Bone Farming">
+If you are short on the 500 bones required for the map, the enemies in the Burnt Town drop them frequently. Spend 10 minutes clearing the area around the yellow gate to quickly amass the necessary currency.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Can I access the mina the hollower map from the pause menu?",
+    answer: "No. In Mina the Hollower, the map is a physical object located in the Underlab. You must return to the hub to view the full world map and your regional progress."
+  },
+  {
+    question: "Why are some regions on my map covered in dark clouds?",
+    answer: "Regions covered in clouds represent areas you have not yet entered. Once you physically cross the border into a new zone, the clouds will dissipate, though the area will remain dim until the local Spark Generator is fixed."
+  },
+  {
+    question: "I healed Rhene but they aren't following me. What happened?",
+    answer: "Rhene likely got stuck on a ledge or a gap. Rhene cannot burrow and can only jump across 1-block wide gaps. Check the previous screen to see if they are waiting by a wall or a pit they couldn't cross."
+  },
+  {
+    question: "Does the map show the location of secret breakable walls?",
+    answer: "Not directly. However, if you have the Checklist upgrade, the map will show that you are missing a collectible in that region, which is a strong hint that a secret wall or hidden path exists nearby."
+  }
+]} />
+
+</Section>

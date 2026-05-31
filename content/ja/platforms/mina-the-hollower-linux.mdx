@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mina the Hollower Linux：セットアップガイドとパフォーマンスのヒント",
+  description: "この包括的なセットアップガイド、パフォーマンスのヒント、トラブルシューティングのアドバイスで、Mina the HollowerをLinuxでスムーズにプレイしましょう。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/3498db/fff?text=Mina+Hollower+Linux",
+  date: "2026-05-31",
+  author: "Mina the Hollower Wiki Team"
+}
+
+<Callout type="info" title="クイックガイド">
+- **Mina the Hollower Linux** の互換性は、**Proton Experimental** で最も良く実現されます。
+- 特にNvidiaユーザーは、**グラフィックドライバー**が最新であることを確認してください。
+- 動作の遅延やフリーズといったパフォーマンスの問題は、**Proton** に切り替えることで解決できることがよくあります。
+- ラップトップでは過熱がパフォーマンスに影響を与える可能性があります。**CPU温度**を監視してください。
+- ネイティブのLinuxビルドが存在する可能性もありますが、**Protonはより安定した体験を提供することがよくあります**。
+</Callout>
+
+<Section icon={Map} title="はじめに：LinuxでMina the Hollowerをプレイする">
+ヨットクラブゲームズが手掛ける待望の8ビットアクションアドベンチャーゲーム「Mina the Hollower」はPCで利用可能です。Linuxユーザーがゲームをスムーズに動作させるには、いくつかの設定が必要です。ゲームはネイティブのLinuxビルドを提供しているかもしれませんが、多くのプレイヤーはValveのProton互換レイヤーを利用する方が、より安定したパフォーマンスが得られると報告しています。このガイドでは、必要な手順と、体験を最適化するためのヒントを説明します。
+
+**ビデオハイライト：**
+- Mina the Hollowerは、Shovel Knightで知られるヨットクラブゲームズによって開発されました。
+- このゲームは、ゲームボーイカラーにインスパイアされた本格的な8ビットビジュアルを特徴としています。
+- モダンなゲームプレイ、解像度、アニメーションを備えたアクションアドベンチャーです。
+
+<YouTubeEmbed videoId="msILWL0169g" title="Lots of Big Emulation News, Mina the Hollower, PSN Vulnerabilities, GitHub hacked and more" />
+
+<Callout type="tip">
+Steamクライアントとグラフィックドライバーは常に最新の状態に保ってください。古いソフトウェアは、Linuxでのゲーム中にパフォーマンスの問題やクラッシュを引き起こす一般的な原因です。
+</Callout>
+
+### 初期設定の選択肢
+
+LinuxでMina the Hollowerを起動する際、通常は2つの主要な方法があります。潜在的なネイティブビルドを実行するか、Protonを使用するかです。コミュニティのフィードバックによると、Proton Experimentalが最良の結果をもたらすことが多いようです。
+
+| 方法                   | 利点                                   | 欠点                                            | 推奨されるユーザー                           |
+| :----------------------- | :------------------------------------- | :---------------------------------------------- | :-------------------------------------------- |
+| **ネイティブLinuxビルド** | 互換レイヤーが不要                      | パフォーマンスの問題やクラッシュが発生する可能性あり | 純粋なネイティブ体験を好むユーザー             |
+| **Proton Experimental**  | 安定性の向上、パフォーマンスの改善     | Steam Playの設定が必要、完全にネイティブではない | 最適な体験を求めるほとんどのLinuxゲーマー     |
+
+</Section>
+
+<Section icon={Sparkles} title="Proton Experimentalでパフォーマンスを最適化する">
+LinuxディストリビューションでMina the Hollowerの動作が遅くなったり、フリーズしたり、クラッシュしたりする場合は、Proton Experimentalに切り替えることを強くお勧めします。この互換レイヤーにより、WindowsゲームをLinux上で最小限の問題で実行できます。
+
+<Steps>
+  <Step num="1" title="すべてのタイトルでSteam Playを有効にする">
+    Steamクライアントを開きます。**Steam > 設定 > Steam Play** に移動します。「他のすべてのタイトルでSteam Playを有効にする」のチェックボックスをオンにし、ドロップダウンメニューから「Proton Experimental」を選択します。変更を有効にするにはSteamを再起動してください。
+  </Step>
+  <Step num="2" title="Mina the Hollowerに互換ツールを強制する">
+    SteamライブラリでMina the Hollowerに移動します。ゲームを右クリックし、**プロパティ > 互換性** を選択します。「特定のSteam Play互換ツールの使用を強制する」にチェックを入れ、「Proton Experimental」が選択されていることを確認します。
+  </Step>
+  <Step num="3" title="グラフィックドライバーを更新する">
+    グラフィックドライバーが最新であることを確認してください。Nvidiaユーザーの場合、開発者はパフォーマンスの問題を引き起こすことで知られているNouveauドライバーよりも、プロプライエタリなNvidiaドライバーの使用を推奨しています。システムのドライバーマネージャー（例：Linux Mint上）で確認してください。
+  </Step>
+  <Step num="4" title="システムリソースを監視する">
+    Mina the Hollowerは8ビットにインスパイアされたゲームですが、予期しないパフォーマンスの低下が発生する可能性があります。特にラップトップでは、CPUとGPUの温度と使用状況を監視し、過熱が原因ではないことを確認してください。
+  </Step>
+</Steps>
+
+<Callout type="warning" title="ドライバーの互換性">
+Nvidia GPUでNouveauドライバーをLinux上で使用すると、深刻なパフォーマンスの問題や不安定さを引き起こす可能性があります。最高のゲーム体験を得るには、常に公式のプロプライエタリなNvidiaドライバーをインストールすることを優先してください。
+</Callout>
+
+### ゲーム用ドライバーの比較
+
+Linuxでの最適なゲームパフォーマンスには、適切なドライバーの選択が不可欠です。
+
+| ドライバーの種類         | GPUサポート      | パフォーマンス      | 安定性            | インストールの容易さ |
+| :------------------- | :--------------- | :----------------- | :------------------ | :------------------- |
+| **Nvidia Proprietary** | Nvidia           | 非常に優れている    | 良好                | 中程度               |
+| **Nouveau (オープン)** | Nvidia           | 悪いから中程度      | 変動あり            | 容易 (多くの場合デフォルト) |
+| **AMD Mesa/AMDGPU**  | AMD              | 非常に優れている    | 非常に優れている    | 容易                 |
+| **Intel Mesa**       | Intel内蔵        | 中程度から良好      | 良好                | 容易                 |
+
+</Section>
+
+<Section icon={Shield} title="一般的なLinuxの問題のトラブルシューティング">
+Protonを使用しても、特定のK問題に遭遇する可能性があります。ここでは、一般的なユーザー体験に基づいてそれらに対処する方法を説明します。
+
+### パフォーマンス低下への対処
+
+一部のユーザーは、ゲームプレイ開始直後に動作が遅くなったりフリーズしたりし、それがシステム全体のフリーズにつながる場合があると報告しています。
+
+| 問題                                     | 潜在的な原因                     | 解決策                                            |
+| :---------------------------------------- | :---------------------------------- | :-------------------------------------------------- |
+| **初期の動作の遅延（最初の数分間）**     | シェーダーのコンパイル              | 通常は自然に解決する。Protonがアクティブであることを確認する |
+| **約15分後の深刻な動作の遅延/フリーズ** | 非効率なリソース管理、ドライバー      | **Proton Experimental**に切り替える。ドライバーを更新する |
+| **CPUの過熱（ラップトップ）**             | 集中的なバックグラウンドプロセス、冷却不足 | 温度を監視する。冷却システムを清掃する。電源プロファイルを調整する |
+| **起動時のセグメンテーション違反**       | ネイティブビルドの非互換性        | Proton Experimentalを強制する。システムライブラリを確認する |
+
+<Callout type="success" title="コミュニティの成功">
+Steamコミュニティフォーラムの多くのユーザーは、Proton Experimentalに切り替えることで、さまざまなLinuxディストリビューションでMina the Hollowerのパフォーマンスとクラッシュの問題が正常に解決されたことを確認しています。
+</Callout>
+
+### ゲーム設定チェックリスト
+
+トラブルシューティングに深く入る前に、ゲーム設定がLinuxのベストプラクティスに沿っていることを確認してください。
+
+<Checklist
+  id="game-config"
+  title="ゲーム起動前チェックリスト："
+  items={[
+    "Mina the HollowerにProton Experimentalが選択されていることを確認する。",
+    "プロプライエタリなグラフィックドライバーがインストールされ、最新であることを確認する。",
+    "不要なバックグラウンドアプリケーションを閉じてリソースを解放する。",
+    "Steamのプロパティからゲームファイルの整合性を確認する。",
+    "重要な変更を行った後、Steamとシステムを再起動する。"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="コミュニティの洞察と将来の展望">
+Linuxゲーミングコミュニティは活気があり、集合的な経験は新しいゲームの互換性に関する課題に対する最も迅速な解決策を提供することがよくあります。Linux上のMina the Hollowerに関する議論は、Protonの有効性を強調しています。
+
+### Protonが好まれる理由
+
+ネイティブのLinuxビルドがあるゲームでも、Protonはより洗練された体験を提供することがよくあります。これは、多くの人気タイトルに対する特定の修正を含む、ValveによるProtonの継続的な開発と最適化によるものです。
+
+| 側面         | ネイティブLinuxビルド          | Proton Experimental                  |
+| :------------- | :------------------------------ | :----------------------------------- |
+| **パフォーマンス** | 一貫性がない場合がある          | 一般的に安定しており最適化されている |
+| **バグ修正**  | 開発者のサポートに依存          | Valveによって迅速に更新され、幅広い互換性を持つ |
+| **ドライバー管理** | ディストリビューション/ハードウェアに特化 | Windowsドライバーの要件を処理する    |
+| **使いやすさ** | 直接起動（動作する場合）        | Steamでの一度限りの設定              |
+
+<Callout type="info">
+Mina the Hollowerは、品質へのこだわりで知られるヨットクラブゲームズの新作です。ゲームが成熟するにつれて、公式のLinuxサポートやProtonによるさらなる最適化が改善される可能性があります。このゲームは2026年5月29日に発売され、価格は20米ドルです。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mina the Hollower Linuxに関するよくある質問">
+
+<FAQ items={[
+  {
+    question: "Mina the HollowerはLinuxで公式にサポートされていますか？",
+    answer: "ネイティブビルドがあるかもしれませんが、多くのLinuxユーザーは、SteamでProton Experimentalを通じてMina the Hollowerを実行する方が、より良いパフォーマンスと安定性を体験しています。"
+  },
+  {
+    question: "Mina the HollowerがLinuxでPC全体をフリーズさせる場合、どうすればよいですか？",
+    answer: "この問題は一部のユーザーから報告されています。最も一般的な解決策は、Steamの互換性設定でゲームをProton Experimentalで実行するように切り替えることです。また、グラフィックドライバーが更新されていることを確認してください。"
+  },
+  {
+    question: "Mina the Hollowerにはどのグラフィックドライバーが推奨されますか？",
+    answer: "Nvidiaユーザーの場合、オープンソースのNouveauドライバーよりも、プロプライエタリなNvidiaドライバーが強く推奨されます。Nouveauドライバーは重大なパフォーマンス問題を引き起こす可能性があります。AMDおよびIntelユーザーは、Mesaドライバーが最新であることを確認してください。"
+  },
+  {
+    question: "過熱はMina the HollowerのLinuxでのパフォーマンスに影響を与えますか？",
+    answer: "はい、特にラップトップでは影響します。Mina the Hollowerはグラフィックを多用するゲームではありませんが、CPUやGPUが過熱すると、スロットリングが発生し、深刻なFPSの低下やフリーズにつながる可能性があります。システム温度を監視してください。"
+  }
+]} />
+
+</Section>

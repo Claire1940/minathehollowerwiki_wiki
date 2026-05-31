@@ -1,0 +1,136 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mina the Hollower Duque: ¿Deberías sellarlo en la tumba?",
+  description: "Explora las consecuencias y recompensas de sellar al Duque en Mina the Hollower, incluyendo el abalorio Proto Spark y eventos posteriores del juego.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Mina+Duke+Tomb",
+  date: "2026-05-31",
+  author: "Equipo Wiki de Mina the Hollower"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Decidir si sellar al **Duque de Mina the Hollower** en su tumba tiene consecuencias significativas.
+- Sellarlo recompensa con el valioso **abalorio Proto Spark**, que ofrece una revivir gratis.
+- No sellarlo significa perderse el abalorio.
+- Habrá una **consecuencia narrativa menor** más adelante en el juego si lo sellas.
+- El Duque expresa un fuerte deseo de ser sellado con su amada.
+</Callout>
+
+<Section icon={Map} title="Localizando al Duque en Mina the Hollower">
+Encontrar al Duque es un paso clave en esta misión secundaria particular que ofrece tanto recompensas como implicaciones narrativas. A medida que avanzas en _Mina the Hollower_, encontrarás varios personajes y elecciones que darán forma a tu viaje. La ubicación del Duque está ligada a un área específica donde deberás superar obstáculos ambientales.
+
+Te encontrarás en una cámara con una entrada al Sublaboratorio inalcanzable y una barrera que requiere dos viales de plasma para ser eliminada. El Duque espera al otro lado de esta barrera. Una vez que la barrera esté despejada, sube por la cuerda y cruza para alcanzarlo. Luego te pedirá que lo acompañes. Aunque no te ayudará directamente en combate, te seguirá. Ten en cuenta que si sufre daño de enemigos o peligros ambientales como rodillos de pinchos, entrará en pánico y dejará de seguirte hasta que vuelvas a acercarte a él. Esta área también ofrece un excelente punto de reaparición para una próxima pelea contra un jefe una vez que desbloquees el Sublaboratorio al final del camino.
+
+<Callout type="tip">
+**Siempre despeja el camino** al escoltar al Duque. Su naturaleza frágil significa que huirá si es dañado, haciendo que la progresión sea más engorrosa. Prioriza eliminar las amenazas antes de que entre en una nueva área.
+</Callout>
+
+**Resumen del Encuentro con el Duque:**
+
+| Ubicación            | Requisito                 | Acción Inicial                  | Comportamiento del Duque | Beneficio del Área          |
+|----------------------|---------------------------|---------------------------------|------------------------|---------------------------|
+| Cámara del Sublaboratorio | 2 Viales de Plasma        | Eliminar barrera                | Pide acompañar         | Punto de reaparición del Sublaboratorio |
+| Siguiendo a Mina     | Evitar Daños              | Sigue a Mina (no combate)       | Entra en pánico si es golpeado | Camino al jefe desbloqueado |
+| Cripta Familiar      | Punto de Decisión         | Pide ser sellado                | Espera la elección del jugador | Recompensa potencial de abalorio |
+
+</Section>
+
+<Section icon={Target} title="La Elección: Sellar o No Sellar al Duque">
+El dilema central con respecto al **Duque de Mina the Hollower** gira en torno a si cumplir su deseo y sellarlo en la cripta familiar. Esta elección presenta una clara compensación entre una recompensa inmediata y poderosa y una consecuencia narrativa menor más adelante en el juego.
+
+El Duque te pide explícitamente que lo coloques dentro de la cripta de su familia, deseando estar con su amada para siempre. Si decides honrar su petición, recibirás inmediatamente el **abalorio Proto Spark**. Este objeto altamente útil te otorga una revivir gratis, trayéndote de vuelta de la muerte una vez que tu salud llega a cero sin consumir una de tus preciosas chispas. Esto puede cambiar el juego en encuentros desafiantes.
+
+Por el contrario, si decides no sellarlo y simplemente te marchas, no recibirás el abalorio Proto Spark. Aunque el Duque eventualmente fallece independientemente de tu elección, el abalorio solo se adquiere sellándolo activamente.
+
+<Callout type="warning" title="Alerta de Spoiler">
+La decisión de sellar al Duque tiene una repercusión narrativa más adelante en el juego. Después de restaurar los seis generadores de chispas y regresar a la Mansión Radiante, Lionel y sus seguidores enumerarán tus supuestas fechorías, incluyendo "enterrar vivo al Duque". Esto es puramente un elemento de la historia y no afecta la jugabilidad ni la mecánica.
+</Callout>
+
+**Consecuencias de tu Decisión:**
+
+| Acción                  | Recompensa Inmediata     | Efecto a Largo Plazo (Jugabilidad) | Efecto a Largo Plazo (Narrativa)             |
+|-------------------------|--------------------------|-----------------------------|----------------------------------------------|
+| **Sellar al Duque**     | Abalorio Proto Spark     | Ninguno                     | Acusado de "enterrar vivo al Duque" por Lionel |
+| **No Sellar al Duque**  | Sin Abalorio Proto Spark | Ninguno                     | Sin acusación con respecto al Duque          |
+
+</Section>
+
+<Section icon={Sparkles} title="Adquiriendo el Abalorio Proto Spark">
+El abalorio Proto Spark es una ventaja significativa al principio del juego que puede aumentar drásticamente tu capacidad de supervivencia. Obtenerlo está directamente relacionado con tu interacción con el **Duque de Mina the Hollower**. Aquí tienes una guía paso a paso para asegurarte de conseguir este valioso objeto.
+
+<Steps>
+  <Step num="1" title="Llega a la Cámara del Duque">
+    Avanza en el juego hasta llegar al área específica que requiere dos viales de plasma para eliminar una barrera. El Duque estará ubicado más allá de esta barrera.
+  </Step>
+  <Step num="2" title="Despeja el Camino para el Duque">
+    Una vez que la barrera haya desaparecido, acércate al Duque. Te pedirá que lo acompañes. Prepárate para escoltarlo a través de la siguiente habitación, que puede contener enemigos o rodillos de pinchos. Ten cuidado de evitar que reciba daño.
+  </Step>
+  <Step num="3" title="Enfrenta la Cripta">
+    El Duque te llevará a la cripta de su familia y expresará su deseo de ser sellado dentro de ella, deseando reunirse con su amada para siempre.
+  </Step>
+  <Step num="4" title="Sella al Duque">
+    Interactúa con la cripta para sellar al Duque dentro. Esta acción es irreversible para esta partida. Al sellarlo, recibirás inmediatamente el abalorio Proto Spark.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Beneficios del Abalorio Proto Spark">
+El abalorio Proto Spark es increíblemente útil, ofreciendo una revivir gratis cuando tu salud llega a cero. Esto significa que no perderás una chispa, lo que te permitirá continuar tu partida sin penalización. Es especialmente beneficioso para enfrentar jefes difíciles o navegar por áreas traicioneras.
+</Callout>
+
+**Comparación de Abalorios:**
+
+| Nombre del Abalorio | Efecto                                   | Método de Adquisición     | Caso de Uso Clave      |
+|----------------------|------------------------------------------|---------------------------|-----------------------|
+| **Proto Spark**      | Revive a Mina una vez a 0 HP sin pérdida de chispa | Sella al Duque en su tumba | Peleas de jefes, áreas difíciles |
+| (Ejemplo) Gema de Salud | Aumenta la salud máxima                  | Se encuentra en cofres     | Supervivencia general |
+| (Ejemplo) Amuleto de Dash | Reduce el enfriamiento de Dash           | Compra a mercaderes       | Exploración, combate |
+
+</Section>
+
+<Section icon={Swords} title="Impacto Narrativo y Reacciones de los Jugadores">
+Si bien sellar al **Duque de Mina the Hollower** ofrece una ventaja tangible en la jugabilidad con el abalorio Proto Spark, también introduce un elemento narrativo único. Esta elección resalta la disposición del juego a presentar ambigüedades morales y las consecuencias de las acciones del jugador, incluso si estas se centran principalmente en la narración.
+
+Más adelante en el juego, específicamente después de restaurar los seis generadores de chispas y regresar a la Mansión Radiante, te encontrarás con Lionel y sus seguidores. Ellos te contarán una lista de tus "fechorías" durante el viaje, y se menciona explícitamente el haber enterrado vivo al Duque. Esta escena sirve para añadir profundidad al mundo y a los personajes del juego, retratando las acciones de Mina desde una perspectiva diferente. Es una capa adicional de narración que no altera los resultados de la jugabilidad, pero enriquece la experiencia general.
+
+<Callout type="info">
+La consecuencia narrativa es puramente para dar sabor e interacción con los personajes. No afecta ninguna mecánica de juego, finales o misiones futuras. Es simplemente un momento en el que tus elecciones pasadas son reconocidas por otros personajes.
+</Callout>
+
+**Perspectiva del Jugador sobre la Elección del Duque:**
+
+| Enfoque del Jugador   | Racional                                         | Enfoque del Resultado    |
+|-----------------------|--------------------------------------------------|--------------------------|
+| **Utilitario**        | Prioriza el Proto Spark para ventaja de jugabilidad | Eficiencia de jugabilidad |
+| **Rol**               | Considera el deseo del Duque de paz, impacto narrativo | Elección moral, historia |
+| **Cauteloso**         | Evita el acto "malvado" percibido, incluso por recompensa | Consideraciones éticas    |
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+<FAQ items={[
+  {
+    question: "¿Cuál es la recompensa principal por sellar al Duque de Mina the Hollower?",
+    answer: "La recompensa principal por sellar al Duque en su tumba es el abalorio Proto Spark, que te otorga una única revivir sin perder una chispa cuando tu salud llega a cero."
+  },
+  {
+    question: "¿Hay alguna consecuencia negativa en la jugabilidad por sellar al Duque?",
+    answer: "No, no hay consecuencias negativas en la jugabilidad. El abalorio Proto Spark es un objeto beneficioso, y sellar al Duque no afecta negativamente tu progresión en el juego ni tus habilidades de combate."
+  },
+  {
+    question: "¿Qué sucede si decido no sellar al Duque?",
+    answer: "Si decides no sellar al Duque, no recibirás el abalorio Proto Spark. El Duque eventualmente morirá de todos modos, pero te perderás el valioso objeto de revivir."
+  },
+  {
+    question: "¿Afecta sellar al Duque el final del juego o los puntos clave de la trama?",
+    answer: "No, sellar al Duque no afecta el final del juego ni los puntos clave de la trama. Conduce a una escena narrativa menor más adelante donde tu acción es mencionada por Lionel y sus seguidores, pero no tiene impacto mecánico."
+  }
+]} />
+</Section>

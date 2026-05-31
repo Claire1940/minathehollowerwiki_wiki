@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Search, Locate } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "mina the hollower map: Guía de Ubicación y Completado",
+  description: "Aprende cómo encontrar el mapa de Mina la Excavadora, rescatar a Rhene y Drillhardt, y desbloquear la lista de verificación regional completa para la Isla Tenebrosa en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2d3436/dfe6e9?text=Mina+the+Hollower+Map+Guide",
+  date: "2026-05-31",
+  author: "Equipo Wiki de Mina the Hollower"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Herramienta Principal**: El **mapa de Mina la Excavadora** proporciona una visión estratégica de la Isla Tenebrosa en lugar de un mini-mapa tradicional.
+- **Requisito Clave**: Debes rescatar a Rhene y Drillhardt de la Ciudad Quemada para desbloquear la tienda de mapas.
+- **Costo**: El mapa se compra a Drillhardt por **500 huesos**.
+- **Ubicación de Visualización**: Una vez comprado, el mapa físico se encuentra en la **esquina noroeste del Sublaboratorio**.
+- **Mejoras del Mapa**: Puedes mejorar el mapa para rastrear coleccionables y porcentajes de completado para cada región.
+</Callout>
+
+<Section icon={Map} title="Entendiendo el Sistema de Mapa de Mina la Excavadora">
+
+Explorar el mundo gótico de la Isla Tenebrosa es una tarea desalentadora, y tener un **mapa de Mina la Excavadora** fiable es esencial para cualquier Excavador serio. A diferencia de los juegos de acción-aventura modernos que ofrecen un mini-mapa en tiempo real en la esquina de tu pantalla, *Mina the Hollower* adopta un enfoque más tradicional y atmosférico. El mapa sirve como una guía a nivel macro, mostrando las regiones interconectadas de la isla y tu progreso general.
+
+El mapa no es solo una imagen estática; es una herramienta dinámica que refleja tu impacto en el mundo. A medida que restauras el poder en varias regiones y descubres secretos ocultos, el mapa se actualiza para mostrar tu progreso. Para los completistas, el mapa es la lista de verificación definitiva, ayudándote a identificar qué rincones del mundo aún guardan tesoros o asuntos pendientes.
+
+| Característica del Mapa | Descripción | Importancia |
+| :--- | :--- | :--- |
+| **Vista General del Mundo** | Muestra todas las regiones principales de la Isla Tenebrosa | Alta |
+| **Niebla de Guerra** | Las áreas no visitadas están cubiertas por nubes oscuras | Media |
+| **Luces de Chispa** | Las regiones con generadores de chispa restaurados están iluminadas | Alta |
+| **Lista de Verificación** | Lista rastreable de coleccionables por región (Mejora) | Muy Alta |
+| **Acceso al Sublaboratorio** | La ubicación física donde consultas el mapa | Media |
+
+<Callout type="tip" title="Consejo de Exploración">
+Antes de salir a buscar el mapa, asegúrate de haber reunido al menos 500 huesos. Tener la moneda lista te ahorrará un viaje de regreso al Gremio de Excavadores una vez que hayas completado la misión de rescate.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo Desbloquear el Mapa: La Misión de Rescate">
+
+Desbloquear el **mapa de Mina la Excavadora** requiere completar una secuencia específica de eventos que involucran al Gremio de Excavadores. No puedes simplemente encontrar el mapa en un cofre; debes ganarlo ayudando a tus compañeros Excavadores que han desaparecido en los peligrosos territorios al sur de Ossex.
+
+La misión comienza en el Gremio de Excavadores, un edificio de piedra ubicado a la derecha de la entrada principal de Ossex. Acceder al edificio requiere un poco de plataformeo: tendrás que romper las cajas de madera en el lado derecho de la estructura para encontrar un camino hacia el interior. Una vez dentro, conocerás a Muriel, quien te informa que Rhene y Drillhardt han desaparecido en la Ciudad Quemada.
+
+| Requisito de Rescate | Propósito | Cómo Obtener |
+| :--- | :--- | :--- |
+| **1 Kear** | Desbloquea la puerta a la Ciudad Quemada | Se encuentra en Ossex o se compra |
+| **Viales de Plasma** | Necesarios para curar a Rhene y abrir puertas | Recurso de salud estándar |
+| **Habilidad de Excavar** | Requerida para navegar trampas y atajos | Habilidad predeterminada |
+| **500 Huesos** | Precio de compra del mapa | Soltados por enemigos/encontrados en vasijas |
+
+<Steps>
+  <Step num="1" title="Localiza el Gremio de Excavadores">
+    Dirígete a la derecha de la entrada principal de Ossex. Rompe las cajas en el lado derecho del edificio del gremio y salta por la abertura para entrar. Habla con Muriel para saber sobre los miembros del equipo desaparecidos.
+  </Step>
+  <Step num="2" title="Entra en la Ciudad Quemada">
+    Ve al sur desde la entrada principal de Ossex. Usa un **Kear** para desbloquear las escaleras del camino norte. Encontrarás una puerta amarilla marcada con un "1"; inserta un vial de plasma para acceder al complejo donde está retenido Rhene.
+  </Step>
+  <Step num="3" title="Rescata y Escolta a Rhene">
+    Navega por las habitaciones llenas de trampas hasta que encuentres a Rhene, el zorro dorado. Usa un vial de plasma para curarlo. **Nota**: Rhene no puede excavar y solo puede saltar huecos de un solo bloque. Debes despejar un camino y esperar a que te siga.
+  </Step>
+  <Step num="4" title="Encuentra a Drillhardt">
+    Regresa al Gremio de Excavadores después de escoltar a Rhene. Busca una espiral verde que sobresale de una roca en la esquina inferior izquierda. Golpéala para revelar a Drillhardt, el mercader topo.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Mecánicas de Escolta">
+La IA de Rhene es limitada. Si te mueves demasiado rápido o excavas bajo obstáculos, Rhene se quedará atrás. Siempre verifica que el zorro te esté siguiendo antes de pasar a la siguiente pantalla, o podrías tener que retroceder para recuperarlo.
+</Callout>
+
+</Section>
+
+<Section icon={Locate} title="Comprando y Viendo el Mapa">
+
+Una vez que Drillhardt es rescatado y regresa al Gremio, abrirá una tienda. El artículo principal de interés es el **mapa de Mina la Excavadora**, que se vende por 500 huesos. Esta es una compra única que desbloquea el sistema de mapeo para el resto de tu viaje en la Isla Tenebrosa.
+
+Después de comprar el mapa, no lo encontrarás en tu inventario como un objeto utilizable. En cambio, el mapa se instala físicamente en el **Sublaboratorio**. Puedes encontrarlo en la esquina noroeste de esta área central. Interactuar con la pantalla del mapa mostrará la interfaz de pantalla completa donde puedes analizar tu progreso.
+
+| Estado Visual del Mapa | Significado | Acción del Jugador Requerida |
+| :--- | :--- | :--- |
+| **Nubes Veladas** | Región aún no visitada | Explora el área |
+| **Tenue Iluminación** | Región visitada pero el Generador de Chispa está apagado | Encuentra y repara el Generador de Chispa |
+| **Completamente Iluminado** | Generador de Chispa activo | La región está "despejada" de energía |
+| **Iconos de Lista de Verificación** | Muestra coleccionables encontrados vs. faltantes | Úsalos para la completación al 100% |
+
+<Callout type="success" title="Ubicación del Mapa">
+El Sublaboratorio es tu centro principal. Siempre que te sientas perdido, regresa a la esquina noroeste del laboratorio para consultar el mapa. Es la forma más fiable de ver qué regiones aún tienen "nubes oscuras" pendientes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mejoras del Mapa y Listas de Verificación Regionales">
+
+El **mapa básico de Mina la Excavadora** te muestra dónde has estado, pero no te lo dice todo. A medida que avanzas, puedes mejorar el mapa para que proporcione información mucho más detallada. Esto es particularmente útil para los jugadores que buscan una partida de completación al 100%, ya que agrega una lista de verificación para cada región de la Isla Tenebrosa.
+
+La función de lista de verificación rastrea elementos específicos que a menudo están ocultos detrás de paredes rompibles o intrincados rompecabezas. Al mejorar el mapa, puedes ver exactamente cuántos elementos te faltan en áreas como el Huerto de Huesos o la Gruta Sumergida.
+
+<CardGrid cols={3}>
+  <Card title="Seguimiento Regional">
+    - **Generadores de Chispa**: Rastrea qué áreas tienen energía.
+    - **Viaje Rápido**: Identifica puntos de teletransporte activos.
+    - **% de Completado**: Ve el progreso total por zona.
+  </Card>
+  <Card title="Listas de Coleccionables">
+    - **Gemas de Hueso**: Rastrea estos materiales de mejora raros.
+    - **Baratijas**: Muestra cuántos objetos únicos has encontrado.
+    - **Kears**: Lleva un recuento de las llaves encontradas en la naturaleza.
+  </Card>
+  <Card title="Navegación del Mundo">
+    - **Búsqueda de Caminos**: Identifica salidas perdidas.
+    - **Habitaciones Secretas**: Sugiere subáreas inexploradas.
+    - **Iconos de Jefes**: Marca las ubicaciones de las amenazas derrotadas.
+  </Card>
+</CardGrid>
+
+| Tipo de Coleccionable | Icono del Mapa | Propósito |
+| :--- | :--- | :--- |
+| **Gemas de Hueso** | Cristal Púrpura | Mejoras de estadísticas permanentes |
+| **Baratijas** | Medallón de Oro | Habilidades pasivas equipables |
+| **Kears** | Llave de Plata | Acceso a sub-mazmorras bloqueadas |
+| **Pescado** | Aleta Azul | Colección e intercambio |
+
+<Callout type="info" title="Consejo para Completistas">
+La mejora del mapa a menudo está ligada a encontrar "Herramientas de Cartografía" específicas o a ayudar a Drillhardt con más solicitudes. Sigue revisando la tienda a medida que avanzas en la historia principal.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hitos Esenciales del Mapa">
+
+Para aprovechar al máximo tus herramientas de navegación, sigue esta lista de hitos. Completarlos asegurará que tu **mapa de Mina la Excavadora** sea lo más informativo posible durante las etapas finales del juego.
+
+<Checklist
+  id="map-progression"
+  title="Objetivos de Completación del Mapa:"
+  items={[
+    "Rescatar a Rhene del complejo de la Ciudad Quemada",
+    "Desenterrar a Drillhardt en el Gremio de Excavadores",
+    "Comprar el Mapa de la Isla Tenebrosa por 500 huesos",
+    "Localizar la Pantalla del Mapa en la esquina NO del Sublaboratorio",
+    "Restaurar el primer Generador de Chispa para iluminar una región",
+    "Desbloquear la mejora de la Lista de Verificación para el seguimiento de coleccionables"
+  ]}
+/>
+
+<Callout type="tip" title="Cultivo de Huesos">
+Si te faltan los 500 huesos necesarios para el mapa, los enemigos de la Ciudad Quemada los sueltan con frecuencia. Dedica 10 minutos a despejar el área alrededor de la puerta amarilla para acumular rápidamente la moneda necesaria.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puedo acceder al mapa de Mina la Excavadora desde el menú de pausa?",
+    answer: "No. En Mina the Hollower, el mapa es un objeto físico ubicado en el Sublaboratorio. Debes regresar al centro para ver el mapa mundial completo y tu progreso regional."
+  },
+  {
+    question: "¿Por qué algunas regiones de mi mapa están cubiertas de nubes oscuras?",
+    answer: "Las regiones cubiertas de nubes representan áreas a las que aún no has entrado. Una vez que cruces físicamente la frontera hacia una nueva zona, las nubes se disiparán, aunque el área permanecerá tenue hasta que se repare el Generador de Chispa local."
+  },
+  {
+    question: "Curé a Rhene pero no me sigue. ¿Qué pasó?",
+    answer: "Rhene probablemente se quedó atascado en un saliente o un hueco. Rhene no puede excavar y solo puede saltar huecos de 1 bloque de ancho. Revisa la pantalla anterior para ver si está esperando junto a una pared o un pozo que no pudo cruzar."
+  },
+  {
+    question: "¿El mapa muestra la ubicación de paredes rompibles secretas?",
+    answer: "No directamente. Sin embargo, si tienes la mejora de la Lista de Verificación, el mapa mostrará que te falta un coleccionable en esa región, lo cual es una fuerte pista de que existe una pared secreta o un camino oculto cerca."
+  }
+]} />
+
+</Section>

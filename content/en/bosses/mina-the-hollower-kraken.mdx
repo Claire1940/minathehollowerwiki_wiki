@@ -1,0 +1,166 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mina the Hollower Kraken: Defeating the Nether Kraken Early",
+  description: "Learn how to defeat the Nether Kraken, the optional first boss in Mina the Hollower, and claim its unique reward.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Mina+the+Hollower+Kraken",
+  date: "2026-05-31",
+  author: "Mina the Hollower Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Nether Kraken**: An optional, challenging early-game boss in **Mina the Hollower**.
+- **Early Damage**: Exploit opportunities to deal significant damage before the fight officially begins.
+- **Nightstar Weapon**: Recommended for its range and speed, aiding in safe tentacle strikes.
+- **Burrow Ability**: Crucial for dodging Kraken attacks, even before it's formally taught.
+- **Uranium Bracelet**: The unique trinket reward for defeating the **Kraken**.
+</Callout>
+
+<Section icon={Swords} title="Conquering the Nether Kraken in Mina the Hollower">
+The Nether Kraken is a formidable, optional boss encountered at the very beginning of **Mina the Hollower**. While not mandatory for story progression, defeating this tentacled beast offers a unique challenge and a valuable reward. This guide provides a comprehensive strategy to overcome the **Mina the Hollower Kraken** and secure your early-game advantage.
+
+Successfully taking down the Nether Kraken requires precise timing, understanding its attack patterns, and making the most of early damage opportunities. Even though it's a "Souls-like" introductory boss, it is indeed beatable with the right approach.
+
+<Callout type="tip" title="Weapon Choice">
+For this fight, the **Nightstar** is highly recommended. Its excellent range and relatively fast attack speed allow Mina to strike the Kraken's tentacles from a safer distance, minimizing exposure to incoming damage.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Pre-Battle Damage and Initial Strategy">
+Before the Nether Kraken's health bar even appears, you have several chances to inflict substantial "free" damage, significantly easing the later stages of the fight. Maximizing these opportunities can reduce the boss's HP by as much as 35% before the real battle starts.
+
+<CardGrid cols={2}>
+  <Card title="Early Tentacle Strikes">
+    - **First Tentacle**: Appears on the right after selecting your weapon. Hit it before it disappears.
+    - **Second Tentacle**: Grabs a passenger from the left; ignore this one.
+    - **Third Tentacle**: Positions just south of the hatch, hit it from the right.
+  </Card>
+  <Card title="Claw Exploitation">
+    - **Left Claw**: After the camera shifts, the Kraken lifts both claws. Hit the left claw twice before its first attack.
+    - **Positioning**: Be ready to run left and move downward to avoid the Kraken's initial sweep.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Don't Miss Out">
+Failing to capitalize on these early damage phases will make the subsequent fight considerably more difficult. These initial hits are crucial for a smoother encounter with the **Mina the Hollower Kraken**.
+</Callout>
+
+### Initial Damage Phase Breakdown
+
+| Action                    | Target        | Hits   | Estimated HP Reduction |
+| :------------------------ | :------------ | :----- | :--------------------- |
+| First Tentacle            | Right Side    | 1-2    | Moderate               |
+| Third Tentacle            | Right Side    | 1-2    | Moderate               |
+| Left Claw (Pre-Battle)    | Left Claw     | 2      | Substantial            |
+| **Total Pre-Battle**      |               | **5-6**| **~35% HP**            |
+
+</Section>
+
+<Section icon={Map} title="Nether Kraken Attack Patterns and Evasion">
+Once the main fight begins, the camera will fixate on the right side of the ship. Your primary goal is to avoid the Kraken's various tentacle and claw attacks while landing hits on its vulnerable appendages.
+
+<Steps>
+  <Step num="1" title="Main Arena Positioning">
+    Stick to the left side of the boss arena. This provides more reaction time to anticipate and dodge incoming attacks from the right.
+  </Step>
+  <Step num="2" title="Dodging Claw Attacks">
+    The Kraken always raises its claws before attacking. They will tilt upward and shake briefly, indicating which claw is about to strike. Move up or down to get out of the attack path.
+  </Step>
+  <Step num="3" title="Handling Sweeping Tentacles">
+    Tentacles on the deck will usually shake briefly before sweeping towards Mina. Move away or burrow. Be aware that sometimes they sweep immediately after landing without a shake.
+  </Step>
+  <Step num="4" title="Responding to Special Fast Attacks">
+    If the Kraken heaves both claws and "roars," prepare for a rapid sequence of claw attacks that don't leave tentacles on the deck. During this phase, focus entirely on burrowing and jumping to evade until it returns to its standard attack pattern.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Burrowing Mechanics">
+Although the game doesn't explicitly teach it yet, you can use Mina's burrow ability by holding the jump button after landing. This is incredibly effective for sliding under incoming claw attacks and providing invulnerability frames.
+</Callout>
+
+### Kraken Attack Overview
+
+| Attack Type          | Indicator                   | Evasion Strategy             | Recommended Action |
+| :------------------- | :-------------------------- | :--------------------------- | :----------------- |
+| **Standard Claw Slam** | Claw tilts, shakes briefly  | Move up/down, Burrow         | Hit tentacle twice |
+| **Sweeping Tentacle**| Tentacle shakes (usually)   | Move away, Burrow            | Hit tentacle twice |
+| **Double Swing**     | One arm swings, then both   | Burrow first, Jump second    | Avoid attacking    |
+| **Fast Attack Frenzy**| Both claws heave, "roar"   | Burrow and Jump repeatedly   | Focus on evasion   |
+
+</Section>
+
+<Section icon={Trophy} title="Dealing Damage and Securing the Reward">
+During the main fight, focus on hitting the Kraken's tentacles when they are on deck. While it might be tempting to land multiple hits, it's safer and more consistent to strike only twice before moving to avoid potential counter-attacks. You cannot directly hit the Kraken's main body or face.
+
+<Checklist
+  id="kraken-combat-tips"
+  title="Combat Best Practices:"
+  items={[
+    "Stick to the left side for optimal reaction time.",
+    "Hit tentacles twice, then reposition to avoid damage.",
+    "Utilize burrowing to dodge both claw slams and sweeps effectively.",
+    "Prioritize evasion during the Kraken's 'roar' frenzy.",
+    "Do not attempt to hit the Kraken's main body; only tentacles are vulnerable."
+  ]}
+/>
+
+Upon successfully defeating the **Mina the Hollower Kraken**, you will be rewarded with the **Uranium Bracelet** trinket. This powerful item enhances your damage output, but it comes with a trade-off: you will also receive increased damage from enemies. Make sure to collect this trinket from the small chest before leaving the shipwreck!
+
+<Callout type="success" title="Reward Acquired">
+The **Uranium Bracelet** is a high-risk, high-reward item. It's excellent for players who can consistently avoid damage or those looking to speed up boss fights, but be mindful of the increased incoming damage.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Advanced Tips and General Combat Advice">
+Mastering the **Mina the Hollower Kraken** fight early on sets a good precedent for the challenges ahead. Here are some additional tips to refine your strategy:
+
+<CardGrid cols={3}>
+  <Card title="Practice Burrowing">
+    Even though the game doesn't formally teach it until later, the burrow ability is available from the start. Practice holding the jump button to burrow immediately after landing. Its invulnerability frames are invaluable.
+  </Card>
+  <Card title="Save States (If Applicable)">
+    If you're struggling, consider creating multiple save files before the encounter. This allows for repeated attempts without replaying the entire intro sequence, helping you learn the patterns faster.
+  </Card>
+  <Card title="Focus on Patience">
+    The Kraken fight is a test of patience. Don't rush your attacks. Prioritize dodging and only strike when a safe opening presents itself. Two hits are better than getting hit yourself.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Souls-like Approach">
+Like many "Souls-like" encounters, the **Mina the Hollower Kraken** teaches you about pattern recognition and precise movement. Each defeat is a learning opportunity to identify attack tells and refine your response.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Can you really defeat the Nether Kraken at the very start of Mina the Hollower?",
+    answer: "Yes, you absolutely can defeat the Nether Kraken at the beginning of the game. While it's designed to be a challenging, optional boss, with the right strategy and a bit of persistence, Mina can take it down. Many players initially expect to die, but it is beatable."
+  },
+  {
+    question: "What is the reward for beating the Mina the Hollower Kraken?",
+    answer: "The reward for defeating the Nether Kraken is the **Uranium Bracelet** trinket. This item increases the damage Mina inflicts, but it also causes her to receive more damage from enemies. It's a high-risk, high-reward item found in a chest after the battle."
+  },
+  {
+    question: "What's the best weapon for the Nether Kraken boss fight?",
+    answer: "The **Nightstar** is highly recommended for the Nether Kraken fight. Its excellent range and relatively fast attack speed make it easier to hit the Kraken's tentacles from a safer distance, minimizing your exposure to its dangerous attacks. This weapon choice significantly aids in managing the fight."
+  },
+  {
+    question: "Is the burrow ability useful against the Kraken, even though it's not taught yet?",
+    answer: "Yes, the burrow ability is extremely useful against the **Mina the Hollower Kraken**, even before the game formally introduces it. By holding the jump button, Mina can burrow and become temporarily invulnerable, allowing her to slide under most of the Kraken's claw and sweeping tentacle attacks. It's a key defensive maneuver."
+  }
+]} />
+
+</Section>

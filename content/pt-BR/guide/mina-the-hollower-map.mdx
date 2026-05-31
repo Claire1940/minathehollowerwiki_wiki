@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Search, Locate } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "mina the hollower map: Guia de Localização e Conclusão",
+  description: "Aprenda como encontrar o mapa de Mina the Hollower, resgatar Rhene e Drillhardt, e desbloquear a lista de verificação regional completa para a Ilha Tenebrosa em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2d3436/dfe6e9?text=Mina+the+Hollower+Map+Guide",
+  date: "2026-05-31",
+  author: "Equipe Wiki de Mina the Hollower"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Ferramenta Principal**: O **mapa de Mina the Hollower** oferece uma visão estratégica da Ilha Tenebrosa, em vez de um mini-mapa tradicional.
+- **Requisito Essencial**: Você deve resgatar Rhene e Drillhardt da Cidade Queimada para desbloquear a loja de mapas.
+- **Custo**: O mapa é comprado de Drillhardt por **500 ossos**.
+- **Local de Visualização**: Uma vez comprado, o mapa físico está localizado no **canto noroeste do Sublaboratório (Underlab)**.
+- **Melhorias do Mapa**: Você pode aprimorar o mapa para rastrear colecionáveis e porcentagens de conclusão para cada região.
+</Callout>
+
+<Section icon={Map} title="Entendendo o Sistema de Mapa de Mina the Hollower">
+
+Explorar o mundo gótico da Ilha Tenebrosa é uma tarefa assustadora, e ter um **mapa de Mina the Hollower** confiável é essencial para qualquer Hollower sério. Ao contrário dos jogos de ação-aventura modernos que fornecem um mini-mapa em tempo real no canto da tela, *Mina the Hollower* adota uma abordagem mais tradicional e atmosférica. O mapa serve como um guia em nível macro, mostrando as regiões interconectadas da ilha e sua progressão geral.
+
+O mapa não é apenas uma imagem estática; é uma ferramenta dinâmica que reflete seu impacto no mundo. Conforme você restaura o poder para várias regiões e descobre segredos ocultos, o mapa é atualizado para mostrar seu progresso. Para os completistas, o mapa é a lista de verificação definitiva, ajudando a identificar quais cantos do mundo ainda guardam tesouros ou negócios inacabados.
+
+| Característica do Mapa | Descrição | Importância |
+| :--- | :--- | :--- |
+| **Visão Geral do Mundo** | Mostra todas as principais regiões da Ilha Tenebrosa | Alta |
+| **Névoa de Guerra** | Áreas não visitadas são envoltas em nuvens escuras | Média |
+| **Luzes de Faísca** | Regiões com geradores de faísca restaurados são iluminadas | Alta |
+| **Lista de Verificação** | Lista rastreável de colecionáveis por região (Melhoria) | Muito Alta |
+| **Acesso ao Sublaboratório** | O local físico onde você consulta o mapa | Média |
+
+<Callout type="tip" title="Dica de Exploração">
+Antes de sair para encontrar o mapa, certifique-se de ter coletado pelo menos 500 ossos. Ter a moeda pronta evitará uma viagem de volta à Guilda dos Hollowers depois de concluir a missão de resgate.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Como Desbloquear o Mapa: A Missão de Resgate">
+
+Desbloquear o **mapa de Mina the Hollower** requer a conclusão de uma sequência específica de eventos envolvendo a Guilda dos Hollowers. Você não pode simplesmente encontrar o mapa em um baú; você deve ganhá-lo ajudando seus colegas Hollowers que desapareceram nos perigosos territórios ao sul de Ossex.
+
+A missão começa na Guilda dos Hollowers, um edifício de pedra localizado à direita da entrada principal de Ossex. Acessar o edifício requer um pouco de plataforma — você precisará quebrar as caixas de madeira no lado direito da estrutura para encontrar um caminho para dentro. Uma vez lá dentro, você encontrará Muriel, que informa que Rhene e Drillhardt desapareceram na Cidade Queimada.
+
+| Requisito de Resgate | Propósito | Como Obter |
+| :--- | :--- | :--- |
+| **1 Kear** | Desbloqueia o portão para a Cidade Queimada | Encontrado em Ossex ou comprado |
+| **Frascos de Plasma** | Necessário para curar Rhene e abrir portões | Recurso de saúde padrão |
+| **Habilidade de Escavar** | Necessário para navegar em armadilhas e atalhos | Habilidade padrão |
+| **500 Ossos** | Preço de compra do mapa | Derrubados por inimigos/encontrados em jarros |
+
+<Steps>
+  <Step num="1" title="Localize a Guilda dos Hollowers">
+    Dirija-se à direita da entrada principal de Ossex. Quebre as caixas no lado direito do edifício da guilda e pule pela abertura para entrar. Fale com Muriel para saber sobre os membros da equipe desaparecidos.
+  </Step>
+  <Step num="2" title="Entre na Cidade Queimada">
+    Vá para o sul da entrada principal de Ossex. Use um **Kear** para desbloquear as escadas do caminho norte. Você encontrará um portão amarelo marcado com um "1" — insira um frasco de plasma para entrar no complexo onde Rhene está detido.
+  </Step>
+  <Step num="3" title="Resgate e Escorte Rhene">
+    Navegue pelas salas cheias de armadilhas até encontrar Rhene, a raposa dourada. Use um frasco de plasma para curá-los. **Nota**: Rhene não pode escavar e só pode pular lacunas de um único bloco. Você deve abrir caminho e esperar que eles o sigam.
+  </Step>
+  <Step num="4" title="Encontre Drillhardt">
+    Retorne à Guilda dos Hollowers após escoltar Rhene. Procure uma espiral verde saindo de uma rocha no canto inferior esquerdo. Bata nela para revelar Drillhardt, o comerciante toupeira.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Mecânica de Escolta">
+A IA de Rhene é limitada. Se você se mover muito rápido ou escavar sob obstáculos, Rhene ficará para trás. Sempre verifique se a raposa está seguindo você antes de ir para a próxima tela, ou você pode ter que voltar para recuperá-los.
+</Callout>
+
+</Section>
+
+<Section icon={Locate} title="Comprando e Visualizando o Mapa">
+
+Uma vez que Drillhardt é resgatado e está de volta à Guilda, ele abrirá uma loja. O item principal de interesse é o **mapa de Mina the Hollower**, que custa 500 ossos. Esta é uma compra única que desbloqueia o sistema de mapeamento para o restante da sua jornada na Ilha Tenebrosa.
+
+Depois de comprar o mapa, você não o encontrará em seu inventário como um item utilizável. Em vez disso, o mapa é fisicamente instalado no **Sublaboratório (Underlab)**. Você pode encontrá-lo no canto noroeste desta área central. Interagir com a exibição do mapa abrirá a interface em tela cheia onde você pode analisar seu progresso.
+
+| Estado Visual do Mapa | Significado | Ação do Jogador Necessária |
+| :--- | :--- | :--- |
+| **Nuvens Obscuras** | Região ainda não visitada | Explore a área |
+| **Fracamente Iluminada** | Região visitada, mas o Gerador de Faísca está desligado | Encontre e conserte o Gerador de Faísca |
+| **Totalmente Iluminada** | Gerador de Faísca está ativo | Região está "liberada" para energia |
+| **Ícones da Lista de Verificação** | Mostra colecionáveis encontrados vs. ausentes | Use para 100% de conclusão |
+
+<Callout type="success" title="Localização do Mapa">
+O Sublaboratório é o seu centro principal. Sempre que se sentir perdido, retorne ao canto noroeste do laboratório para consultar o mapa. É a maneira mais confiável de ver quais regiões ainda têm "nuvens escuras" restantes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Atualizações do Mapa e Listas de Verificação Regionais">
+
+O **mapa básico de Mina the Hollower** mostra onde você esteve, mas não diz tudo. À medida que você avança, pode aprimorar o mapa para fornecer informações muito mais detalhadas. Isso é particularmente útil para jogadores que buscam uma conclusão de 100%, pois adiciona uma lista de verificação para cada região da Ilha Tenebrosa.
+
+O recurso de lista de verificação rastreia itens específicos que muitas vezes estão escondidos atrás de paredes quebráveis ou quebra-cabeças complexos. Ao atualizar o mapa, você pode ver exatamente quantos itens você está perdendo em áreas como o Pomar de Ossos ou a Gruta Submersa.
+
+<CardGrid cols={3}>
+  <Card title="Rastreamento Regional">
+    - **Geradores de Faísca**: Rastreia quais áreas têm energia.
+    - **Viagem Rápida**: Identifica pontos de teletransporte ativos.
+    - **% de Conclusão**: Veja o progresso total por zona.
+  </Card>
+  <Card title="Listas de Colecionáveis">
+    - **Gemas de Osso**: Rastreia esses materiais de atualização raros.
+    - **Bugigangas**: Mostra quantos itens únicos você encontrou.
+    - **Kears**: Mantém uma contagem de chaves encontradas na natureza.
+  </Card>
+  <Card title="Navegação Mundial">
+    - **Busca de Caminho**: Identifica saídas perdidas.
+    - **Salas Secretas**: Sugere sub-áreas inexploradas.
+    - **Ícones de Chefes**: Marca as localizações de ameaças derrotadas.
+  </Card>
+</CardGrid>
+
+| Tipo de Colecionável | Ícone do Mapa | Propósito |
+| :--- | :--- | :--- |
+| **Gemas de Osso** | Cristal Roxo | Atualizações de atributos permanentes |
+| **Bugigangas** | Medalhão de Ouro | Habilidades passivas equipáveis |
+| **Kears** | Chave de Prata | Acessando sub-masmorras trancadas |
+| **Peixe** | Barbatana Azul | Coleta e comércio |
+
+<Callout type="info" title="Dica para Completistas">
+A atualização do mapa geralmente está ligada à descoberta de "Ferramentas de Cartografia" específicas ou à assistência a Drillhardt com outras solicitações. Continue verificando a loja à medida que avança na história principal.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Marcos Essenciais do Mapa">
+
+Para aproveitar ao máximo suas ferramentas de navegação, siga esta lista de marcos. Completá-los garantirá que seu **mapa de Mina the Hollower** seja o mais informativo possível durante as fases finais do jogo.
+
+<Checklist
+  id="map-progression"
+  title="Objetivos de Conclusão do Mapa:"
+  items={[
+    "Resgatar Rhene do complexo da Cidade Queimada",
+    "Desenterrar Drillhardt na Guilda dos Hollowers",
+    "Comprar o Mapa da Ilha Tenebrosa por 500 ossos",
+    "Localizar a Exibição do Mapa no canto NW do Sublaboratório",
+    "Restaurar o primeiro Gerador de Faísca para iluminar uma região",
+    "Desbloquear a atualização da Lista de Verificação para rastreamento de colecionáveis"
+  ]}
+/>
+
+<Callout type="tip" title="Coleta de Ossos">
+Se você estiver com poucos dos 500 ossos necessários para o mapa, os inimigos na Cidade Queimada os derrubam com frequência. Gaste 10 minutos limpando a área ao redor do portão amarelo para acumular rapidamente a moeda necessária.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Posso acessar o mapa de Mina the Hollower no menu de pausa?",
+    answer: "Não. Em Mina the Hollower, o mapa é um objeto físico localizado no Sublaboratório. Você deve retornar ao centro para ver o mapa-múndi completo e seu progresso regional."
+  },
+  {
+    question: "Por que algumas regiões do meu mapa estão cobertas por nuvens escuras?",
+    answer: "Regiões cobertas por nuvens representam áreas que você ainda não entrou. Assim que você cruzar fisicamente a fronteira para uma nova zona, as nuvens se dissiparão, embora a área permaneça escura até que o Gerador de Faísca local seja consertado."
+  },
+  {
+    question: "Curei Rhene, mas eles não estão me seguindo. O que aconteceu?",
+    answer: "Rhene provavelmente ficou preso em uma saliência ou lacuna. Rhene não pode escavar e só pode pular lacunas de 1 bloco de largura. Verifique a tela anterior para ver se eles estão esperando por uma parede ou um poço que não puderam atravessar."
+  },
+  {
+    question: "O mapa mostra a localização de paredes secretas quebráveis?",
+    answer: "Não diretamente. No entanto, se você tiver a atualização da Lista de Verificação, o mapa mostrará que você está perdendo um colecionável naquela região, o que é uma forte dica de que uma parede secreta ou caminho oculto existe nas proximidades."
+  }
+]} />
+
+</Section>

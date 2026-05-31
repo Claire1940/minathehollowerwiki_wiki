@@ -1,0 +1,166 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mina the Hollower Kraken: Derrotando al Kraken del Inframundo Temprano",
+  description: "Aprende a derrotar al Kraken del Inframundo, el primer jefe opcional en Mina the Hollower, y reclama su recompensa única.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Mina+the+Hollower+Kraken",
+  date: "2026-05-31",
+  author: "Equipo de la Wiki de Mina the Hollower"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Kraken del Inframundo**: Un jefe opcional y desafiante al principio del juego en **Mina the Hollower**.
+- **Daño Temprano**: Aprovecha las oportunidades para infligir un daño significativo antes de que comience oficialmente la lucha.
+- **Arma Nightstar**: Recomendada por su alcance y velocidad, ayuda a golpear los tentáculos de forma segura.
+- **Habilidad de Excavación**: Crucial para esquivar los ataques del Kraken, incluso antes de que se enseñe formalmente.
+- **Brazalete de Uranio**: La baratija de recompensa única por derrotar al **Kraken**.
+</Callout>
+
+<Section icon={Swords} title="Conquistando al Kraken del Inframundo en Mina the Hollower">
+El Kraken del Inframundo es un formidable jefe opcional que se encuentra al principio de **Mina the Hollower**. Aunque no es obligatorio para la progresión de la historia, derrotar a esta bestia tentaculada ofrece un desafío único y una recompensa valiosa. Esta guía proporciona una estrategia completa para superar al **Kraken de Mina the Hollower** y asegurar tu ventaja al principio del juego.
+
+Derribar con éxito al Kraken del Inframundo requiere una sincronización precisa, comprender sus patrones de ataque y aprovechar al máximo las oportunidades de daño temprano. Aunque es un jefe introductorio "tipo Souls", es derrotable con el enfoque correcto.
+
+<Callout type="tip" title="Elección de Arma">
+Para esta lucha, la **Nightstar** es muy recomendable. Su excelente alcance y su velocidad de ataque relativamente rápida permiten a Mina golpear los tentáculos del Kraken desde una distancia más segura, minimizando la exposición al daño entrante.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Daño Pre-Batalla y Estrategia Inicial">
+Antes de que aparezca la barra de salud del Kraken del Inframundo, tienes varias oportunidades para infligir un daño "gratuito" sustancial, lo que facilita significativamente las etapas posteriores de la lucha. Maximizar estas oportunidades puede reducir la HP del jefe hasta en un 35% antes de que comience la batalla real.
+
+<CardGrid cols={2}>
+  <Card title="Golpes Tempranos a los Tentáculos">
+    - **Primer Tentáculo**: Aparece a la derecha después de seleccionar tu arma. Golpéalo antes de que desaparezca.
+    - **Segundo Tentáculo**: Atrapa a un pasajero desde la izquierda; ignora este.
+    - **Tercer Tentáculo**: Se posiciona justo al sur de la escotilla, golpéalo desde la derecha.
+  </Card>
+  <Card title="Explotación de Garra">
+    - **Garra Izquierda**: Después de que la cámara se desplace, el Kraken levanta ambas garras. Golpea la garra izquierda dos veces antes de su primer ataque.
+    - **Posicionamiento**: Prepárate para correr hacia la izquierda y moverte hacia abajo para evitar el barrido inicial del Kraken.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="No te lo Pierdas">
+No aprovechar estas fases de daño temprano hará que la lucha posterior sea considerablemente más difícil. Estos golpes iniciales son cruciales para un encuentro más fluido con el **Kraken de Mina the Hollower**.
+</Callout>
+
+### Desglose de la Fase de Daño Inicial
+
+| Acción                    | Objetivo      | Golpes | Reducción de HP Estimada |
+| :------------------------ | :------------ | :----- | :--------------------- |
+| Primer Tentáculo          | Lado Derecho  | 1-2    | Moderada               |
+| Tercer Tentáculo          | Lado Derecho  | 1-2    | Moderada               |
+| Garra Izquierda (Pre-Batalla)| Garra Izquierda| 2      | Sustancial             |
+| **Total Pre-Batalla**     |               | **5-6**| **~35% HP**            |
+
+</Section>
+
+<Section icon={Map} title="Patrones de Ataque y Evasión del Kraken del Inframundo">
+Una vez que comienza la lucha principal, la cámara se fijará en el lado derecho del barco. Tu objetivo principal es evitar los diversos ataques de tentáculos y garras del Kraken mientras golpeas sus apéndices vulnerables.
+
+<Steps>
+  <Step num="1" title="Posicionamiento en la Arena Principal">
+    Quédate en el lado izquierdo de la arena del jefe. Esto proporciona más tiempo de reacción para anticipar y esquivar los ataques entrantes desde la derecha.
+  </Step>
+  <Step num="2" title="Esquivando Ataques de Garra">
+    El Kraken siempre levanta sus garras antes de atacar. Se inclinarán hacia arriba y temblarán brevemente, indicando qué garra está a punto de golpear. Muévete hacia arriba o hacia abajo para salir del camino del ataque.
+  </Step>
+  <Step num="3" title="Manejando Tentáculos Barridos">
+    Los tentáculos en la cubierta generalmente temblarán brevemente antes de barrer hacia Mina. Muévete o excava. Ten en cuenta que a veces barren inmediatamente después de aterrizar sin temblar.
+  </Step>
+  <Step num="4" title="Respondiendo a Ataques Rápidos Especiales">
+    Si el Kraken levanta ambas garras y "ruge", prepárate para una secuencia rápida de ataques de garra que no dejan tentáculos en la cubierta. Durante esta fase, concéntrate completamente en excavar y saltar para evadir hasta que vuelva a su patrón de ataque estándar.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Mecánicas de Excavación">
+Aunque el juego aún no lo enseña explícitamente, puedes usar la habilidad de excavación de Mina manteniendo presionado el botón de salto después de aterrizar. Esto es increíblemente efectivo para deslizarse bajo los ataques de garra entrantes y proporcionar cuadros de invulnerabilidad.
+</Callout>
+
+### Resumen de Ataques del Kraken
+
+| Tipo de Ataque          | Indicador                   | Estrategia de Evasión             | Acción Recomendada |
+| :------------------- | :-------------------------- | :--------------------------- | :----------------- |
+| **Golpe de Garra Estándar** | Garra se inclina, tiembla brevemente| Muévete arriba/abajo, Excava   | Golpea el tentáculo dos veces |
+| **Tentáculo Barrido**   | Tentáculo tiembla (usualmente)| Muévete lejos, Excava          | Golpea el tentáculo dos veces |
+| **Doble Oscilación**    | Un brazo oscila, luego ambos | Excava primero, Salta segundo | Evita atacar      |
+| **Frenesí de Ataque Rápido**| Ambas garras se levantan, "ruge"| Excava y Salta repetidamente | Concéntrate en la evasión |
+
+</Section>
+
+<Section icon={Trophy} title="Infringiendo Daño y Asegurando la Recompensa">
+Durante la lucha principal, concéntrate en golpear los tentáculos del Kraken cuando estén en la cubierta. Aunque podría ser tentador asestar múltiples golpes, es más seguro y consistente golpear solo dos veces antes de moverte para evitar posibles contraataques. No puedes golpear directamente el cuerpo principal o la cara del Kraken.
+
+<Checklist
+  id="kraken-combat-tips"
+  title="Mejores Prácticas de Combate:"
+  items={[
+    "Mantente en el lado izquierdo para un tiempo de reacción óptimo.",
+    "Golpea los tentáculos dos veces, luego reposiciónate para evitar daños.",
+    "Utiliza la excavación para esquivar tanto los golpes de garra como los barridos de manera efectiva.",
+    "Prioriza la evasión durante el frenesí de 'rugido' del Kraken.",
+    "No intentes golpear el cuerpo principal del Kraken; solo los tentáculos son vulnerables."
+  ]}
+/>
+
+Al derrotar con éxito al **Kraken de Mina the Hollower**, serás recompensado con el amuleto **Brazalete de Uranio**. Este poderoso objeto mejora tu producción de daño, pero tiene un inconveniente: también recibirás un mayor daño de los enemigos. ¡Asegúrate de recoger este amuleto del pequeño cofre antes de abandonar el naufragio!
+
+<Callout type="success" title="Recompensa Adquirida">
+El **Brazalete de Uranio** es un objeto de alto riesgo y alta recompensa. Es excelente para jugadores que pueden evitar el daño de manera consistente o para aquellos que buscan acelerar las luchas contra jefes, pero ten en cuenta el aumento del daño entrante.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Consejos Avanzados y Consejos Generales de Combate">
+Dominar la lucha contra el **Kraken de Mina the Hollower** al principio del juego sienta un buen precedente para los desafíos futuros. Aquí hay algunos consejos adicionales para refinar tu estrategia:
+
+<CardGrid cols={3}>
+  <Card title="Practica la Excavación">
+    Aunque el juego no lo enseña formalmente hasta más tarde, la habilidad de excavación está disponible desde el principio. Practica manteniendo presionado el botón de salto para excavar inmediatamente después de aterrizar. Sus cuadros de invulnerabilidad son invaluables.
+  </Card>
+  <Card title="Estados de Guardado (Si Aplica)">
+    Si estás teniendo dificultades, considera crear múltiples archivos de guardado antes del encuentro. Esto permite intentos repetidos sin tener que volver a jugar toda la secuencia de introducción, ayudándote a aprender los patrones más rápido.
+  </Card>
+  <Card title="Concéntrate en la Paciencia">
+    La lucha contra el Kraken es una prueba de paciencia. No apresures tus ataques. Prioriza esquivar y solo ataca cuando se presente una apertura segura. Dos golpes son mejores que ser golpeado tú mismo.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Enfoque tipo Souls">
+Al igual que muchos encuentros "tipo Souls", el **Kraken de Mina the Hollower** te enseña sobre el reconocimiento de patrones y el movimiento preciso. Cada derrota es una oportunidad de aprendizaje para identificar las señales de ataque y refinar tu respuesta.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Realmente se puede derrotar al Kraken del Inframundo al principio de Mina the Hollower?",
+    answer: "Sí, absolutamente puedes derrotar al Kraken del Inframundo al principio del juego. Aunque está diseñado para ser un jefe opcional y desafiante, con la estrategia correcta y un poco de persistencia, Mina puede derribarlo. Muchos jugadores inicialmente esperan morir, pero es derrotable."
+  },
+  {
+    question: "¿Cuál es la recompensa por derrotar al Kraken de Mina the Hollower?",
+    answer: "La recompensa por derrotar al Kraken del Inframundo es el amuleto **Brazalete de Uranio**. Este objeto aumenta el daño que Mina inflige, pero también hace que reciba más daño de los enemigos. Es un objeto de alto riesgo y alta recompensa que se encuentra en un cofre después de la batalla."
+  },
+  {
+    question: "¿Cuál es la mejor arma para la lucha contra el Kraken del Inframundo?",
+    answer: "La **Nightstar** es muy recomendable para la lucha contra el Kraken del Inframundo. Su excelente alcance y su velocidad de ataque relativamente rápida facilitan golpear los tentáculos del Kraken desde una distancia más segura, minimizando tu exposición a sus peligrosos ataques. Esta elección de arma ayuda significativamente a gestionar la lucha."
+  },
+  {
+    question: "¿Es útil la habilidad de excavación contra el Kraken, aunque aún no se haya enseñado?",
+    answer: "Sí, la habilidad de excavación es extremadamente útil contra el **Kraken de Mina the Hollower**, incluso antes de que el juego la introduzca formalmente. Al mantener presionado el botón de salto, Mina puede excavar y volverse temporalmente invulnerable, lo que le permite deslizarse bajo la mayoría de los ataques de garra y tentáculos barridos del Kraken. Es una maniobra defensiva clave."
+  }
+]} />
+
+</Section>
