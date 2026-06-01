@@ -1,0 +1,165 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Septemburg en Mina the Hollower: Guía Completa y Jefe",
+  description: "Navega por Septemburg en Mina the Hollower con esta guía detallada, que incluye subáreas, enemigos y la batalla contra el jefe Carving Man.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Septemburg+Walkthrough",
+  date: "2026-06-01",
+  author: "Equipo de la Wiki de Mina the Hollower",
+  keywords: "Septemburg, Mina the Hollower, guía, jefe, Carving Man, niños perdidos, amuletos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Septemburg** es una de las principales áreas tipo mazmorra de **Mina the Hollower**.
+- Rescata a **tres niños perdidos** para obtener un Amuleto (Trinket) valioso.
+- El jefe **Carving Man** es invulnerable hasta la persecución final.
+- Utiliza armas secundarias como el **Disco de Retorno (Recall Disc)** y el **Collar de Llamada (Beckoning Collar)** para el combate y la evasión.
+- Domina los peligros ambientales como el **movimiento del viento** y los **rayos**.
+</Callout>
+
+<Section icon={Map} title="Descripción General de Septemburg y Exploración Inicial">
+Septemburg es una región crucial en Mina the Hollower, funcionando como una extensa mazmorra llena de desafíos únicos, enemigos y secretos. Esta región agrícola está sumida en un otoño perpetuo, con cultivos que se fusionan con la fauna para crear monstruosidades agresivas. Prepárate para vientos aulladores y rayos discordantes mientras guías a Mina a través de esta área temática de cosecha.
+
+**Vídeos Destacados:**
+- Avance del tema musical Septemburg A.
+- Establece el tono atmosférico de la región.
+- Ofrece un vistazo al diseño de sonido del juego.
+
+<YouTubeEmbed videoId="I4uFjitCGiU" title="Mina The Hollower - OST Preview: Septemburg A" />
+
+Al entrar en Septemburg, encontrarás un Underlab para guardar tu progreso. Desde allí, dirígete a la izquierda para encontrarte con un Cuervo que te advertirá sobre los "Corvidden" y Ciudad Cuervo (Crow Town). Al avanzar, te enfrentarás a enemigos "Panda Rojo" que saltan de un lado a otro y son difíciles de golpear. Estos enemigos tienen poca salud, por lo que son manejables con ataques rápidos. Utiliza las "Paletas de Aire" (Air Paddles) para cruzar huecos y llegar a áreas ocultas que suelen contener Huesos. Un nuevo enemigo, el "Lanzacalabazas" (Pumpkin Shooter), emerge de las "Calabazas de Luz", requiriendo varios latigazos para ser derrotado y soltar todos sus huesos.
+
+<Callout type="tip" title="Caminos Ocultos y Coleccionables">
+Mantente siempre alerta a las paletas de aire ocultas o tocones destruibles. Estos a menudo conducen a pantallas secretas con valiosos cofres de Bonestone u otros coleccionables. Por ejemplo, destruir un tocón en el extremo sur después de los Lanzacalabazas puede revelar un camino oculto con paletas de aire giratorias, que conduce a un cofre con **500 Bonestone**.
+</Callout>
+
+A medida que avances, encontrarás varios Enemigos Cuervo: cuervos con horca que apuñalan como lanzas y cuervos con antorcha que disparan fuego. Recuerda que puedes enterrarte bajo las hoces y horcas para recogerlas y lanzarlas de vuelta a los enemigos, una estrategia de combate muy efectiva.
+
+### Encuentros Iniciales con Enemigos y Tácticas
+
+| Tipo de Enemigo | Característica Clave | Táctica Efectiva | Drop Notable |
+|:---|:---|:---|:---|
+| **Panda Rojo** | Salta erráticamente, poca salud | Ataques rápidos de látigo | Huesos |
+| **Lanzacalabazas** | Emerge de "Calabazas de Luz" | Múltiples latigazos (látigo, látigo, látigo en salto) | Huesos |
+| **Cuervo con Horca** | Apuñala con horca | Enterrarse bajo ataques, lanzar horcas | Guijarros |
+| **Cuervo con Antorcha** | Dispara fuego | Usar hoces lanzadas, ataques rápidos | Vial |
+
+</Section>
+
+<Section icon={Swords} title="Septemburg: La Persecución Implacable y el Rescate de los Niños">
+Una parte significativa de Septemburg consiste en una emocionante secuencia de persecución con el **Carving Man**, una entidad invulnerable que te perseguirá sin descanso. Durante esta persecución, tu objetivo principal (además de sobrevivir) es rescatar a tres niños escolares perdidos, lo que te recompensará con un Amuleto valioso. Si olvidas a un niño, tendrás que comprar el Amuleto más tarde en el mercado negro por una gran suma de Huesos.
+
+<Callout type="warning" title="El Carving Man: No Luches">
+No intentes luchar contra el Carving Man durante las secuencias de persecución. Es completamente invulnerable. Concéntrate únicamente en la evasión y los objetivos. Usar armas secundarias como el Disco de Retorno puede ayudar a escapar de situaciones difíciles teletransportándote más allá de él.
+</Callout>
+
+El entorno durante la persecución está plagado de peligros. Los enemigos **Mandrágora**, que parecen bulbos de hierba, aparecen y gritan, infligiendo daño de área. Enterrarte bajo ellos te permite recogerlos y lanzarlos. Los **Setos** requieren múltiples golpes para ser destruidos y no puedes enterrarte bajo ellos, lo que te obliga a buscar caminos alternativos o perder tiempo despejándolos.
+
+### Lista de Rescate de Niños
+
+<Checklist
+  id="kid-rescue"
+  title="Ubicación de los Niños Perdidos:"
+  items={[
+    "**Niño #1**: Al norte de la zona de persecución inicial, en una pantalla con plataformas móviles. Habla con él de inmediato.",
+    "**Niño #2**: En el Granero Podrido (Rotten Barn), ve a la derecha desde la entrada, rompe la tierra y sube por un túnel de troncos. Se encuentra tras recoger huesos y un cofre.",
+    "**Niño #3**: En los Bosques Enredados (Tangled Woods), navega hasta la esquina suroeste usando túneles de troncos, luego ve a la izquierda en una pantalla afectada por el viento. Habla con el Pavo para salvarlo."
+  ]}
+/>
+
+Navegar por estos segmentos de persecución requiere reflejos rápidos y el uso estratégico de las habilidades de Mina. Por ejemplo, después de salvar al Niño #1, el Carving Man irrumpirá desde el área central. En lugar de huir de inmediato, considera recoger los **800 Bonestone** del cofre que estaba custodiando, incluso si eso significa recibir algo de daño por pinchos.
+
+</Section>
+
+<Section icon={Shield} title="Ciudad Cuervo y Desafíos Ambientales">
+Tras las intensas secuencias de persecución, encontrarás un respiro temporal en Ciudad Cuervo (Crow Town). Esta área introduce nuevas mecánicas ambientales, particularmente las **Pantallas de Rayos**. En estas pantallas caen rayos periódicamente. Aunque estar al descubierto inflige un daño moderado, situarse cerca de **espadas de metal** redirigirá los rayos hacia ellas, dañando potencialmente a los enemigos.
+
+<Callout type="info" title="Mecánicas de Rayos">
+Los rayos que caen sobre las espadas de metal pueden dañarte, pero lo más importante es que pueden matar instantáneamente a los enemigos. Usa esto a tu favor para despejar caminos o derrotar a enemigos más fuertes. Si tienes el amuleto Protección de Rayos (Lightning Guard), equilípalo para facilitar estas secciones.
+</Callout>
+
+Ciudad Cuervo también cuenta con varias subáreas con desafíos únicos. El área "Bosques Enredados", por ejemplo, combina efectos de viento con la persecución del Carving Man, requiriendo una navegación cuidadosa. Aquí, las mandrágoras rojas saltarán y explotarán, añadiendo otra capa de peligro.
+
+### Subáreas de Septemburg y Características Clave
+
+| Subárea | Desafío Principal | Características Notables | Objeto/NPC Importante |
+|:---|:---|:---|:---|
+| **Granjas Marchitas** | Pandas Rojos, Lanzacalabazas | Paletas de Aire, Caminos Ocultos | Cofre de 500 Bonestone |
+| **Granero Podrido** | Slimes Rojos, Persecución del Carving Man | Túneles de Troncos, Paredes Rompibles | Niño Escolar #2 |
+| **Ciudad Cuervo** | Pantallas de Rayos, Enemigos Cuervo | Espadas de Metal, Comerciante Espantapájaros | Cofre del Guardián |
+| **Bosques Enredados** | Efectos de Viento, Mandrágora Roja | Pararrayos Móviles | Niño Escolar #3, Kear |
+| **Vigilatormentas** | Movimiento de Viento, Trilladoras | Paletas de Aire, Underlabs | Disco de Retorno, Collar de Llamada |
+
+En la propia Ciudad Cuervo, puedes liberar espantapájaros; uno de ellos es un comerciante NPC amistoso que vende objetos como un Amuleto de Mandrágora y una Llave Kear. Explorar la ciudad implica eliminar a numerosos cuervos y encontrar pasajes ocultos, como una casa que conduce al **Cofre del Guardián** (Guardian Casket), un arma poderosa que se equipa automáticamente y permite paradas mejoradas y embestidas con escudo.
+
+</Section>
+
+<Section icon={Swords} title="Batalla contra el Jefe Carving Man y Minijuego de la Torre">
+La culminación de tu viaje por Septemburg es la batalla contra el jefe **Carving Man**. Esta pelea tiene lugar en una arena dinámica con bloques de hormigón que el jefe puede destruir o derribar. Los rayos también juegan un papel, golpeando ocasionalmente al jefe si estás cerca.
+
+### Patrones de Ataque del Carving Man
+
+| Nombre del Ataque | Descripción | Estrategia de Evasión/Contraataque |
+|:---|:---|:---|
+| **Puñetazo Frontal** | Embestida con una "boca-mano" de calabaza, 3-4 golpes. | Vigila la dirección de la boca, esquiva o entiérrate. |
+| **Carga** | Carga directa a través de la pantalla. | Esquiva; puede destruir bloques de hormigón. |
+| **Agarre y Lanzamiento** | Agarra a Mina y la lanza, rompiendo hormigón. | Buena oportunidad para curarse tras el lanzamiento. |
+| **Manos Desprendibles** | Las manos se sueltan y persiguen a Mina. | Golpéalas con el látigo para destruirlas (el látigo en salto es efectivo). |
+| **Anillos/Pulsos Eléctricos** | Anillos de chispas en círculo completo o pulsantes. | Sitúate en los huecos de los anillos pulsantes, muévete con la línea giratoria. |
+| **Línea de Rayos Giratoria** | Una línea de rayos que gira por toda la arena. | Muévete siguiendo la rotación para evitar daños. |
+
+<Callout type="tip" title="Estrategia contra el Jefe y Armas Secundarias">
+El arma secundaria **Collar de Llamada** es excelente para infligir daño constante, mientras que el **Disco de Retorno** ofrece opciones de escape cruciales. Concéntrate en asestar unos 3 golpes después de que el Carving Man salte o al final de sus combos de puñetazos. Enterrarse es vital para evitar trampas en las esquinas y los ataques de rayos giratorios.
+</Callout>
+
+Tras derrotar al Carving Man, recibirás una **Rosa de Salud** para aumentar tus PV y pasarás a otro **Minijuego de la Torre**. Este minijuego ofrece intentos infinitos y presenta enemigos Mandrágora, paletas de aire, lanzacalabazas y electricidad. Thorne aparecerá en la parte superior, realizando pasadas con su lanza, que puedes ignorar enterrándote. Tu objetivo aquí es recoger huesos enterrados y llegar a la cima para reparar la torre, ganando una recompensa sustancial de huesos.
+
+</Section>
+
+<Section icon={Target} title="Amuletos y Armas Secundarias Esenciales de Septemburg">
+A lo largo de Septemburg, Mina puede adquirir varios amuletos y armas secundarias que impactan significativamente en la jugabilidad. Estos objetos pueden cambiar el rumbo de encuentros difíciles y proporcionar utilidades únicas para la exploración.
+
+### Amuletos y Armas Secundarias Clave
+
+| Nombre del Objeto | Tipo | Adquisición | Efecto | Uso Estratégico |
+|:---|:---|:---|:---|:---|
+| **Disco de Retorno** | Arma Secundaria | Encontrado en Septemburg | Lánzalo y teletranspórtate a su ubicación, dañando a los enemigos. | Evasión, reposicionamiento rápido, ataques sorpresa. |
+| **Collar de Llamada** | Arma Secundaria | Encontrado en Septemburg | Invoca una mascota que ataca; puede hacerse explotar. | Daño constante, ráfaga de área de efecto (a cambio de carga). |
+| **Cofre del Guardián** | Arma | Cofre en una casa de Ciudad Cuervo | Se equipa solo, permite bloquear y paradas mejoradas. | Juego defensivo, combate centrado en paradas contra enemigos agresivos. |
+| **Protección de Rayos** | Amuleto | (Adquirido previamente) | Reduce el daño de los rayos. | Esencial para las Pantallas de Rayos de Ciudad Cuervo. |
+| **Kear** | Divisa | En áreas ocultas, cofres | Se usa en las Cajas Kear para obtener Bonestone. | Colecciónalos para impulsos financieros, especialmente 1,000 Bonestone de una Caja Kear. |
+
+<Callout type="success" title="Obtención de Amuleto de los Niños">
+Rescatar a los tres niños perdidos en Septemburg te otorgará un Amuleto único. Es un objetivo muy recomendado para completar en tu primera partida y así evitar tener que comprarlo más tarde a un precio mayor.
+</Callout>
+
+La elección del arma secundaria puede influir enormemente en tu enfoque del combate. Para la batalla contra el Carving Man, el Collar de Llamada ofrece una fuente de daño constante, mientras que el Disco de Retorno proporciona una movilidad y evasión inigualables, facilitando esquivar sus poderosos ataques y reposicionarte para los tuyos. Experimenta con diferentes combinaciones para encontrar la que mejor se adapte a tu estilo de juego.
+
+</Section>
+
+<FAQ items={[
+  {
+    question: "¿Qué es Septemburg en Mina the Hollower?",
+    answer: "Septemburg es una importante región tipo mazmorra en Mina the Hollower, caracterizada por una temática agrícola otoñal, híbridos agresivos de plantas y fauna, y peligros ambientales como vientos fuertes y rayos. Incluye una secuencia de persecución implacable con el Carving Man y oportunidades para rescatar a niños perdidos."
+  },
+  {
+    question: "¿Cómo derroto al Carving Man en Septemburg?",
+    answer: "El Carving Man es invulnerable durante las secuencias de persecución. Solo puedes derrotarlo en la batalla final contra el jefe. Durante el combate, concéntrate en esquivar sus diversos ataques (puñetazos, cargas, lanzamientos de manos, ataques eléctricos) y asestar golpes después de que salte o termine un combo. Las armas secundarias como el Collar de Llamada o el Disco de Retorno son muy efectivas."
+  },
+  {
+    question: "¿Dónde puedo encontrar a los tres niños perdidos en Septemburg?",
+    answer: "Los tres niños perdidos se encuentran en subáreas específicas: el Niño #1 está al norte de la persecución inicial, en una pantalla con plataformas móviles. El Niño #2 está en el Granero Podrido, al que se accede yendo a la derecha y subiendo por un túnel de troncos. El Niño #3 está en los Bosques Enredados, en la esquina suroeste tras usar túneles de troncos y dirigirse a la izquierda en una pantalla con viento."
+  },
+  {
+    question: "¿Cuáles son los principales desafíos ambientales en el Septemburg de Mina the Hollower?",
+    answer: "Septemburg presenta varios desafíos ambientales, incluyendo áreas con fuertes movimientos de viento que afectan a tus saltos y paletas de aire, y Pantallas de Rayos en Ciudad Cuervo donde caen rayos periódicamente. Aprender a utilizar o evitar estas mecánicas es crucial para progresar."
+  }
+]} />

@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mina the Hollower Septemburg: Guia Completo e Chefes",
+  description: "Navegue por Septemburg em Mina the Hollower com este guia completo, detalhando subáreas, encontros com inimigos e a luta contra o chefe Carving Man.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Septemburg+Walkthrough",
+  date: "2026-06-01",
+  author: "Equipe Wiki de Mina the Hollower"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Septemburg** é uma área importante de **Mina the Hollower**, semelhante a uma masmorra.
+- Resgate **três crianças perdidas** para obter um valioso Amuleto.
+- O chefe **Carving Man** é invulnerável até a perseguição final.
+- Utilize subarmas como o **Disco de Chamada** e o **Colar de Invocação** para combate e evasão.
+- Domine perigos ambientais como **movimento do vento** e **raios**.
+</Callout>
+
+<Section icon={Map} title="Visão Geral de Septemburg e Exploração Inicial">
+Septemburg é uma região crucial em Mina the Hollower, funcionando como uma masmorra extensa repleta de desafios, inimigos e segredos únicos. Esta região agrícola está presa em um outono perpétuo, com colheitas se misturando à vida selvagem para criar monstruosidades agressivas. Espere ventos uivantes e raios discordantes enquanto guia Mina por esta área com tema de colheita.
+
+**Destaques do Vídeo:**
+- Prévia do tema musical Septemburg A.
+- Define o tom atmosférico para a região.
+- Oferece um vislumbre do design de som do jogo.
+
+<YouTubeEmbed videoId="I4uFjitCGiU" title="Mina The Hollower - Prévia da OST: Septemburg A" />
+
+Ao entrar em Septemburg, você encontrará um Underlab para salvar seu progresso. De lá, siga para a esquerda para encontrar um Corvo avisando sobre os "Corvidden" e a Cidade dos Corvos. Prosseguindo, você enfrentará inimigos "Panda Vermelho" que pulam e são difíceis de acertar. Esses inimigos têm saúde relativamente baixa, tornando-os gerenciáveis com ataques rápidos. Utilize "Pás de Ar" para atravessar lacunas e alcançar áreas escondidas, muitas vezes contendo Ossos. Um novo inimigo, o "Atirador de Abóboras", emerge de "Abóboras Luminosas", exigindo múltiplos chicotadas para ser derrotado e coletar todos os ossos.
+
+<Callout type="tip" title="Caminhos Escondidos e Colecionáveis">
+Esteja sempre atento a pás de ar escondidas ou tocos destrutíveis. Estes muitas vezes levam a telas secretas com valiosos baús de Ossos ou outros colecionáveis. Por exemplo, destruir um toco ao extremo sul após os Atiradores de Abóboras pode revelar um caminho escondido com pás de ar giratórias, levando a um baú contendo **500 Ossos**.
+</Callout>
+
+À medida que avança, você encontrará vários Inimigos Corvo: corvos com forcados que esfaqueiam como lanças e corvos com tochas que atiram fogo. Lembre-se que você pode se enterrar sob foices e forcados para pegá-los e jogá-los de volta nos inimigos, uma estratégia de combate altamente eficaz.
+
+### Encontros Iniciais com Inimigos e Táticas
+
+| Tipo de Inimigo | Característica Principal | Tática Eficaz | Item Notável |
+|:---|:---|:---|:---|
+| **Panda Vermelho** | Salta erraticamente, pouca vida | Ataques rápidos com chicote | Ossos |
+| **Atirador de Abóboras** | Emerge de "Abóboras Luminosas" | Múltiplos golpes de chicote (chicote, chicote, chicote pulando) | Ossos |
+| **Corvo com Forcado** | Esfaqueia com forcado | Enterre-se sob ataques, jogue forcados | Pedras |
+| **Corvo com Tocha** | Atira fogo | Use foices jogadas, ataques rápidos | Frasco |
+
+</Section>
+
+<Section icon={Swords} title="Septemburg: A Perseguição Implacável e o Resgate das Crianças">
+Uma parte significativa de Septemburg envolve uma emocionante sequência de perseguição com o **Carving Man**, uma entidade invulnerável que o perseguirá implacavelmente. Durante esta perseguição, seu objetivo principal (além da sobrevivência) é resgatar três crianças escolares perdidas, o que o recompensará com um valioso Amuleto. Perder uma criança significa que você terá que comprar o Amuleto no mercado negro mais tarde por uma quantia considerável de Osso.
+
+<Callout type="warning" title="O Carving Man: Não Lute">
+Não tente lutar contra o Carving Man durante as sequências de perseguição. Ele é completamente invulnerável. Concentre-se apenas na evasão e nos objetivos. Usar subarmas como o Disco de Chamada pode ajudar a escapar de situações apertadas, teletransportando-se para além dele.
+</Callout>
+
+O ambiente durante a perseguição está repleto de perigos. Inimigos **Mandrágora**, semelhantes a bulbos de grama, surgem e gritam, causando dano em área. Enterrar-se sob eles permite que você os pegue e os jogue. **Cercas vivas** exigem múltiplos golpes para serem destruídas, e você não pode se enterrar sob elas, forçando-o a encontrar caminhos alternativos ou a gastar tempo limpando-as.
+
+### Lista de Verificação de Resgate de Crianças
+
+<Checklist
+  id="kid-rescue"
+  title="Localização das Crianças Perdidas:"
+  items={[
+    "**Criança #1**: Ao norte da área de perseguição inicial, encontrada em uma tela com plataformas móveis. Fale com ela imediatamente.",
+    "**Criança #2**: No Celeiro Podre, vá para a direita da entrada, quebre a terra e suba por um túnel de toras. Encontrada após coletar ossos e um baú.",
+    "**Criança #3**: Em Tangled Woods, navegue até o canto sudoeste usando túneis de toras, depois vire à esquerda em uma tela afetada pelo vento. Fale com o Peru para salvá-la."
+  ]}
+/>
+
+Navegar por esses segmentos de perseguição exige reflexos rápidos e uso estratégico das habilidades de Mina. Por exemplo, depois de salvar a Criança #1, o Carving Man irromperá da área central. Em vez de fugir imediatamente, considere pegar os **800 Ossos** do baú que ele estava guardando, mesmo que isso signifique levar algum dano de espinhos.
+
+</Section>
+
+<Section icon={Shield} title="Cidade dos Corvos e Desafios Ambientais">
+Após as intensas sequências de perseguição, você encontrará um alívio temporário na Cidade dos Corvos. Esta área introduz novas mecânicas ambientais, particularmente as **Telas de Raios**. Essas telas são periodicamente atingidas por raios. Embora ser pego a céu aberto cause dano moderado, ficar perto de **espadas de metal** redirecionará o raio para elas, potencialmente ferindo inimigos.
+
+<Callout type="info" title="Mecânica dos Raios">
+Raios em espadas de metal podem causar dano a você, mas, mais importante, podem matar inimigos instantaneamente. Use isso a seu favor para abrir caminhos ou derrubar inimigos mais resistentes. Se você tiver o amuleto Guarda de Raios, equipe-o para facilitar essas seções.
+</Callout>
+
+A Cidade dos Corvos também apresenta várias subáreas com desafios únicos. A área "Bosques Emaranhados", por exemplo, combina efeitos de vento com a perseguição do Carving Man, exigindo navegação cuidadosa. Aqui, inimigos Mandrágora vermelhos saltarão e explodirão, adicionando outra camada de perigo.
+
+### Subáreas de Septemburg e Principais Características
+
+| Subárea | Desafio Principal | Características Notáveis | Item/NPC Importante |
+|:---|:---|:---|:---|
+| **Fazendas Murchas** | Pandas Vermelhos, Atiradores de Abóboras | Pás de Ar, Caminhos Escondidos | Baú de 500 Ossos |
+| **Celeiro Podre** | Gosmas Vermelhas, Perseguição do Carving Man | Túneis de Toras, Paredes Quebráveis | Criança Escolar #2 |
+| **Cidade dos Corvos** | Telas de Raios, Inimigos Corvos | Espadas de Metal, Comerciante Espantalho | Caixão Guardião |
+| **Bosques Emaranhados** | Efeitos de Vento, Mandrágora Vermelha | Para-raios Móveis | Criança Escolar #3, Kear |
+| **Caminho da Vigília da Tempestade** | Movimento do Vento, Ceifadores | Pás de Ar, Underlabs | Disco de Chamada, Colar de Invocação |
+
+Na própria Cidade dos Corvos, você pode libertar espantalhos, sendo um deles um NPC comerciante amigável que vende itens como um Amuleto de Mandrágora e uma Chave Kear. Explorar a cidade envolve limpar vários corvos e encontrar passagens escondidas, como uma casa que leva ao **Caixão Guardião**, uma arma poderosa que se equipa automaticamente e permite parries aprimorados e golpes de escudo.
+
+</Section>
+
+<Section icon={Swords} title="A Luta contra o Chefe Carving Man e o Minijogo da Torre">
+O culminar de sua jornada por Septemburg é a batalha contra o chefe **Carving Man**. Esta luta ocorre em uma arena dinâmica com blocos de concreto que o chefe pode destruir ou derrubar. Raios também desempenham um papel, ocasionalmente atingindo o chefe se você estiver por perto.
+
+### Padrões de Ataque do Carving Man
+
+| Nome do Ataque | Descrição | Estratégia de Evasão/Contra-ataque |
+|:---|:---|:---|
+| **Soco para Frente** | Investida com uma "boca de mão" semelhante a uma abóbora, 3-4 golpes. | Observe a direção da boca para aviso, desvie ou enterre-se. |
+| **Investida** | Investida direta pela tela. | Desvie, pode limpar blocos de concreto. |
+| **Agarrar e Atirar** | Agarra Mina e a joga, quebrando concreto. | Boa oportunidade para curar após o arremesso. |
+| **Mãos Destacáveis** | Mãos se destacam e perseguem Mina. | Chicoteie-as para destruí-las (chicote pulando é eficaz). |
+| **Anéis/Pulsos Elétricos** | Círculo completo ou anéis de faísca pulsantes. | Entre nas lacunas dos anéis pulsantes, mova-se com a linha giratória. |
+| **Linha de Raios Giratória** | Uma linha de raios que gira pela arena. | Mova-se com a rotação para evitar danos. |
+
+<Callout type="tip" title="Estratégia do Chefe e Subarmas">
+A subarma **Colar de Invocação** é excelente para dano consistente, enquanto o **Disco de Chamada** oferece opções cruciais de fuga. Concentre-se em desferir cerca de 3 golpes depois que o Carving Man pular ou no final de seus combos de soco. Enterrar-se é vital para evitar armadilhas de canto e os ataques de raios giratórios.
+</Callout>
+
+Depois de derrotar o Carving Man, você receberá uma **Rosa da Saúde** para um bônus de HP e prosseguirá para outro **Minijogo da Torre**. Este minijogo oferece tentativas infinitas e apresenta inimigos Mandrágora, pás de ar, atiradores de abóboras e eletricidade. Thorne aparecerá no topo, realizando voos rasantes com sua lança, que você pode se enterrar para ignorar. Seu objetivo aqui é coletar ossos enterrados e alcançar o topo para consertar a torre, ganhando uma recompensa substancial de ossos.
+
+</Section>
+
+<Section icon={Target} title="Amuletos e Subarmas Essenciais de Septemburg">
+Ao longo de Septemburg, Mina pode adquirir vários amuletos e subarmas que impactam significativamente a jogabilidade. Esses itens podem virar o jogo em encontros desafiadores e fornecer utilidades únicas para a exploração.
+
+### Amuletos e Subarmas Chave
+
+| Nome do Item | Tipo | Aquisição | Efeito | Uso Estratégico |
+|:---|:---|:---|:---|:---|
+| **Disco de Chamada** | Subarma | Encontrado em Septemburg | Jogue, depois teletransporte-se para sua localização, causando dano aos inimigos. | Evasão, reposicionamento rápido, ataques surpresa. |
+| **Colar de Invocação** | Subarma | Encontrado em Septemburg | Invoca um mascote que ataca, pode ser explodido. | Dano constante, explosão de área de efeito (com custo de carga). |
+| **Caixão Guardião** | Arma | Baú da casa da Cidade dos Corvos | Equipa automaticamente, permite bloquear, parries aprimorados. | Jogo defensivo, combate focado em parry contra inimigos agressivos. |
+| **Guarda de Raios** | Amuleto | (Adquirido anteriormente) | Reduz o dano de raios. | Essencial para as Telas de Raios da Cidade dos Corvos. |
+| **Kear** | Moeda | Encontrada em áreas escondidas, baús | Usada em Caixas Kear para Ossos. | Colete para impulsos financeiros, especialmente 1.000 Ossos de uma Caixa Kear. |
+
+<Callout type="success" title="Aquisição de Amuletos das Crianças">
+Resgatar todas as três crianças perdidas em Septemburg lhe concederá um Amuleto único. Este é um objetivo altamente recomendado para completar durante sua primeira jogada para evitar comprá-lo mais tarde por um custo mais alto.
+</Callout>
+
+A escolha da subarma pode influenciar muito sua abordagem ao combate. Para a luta contra o chefe Carving Man, o Colar de Invocação oferece uma fonte consistente de dano, enquanto o Disco de Chamada oferece mobilidade e evasão incomparáveis, tornando mais fácil evitar seus ataques poderosos e reposicionar-se para os seus próprios. Experimente diferentes combinações para encontrar o que melhor se adapta ao seu estilo de jogo.
+
+</Section>
+
+<FAQ items={[
+  {
+    question: "O que é Septemburg em Mina the Hollower?",
+    answer: "Septemburg é uma grande região semelhante a uma masmorra em Mina the Hollower, caracterizada por um tema agrícola outonal, híbridos agressivos de plantas e vida selvagem, e perigos ambientais como ventos fortes e raios. Possui uma sequência de perseguição implacável com o Carving Man e oportunidades para resgatar crianças perdidas."
+  },
+  {
+    question: "Como derroto o Carving Man em Septemburg?",
+    answer: "O Carving Man é invulnerável durante as sequências de perseguição. Você só pode derrotá-lo na luta final do chefe. Durante a luta, concentre-se em desviar de seus vários ataques (socos, investidas, arremessos de mão, ataques elétricos) e em desferir golpes depois que ele pular ou terminar um combo. Subarmas como o Colar de Invocação ou o Disco de Chamada são altamente eficazes."
+  },
+  {
+    question: "Onde posso encontrar as três crianças perdidas em Septemburg?",
+    answer: "As três crianças perdidas são encontradas em subáreas específicas: A Criança #1 está ao norte da perseguição inicial, em uma tela com plataformas móveis. A Criança #2 está no Celeiro Podre, acessível indo para a direita e subindo por um túnel de toras. A Criança #3 está nos Bosques Emaranhados, no canto sudoeste depois de usar túneis de toras e virar à esquerda em uma tela afetada pelo vento."
+  },
+  {
+    question: "Quais são os principais desafios ambientais em Septemburg de Mina the Hollower?",
+    answer: "Septemburg apresenta vários desafios ambientais, incluindo áreas com forte movimento do vento que afetam seus saltos e pás de ar, e Telas de Raios na Cidade dos Corvos, onde raios atingem periodicamente. Aprender a utilizar ou evitar essas mecânicas é crucial para a progressão."
+  }
+]} />
