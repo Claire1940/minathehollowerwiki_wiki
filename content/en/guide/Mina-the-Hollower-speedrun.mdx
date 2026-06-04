@@ -1,0 +1,127 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mina the Hollower Speedrun: Pro Tactics & Route Guide",
+  description: "Master the art of Mina the Hollower speedrunning with our expert guide on movement, boss quick-kills, and optimal routing for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/7c3aed/fff?text=Mina+the+Hollower+Speedrun",
+  date: "2026-06-04",
+  author: "Mina the Hollower Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Mina the Hollower speedrun** performance relies on nuanced movement and precise platform timing.
+- **Bone routing** is essential for maintaining health without sacrificing time, similar to classic action games.
+- **Boss quick-kills** are the primary method for shaving seconds off your personal best.
+- **Practice room cycles** and damage-boost management are key to achieving sub-4-minute runs.
+</Callout>
+
+<Section icon={Map} title="Understanding Speedrun Fundamentals">
+
+Speedrunning *Mina the Hollower* requires more than just button mashing. The game’s movement is highly nuanced, where optimal pathing allows you to barely catch moving platforms, saving vital seconds. Unlike traditional platformers, this title rewards players who understand enemy RNG and cycle manipulation.
+
+**Video Highlights:**
+- Mastering the boardwalk movement patterns.
+- Executing the Kraken quick-kill strategy.
+- Efficient navigation of the fire room.
+
+<YouTubeEmbed videoId="v5555555555" title="Mina the Hollower Demo 3:59 IGT Run" />
+
+For those starting out, the primary time-save opportunities lie in the fire room and boss encounters like Thorne. While the demo is short, it provides a perfect environment to practice these specific segments before the full game launch.
+
+</Section>
+
+<Section icon={Swords} title="Combat and Boss Strategy">
+
+Combat in *Mina the Hollower* is not just about survival; it's about efficiency. Using the Maul or Hammer effectively can lead to boss quick-kills that bypass lengthy attack phases.
+
+| Boss/Enemy | Strategy | Time-Save Potential |
+| :--- | :--- | :--- |
+| Thorne | Facetank tornado for i-frames | High |
+| Kraken | Kill before first attack | Extreme |
+| Boardwalk Mobs | Avoid or jump-through | Moderate |
+| Fire Room | Perfect cycle timing | Very High |
+
+<Callout type="warning" title="Pro Tip">
+Don't be afraid to take calculated damage. Facetanking attacks for i-frames can allow you to land a final charged swing on a boss, saving you an entire attack cycle.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mastering Movement and Routing">
+
+<Steps>
+  <Step num="1" title="Segment Practice">
+    Isolate the boardwalk and fire rooms. These are your biggest time-loss areas.
+  </Step>
+  <Step num="2" title="Cycle Manipulation">
+    Learn the platform cycles. If you don't hit the first cycle, the entire run's timing shifts.
+  </Step>
+  <Step num="3" title="Weapon Selection">
+    Experiment with the Maul and Hammer. Some weapons offer better reach for specific boss quick-kills.
+  </Step>
+  <Step num="4" title="Damage Boosting">
+    Identify screens where you can take damage to push through without waiting for enemy animations.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Run Categorization and Challenges">
+
+Speedrunning categories for *Mina the Hollower* are evolving. While "Any%" is the current standard, the community is already discussing more complex categories.
+
+| Category | Difficulty | Focus |
+| :--- | :--- | :--- |
+| Any% | Medium | Fast completion |
+| No Damage | High | Precision and safety |
+| Level 1 Stats | Very High | Damage output management |
+| No Plasma Flask | High | HP resource conservation |
+
+<Callout type="success" title="Community Insight">
+Following the patterns of games like *Shovel Knight*, we expect future categories to include specific feat-based runs. Keeping your stats at level 1 will likely become the gold standard for high-tier speedrunning.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Essential Speedrun Goals">
+
+<Checklist
+  id="speedrun-goals"
+  title="Speedrun Training Checklist:"
+  items={[
+    "Achieve a sub-4:00 IGT run",
+    "Master the Kraken quick-kill",
+    "Consistently clear the fire room in one cycle",
+    "Document your PB with video evidence",
+    "Join the official speedrun.com community"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is the Mina the Hollower speedrun scene active?",
+    answer: "Yes, the community is growing rapidly, with dedicated moderators on speedrun.com tracking times and strategies for the demo."
+  },
+  {
+    question: "What is the best weapon for speedrunning?",
+    answer: "Currently, the Maul is favored for its high damage output, which is crucial for quick-killing bosses like the Kraken."
+  },
+  {
+    question: "How do I practice specific rooms?",
+    answer: "Since the demo has autosaves, practice requires resetting the run. Focus on the first 5 minutes to build muscle memory for the early game."
+  }
+]} />
+
+</Section>

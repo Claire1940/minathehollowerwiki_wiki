@@ -1,0 +1,119 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mina the Hollower seal the duke: Reward and Consequence Guide",
+  description: "Learn whether to seal the Duke in the tomb in Mina the Hollower, the impact on your gameplay, and how to obtain the Proto Spark trinket.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Mina+the+Hollower+Duke+Choice",
+  date: "2026-06-04",
+  author: "Mina the Hollower Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Mina the Hollower seal the duke** is a pivotal moral choice that grants a powerful gameplay item.
+- Sealing the Duke rewards you with the **Proto Spark trinket**, which provides a free death-saving mechanic.
+- You must actively choose to seal him; simply walking away will result in missing out on the reward.
+- This choice results in minor narrative consequences during your return to the **Radiant Manor**.
+</Callout>
+
+<Section icon={Map} title="Locating the Duke and the Tomb">
+
+Navigating the area leading to the Duke requires careful management of your resources. You will encounter a barrier that necessitates two plasma vials to proceed. Once cleared, you must escort the Duke through a hazardous gauntlet of enemies and spike rollers.
+
+| Challenge | Description |
+| :--- | :--- |
+| Barrier | Requires 2 Plasma Vials to remove |
+| Escort | Duke does not fight; he panics if damaged |
+| Reset | If lost, return to his last position to regroup |
+| Goal | Reach the Underlab for an essential respawn point |
+
+<Callout type="tip" title="Pro Tip">
+If the Duke takes damage and stops following you, do not panic. Simply walk back into him to re-trigger his follow state. Protecting him is not strictly required for combat, but it is necessary to reach the tomb location efficiently.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="To Seal or Not to Seal">
+
+The decision to seal the Duke is primarily driven by the mechanical advantage it provides. While the game presents this as a moral dilemma, the tangible reward is significant for players looking to optimize their survival during boss encounters.
+
+| Choice | Immediate Result | Strategic Benefit |
+| :--- | :--- | :--- |
+| **Seal the Duke** | Obtain Proto Spark | Free second chance upon death |
+| **Do Not Seal** | No interaction | None (Miss out on item) |
+
+<Callout type="success" title="The Proto Spark Benefit">
+The **Proto Spark trinket** is one of the most valuable items in the early-to-mid game. It functions as an automatic revive, restoring you when your health reaches zero without the cost of a standard spark.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Consequences and Narrative Impact">
+
+While the choice to seal the Duke provides a mechanical edge, it does not go unnoticed by the inhabitants of the world. After you have successfully restored all six spark generators and returned to the Radiant Manor, your past actions will be scrutinized.
+
+<Steps>
+  <Step num="1" title="Complete Objectives">
+    Restore all six spark generators throughout the game world.
+  </Step>
+  <Step num="2" title="Return Home">
+    Travel back to the Radiant Manor to progress the story.
+  </Step>
+  <Step num="3" title="Face Judgment">
+    Lionel and his followers will acknowledge your journey, including the decision to bury the Duke.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Narrative Warning">
+The NPCs, specifically Furgus, will explicitly shame you for your decision to bury the Duke alive. This is purely a narrative consequence and does not alter game difficulty or prevent you from finishing the main quest.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Strategic Summary">
+
+When considering the impact of your actions, weigh the importance of the Proto Spark against your personal playstyle. For completionists, this is a mandatory step to ensure your collection of trinkets is maximized.
+
+| Player Type | Recommendation |
+| :--- | :--- |
+| **Completionist** | Always seal the Duke to obtain the trinket |
+| **Survivalist** | Seal the Duke for the death-saving utility |
+| **Story-Focused** | Consider the narrative weight before acting |
+
+<Checklist
+  id="duke-choice-checklist"
+  title="Decision Checklist:"
+  items={[
+    "Clear the barrier with 2 plasma vials",
+    "Successfully escort the Duke to the crypt",
+    "Choose to seal the tomb to receive the Proto Spark",
+    "Prepare for minor dialogue changes at Radiant Manor"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is there any way to save the Duke and get the item?",
+    answer: "No. The game design requires you to seal the Duke in the crypt to trigger the acquisition of the Proto Spark trinket."
+  },
+  {
+    question: "Does sealing the Duke affect the game ending?",
+    answer: "No, this choice is a self-contained narrative event and does not lock you out of any specific game endings."
+  },
+  {
+    question: "What happens if I forget to seal him?",
+    answer: "If you leave the area without sealing the Duke, you will permanently lose the opportunity to obtain the Proto Spark trinket for that playthrough."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,146 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mina the Hollower Missables: A Complete Early-Game Guide",
+  description: "Don't miss out on vital resources and power-ups. Discover all early-game missables in Mina the Hollower with our expert walkthrough.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Mina+the+Hollower+Missables",
+  date: "2026-06-04",
+  author: "Mina the Hollower Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Mina the Hollower missables** can be easily avoided by checking tutorial areas for hidden chests.
+- Prioritize the **Spark upgrade** early to gain a secondary life and unlock the bike for faster travel.
+- Always grab the **Axe subweapon** from the candle near the Radiant Manor entrance before heading to dungeons.
+- Use **Kears** strategically to unlock secret paths that lead to powerful trinkets and bone stashes.
+- Farming red demons near the crypt entrance is the most efficient way to level up early.
+</Callout>
+
+<Section icon={Map} title="Early-Game Missables and Chests">
+
+Exploring the world of Ossex requires a keen eye. Many players rush toward the first dungeon, missing out on crucial **Bonestones** and upgrades that simplify the early game.
+
+**Video Highlights:**
+- Optimal early-game pathing to maximize your starting currency.
+- Hidden locations for secret chests in the tutorial and Ossex.
+- Why the Spark upgrade is your most vital priority.
+
+<YouTubeEmbed videoId="AXVPaZ7Q2wo" title="Mina the Hollower - 8 Things to Do First" />
+
+When navigating the tutorial and the starting town, keep these hidden locations in mind. Many chests are tucked behind gates or require simple burrowing mechanics to access.
+
+| Location | Item/Reward | Requirement |
+| :--- | :--- | :--- |
+| Tutorial Room | Bonestone Chest | Burrow under the top gate |
+| Ossex Couple's Quarters | Bonestone Chest | Burrow jump over the gap |
+| Strategy Center | Bonestone Chest | Use Axe to break, then burrow |
+| Underlab Checkpoint | Bonestone Chest | Break door on the left |
+
+<Callout type="tip" title="Pro Tip">
+If you find yourself low on currency, the area east of Ossex near the crypt entrance is your best farming spot. Enemies respawn every time you return to the previous screen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Essential Trinkets and Upgrades">
+
+Trinkets provide passive buffs that change how you handle combat and exploration. Missing these before your first dungeon run will make your journey significantly harder.
+
+<CardGrid cols={3}>
+  <Card title="Steady Soles">
+    - **No speed penalty** on water or ice
+    - Resists knockback
+    - Essential for Bayou dungeon
+  </Card>
+  <Card title="Chain Capacitor">
+    - **Damage boost** for consecutive hits
+    - Rewards aggressive play
+    - Great for boss encounters
+  </Card>
+  <Card title="Bell of Grace">
+    - **Spark retention** on death
+    - Reduces bone loss
+    - Ideal for risky exploration
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Important">
+The Proto Spark is a must-have item in the Queensbury Crypt. You must escort the Duke to the room past the boss to claim this "extra life" trinket.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Weapon Selection and Upgrades">
+
+Choosing your primary weapon sets the tone for your adventure. While you receive three options on the ship, you can eventually collect all five.
+
+| Weapon | Type | Best For |
+| :--- | :--- | :--- |
+| Whisper & Vesper | Daggers | Speed and close-range combat |
+| Night Star | Flail | Mid-range and flying enemies |
+| Blast Strike Maul | Hammer | High damage and AOE attacks |
+| Guardian Casket | Shield | Parrying and defense |
+| Battery Buster | Gun | Versatile range and resource management |
+
+<Steps>
+  <Step num="1" title="Select Starter">
+    Choose the weapon that fits your playstyle on the ship; you can buy others later.
+  </Step>
+  <Step num="2" title="Visit Legavich">
+    Head to the orange building in Ossex to purchase your second weapon for 2,000 bones.
+  </Step>
+  <Step num="3" title="Defeat Armand">
+    To unlock further weapon purchases, you must defeat the blacksmith's brother in the basement.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Progression Checklist">
+
+Use this checklist to ensure you haven't missed any vital progression steps before tackling major dungeons.
+
+<Checklist
+  id="essential-tasks"
+  title="Early Progression Milestones:"
+  items={[
+    "Unlock the Hollower's Guild by breaking crates",
+    "Purchase the map from Drillhardt for 500 bones",
+    "Find at least one Poppit shop location",
+    "Upgrade to two Sparks to unlock the bike",
+    "Obtain the Proto Spark from the Queensbury Crypt"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What should I prioritize buying first in Mina the Hollower?",
+    answer: "Prioritize the Spark upgrade. Having two sparks allows you to open secret doors and gives you a second chance to recover your dropped bones upon death."
+  },
+  {
+    question: "Are there any missable items in the game?",
+    answer: "While most items can be obtained later, some early-game chests and specific NPC sidequests are much easier to complete before you reach the first dungeon."
+  },
+  {
+    question: "Where can I find the best early-game trinkets?",
+    answer: "Early trinkets like Steady Soles and the Bell of Grace are found in hidden areas of Ossex and the Western Wilds. Always check behind walls and under platforms."
+  },
+  {
+    question: "How do I get more Kears?",
+    answer: "You can buy Kears from the shop in Ossex, or find them in hidden locations like the telescope north of the checkpoint."
+  }
+]} />
+
+</Section>

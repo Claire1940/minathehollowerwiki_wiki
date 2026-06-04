@@ -1,0 +1,132 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mina the Hollower Nether Kraken: Boss Guide & Strategies",
+  description: "Master the Nether Kraken boss fight in Mina the Hollower with our step-by-step strategy guide, covering attack patterns and reward acquisition.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Nether+Kraken+Guide",
+  date: "2026-06-04",
+  author: "Mina the Hollower Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Mina the Hollower Nether Kraken** is an optional early-game boss encounter found after the opening cutscene.
+- **Weapon choice** like the Nightstar is recommended for its superior range and attack speed.
+- **Pre-battle damage** can be dealt to the tentacles and claws, reducing the boss HP by nearly a third before the fight starts.
+- **Uranium Bracelet** is the exclusive reward for defeating this optional sea monster.
+</Callout>
+
+<Section icon={Swords} title="Preparing for the Encounter">
+
+The Nether Kraken serves as a formidable test of your reflexes shortly after you acquire your first weapon on the ship. Because this encounter is entirely optional, you can bypass it if you are struggling, but the reward is well worth the effort for those seeking an early power boost.
+
+| Preparation Step | Recommended Action |
+| :--- | :--- |
+| **Weapon Selection** | Use the **Nightstar** for its reliable reach and speed. |
+| **Positioning** | Stay on the left side of the deck to maximize reaction time. |
+| **Pre-fight Damage** | Hit the tentacles and the left claw before the boss initiates its first move. |
+
+<Callout type="tip" title="Strategic Positioning">
+Taking the correct position south of the hatch allows you to strike incoming tentacles safely. Avoiding the right side early on prevents you from getting caught in the initial ambush.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Phase Patterns and Attack Cues">
+
+Understanding the Kraken’s telegraphs is the key to victory. The boss consistently signals its attacks before they execute, allowing you to reposition effectively.
+
+<CardGrid cols={3}>
+  <Card title="Claw Strikes">
+    - Claws tilt upward and shake before striking.
+    - Order varies throughout the fight.
+    - Always watch the movement of the claws.
+  </Card>
+  <Card title="Tentacle Sweeps">
+    - Tentacles shake briefly before sweeping.
+    - They move directly toward your current position.
+    - Some sweeps occur immediately upon landing.
+  </Card>
+  <Card title="Special Roar">
+    - Kraken heaves both claws and roars.
+    - Indicates a high-speed sequence of attacks.
+    - Prioritize burrowing and jumping over attacking.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Watch for the Roar">
+When the Kraken roars, stop attacking immediately. This sequence is fast and unforgiving; your only goal during this phase is to maintain mobility through burrowing and jumping.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Combat Strategy">
+
+Follow these steps to optimize your damage output while minimizing the risk of taking unnecessary hits.
+
+<Steps>
+  <Step num="1" title="Initiate Pre-fight Damage">
+    After the first cutscene, ignore the tentacle grabbing the passenger. Focus on hitting the tentacles that appear on the deck immediately.
+  </Step>
+  <Step num="2" title="Target the Left Claw">
+    When the camera shifts, the Kraken will wait before its first attack. Strike the left claw twice to shave off HP before the battle officially begins.
+  </Step>
+  <Step num="3" title="Maintain Defensive Spacing">
+    Stick to the left side of the arena. Move vertically (up or down) to dodge incoming sweeps rather than trying to outrun them horizontally.
+  </Step>
+  <Step num="4" title="Limit Attack Windows">
+    Do not overstay your welcome. Hit the tentacles only twice before moving away to reset your position.
+  </Step>
+</Steps>
+
+| Attack Phase | Recommended Strategy |
+| :--- | :--- |
+| **Tentacle Sweep** | Move up or down to create distance. |
+| **Standard Claw Attack** | Strike twice then retreat. |
+| **Roar Sequence** | Focus on defense, jump, and burrow. |
+
+</Section>
+
+<Section icon={Trophy} title="Rewards and Progression">
+
+Defeating the Nether Kraken grants you the **Uranium Bracelet**. This trinket is a high-risk, high-reward item that significantly impacts your combat capabilities throughout the early to mid-game.
+
+| Item Name | Effect | Consideration |
+| :--- | :--- | :--- |
+| **Uranium Bracelet** | Increases your damage output | You also take increased damage while equipped. |
+
+<Callout type="success" title="Collect Your Spoils">
+Ensure you check the small chest on the deck after the battle ends. The Uranium Bracelet is missable if you leave the area without looting the chest.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is the Nether Kraken mandatory to progress in Mina the Hollower?",
+    answer: "No, the Nether Kraken is an optional boss encounter. You can skip it and proceed with the story if you find the difficulty too high."
+  },
+  {
+    question: "What is the best way to avoid the tentacle sweeps?",
+    answer: "The tentacles always move toward your current position. Moving vertically (up or down) just before they sweep is the most effective way to dodge them."
+  },
+  {
+    question: "Can I hit the Nether Kraken in the face?",
+    answer: "No, you cannot hit the Kraken's head. You must focus your attacks exclusively on its tentacles and claws to deplete its HP."
+  },
+  {
+    question: "Is the Uranium Bracelet worth the increased damage taken?",
+    answer: "It depends on your playstyle. If you are confident in your ability to dodge attacks, the increased damage output makes it a powerful tool for faster boss kills."
+  }
+]} />
+
+</Section>
