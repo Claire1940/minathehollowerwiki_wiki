@@ -11,7 +11,7 @@ import { Geist, Geist_Mono } from 'next/font/google'
 import Script from 'next/script'
 import ClientBody from '../ClientBody'
 import Analytics from '@/components/Analytics'
-import { SocialBarAd, PopunderAd, SmartlinkAd } from '@/components/ads'
+import { SocialBarAd } from '@/components/ads'
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -129,9 +129,7 @@ export default async function LocaleLayout({ children, params }: Props) {
             {children}
           </ClientBody>
         </NextIntlClientProvider>
-        <SmartlinkAd adUrl={process.env.NEXT_PUBLIC_AD_SMARTLINK || ''} />
         <SocialBarAd adKey={process.env.NEXT_PUBLIC_AD_SOCIAL_BAR || ''} />
-        <PopunderAd adUrl={process.env.NEXT_PUBLIC_AD_POPUNDER || ''} />
       </body>
     </html>
   )
