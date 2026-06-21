@@ -1,0 +1,1398 @@
+{
+  "en": {
+    "bosses": [
+      {
+        "slug": "Mina-the-Hollower-all-bosses",
+        "file": "Mina-the-Hollower-all-bosses"
+      },
+      {
+        "slug": "Mina-the-Hollower-boss-fight",
+        "file": "Mina-the-Hollower-boss-fight"
+      },
+      {
+        "slug": "Mina-the-Hollower-bosses",
+        "file": "Mina-the-Hollower-bosses"
+      },
+      {
+        "slug": "Mina-the-Hollower-nether-kraken",
+        "file": "Mina-the-Hollower-nether-kraken"
+      },
+      {
+        "slug": "Mina-the-Hollower-seal-the-duke",
+        "file": "Mina-the-Hollower-seal-the-duke"
+      },
+      {
+        "slug": "mina-the-hollower-kraken",
+        "file": "mina-the-hollower-kraken"
+      },
+      {
+        "slug": "mina-the-hollower-radiant-manor",
+        "file": "mina-the-hollower-radiant-manor"
+      }
+    ],
+    "combat": [
+      {
+        "slug": "Mina-the-Hollower-best-weapon",
+        "file": "Mina-the-Hollower-best-weapon"
+      },
+      {
+        "slug": "Mina-the-Hollower-hammer",
+        "file": "Mina-the-Hollower-hammer"
+      },
+      {
+        "slug": "Mina-the-Hollower-healing",
+        "file": "Mina-the-Hollower-healing"
+      },
+      {
+        "slug": "Mina-the-Hollower-sidearms",
+        "file": "Mina-the-Hollower-sidearms"
+      },
+      {
+        "slug": "Mina-the-Hollower-trinkets",
+        "file": "Mina-the-Hollower-trinkets"
+      },
+      {
+        "slug": "Mina-the-Hollower-weapons",
+        "file": "Mina-the-Hollower-weapons"
+      },
+      {
+        "slug": "mina-the-hollower-bat",
+        "file": "mina-the-hollower-bat"
+      },
+      {
+        "slug": "mina-the-hollower-bonestone",
+        "file": "mina-the-hollower-bonestone"
+      },
+      {
+        "slug": "mina-the-hollower-drill-driver",
+        "file": "mina-the-hollower-drill-driver"
+      },
+      {
+        "slug": "mina-the-hollower-shield",
+        "file": "mina-the-hollower-shield"
+      }
+    ],
+    "demo": [
+      {
+        "slug": "Mina-the-Hollower-Steam-demo",
+        "file": "Mina-the-Hollower-Steam-demo"
+      },
+      {
+        "slug": "Mina-the-Hollower-Switch-demo",
+        "file": "Mina-the-Hollower-Switch-demo"
+      },
+      {
+        "slug": "Mina-the-Hollower-demo-download",
+        "file": "Mina-the-Hollower-demo-download"
+      },
+      {
+        "slug": "Mina-the-Hollower-demo-how-long",
+        "file": "Mina-the-Hollower-demo-how-long"
+      },
+      {
+        "slug": "Mina-the-Hollower-demo-walkthrough",
+        "file": "Mina-the-Hollower-demo-walkthrough"
+      },
+      {
+        "slug": "Mina-the-Hollower-demo",
+        "file": "Mina-the-Hollower-demo"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Mina-the-Hollower-beginner-guide",
+        "file": "Mina-the-Hollower-beginner-guide"
+      },
+      {
+        "slug": "Mina-the-Hollower-endings",
+        "file": "Mina-the-Hollower-endings"
+      },
+      {
+        "slug": "Mina-the-Hollower-how-long-to-beat",
+        "file": "Mina-the-Hollower-how-long-to-beat"
+      },
+      {
+        "slug": "Mina-the-Hollower-how-to-dodge",
+        "file": "Mina-the-Hollower-how-to-dodge"
+      },
+      {
+        "slug": "Mina-the-Hollower-how-to-save",
+        "file": "Mina-the-Hollower-how-to-save"
+      },
+      {
+        "slug": "Mina-the-Hollower-missables",
+        "file": "Mina-the-Hollower-missables"
+      },
+      {
+        "slug": "Mina-the-Hollower-poppit",
+        "file": "Mina-the-Hollower-poppit"
+      },
+      {
+        "slug": "Mina-the-Hollower-sandfalls",
+        "file": "Mina-the-Hollower-sandfalls"
+      },
+      {
+        "slug": "Mina-the-Hollower-shipwreck",
+        "file": "Mina-the-Hollower-shipwreck"
+      },
+      {
+        "slug": "Mina-the-Hollower-snowball",
+        "file": "Mina-the-Hollower-snowball"
+      },
+      {
+        "slug": "Mina-the-Hollower-speedrun",
+        "file": "Mina-the-Hollower-speedrun"
+      },
+      {
+        "slug": "Mina-the-Hollower-tips",
+        "file": "Mina-the-Hollower-tips"
+      },
+      {
+        "slug": "Mina-the-Hollower-walkthrough",
+        "file": "Mina-the-Hollower-walkthrough"
+      },
+      {
+        "slug": "mina-the-hollower-art",
+        "file": "mina-the-hollower-art"
+      },
+      {
+        "slug": "mina-the-hollower-blighted-docks",
+        "file": "mina-the-hollower-blighted-docks"
+      },
+      {
+        "slug": "mina-the-hollower-characters",
+        "file": "mina-the-hollower-characters"
+      },
+      {
+        "slug": "mina-the-hollower-city-center",
+        "file": "mina-the-hollower-city-center"
+      },
+      {
+        "slug": "mina-the-hollower-composer",
+        "file": "mina-the-hollower-composer"
+      },
+      {
+        "slug": "mina-the-hollower-crypt-road",
+        "file": "mina-the-hollower-crypt-road"
+      },
+      {
+        "slug": "mina-the-hollower-deprived-path",
+        "file": "mina-the-hollower-deprived-path"
+      },
+      {
+        "slug": "mina-the-hollower-difficulty",
+        "file": "mina-the-hollower-difficulty"
+      },
+      {
+        "slug": "mina-the-hollower-dlc",
+        "file": "mina-the-hollower-dlc"
+      },
+      {
+        "slug": "mina-the-hollower-duke",
+        "file": "mina-the-hollower-duke"
+      },
+      {
+        "slug": "mina-the-hollower-dungeon-order",
+        "file": "mina-the-hollower-dungeon-order"
+      },
+      {
+        "slug": "mina-the-hollower-enemies",
+        "file": "mina-the-hollower-enemies"
+      },
+      {
+        "slug": "mina-the-hollower-first-boss",
+        "file": "mina-the-hollower-first-boss"
+      },
+      {
+        "slug": "mina-the-hollower-hulk-trooper",
+        "file": "mina-the-hollower-hulk-trooper"
+      },
+      {
+        "slug": "mina-the-hollower-items",
+        "file": "mina-the-hollower-items"
+      },
+      {
+        "slug": "mina-the-hollower-kear",
+        "file": "mina-the-hollower-kear"
+      },
+      {
+        "slug": "mina-the-hollower-kindlewood",
+        "file": "mina-the-hollower-kindlewood"
+      },
+      {
+        "slug": "mina-the-hollower-lionel",
+        "file": "mina-the-hollower-lionel"
+      },
+      {
+        "slug": "mina-the-hollower-map",
+        "file": "mina-the-hollower-map"
+      },
+      {
+        "slug": "mina-the-hollower-midden",
+        "file": "mina-the-hollower-midden"
+      },
+      {
+        "slug": "mina-the-hollower-mirror-locations",
+        "file": "mina-the-hollower-mirror-locations"
+      },
+      {
+        "slug": "mina-the-hollower-modifiers",
+        "file": "mina-the-hollower-modifiers"
+      },
+      {
+        "slug": "mina-the-hollower-music-hall",
+        "file": "mina-the-hollower-music-hall"
+      },
+      {
+        "slug": "mina-the-hollower-septemburg",
+        "file": "mina-the-hollower-septemburg"
+      },
+      {
+        "slug": "mina-the-hollower-thorne",
+        "file": "mina-the-hollower-thorne"
+      },
+      {
+        "slug": "mina-the-hollower-trophy-guide",
+        "file": "mina-the-hollower-trophy-guide"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Mina-the-Hollower-Game-Pass",
+        "file": "Mina-the-Hollower-Game-Pass"
+      },
+      {
+        "slug": "Mina-the-Hollower-PS5",
+        "file": "Mina-the-Hollower-PS5"
+      },
+      {
+        "slug": "Mina-the-Hollower-Steam",
+        "file": "Mina-the-Hollower-Steam"
+      },
+      {
+        "slug": "Mina-the-Hollower-Switch-2",
+        "file": "Mina-the-Hollower-Switch-2"
+      },
+      {
+        "slug": "Mina-the-Hollower-Switch",
+        "file": "Mina-the-Hollower-Switch"
+      },
+      {
+        "slug": "Mina-the-Hollower-Xbox",
+        "file": "Mina-the-Hollower-Xbox"
+      },
+      {
+        "slug": "Mina-the-Hollower-eShop",
+        "file": "Mina-the-Hollower-eShop"
+      },
+      {
+        "slug": "mina-the-hollower-amiibo",
+        "file": "mina-the-hollower-amiibo"
+      },
+      {
+        "slug": "mina-the-hollower-android",
+        "file": "mina-the-hollower-android"
+      },
+      {
+        "slug": "mina-the-hollower-linux",
+        "file": "mina-the-hollower-linux"
+      },
+      {
+        "slug": "mina-the-hollower-mac",
+        "file": "mina-the-hollower-mac"
+      },
+      {
+        "slug": "mina-the-hollower-switch-2-store",
+        "file": "mina-the-hollower-switch-2-store"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Mina-the-Hollower-delayed",
+        "file": "Mina-the-Hollower-delayed"
+      },
+      {
+        "slug": "Mina-the-Hollower-expected-release-date",
+        "file": "Mina-the-Hollower-expected-release-date"
+      },
+      {
+        "slug": "Mina-the-Hollower-gone-gold",
+        "file": "Mina-the-Hollower-gone-gold"
+      },
+      {
+        "slug": "Mina-the-Hollower-launch-date",
+        "file": "Mina-the-Hollower-launch-date"
+      },
+      {
+        "slug": "Mina-the-Hollower-release-date",
+        "file": "Mina-the-Hollower-release-date"
+      },
+      {
+        "slug": "Mina-the-Hollower-release-time",
+        "file": "Mina-the-Hollower-release-time"
+      },
+      {
+        "slug": "mina-the-hollower-collector-s-edition",
+        "file": "mina-the-hollower-collector's-edition"
+      },
+      {
+        "slug": "mina-the-hollower-gold-status",
+        "file": "mina-the-hollower-gold-status"
+      },
+      {
+        "slug": "mina-the-hollower-physical-release",
+        "file": "mina-the-hollower-physical-release"
+      },
+      {
+        "slug": "mina-the-hollower-price",
+        "file": "mina-the-hollower-price"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "Mina-the-Hollower-IGN",
+        "file": "Mina-the-Hollower-IGN"
+      },
+      {
+        "slug": "Mina-the-Hollower-Metacritic",
+        "file": "Mina-the-Hollower-Metacritic"
+      },
+      {
+        "slug": "Mina-the-Hollower-OpenCritic",
+        "file": "Mina-the-Hollower-OpenCritic"
+      },
+      {
+        "slug": "Mina-the-Hollower-impressions",
+        "file": "Mina-the-Hollower-impressions"
+      },
+      {
+        "slug": "Mina-the-Hollower-review-embargo",
+        "file": "Mina-the-Hollower-review-embargo"
+      },
+      {
+        "slug": "Mina-the-Hollower-review",
+        "file": "Mina-the-Hollower-review"
+      }
+    ]
+  },
+  "es": {
+    "bosses": [
+      {
+        "slug": "Mina-the-Hollower-all-bosses",
+        "file": "Mina-the-Hollower-all-bosses"
+      },
+      {
+        "slug": "Mina-the-Hollower-boss-fight",
+        "file": "Mina-the-Hollower-boss-fight"
+      },
+      {
+        "slug": "Mina-the-Hollower-bosses",
+        "file": "Mina-the-Hollower-bosses"
+      },
+      {
+        "slug": "mina-the-hollower-kraken",
+        "file": "mina-the-hollower-kraken"
+      },
+      {
+        "slug": "mina-the-hollower-radiant-manor",
+        "file": "mina-the-hollower-radiant-manor"
+      }
+    ],
+    "combat": [
+      {
+        "slug": "Mina-the-Hollower-best-weapon",
+        "file": "Mina-the-Hollower-best-weapon"
+      },
+      {
+        "slug": "Mina-the-Hollower-hammer",
+        "file": "Mina-the-Hollower-hammer"
+      },
+      {
+        "slug": "Mina-the-Hollower-healing",
+        "file": "Mina-the-Hollower-healing"
+      },
+      {
+        "slug": "Mina-the-Hollower-sidearms",
+        "file": "Mina-the-Hollower-sidearms"
+      },
+      {
+        "slug": "Mina-the-Hollower-trinkets",
+        "file": "Mina-the-Hollower-trinkets"
+      },
+      {
+        "slug": "Mina-the-Hollower-weapons",
+        "file": "Mina-the-Hollower-weapons"
+      },
+      {
+        "slug": "mina-the-hollower-bat",
+        "file": "mina-the-hollower-bat"
+      },
+      {
+        "slug": "mina-the-hollower-bonestone",
+        "file": "mina-the-hollower-bonestone"
+      },
+      {
+        "slug": "mina-the-hollower-drill-driver",
+        "file": "mina-the-hollower-drill-driver"
+      },
+      {
+        "slug": "mina-the-hollower-shield",
+        "file": "mina-the-hollower-shield"
+      }
+    ],
+    "demo": [
+      {
+        "slug": "Mina-the-Hollower-Steam-demo",
+        "file": "Mina-the-Hollower-Steam-demo"
+      },
+      {
+        "slug": "Mina-the-Hollower-Switch-demo",
+        "file": "Mina-the-Hollower-Switch-demo"
+      },
+      {
+        "slug": "Mina-the-Hollower-demo-download",
+        "file": "Mina-the-Hollower-demo-download"
+      },
+      {
+        "slug": "Mina-the-Hollower-demo-how-long",
+        "file": "Mina-the-Hollower-demo-how-long"
+      },
+      {
+        "slug": "Mina-the-Hollower-demo-walkthrough",
+        "file": "Mina-the-Hollower-demo-walkthrough"
+      },
+      {
+        "slug": "Mina-the-Hollower-demo",
+        "file": "Mina-the-Hollower-demo"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Mina-the-Hollower-beginner-guide",
+        "file": "Mina-the-Hollower-beginner-guide"
+      },
+      {
+        "slug": "Mina-the-Hollower-how-long-to-beat",
+        "file": "Mina-the-Hollower-how-long-to-beat"
+      },
+      {
+        "slug": "Mina-the-Hollower-how-to-dodge",
+        "file": "Mina-the-Hollower-how-to-dodge"
+      },
+      {
+        "slug": "Mina-the-Hollower-how-to-save",
+        "file": "Mina-the-Hollower-how-to-save"
+      },
+      {
+        "slug": "Mina-the-Hollower-tips",
+        "file": "Mina-the-Hollower-tips"
+      },
+      {
+        "slug": "Mina-the-Hollower-walkthrough",
+        "file": "Mina-the-Hollower-walkthrough"
+      },
+      {
+        "slug": "mina-the-hollower-art",
+        "file": "mina-the-hollower-art"
+      },
+      {
+        "slug": "mina-the-hollower-blighted-docks",
+        "file": "mina-the-hollower-blighted-docks"
+      },
+      {
+        "slug": "mina-the-hollower-characters",
+        "file": "mina-the-hollower-characters"
+      },
+      {
+        "slug": "mina-the-hollower-city-center",
+        "file": "mina-the-hollower-city-center"
+      },
+      {
+        "slug": "mina-the-hollower-composer",
+        "file": "mina-the-hollower-composer"
+      },
+      {
+        "slug": "mina-the-hollower-crypt-road",
+        "file": "mina-the-hollower-crypt-road"
+      },
+      {
+        "slug": "mina-the-hollower-deprived-path",
+        "file": "mina-the-hollower-deprived-path"
+      },
+      {
+        "slug": "mina-the-hollower-difficulty",
+        "file": "mina-the-hollower-difficulty"
+      },
+      {
+        "slug": "mina-the-hollower-dlc",
+        "file": "mina-the-hollower-dlc"
+      },
+      {
+        "slug": "mina-the-hollower-duke",
+        "file": "mina-the-hollower-duke"
+      },
+      {
+        "slug": "mina-the-hollower-dungeon-order",
+        "file": "mina-the-hollower-dungeon-order"
+      },
+      {
+        "slug": "mina-the-hollower-enemies",
+        "file": "mina-the-hollower-enemies"
+      },
+      {
+        "slug": "mina-the-hollower-first-boss",
+        "file": "mina-the-hollower-first-boss"
+      },
+      {
+        "slug": "mina-the-hollower-hulk-trooper",
+        "file": "mina-the-hollower-hulk-trooper"
+      },
+      {
+        "slug": "mina-the-hollower-items",
+        "file": "mina-the-hollower-items"
+      },
+      {
+        "slug": "mina-the-hollower-kear",
+        "file": "mina-the-hollower-kear"
+      },
+      {
+        "slug": "mina-the-hollower-kindlewood",
+        "file": "mina-the-hollower-kindlewood"
+      },
+      {
+        "slug": "mina-the-hollower-lionel",
+        "file": "mina-the-hollower-lionel"
+      },
+      {
+        "slug": "mina-the-hollower-map",
+        "file": "mina-the-hollower-map"
+      },
+      {
+        "slug": "mina-the-hollower-midden",
+        "file": "mina-the-hollower-midden"
+      },
+      {
+        "slug": "mina-the-hollower-mirror-locations",
+        "file": "mina-the-hollower-mirror-locations"
+      },
+      {
+        "slug": "mina-the-hollower-modifiers",
+        "file": "mina-the-hollower-modifiers"
+      },
+      {
+        "slug": "mina-the-hollower-music-hall",
+        "file": "mina-the-hollower-music-hall"
+      },
+      {
+        "slug": "mina-the-hollower-septemburg",
+        "file": "mina-the-hollower-septemburg"
+      },
+      {
+        "slug": "mina-the-hollower-thorne",
+        "file": "mina-the-hollower-thorne"
+      },
+      {
+        "slug": "mina-the-hollower-trophy-guide",
+        "file": "mina-the-hollower-trophy-guide"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Mina-the-Hollower-Game-Pass",
+        "file": "Mina-the-Hollower-Game-Pass"
+      },
+      {
+        "slug": "Mina-the-Hollower-PS5",
+        "file": "Mina-the-Hollower-PS5"
+      },
+      {
+        "slug": "Mina-the-Hollower-Steam",
+        "file": "Mina-the-Hollower-Steam"
+      },
+      {
+        "slug": "Mina-the-Hollower-Switch-2",
+        "file": "Mina-the-Hollower-Switch-2"
+      },
+      {
+        "slug": "Mina-the-Hollower-Switch",
+        "file": "Mina-the-Hollower-Switch"
+      },
+      {
+        "slug": "Mina-the-Hollower-Xbox",
+        "file": "Mina-the-Hollower-Xbox"
+      },
+      {
+        "slug": "Mina-the-Hollower-eShop",
+        "file": "Mina-the-Hollower-eShop"
+      },
+      {
+        "slug": "mina-the-hollower-amiibo",
+        "file": "mina-the-hollower-amiibo"
+      },
+      {
+        "slug": "mina-the-hollower-android",
+        "file": "mina-the-hollower-android"
+      },
+      {
+        "slug": "mina-the-hollower-linux",
+        "file": "mina-the-hollower-linux"
+      },
+      {
+        "slug": "mina-the-hollower-mac",
+        "file": "mina-the-hollower-mac"
+      },
+      {
+        "slug": "mina-the-hollower-switch-2-store",
+        "file": "mina-the-hollower-switch-2-store"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Mina-the-Hollower-delayed",
+        "file": "Mina-the-Hollower-delayed"
+      },
+      {
+        "slug": "Mina-the-Hollower-expected-release-date",
+        "file": "Mina-the-Hollower-expected-release-date"
+      },
+      {
+        "slug": "Mina-the-Hollower-gone-gold",
+        "file": "Mina-the-Hollower-gone-gold"
+      },
+      {
+        "slug": "Mina-the-Hollower-launch-date",
+        "file": "Mina-the-Hollower-launch-date"
+      },
+      {
+        "slug": "Mina-the-Hollower-release-date",
+        "file": "Mina-the-Hollower-release-date"
+      },
+      {
+        "slug": "Mina-the-Hollower-release-time",
+        "file": "Mina-the-Hollower-release-time"
+      },
+      {
+        "slug": "mina-the-hollower-collector-s-edition",
+        "file": "mina-the-hollower-collector's-edition"
+      },
+      {
+        "slug": "mina-the-hollower-gold-status",
+        "file": "mina-the-hollower-gold-status"
+      },
+      {
+        "slug": "mina-the-hollower-physical-release",
+        "file": "mina-the-hollower-physical-release"
+      },
+      {
+        "slug": "mina-the-hollower-price",
+        "file": "mina-the-hollower-price"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "Mina-the-Hollower-IGN",
+        "file": "Mina-the-Hollower-IGN"
+      },
+      {
+        "slug": "Mina-the-Hollower-Metacritic",
+        "file": "Mina-the-Hollower-Metacritic"
+      },
+      {
+        "slug": "Mina-the-Hollower-OpenCritic",
+        "file": "Mina-the-Hollower-OpenCritic"
+      },
+      {
+        "slug": "Mina-the-Hollower-impressions",
+        "file": "Mina-the-Hollower-impressions"
+      },
+      {
+        "slug": "Mina-the-Hollower-review-embargo",
+        "file": "Mina-the-Hollower-review-embargo"
+      },
+      {
+        "slug": "Mina-the-Hollower-review",
+        "file": "Mina-the-Hollower-review"
+      }
+    ]
+  },
+  "ja": {
+    "bosses": [
+      {
+        "slug": "Mina-the-Hollower-all-bosses",
+        "file": "Mina-the-Hollower-all-bosses"
+      },
+      {
+        "slug": "Mina-the-Hollower-boss-fight",
+        "file": "Mina-the-Hollower-boss-fight"
+      },
+      {
+        "slug": "Mina-the-Hollower-bosses",
+        "file": "Mina-the-Hollower-bosses"
+      },
+      {
+        "slug": "mina-the-hollower-kraken",
+        "file": "mina-the-hollower-kraken"
+      },
+      {
+        "slug": "mina-the-hollower-radiant-manor",
+        "file": "mina-the-hollower-radiant-manor"
+      }
+    ],
+    "combat": [
+      {
+        "slug": "Mina-the-Hollower-best-weapon",
+        "file": "Mina-the-Hollower-best-weapon"
+      },
+      {
+        "slug": "Mina-the-Hollower-hammer",
+        "file": "Mina-the-Hollower-hammer"
+      },
+      {
+        "slug": "Mina-the-Hollower-healing",
+        "file": "Mina-the-Hollower-healing"
+      },
+      {
+        "slug": "Mina-the-Hollower-sidearms",
+        "file": "Mina-the-Hollower-sidearms"
+      },
+      {
+        "slug": "Mina-the-Hollower-trinkets",
+        "file": "Mina-the-Hollower-trinkets"
+      },
+      {
+        "slug": "Mina-the-Hollower-weapons",
+        "file": "Mina-the-Hollower-weapons"
+      },
+      {
+        "slug": "mina-the-hollower-bat",
+        "file": "mina-the-hollower-bat"
+      },
+      {
+        "slug": "mina-the-hollower-bonestone",
+        "file": "mina-the-hollower-bonestone"
+      },
+      {
+        "slug": "mina-the-hollower-drill-driver",
+        "file": "mina-the-hollower-drill-driver"
+      },
+      {
+        "slug": "mina-the-hollower-shield",
+        "file": "mina-the-hollower-shield"
+      }
+    ],
+    "demo": [
+      {
+        "slug": "Mina-the-Hollower-Steam-demo",
+        "file": "Mina-the-Hollower-Steam-demo"
+      },
+      {
+        "slug": "Mina-the-Hollower-Switch-demo",
+        "file": "Mina-the-Hollower-Switch-demo"
+      },
+      {
+        "slug": "Mina-the-Hollower-demo-download",
+        "file": "Mina-the-Hollower-demo-download"
+      },
+      {
+        "slug": "Mina-the-Hollower-demo-how-long",
+        "file": "Mina-the-Hollower-demo-how-long"
+      },
+      {
+        "slug": "Mina-the-Hollower-demo-walkthrough",
+        "file": "Mina-the-Hollower-demo-walkthrough"
+      },
+      {
+        "slug": "Mina-the-Hollower-demo",
+        "file": "Mina-the-Hollower-demo"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Mina-the-Hollower-beginner-guide",
+        "file": "Mina-the-Hollower-beginner-guide"
+      },
+      {
+        "slug": "Mina-the-Hollower-how-long-to-beat",
+        "file": "Mina-the-Hollower-how-long-to-beat"
+      },
+      {
+        "slug": "Mina-the-Hollower-how-to-dodge",
+        "file": "Mina-the-Hollower-how-to-dodge"
+      },
+      {
+        "slug": "Mina-the-Hollower-how-to-save",
+        "file": "Mina-the-Hollower-how-to-save"
+      },
+      {
+        "slug": "Mina-the-Hollower-tips",
+        "file": "Mina-the-Hollower-tips"
+      },
+      {
+        "slug": "Mina-the-Hollower-walkthrough",
+        "file": "Mina-the-Hollower-walkthrough"
+      },
+      {
+        "slug": "mina-the-hollower-art",
+        "file": "mina-the-hollower-art"
+      },
+      {
+        "slug": "mina-the-hollower-blighted-docks",
+        "file": "mina-the-hollower-blighted-docks"
+      },
+      {
+        "slug": "mina-the-hollower-characters",
+        "file": "mina-the-hollower-characters"
+      },
+      {
+        "slug": "mina-the-hollower-city-center",
+        "file": "mina-the-hollower-city-center"
+      },
+      {
+        "slug": "mina-the-hollower-composer",
+        "file": "mina-the-hollower-composer"
+      },
+      {
+        "slug": "mina-the-hollower-crypt-road",
+        "file": "mina-the-hollower-crypt-road"
+      },
+      {
+        "slug": "mina-the-hollower-deprived-path",
+        "file": "mina-the-hollower-deprived-path"
+      },
+      {
+        "slug": "mina-the-hollower-difficulty",
+        "file": "mina-the-hollower-difficulty"
+      },
+      {
+        "slug": "mina-the-hollower-dlc",
+        "file": "mina-the-hollower-dlc"
+      },
+      {
+        "slug": "mina-the-hollower-duke",
+        "file": "mina-the-hollower-duke"
+      },
+      {
+        "slug": "mina-the-hollower-dungeon-order",
+        "file": "mina-the-hollower-dungeon-order"
+      },
+      {
+        "slug": "mina-the-hollower-enemies",
+        "file": "mina-the-hollower-enemies"
+      },
+      {
+        "slug": "mina-the-hollower-first-boss",
+        "file": "mina-the-hollower-first-boss"
+      },
+      {
+        "slug": "mina-the-hollower-hulk-trooper",
+        "file": "mina-the-hollower-hulk-trooper"
+      },
+      {
+        "slug": "mina-the-hollower-items",
+        "file": "mina-the-hollower-items"
+      },
+      {
+        "slug": "mina-the-hollower-kear",
+        "file": "mina-the-hollower-kear"
+      },
+      {
+        "slug": "mina-the-hollower-kindlewood",
+        "file": "mina-the-hollower-kindlewood"
+      },
+      {
+        "slug": "mina-the-hollower-lionel",
+        "file": "mina-the-hollower-lionel"
+      },
+      {
+        "slug": "mina-the-hollower-map",
+        "file": "mina-the-hollower-map"
+      },
+      {
+        "slug": "mina-the-hollower-midden",
+        "file": "mina-the-hollower-midden"
+      },
+      {
+        "slug": "mina-the-hollower-mirror-locations",
+        "file": "mina-the-hollower-mirror-locations"
+      },
+      {
+        "slug": "mina-the-hollower-modifiers",
+        "file": "mina-the-hollower-modifiers"
+      },
+      {
+        "slug": "mina-the-hollower-music-hall",
+        "file": "mina-the-hollower-music-hall"
+      },
+      {
+        "slug": "mina-the-hollower-septemburg",
+        "file": "mina-the-hollower-septemburg"
+      },
+      {
+        "slug": "mina-the-hollower-thorne",
+        "file": "mina-the-hollower-thorne"
+      },
+      {
+        "slug": "mina-the-hollower-trophy-guide",
+        "file": "mina-the-hollower-trophy-guide"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Mina-the-Hollower-Game-Pass",
+        "file": "Mina-the-Hollower-Game-Pass"
+      },
+      {
+        "slug": "Mina-the-Hollower-PS5",
+        "file": "Mina-the-Hollower-PS5"
+      },
+      {
+        "slug": "Mina-the-Hollower-Steam",
+        "file": "Mina-the-Hollower-Steam"
+      },
+      {
+        "slug": "Mina-the-Hollower-Switch-2",
+        "file": "Mina-the-Hollower-Switch-2"
+      },
+      {
+        "slug": "Mina-the-Hollower-Switch",
+        "file": "Mina-the-Hollower-Switch"
+      },
+      {
+        "slug": "Mina-the-Hollower-Xbox",
+        "file": "Mina-the-Hollower-Xbox"
+      },
+      {
+        "slug": "Mina-the-Hollower-eShop",
+        "file": "Mina-the-Hollower-eShop"
+      },
+      {
+        "slug": "mina-the-hollower-amiibo",
+        "file": "mina-the-hollower-amiibo"
+      },
+      {
+        "slug": "mina-the-hollower-android",
+        "file": "mina-the-hollower-android"
+      },
+      {
+        "slug": "mina-the-hollower-linux",
+        "file": "mina-the-hollower-linux"
+      },
+      {
+        "slug": "mina-the-hollower-mac",
+        "file": "mina-the-hollower-mac"
+      },
+      {
+        "slug": "mina-the-hollower-switch-2-store",
+        "file": "mina-the-hollower-switch-2-store"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Mina-the-Hollower-delayed",
+        "file": "Mina-the-Hollower-delayed"
+      },
+      {
+        "slug": "Mina-the-Hollower-expected-release-date",
+        "file": "Mina-the-Hollower-expected-release-date"
+      },
+      {
+        "slug": "Mina-the-Hollower-gone-gold",
+        "file": "Mina-the-Hollower-gone-gold"
+      },
+      {
+        "slug": "Mina-the-Hollower-launch-date",
+        "file": "Mina-the-Hollower-launch-date"
+      },
+      {
+        "slug": "Mina-the-Hollower-release-date",
+        "file": "Mina-the-Hollower-release-date"
+      },
+      {
+        "slug": "Mina-the-Hollower-release-time",
+        "file": "Mina-the-Hollower-release-time"
+      },
+      {
+        "slug": "mina-the-hollower-collector-s-edition",
+        "file": "mina-the-hollower-collector's-edition"
+      },
+      {
+        "slug": "mina-the-hollower-gold-status",
+        "file": "mina-the-hollower-gold-status"
+      },
+      {
+        "slug": "mina-the-hollower-physical-release",
+        "file": "mina-the-hollower-physical-release"
+      },
+      {
+        "slug": "mina-the-hollower-price",
+        "file": "mina-the-hollower-price"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "Mina-the-Hollower-IGN",
+        "file": "Mina-the-Hollower-IGN"
+      },
+      {
+        "slug": "Mina-the-Hollower-Metacritic",
+        "file": "Mina-the-Hollower-Metacritic"
+      },
+      {
+        "slug": "Mina-the-Hollower-OpenCritic",
+        "file": "Mina-the-Hollower-OpenCritic"
+      },
+      {
+        "slug": "Mina-the-Hollower-impressions",
+        "file": "Mina-the-Hollower-impressions"
+      },
+      {
+        "slug": "Mina-the-Hollower-review-embargo",
+        "file": "Mina-the-Hollower-review-embargo"
+      },
+      {
+        "slug": "Mina-the-Hollower-review",
+        "file": "Mina-the-Hollower-review"
+      }
+    ]
+  },
+  "pt-BR": {
+    "bosses": [
+      {
+        "slug": "Mina-the-Hollower-all-bosses",
+        "file": "Mina-the-Hollower-all-bosses"
+      },
+      {
+        "slug": "Mina-the-Hollower-boss-fight",
+        "file": "Mina-the-Hollower-boss-fight"
+      },
+      {
+        "slug": "Mina-the-Hollower-bosses",
+        "file": "Mina-the-Hollower-bosses"
+      },
+      {
+        "slug": "mina-the-hollower-kraken",
+        "file": "mina-the-hollower-kraken"
+      },
+      {
+        "slug": "mina-the-hollower-radiant-manor",
+        "file": "mina-the-hollower-radiant-manor"
+      }
+    ],
+    "combat": [
+      {
+        "slug": "Mina-the-Hollower-best-weapon",
+        "file": "Mina-the-Hollower-best-weapon"
+      },
+      {
+        "slug": "Mina-the-Hollower-hammer",
+        "file": "Mina-the-Hollower-hammer"
+      },
+      {
+        "slug": "Mina-the-Hollower-healing",
+        "file": "Mina-the-Hollower-healing"
+      },
+      {
+        "slug": "Mina-the-Hollower-sidearms",
+        "file": "Mina-the-Hollower-sidearms"
+      },
+      {
+        "slug": "Mina-the-Hollower-trinkets",
+        "file": "Mina-the-Hollower-trinkets"
+      },
+      {
+        "slug": "Mina-the-Hollower-weapons",
+        "file": "Mina-the-Hollower-weapons"
+      },
+      {
+        "slug": "mina-the-hollower-bat",
+        "file": "mina-the-hollower-bat"
+      },
+      {
+        "slug": "mina-the-hollower-bonestone",
+        "file": "mina-the-hollower-bonestone"
+      },
+      {
+        "slug": "mina-the-hollower-drill-driver",
+        "file": "mina-the-hollower-drill-driver"
+      },
+      {
+        "slug": "mina-the-hollower-shield",
+        "file": "mina-the-hollower-shield"
+      }
+    ],
+    "demo": [
+      {
+        "slug": "Mina-the-Hollower-Steam-demo",
+        "file": "Mina-the-Hollower-Steam-demo"
+      },
+      {
+        "slug": "Mina-the-Hollower-Switch-demo",
+        "file": "Mina-the-Hollower-Switch-demo"
+      },
+      {
+        "slug": "Mina-the-Hollower-demo-download",
+        "file": "Mina-the-Hollower-demo-download"
+      },
+      {
+        "slug": "Mina-the-Hollower-demo-how-long",
+        "file": "Mina-the-Hollower-demo-how-long"
+      },
+      {
+        "slug": "Mina-the-Hollower-demo-walkthrough",
+        "file": "Mina-the-Hollower-demo-walkthrough"
+      },
+      {
+        "slug": "Mina-the-Hollower-demo",
+        "file": "Mina-the-Hollower-demo"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Mina-the-Hollower-beginner-guide",
+        "file": "Mina-the-Hollower-beginner-guide"
+      },
+      {
+        "slug": "Mina-the-Hollower-how-long-to-beat",
+        "file": "Mina-the-Hollower-how-long-to-beat"
+      },
+      {
+        "slug": "Mina-the-Hollower-how-to-dodge",
+        "file": "Mina-the-Hollower-how-to-dodge"
+      },
+      {
+        "slug": "Mina-the-Hollower-how-to-save",
+        "file": "Mina-the-Hollower-how-to-save"
+      },
+      {
+        "slug": "Mina-the-Hollower-tips",
+        "file": "Mina-the-Hollower-tips"
+      },
+      {
+        "slug": "Mina-the-Hollower-walkthrough",
+        "file": "Mina-the-Hollower-walkthrough"
+      },
+      {
+        "slug": "mina-the-hollower-art",
+        "file": "mina-the-hollower-art"
+      },
+      {
+        "slug": "mina-the-hollower-blighted-docks",
+        "file": "mina-the-hollower-blighted-docks"
+      },
+      {
+        "slug": "mina-the-hollower-characters",
+        "file": "mina-the-hollower-characters"
+      },
+      {
+        "slug": "mina-the-hollower-city-center",
+        "file": "mina-the-hollower-city-center"
+      },
+      {
+        "slug": "mina-the-hollower-composer",
+        "file": "mina-the-hollower-composer"
+      },
+      {
+        "slug": "mina-the-hollower-crypt-road",
+        "file": "mina-the-hollower-crypt-road"
+      },
+      {
+        "slug": "mina-the-hollower-deprived-path",
+        "file": "mina-the-hollower-deprived-path"
+      },
+      {
+        "slug": "mina-the-hollower-difficulty",
+        "file": "mina-the-hollower-difficulty"
+      },
+      {
+        "slug": "mina-the-hollower-dlc",
+        "file": "mina-the-hollower-dlc"
+      },
+      {
+        "slug": "mina-the-hollower-duke",
+        "file": "mina-the-hollower-duke"
+      },
+      {
+        "slug": "mina-the-hollower-dungeon-order",
+        "file": "mina-the-hollower-dungeon-order"
+      },
+      {
+        "slug": "mina-the-hollower-enemies",
+        "file": "mina-the-hollower-enemies"
+      },
+      {
+        "slug": "mina-the-hollower-first-boss",
+        "file": "mina-the-hollower-first-boss"
+      },
+      {
+        "slug": "mina-the-hollower-hulk-trooper",
+        "file": "mina-the-hollower-hulk-trooper"
+      },
+      {
+        "slug": "mina-the-hollower-items",
+        "file": "mina-the-hollower-items"
+      },
+      {
+        "slug": "mina-the-hollower-kear",
+        "file": "mina-the-hollower-kear"
+      },
+      {
+        "slug": "mina-the-hollower-kindlewood",
+        "file": "mina-the-hollower-kindlewood"
+      },
+      {
+        "slug": "mina-the-hollower-lionel",
+        "file": "mina-the-hollower-lionel"
+      },
+      {
+        "slug": "mina-the-hollower-map",
+        "file": "mina-the-hollower-map"
+      },
+      {
+        "slug": "mina-the-hollower-midden",
+        "file": "mina-the-hollower-midden"
+      },
+      {
+        "slug": "mina-the-hollower-mirror-locations",
+        "file": "mina-the-hollower-mirror-locations"
+      },
+      {
+        "slug": "mina-the-hollower-modifiers",
+        "file": "mina-the-hollower-modifiers"
+      },
+      {
+        "slug": "mina-the-hollower-music-hall",
+        "file": "mina-the-hollower-music-hall"
+      },
+      {
+        "slug": "mina-the-hollower-septemburg",
+        "file": "mina-the-hollower-septemburg"
+      },
+      {
+        "slug": "mina-the-hollower-thorne",
+        "file": "mina-the-hollower-thorne"
+      },
+      {
+        "slug": "mina-the-hollower-trophy-guide",
+        "file": "mina-the-hollower-trophy-guide"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Mina-the-Hollower-Game-Pass",
+        "file": "Mina-the-Hollower-Game-Pass"
+      },
+      {
+        "slug": "Mina-the-Hollower-PS5",
+        "file": "Mina-the-Hollower-PS5"
+      },
+      {
+        "slug": "Mina-the-Hollower-Steam",
+        "file": "Mina-the-Hollower-Steam"
+      },
+      {
+        "slug": "Mina-the-Hollower-Switch-2",
+        "file": "Mina-the-Hollower-Switch-2"
+      },
+      {
+        "slug": "Mina-the-Hollower-Switch",
+        "file": "Mina-the-Hollower-Switch"
+      },
+      {
+        "slug": "Mina-the-Hollower-Xbox",
+        "file": "Mina-the-Hollower-Xbox"
+      },
+      {
+        "slug": "Mina-the-Hollower-eShop",
+        "file": "Mina-the-Hollower-eShop"
+      },
+      {
+        "slug": "mina-the-hollower-amiibo",
+        "file": "mina-the-hollower-amiibo"
+      },
+      {
+        "slug": "mina-the-hollower-android",
+        "file": "mina-the-hollower-android"
+      },
+      {
+        "slug": "mina-the-hollower-linux",
+        "file": "mina-the-hollower-linux"
+      },
+      {
+        "slug": "mina-the-hollower-mac",
+        "file": "mina-the-hollower-mac"
+      },
+      {
+        "slug": "mina-the-hollower-switch-2-store",
+        "file": "mina-the-hollower-switch-2-store"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Mina-the-Hollower-delayed",
+        "file": "Mina-the-Hollower-delayed"
+      },
+      {
+        "slug": "Mina-the-Hollower-expected-release-date",
+        "file": "Mina-the-Hollower-expected-release-date"
+      },
+      {
+        "slug": "Mina-the-Hollower-gone-gold",
+        "file": "Mina-the-Hollower-gone-gold"
+      },
+      {
+        "slug": "Mina-the-Hollower-launch-date",
+        "file": "Mina-the-Hollower-launch-date"
+      },
+      {
+        "slug": "Mina-the-Hollower-release-date",
+        "file": "Mina-the-Hollower-release-date"
+      },
+      {
+        "slug": "Mina-the-Hollower-release-time",
+        "file": "Mina-the-Hollower-release-time"
+      },
+      {
+        "slug": "mina-the-hollower-collector-s-edition",
+        "file": "mina-the-hollower-collector's-edition"
+      },
+      {
+        "slug": "mina-the-hollower-gold-status",
+        "file": "mina-the-hollower-gold-status"
+      },
+      {
+        "slug": "mina-the-hollower-physical-release",
+        "file": "mina-the-hollower-physical-release"
+      },
+      {
+        "slug": "mina-the-hollower-price",
+        "file": "mina-the-hollower-price"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "Mina-the-Hollower-IGN",
+        "file": "Mina-the-Hollower-IGN"
+      },
+      {
+        "slug": "Mina-the-Hollower-Metacritic",
+        "file": "Mina-the-Hollower-Metacritic"
+      },
+      {
+        "slug": "Mina-the-Hollower-OpenCritic",
+        "file": "Mina-the-Hollower-OpenCritic"
+      },
+      {
+        "slug": "Mina-the-Hollower-impressions",
+        "file": "Mina-the-Hollower-impressions"
+      },
+      {
+        "slug": "Mina-the-Hollower-review-embargo",
+        "file": "Mina-the-Hollower-review-embargo"
+      },
+      {
+        "slug": "Mina-the-Hollower-review",
+        "file": "Mina-the-Hollower-review"
+      }
+    ]
+  }
+}
